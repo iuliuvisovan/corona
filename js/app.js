@@ -18,12 +18,17 @@ var endTime;
 function draw() {
   init();
 
-  drawRomaniaCountyCasesPie();
   drawRomaniaSexCasesPie();
-  drawRomaniaConditionPie();
-  drawRomaniaAgeCasesPie();
-  drawCountryDailyBars('romaniaChart', 'Romania');
+  drawRomaniaCountyCasesPie();
+  setTimeout(
+    () => {
+      drawRomaniaConditionPie();
+      drawRomaniaAgeCasesPie();
+    },
+    isMobile ? 1000 : 0
+  );
   setTimeout(() => {
+    drawCountryDailyBars('romaniaChart', 'Romania');
     drawCountryEvolutionLine('romaniaTotals', 'Romania');
 
     drawGlobalActiveCases();
