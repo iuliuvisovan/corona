@@ -3,8 +3,8 @@ const isMobile = window.innerWidth < 768;
 const defaultDateFormat = isMobile ? 'DD.MM' : 'DD MMMM';
 const formatThousandsAsK = (value) => (value > 999 ? value / 1000 + 'k' : value);
 
-function init() {
-  cleanupData();
+async function init() {
+  await processData();
   populateLabelsSinceStartOfYear();
   setupBarLabels();
   setTimeout(() => {
@@ -27,8 +27,8 @@ function draw() {
     isMobile ? 500 : 0
   );
   setTimeout(
-    () => {
-      init();
+    async () => {
+      await init();
       drawCountryDailyBars('romaniaChart', 'Romania');
       drawCountryEvolutionLine('romaniaTotals', 'Romania');
 
@@ -1001,7 +1001,7 @@ const recoveriesCountriesMap = {
 const recoveries = {};
 
 function populateRecoveriesObject() {
-  const allCountries = [...new Set(window.recoveredData.map((x) => x['Country/Region']))];
+  const allCountries = [...new Set(window.recoveredData.map((x) => x['Country/Region']).filter(x => x))];
   const allDates = Object.keys(window.recoveredData[0]).filter((x) => x.includes('/20'));
 
   allDates.forEach((date, i) => {
@@ -1029,8 +1029,20 @@ function getRecoveriesForToday(countryName, dateRep) {
   return todaysRecoveries ? todaysRecoveries - yesterdaysRecoveries : 0;
 }
 
-function cleanupData() {
+const getRecoveriesDataPromise = getRecoveriesData();
+
+async function getRecoveriesData() {
+  const recoveriesCsvUrl =
+    'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv';
+  const recoveriesCsv = await (await fetch(recoveriesCsvUrl)).text();
+  const recoveriesJson = csvJSON(recoveriesCsv);
+  window.recoveredData = JSON.parse(recoveriesJson);
+}
+
+async function processData() {
   maybeAddEntryForRomaniaToday();
+
+  await getRecoveriesDataPromise;
 
   populateRecoveriesObject();
 
@@ -1184,7 +1196,7 @@ draw();
 let hasReachedHalf = false;
 let hasReachedBottom = false;
 
-window.onscroll = function (ev) {
+window.onscroll = function () {
   setTimeout(() => {
     const pageHalf = document.body.offsetHeight / 2;
     const pageBottom = document.body.offsetHeight - 100;
@@ -1205,3 +1217,25 @@ window.onscroll = function (ev) {
     }
   }, 0);
 };
+
+function csvJSON(csv) {
+  var lines = csv.split('\n');
+
+  var result = [];
+
+  var headers = lines[0].split(',');
+
+  for (var i = 1; i < lines.length; i++) {
+    var obj = {};
+    var currentline = lines[i].split(',');
+
+    for (var j = 0; j < headers.length; j++) {
+      obj[headers[j]] = !isNaN(currentline[j]) && currentline[j].length > 0 ? +currentline[j] : currentline[j];
+    }
+
+    result.push(obj);
+  }
+
+  //return result; //JavaScript object
+  return JSON.stringify(result); //JSON
+}

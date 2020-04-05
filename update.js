@@ -98,8 +98,8 @@ function bumpAppJsVersion() {
 }
 
 cleanupActiveCasesFiles();
-cleanupRecoveredCasesFiles();
+// cleanupRecoveredCasesFiles();
 referenceMostRecentActiveCasesFile();
-referenceMostRecentRecoveredCasesFile();
+// referenceMostRecentRecoveredCasesFile();
 bumpRomaniaVersion();
 bumpAppJsVersion();
