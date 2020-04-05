@@ -24,7 +24,7 @@ function draw() {
       drawRomaniaConditionPie();
       drawRomaniaAgeCasesPie();
     },
-    isMobile ? 1000 : 0
+    isMobile ? 500 : 0
   );
   setTimeout(
     () => {
