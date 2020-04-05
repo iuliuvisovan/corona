@@ -8,15 +8,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Iuliu Visovan" />
-    <meta name="description" content="Situația în timp real în România și la nivel global. Grafice complete cu evoluția cazurilor zilnice, cazuri pe județe, mortalitate în funcție de boli pre-existente, evoluția la nivel global și altele." />
+    <meta
+      name="description"
+      content="Situația în timp real în România și la nivel global. Grafice complete cu evoluția cazurilor zilnice, cazuri pe județe, mortalitate în funcție de boli pre-existente, evoluția la nivel global și altele."
+    />
     <meta name="author" content="Iuliu Vișovan" />
     <meta name="theme-color" content="#ff9800" />
     <meta property="og:url" content="http://iuliu.net/corona" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="COVID-19 | Cazuri zilnice, evoluție, situatia pe judete. Coronavirus in România si global - grafice complete." />
-    <meta property="og:description" content="Situația în timp real în România și la nivel global. Grafice complete cu evoluția cazurilor zilnice, cazuri pe județe, mortalitate în funcție de boli pre-existente, evoluția la nivel global și altele." />
+    <meta
+      property="og:description"
+      content="Situația în timp real în România și la nivel global. Grafice complete cu evoluția cazurilor zilnice, cazuri pe județe, mortalitate în funcție de boli pre-existente, evoluția la nivel global și altele."
+    />
     <meta name="keywords" content="Coronavirus,Covid,Romania,Grafice" />
-    <meta property="og:image" content="https://p3cdn4static.sharpschool.com/UserFiles/Servers/Server_1051846/Image/News/coronavirus.png"    />
+    <meta property="og:image" content="https://p3cdn4static.sharpschool.com/UserFiles/Servers/Server_1051846/Image/News/coronavirus.png" />
     <link rel="stylesheet" href="css/styles.css" />
     <link id="favicon" rel="icon" href="img/favicon.png" type="image/png" sizes="16x16" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css" rel="stylesheet" />
@@ -36,8 +42,7 @@
           }
         },
         "author": "Iuliu Vișovan",
-        "datePublished": "2020-04-05T19:00:00+02:00",
-        "dateModified": "2020-04-05T19:00:00+02:00"
+        "datePublished": "2020-04-06"
       }
     </script> -->
   </head>
@@ -106,28 +111,23 @@
         <img src="./img/globalactive-min.png" alt="Global active cases graph" />Cazuri active - <br />global
       </button>
       <button onclick="show('otherCountryChartWrapper', this)">
-        <img src="./img/dailycountry-min.png" alt="Total daily cases per country graph" />Cazuri zilnice - <br />pe o
-        anumită țară
+        <img src="./img/dailycountry-min.png" alt="Total daily cases per country graph" />Cazuri zilnice - <br />pe o anumită țară
       </button>
       <button onclick="show('otherCountryTotalsWrapper', this)">
-        <img src="./img/totalscountry-min.png" alt="Evolution of cases per country graph" />Cazuri totale / evoluție -
-        <br />pe o anumită țară
+        <img src="./img/totalscountry-min.png" alt="Evolution of cases per country graph" />Cazuri totale / evoluție - <br />pe o anumită țară
       </button>
       <button onclick="show('countryActiveCasesWrapper', this)">
-        <img src="./img/countryactive-min.png" alt="Evolution of active cases per country graph" />Cazuri active -
-        <br />pe o anumită țară
+        <img src="./img/countryactive-min.png" alt="Evolution of active cases per country graph" />Cazuri active - <br />pe o anumită țară
       </button>
       <button onclick="show('totalsChartWrapper', this)">
-        <img src="./img/globaltotalscountry-min.png" alt="Top 10 countries graph" />Cazuri confirmate top 10 -
-        <br />global - top timpul
+        <img src="./img/globaltotalscountry-min.png" alt="Top 10 countries graph" />Cazuri confirmate top 10 - <br />global - top timpul
       </button>
       <button onclick="show('lastWeekTotalsWrapper', this)">
-        <img src="./img/globaltotalscountryseven-min.png" alt="Top 10 countries in the last week graph" />Cazuri
-        confirmate top 10 - <br />global - ultimele 7 zile
+        <img src="./img/globaltotalscountryseven-min.png" alt="Top 10 countries in the last week graph" />Cazuri confirmate top 10 - <br />global - ultimele 7
+        zile
       </button>
       <button onclick="show('globalTotalsWrapper', this)">
-        <img src="./img/globalevolution-min.png" alt="Global evolution of cases graph" />Cazuri confirmate / evoluție -
-        <br />global
+        <img src="./img/globalevolution-min.png" alt="Global evolution of cases graph" />Cazuri confirmate / evoluție - <br />global
       </button>
     </div>
 
@@ -154,11 +154,7 @@
 
     <div class="graph-wrapper" id="otherCountryChartWrapper">
       <h3 class="graph-title">Cazuri zilnice pe o anumită țară</h3>
-      <select
-        style="margin-bottom: 30px; margin: 5px;"
-        onchange="drawComparedCountry(this)"
-        class="country-picker"
-      ></select>
+      <select style="margin-bottom: 30px; margin: 5px;" onchange="drawComparedCountry(this)" class="country-picker"></select>
       <div class="chart-container">
         <canvas id="otherCountryChart"></canvas>
       </div>
@@ -166,12 +162,7 @@
 
     <div class="graph-wrapper" id="otherCountryTotalsWrapper">
       <h3 class="graph-title">Cazuri totale / evoluție pe o anumită țară</h3>
-      <select
-        style="margin-bottom: 30px; margin: 5px;"
-        onchange="drawComparedCountryTotalCases(this)"
-        class="country-picker"
-        class="country-picker"
-      ></select>
+      <select style="margin-bottom: 30px; margin: 5px;" onchange="drawComparedCountryTotalCases(this)" class="country-picker" class="country-picker"></select>
       <div class="chart-container">
         <canvas id="otherCountryTotals"></canvas>
       </div>
@@ -230,11 +221,7 @@
         >https://www.ecdc.europa.eu/en/publ...ldwide</a
       >
       <br />
-      <a
-        target="_blank"
-        onclick="ga('send', 'event', 'ClickSource', 'stirioficiale')"
-        rel="noreferrer"
-        href="http://stirioficiale.ro/"
+      <a target="_blank" onclick="ga('send', 'event', 'ClickSource', 'stirioficiale')" rel="noreferrer" href="http://stirioficiale.ro/"
         >http://stirioficiale.ro/</a
       >
       <br />
