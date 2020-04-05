@@ -1,253 +1,310 @@
 <!DOCTYPE html>
 <html lang="ro">
-
-<head>
-  <title>COVID-19 | Cazuri zilnice, evoluție, situația pe județe. Coronavirus în România și global - grafice complete.</title>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Iuliu Visovan" />
-  <meta name="description" content="Situația în timp real în România și la nivel global. Grafice complete cu evoluția cazurilor zilnice, cazuri pe județe, mortalitate în funcție de boli pre-existente, evoluția la nivel global și altele." />
-  <meta name="author" content="Iuliu Vișovan" />
-  <meta name="theme-color" content="#ff9800" />
-  <meta property="og:url" content="http://iuliu.net/corona" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="COVID-19 | Cazuri zilnice, evoluție, situatia pe judete. Coronavirus in România si global - grafice complete." />
-  <meta property="og:description"
-    content="Situația în timp real în România și la nivel global. Grafice complete cu evoluția cazurilor zilnice, cazuri pe județe, mortalitate în funcție de boli pre-existente, evoluția la nivel global și altele." />
-    <meta name="keywords" content="Coronavirus,Covid,Romania,Grafice">
-    <meta property="og:image"
-    content="https://p3cdn4static.sharpschool.com/UserFiles/Servers/Server_1051846/Image/News/coronavirus.png" />
-  <link rel="stylesheet" href="css/styles.css" />
-  <link id="favicon" rel="icon" href="img/favicon.png" type="image/png" sizes="16x16" />
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css" rel="stylesheet" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "NewsArticle",
-    "name": "COVID-19 | Cazuri zilnice, evoluție, situația pe județe. Coronavirus în România și global - grafice complete.",
-    "headline": "COVID-19 in România. Vezi situația actualizată cu cazurile zilnice la data de 5 Aprilie!",
-    "image": "https://i.imgur.com/xTEY7WD.png",
-    "publisher": {
-      "@type": "Organization",
-      "name": "iuliu.net",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://www.iuliu.net/img/favicon.png"
+  <head>
+    <title>
+      COVID-19 | Cazuri zilnice, evoluție, situația pe județe. Coronavirus în România și global - grafice complete.
+    </title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Iuliu Visovan" />
+    <meta name="description" content="Situația în timp real în România și la nivel global. Grafice complete cu evoluția cazurilor zilnice, cazuri pe județe, mortalitate în funcție de boli pre-existente, evoluția la nivel global și altele." />
+    <meta name="author" content="Iuliu Vișovan" />
+    <meta name="theme-color" content="#ff9800" />
+    <meta property="og:url" content="http://iuliu.net/corona" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="COVID-19 | Cazuri zilnice, evoluție, situatia pe judete. Coronavirus in România si global - grafice complete." />
+    <meta property="og:description" content="Situația în timp real în România și la nivel global. Grafice complete cu evoluția cazurilor zilnice, cazuri pe județe, mortalitate în funcție de boli pre-existente, evoluția la nivel global și altele." />
+    <meta name="keywords" content="Coronavirus,Covid,Romania,Grafice" />
+    <meta property="og:image" content="https://p3cdn4static.sharpschool.com/UserFiles/Servers/Server_1051846/Image/News/coronavirus.png"    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link id="favicon" rel="icon" href="img/favicon.png" type="image/png" sizes="16x16" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css" rel="stylesheet" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "name": "COVID-19 | Cazuri zilnice, evoluție, situația pe județe. Coronavirus în România și global - grafice complete.",
+        "headline": "COVID-19 in România. Vezi situația actualizată cu cazurile zilnice la data de 5 Aprilie!",
+        "image": "https://i.imgur.com/xTEY7WD.png",
+        "publisher": {
+          "@type": "Organization",
+          "name": "iuliu.net",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.iuliu.net/img/favicon.png"
+          }
+        },
+        "author": "Iuliu Vișovan",
+        "datePublished": "2020-04-05T14:00:00+02:00",
+        "dateModified": "2020-04-05T14:00:00+02:00"
       }
-    },
-    "author": "Iuliu Vișovan",
-    "datePublished": "2020-04-05T14:00:00+02:00",
-    "dateModified": "2020-04-05T14:00:00+02:00"
-  }
-  </script>
-</head>
+    </script>
+  </head>
 
-<body>
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=306856700168414&autoLogAppEvents=1"></script>
-  <h2 style="height: 25px; margin-top: 5px;">Situația cazurilor de COVID-19 (coronavirus) în România</h2>
-  <span id="lastUpdated" style="margin-top: 15px;">Ultima actualizare: </span>
-  <h3 class="graph-title top-title">Situația morților în România:</h3>
-  <div class="top-pies-wrapper">
-    <div>
-      <h3 class="graph-title top-title">Ce procent sunt bărbați/femei?</h3>
-      <div class="chart-container" style="width: 400px; height: 260px; margin-top: 12px;">
-        <canvas id="romaniaSexDeaths"></canvas>
+  <body>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=306856700168414&autoLogAppEvents=1"
+    ></script>
+    <h2 style="height: 25px; margin-top: 5px;">Situația cazurilor de COVID-19 (coronavirus) în România</h2>
+    <span id="lastUpdated" style="margin-top: 15px;">Ultima actualizare: </span>
+    <h3 class="graph-title top-title">Situația morților în România:</h3>
+    <div class="top-pies-wrapper">
+      <div>
+        <h3 class="graph-title top-title">Ce procent sunt bărbați/femei?</h3>
+        <div class="chart-container" style="width: 400px; height: 260px; margin-top: 12px;">
+          <canvas id="romaniaSexDeaths"></canvas>
+        </div>
+      </div>
+      <div>
+        <h3 class="graph-title top-title" style="margin-bottom: -16px;">Ce județe au cei mai mulți morți?</h3>
+        <div class="chart-container" style="width: 430px; height: 320px;">
+          <canvas id="romaniaCountyDeaths"></canvas>
+        </div>
+        <div class="pie-total">
+          <span style="font-size: 12px;"> Total:</span>
+          <span class="total-deaths"></span>
+        </div>
       </div>
     </div>
-    <div>
-      <h3 class="graph-title top-title" style="margin-bottom: -16px;">Ce județe au cei mai mulți morți?</h3>
-      <div class="chart-container" style="width: 430px; height: 320px">
-        <canvas id="romaniaCountyDeaths"></canvas>
+    <div class="top-pies-wrapper" style="margin-top: 15px;">
+      <div>
+        <h3 class="graph-title top-title" style="margin-bottom: 16px;">În ce categorii de vârstă se încadrează?</h3>
+        <div class="chart-container" style="width: 400px; height: 270px;">
+          <canvas id="romaniaAgeDeaths"></canvas>
+        </div>
+        <div class="pie-total" style="margin-top: -292px; margin-left: -2px;">
+          <span style="font-size: 12px;"> Total:</span>
+          <span class="total-deaths"></span>
+        </div>
       </div>
-      <div class="pie-total">
-        <span style="font-size: 12px"> Total:</span>
-        <span class="total-deaths"></span> </span>
-      </div>
-    </div>
-    
-    
-  </div>
-  <div class="top-pies-wrapper" style="margin-top: 15px;">
-    <div>
-      <h3 class="graph-title top-title" style="margin-bottom: 16px;">În ce categorii de vârstă se încadrează?</h3>
-      <div class="chart-container" style="width: 400px; height: 270px">
-        <canvas id="romaniaAgeDeaths"></canvas>
-      </div>
-      <div class="pie-total" style="margin-top: -292px; margin-left: -2px;">
-        <span style="font-size: 12px"> Total:</span> 
-        <span class="total-deaths"></span> </span>
+      <div>
+        <h3 class="graph-title top-title">Ce alte boli au avut cei care au murit?</h3>
+        <div id="conditionsPie" class="chart-container" style="width: 430px; height: 400px;">
+          <canvas id="romaniaConditionDeaths"></canvas>
+        </div>
       </div>
     </div>
-    <div>
-      <h3 class="graph-title top-title">Ce alte boli au avut cei care au murit?</h3>
-      <div id="conditionsPie" class="chart-container" style="width: 430px; height: 400px">
-        <canvas id="romaniaConditionDeaths"></canvas>
+
+    <h3 class="graph-title top-title">Cazuri zilnice - infecții/vindecări/morți coronavirus România</h3>
+    <div class="chart-container">
+      <canvas id="romaniaChart"></canvas>
+    </div>
+
+    <h3 class="graph-title top-title">Cazuri totale / evoluție - România</h3>
+    <div class="chart-container">
+      <canvas id="romaniaTotals"></canvas>
+    </div>
+
+    <h4>Alege grafic:</h4>
+    <div class="buttons-wrapper">
+      <button onclick="show('globalActiveCasesWrapper', this)">
+        <img src="./img/globalactive-min.png" alt="Global active cases graph" />Cazuri active - <br />global
+      </button>
+      <button onclick="show('otherCountryChartWrapper', this)">
+        <img src="./img/dailycountry-min.png" alt="Total daily cases per country graph" />Cazuri zilnice - <br />pe o
+        anumită țară
+      </button>
+      <button onclick="show('otherCountryTotalsWrapper', this)">
+        <img src="./img/totalscountry-min.png" alt="Evolution of cases per country graph" />Cazuri totale / evoluție -
+        <br />pe o anumită țară
+      </button>
+      <button onclick="show('countryActiveCasesWrapper', this)">
+        <img src="./img/countryactive-min.png" alt="Evolution of active cases per country graph" />Cazuri active -
+        <br />pe o anumită țară
+      </button>
+      <button onclick="show('totalsChartWrapper', this)">
+        <img src="./img/globaltotalscountry-min.png" alt="Top 10 countries graph" />Cazuri confirmate top 10 -
+        <br />global - top timpul
+      </button>
+      <button onclick="show('lastWeekTotalsWrapper', this)">
+        <img src="./img/globaltotalscountryseven-min.png" alt="Top 10 countries in the last week graph" />Cazuri
+        confirmate top 10 - <br />global - ultimele 7 zile
+      </button>
+      <button onclick="show('globalTotalsWrapper', this)">
+        <img src="./img/globalevolution-min.png" alt="Global evolution of cases graph" />Cazuri confirmate / evoluție -
+        <br />global
+      </button>
+    </div>
+
+    <div class="graph-wrapper" id="globalActiveCasesWrapper">
+      <h3 class="graph-title">Cazuri active la nivel global</h3>
+      <div class="chart-container">
+        <canvas id="globalActiveCases"></canvas>
       </div>
     </div>
-  </div>
 
-  <h3 class="graph-title top-title">Cazuri zilnice - infecții/vindecări/morți coronavirus România</h3>
-  <div class="chart-container">
-    <canvas id="romaniaChart"></canvas>
-  </div>
-
-  <h3 class="graph-title top-title">Cazuri totale / evoluție - România</h3>
-  <div class="chart-container">
-    <canvas id="romaniaTotals"></canvas>
-  </div>
-
-  <h4>Alege grafic:</h4>
-  <div class="buttons-wrapper">
-    <button onclick="show('globalActiveCasesWrapper', this)"><img src="./img/globalactive-min.png" alt="Global active cases graph" />Cazuri active -
-      <br />global</button>
-    <button onclick="show('otherCountryChartWrapper', this)"><img src="./img/dailycountry-min.png" alt="Total daily cases per country graph" />Cazuri zilnice -
-      <br />pe o anumită țară</button>
-    <button onclick="show('otherCountryTotalsWrapper', this)"><img src="./img/totalscountry-min.png" alt="Evolution of cases per country graph" />Cazuri totale /
-      evoluție - <br />pe o anumită țară</button>
-    <button onclick="show('countryActiveCasesWrapper', this)"><img src="./img/countryactive-min.png" alt="Evolution of active cases per country graph" />Cazuri active -
-      <br />pe o anumită țară</button>
-    <button onclick="show('totalsChartWrapper', this)"><img src="./img/globaltotalscountry-min.png" alt="Top 10 countries graph" />Cazuri
-      confirmate
-      top 10 - <br />global - top timpul</button>
-    <button onclick="show('lastWeekTotalsWrapper', this)"><img src="./img/globaltotalscountryseven-min.png" alt="Top 10 countries in the last week graph"  />Cazuri
-      confirmate top 10 - <br />global - ultimele 7 zile</button>
-    <button onclick="show('globalTotalsWrapper', this)"><img src="./img/globalevolution-min.png" alt="Global evolution of cases graph"  />Cazuri confirmate /
-      evoluție - <br />global</button>
-  </div>
-
-  <div class="graph-wrapper" id="globalActiveCasesWrapper">
-    <h3 class="graph-title">Cazuri active la nivel global</h3>
-    <div class="chart-container">
-      <canvas id="globalActiveCases"></canvas>
+    <div class="graph-wrapper" id="countryActiveCasesWrapper">
+      <h3 class="graph-title">Cazuri active pe o anumită țară</h3>
+      <select
+        id="activeCasesCountryPicker"
+        style="margin-bottom: 30px; margin: 5px;"
+        onchange="drawComparedActiveCases(this)"
+        class="country-picker"
+        value="România"
+      ></select>
+      <div class="chart-container">
+        <canvas id="countryActiveCases"></canvas>
+      </div>
     </div>
-  </div>
 
-  <div class="graph-wrapper" id="countryActiveCasesWrapper">
-    <h3 class="graph-title">Cazuri active pe o anumită țară</h3>
-    <select id="activeCasesCountryPicker" style="margin-bottom: 30px; margin: 5px;"
-      onchange="drawComparedActiveCases(this)" class="country-picker" value='România'></select>
-    <div class="chart-container">
-      <canvas id="countryActiveCases"></canvas>
+    <div class="graph-wrapper" id="otherCountryChartWrapper">
+      <h3 class="graph-title">Cazuri zilnice pe o anumită țară</h3>
+      <select
+        style="margin-bottom: 30px; margin: 5px;"
+        onchange="drawComparedCountry(this)"
+        class="country-picker"
+      ></select>
+      <div class="chart-container">
+        <canvas id="otherCountryChart"></canvas>
+      </div>
     </div>
-  </div>
 
-  <div class="graph-wrapper" id="otherCountryChartWrapper">
-    <h3 class="graph-title">Cazuri zilnice pe o anumită țară</h3>
-    <select style="margin-bottom: 30px; margin: 5px;" onchange="drawComparedCountry(this)"
-      class="country-picker"></select>
-    <div class="chart-container">
-      <canvas id="otherCountryChart"></canvas>
+    <div class="graph-wrapper" id="otherCountryTotalsWrapper">
+      <h3 class="graph-title">Cazuri totale / evoluție pe o anumită țară</h3>
+      <select
+        style="margin-bottom: 30px; margin: 5px;"
+        onchange="drawComparedCountryTotalCases(this)"
+        class="country-picker"
+        class="country-picker"
+      ></select>
+      <div class="chart-container">
+        <canvas id="otherCountryTotals"></canvas>
+      </div>
     </div>
-  </div>
 
-  <div class="graph-wrapper" id="otherCountryTotalsWrapper">
-    <h3 class="graph-title">Cazuri totale / evoluție pe o anumită țară</h3>
-    <select style="margin-bottom: 30px; margin: 5px;" onchange="drawComparedCountryTotalCases(this)"
-      class="country-picker" class="country-picker"></select>
-    <div class="chart-container">
-      <canvas id="otherCountryTotals"></canvas>
+    <div class="graph-wrapper" id="totalsChartWrapper">
+      <h3 class="graph-title">Cazuri globale / cele mai multe cazuri</h3>
+      <div class="chart-container">
+        <canvas id="totalsChart"></canvas>
+      </div>
     </div>
-  </div>
 
-  <div class="graph-wrapper" id="totalsChartWrapper">
-    <h3 class="graph-title">Cazuri globale / cele mai multe cazuri</h3>
-    <div class="chart-container">
-      <canvas id="totalsChart"></canvas>
+    <div class="graph-wrapper" id="lastWeekTotalsWrapper">
+      <h3 class="graph-title">Cele mai multe cazuri în ultimele 7 zile</h3>
+      <div class="chart-container">
+        <canvas id="lastWeekTotals"></canvas>
+      </div>
     </div>
-  </div>
 
-  <div class="graph-wrapper" id="lastWeekTotalsWrapper">
-    <h3 class="graph-title">Cele mai multe cazuri în ultimele 7 zile</h3>
-    <div class="chart-container">
-      <canvas id="lastWeekTotals"></canvas>
+    <div class="graph-wrapper" id="globalTotalsWrapper">
+      <h3 class="graph-title">Cazuri globale - evoluție</h3>
+      <div class="chart-container">
+        <canvas id="globalTotals"></canvas>
+      </div>
     </div>
-  </div>
 
-  <div class="graph-wrapper" id="globalTotalsWrapper">
-    <h3 class="graph-title">Cazuri globale - evoluție</h3>
-    <div class="chart-container">
-      <canvas id="globalTotals"></canvas>
-    </div>
-  </div>
-
-  <br/>
-  <br/>
-  Te-a ajutat această pagină?
-  <br/>
-  <br/>
-  <div onclick="ga('send', 'event', 'Click', 'share')" class="fb-share-button" data-href="https://www.iuliu.net/corona/" data-layout="box_count" data-size="large"><a onclick="ga('send', 'event', 'Click', 'share', 'share')" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.iuliu.net%2Fcorona%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-
-  <i style="text-align: center; margin: 30px;">
-    Surse: 
     <br />
-    <a target="_blank" onclick="ga('send', 'event', 'ClickSource', 'ecdc')" rel="noreferrer" href="https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide">https://www.ecdc.europa.eu/en/publ...ldwide</a></a>
     <br />
-    <a target="_blank" onclick="ga('send', 'event', 'ClickSource', 'stirioficiale')" rel="noreferrer" href="http://stirioficiale.ro/">http://stirioficiale.ro/</a></a>
+    Te-a ajutat această pagină?
     <br />
-    <a target="_blank" onclick="ga('send', 'event', 'ClickSource', 'who')" rel="noreferrer" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public">https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public</a></a>
-    <br /><br />Pagină + grafice create de Iuliu Vişovan. Contact: iuliuvisovan@gmail.com
-  </i>
+    <br />
+    <div
+      onclick="ga('send', 'event', 'Click', 'share')"
+      class="fb-share-button"
+      data-href="https://www.iuliu.net/corona/"
+      data-layout="box_count"
+      data-size="large"
+    >
+      <a
+        onclick="ga('send', 'event', 'Click', 'share', 'share')"
+        target="_blank"
+        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.iuliu.net%2Fcorona%2F&amp;src=sdkpreparse"
+        class="fb-xfbml-parse-ignore"
+        >Share</a
+      >
+    </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
-  <script src="js/moment-with-locales.js"></script>
-  <script src="js/chartjs-plugin-labels.js"></script>
+    <i style="text-align: center; margin: 30px;">
+      Surse:
+      <br />
+      <a
+        target="_blank"
+        onclick="ga('send', 'event', 'ClickSource', 'ecdc')"
+        rel="noreferrer"
+        href="https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide"
+        >https://www.ecdc.europa.eu/en/publ...ldwide</a
+      >
+      <br />
+      <a
+        target="_blank"
+        onclick="ga('send', 'event', 'ClickSource', 'stirioficiale')"
+        rel="noreferrer"
+        href="http://stirioficiale.ro/"
+        >http://stirioficiale.ro/</a
+      >
+      <br />
+      <a
+        target="_blank"
+        onclick="ga('send', 'event', 'ClickSource', 'who')"
+        rel="noreferrer"
+        href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"
+        >https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public</a
+      >
+      <br /><br />Pagină + grafice create de Iuliu Vişovan. Contact: iuliuvisovan@gmail.com
+    </i>
 
-  <script src="data/active/05apr.js"></script>
-  <script src="data/romania.js?v=95"></script>
-  <script src="data/romania-deaths.js?v=54"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+    <script src="js/moment-with-locales.js"></script>
+    <script src="js/chartjs-plugin-labels.js"></script>
 
-  <script src="js/app.js?v=118"></script>
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      (i[r] =
-        i[r] ||
-        function () {
-          (i[r].q = i[r].q || []).push(arguments);
-        }),
-        (i[r].l = 1 * new Date());
-      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m);
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    <script src="data/active/05apr.js"></script>
+    <script src="data/romania.js?v=95"></script>
+    <script src="data/romania-deaths.js?v=54"></script>
 
-    ga('create', 'UA-63838941-1', 'auto');
-    ga('send', 'pageview');
-    setTimeout(() => {
-      ga('send', 'event', 'Time elapsed', '5 seconds');
-    }, 5000);
-    setTimeout(() => {
-      ga('send', 'event', 'Time elapsed', '10 seconds');
-    }, 10000);
-    setTimeout(() => {
-      ga('send', 'event', 'Time elapsed', '15 seconds');
-    }, 15000);
-    setTimeout(() => {
-      ga('send', 'event', 'Time elapsed', '20 seconds');
-    }, 20000);
-    setTimeout(() => {
-      ga('send', 'event', 'Time elapsed', '25 seconds');
-    }, 20000);
-    setTimeout(() => {
-      ga('send', 'event', 'Time elapsed', '30 seconds');
-    }, 30000);
-    setTimeout(() => {
-      ga('send', 'event', 'Time elapsed', '60 seconds');
-    }, 60000);
-    setTimeout(() => {
-      ga('send', 'event', 'Time elapsed', '120 seconds');
-    }, 120000);
-    setTimeout(() => {
-      ga('send', 'event', 'Time elapsed', '240 seconds');
-    }, 240000);
-    setTimeout(() => {
-      ga('send', 'event', 'Time elapsed', '360 seconds');
-    }, 360000);
-  </script>
-</body>
+    <script src="js/app.js?v=118"></script>
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
+      ga('create', 'UA-63838941-1', 'auto');
+      ga('send', 'pageview');
+      setTimeout(() => {
+        ga('send', 'event', 'Time elapsed', '5 seconds');
+      }, 5000);
+      setTimeout(() => {
+        ga('send', 'event', 'Time elapsed', '10 seconds');
+      }, 10000);
+      setTimeout(() => {
+        ga('send', 'event', 'Time elapsed', '15 seconds');
+      }, 15000);
+      setTimeout(() => {
+        ga('send', 'event', 'Time elapsed', '20 seconds');
+      }, 20000);
+      setTimeout(() => {
+        ga('send', 'event', 'Time elapsed', '25 seconds');
+      }, 20000);
+      setTimeout(() => {
+        ga('send', 'event', 'Time elapsed', '30 seconds');
+      }, 30000);
+      setTimeout(() => {
+        ga('send', 'event', 'Time elapsed', '60 seconds');
+      }, 60000);
+      setTimeout(() => {
+        ga('send', 'event', 'Time elapsed', '120 seconds');
+      }, 120000);
+      setTimeout(() => {
+        ga('send', 'event', 'Time elapsed', '240 seconds');
+      }, 240000);
+      setTimeout(() => {
+        ga('send', 'event', 'Time elapsed', '360 seconds');
+      }, 360000);
+    </script>
+  </body>
 </html>
