@@ -1001,7 +1001,7 @@ const recoveriesCountriesMap = {
 const recoveries = {};
 
 function populateRecoveriesObject() {
-  const allCountries = [...new Set(window.recoveredData.map((x) => x['Country/Region']).filter(x => x))];
+  const allCountries = [...new Set(window.recoveredData.map((x) => x['Country/Region']).filter((x) => x))];
   const allDates = Object.keys(window.recoveredData[0]).filter((x) => x.includes('/20'));
 
   allDates.forEach((date, i) => {
@@ -1029,8 +1029,6 @@ function getRecoveriesForToday(countryName, dateRep) {
   return todaysRecoveries ? todaysRecoveries - yesterdaysRecoveries : 0;
 }
 
-const getRecoveriesDataPromise = getRecoveriesData();
-
 async function getRecoveriesData() {
   const recoveriesCsvUrl =
     'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv';
@@ -1039,10 +1037,30 @@ async function getRecoveriesData() {
   window.recoveredData = JSON.parse(recoveriesJson);
 }
 
+const getRecoveriesDataPromise = getRecoveriesData();
+
+async function getActiveData() {
+  const activeDataJsonUrl = 'https://opendata.ecdc.europa.eu/covid19/casedistribution/json/';
+  const activeDataJson = await (
+    await fetch(activeDataJsonUrl, {
+      // mode: 'cors', // no-cors, *cors, same-origin
+      // cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
+    })
+  ).json();
+  console.log('activeDataJson', activeDataJson);
+
+  // window.data = JSON.parse(activeDataJson);
+}
+
+const getActiveDataPromise = getActiveData();
+
 async function processData() {
   maybeAddEntryForRomaniaToday();
 
   await getRecoveriesDataPromise;
+  try {
+    await getActiveDataPromise;
+  } catch (e) {}
 
   populateRecoveriesObject();
 
