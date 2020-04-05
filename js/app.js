@@ -5,9 +5,9 @@ const formatThousandsAsK = (value) => (value > 999 ? value / 1000 + 'k' : value)
 
 function init() {
   cleanupData();
+  populateLabelsSinceStartOfYear();
+  setupBarLabels();
   setTimeout(() => {
-    populateLabelsSinceStartOfYear();
-    setupBarLabels();
     setPickerCountries(window.data);
   }, 0);
 }
