@@ -1052,15 +1052,15 @@ async function getActiveData() {
   // window.data = JSON.parse(activeDataJson);
 }
 
-const getActiveDataPromise = getActiveData();
+// const getActiveDataPromise = getActiveData();
 
 async function processData() {
   maybeAddEntryForRomaniaToday();
 
   await getRecoveriesDataPromise;
-  try {
-    await getActiveDataPromise;
-  } catch (e) {}
+  // try {
+  //   await getActiveDataPromise;
+  // } catch (e) {}
 
   populateRecoveriesObject();
 
