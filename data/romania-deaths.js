@@ -1,5 +1,26 @@
 window.romaniaDeaths = [
   {
+    deathIndex: 151,
+    gender: 0,
+    age: 74,
+    county: 'galați',
+    preexistingCondition: undefined,
+  },
+  {
+    deathIndex: 150,
+    gender: 0,
+    age: 56,
+    county: 'suceava',
+    preexistingCondition: ['insuficienta renala'],
+  },
+  {
+    deathIndex: 149,
+    gender: 0,
+    age: 68,
+    county: 'ilfov',
+    preexistingCondition: undefined
+  },
+  {
     deathIndex: 148,
     gender: 1,
     age: 70,
