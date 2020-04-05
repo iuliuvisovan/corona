@@ -16,10 +16,9 @@ var startTime;
 var endTime;
 
 function draw() {
-  init();
-
   drawRomaniaSexCasesPie();
   drawRomaniaCountyCasesPie();
+
   setTimeout(
     () => {
       drawRomaniaConditionPie();
@@ -27,20 +26,24 @@ function draw() {
     },
     isMobile ? 1000 : 0
   );
-  setTimeout(() => {
-    drawCountryDailyBars('romaniaChart', 'Romania');
-    drawCountryEvolutionLine('romaniaTotals', 'Romania');
+  setTimeout(
+    () => {
+      init();
+      drawCountryDailyBars('romaniaChart', 'Romania');
+      drawCountryEvolutionLine('romaniaTotals', 'Romania');
 
-    drawGlobalActiveCases();
-    show('globalActiveCasesWrapper', document.querySelector('button'), true);
+      drawGlobalActiveCases();
+      show('globalActiveCasesWrapper', document.querySelector('button'), true);
 
-    drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
-    drawCountryActiveCases('Romania'); // 29
-    drawCountryEvolutionLine('otherCountryTotals', 'Italy', '#ffeb3b'); //30
-    drawLastWeekTotalsBars(); //122
-    drawAllTimeTotalsBars(); //22
-    drawGlobalEvolutionLine(); //22
-  }, 1000);
+      drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
+      drawCountryActiveCases('Romania'); // 29
+      drawCountryEvolutionLine('otherCountryTotals', 'Italy', '#ffeb3b'); //30
+      drawLastWeekTotalsBars(); //122
+      drawAllTimeTotalsBars(); //22
+      drawGlobalEvolutionLine(); //22
+    },
+    isMobile ? 1500 : 1000
+  );
 }
 
 function setCurrentDate() {
