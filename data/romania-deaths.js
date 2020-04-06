@@ -1,24 +1,59 @@
 window.romaniaDeaths = [
   {
+    deathIndex: 162,
+    gender: 0,
+    age: 82,
+    county: 'bihor',
+    preexistingCondition: ['hipertensiune arteriala', 'diabet', 'boala neurologica', 'boli cardiovasculare'],
+  },
+  {
+    deathIndex: 161,
+    gender: 0,
+    age: 71,
+    county: 'vaslui',
+    preexistingCondition: ['infarct', 'cic'],
+  },
+  {
+    deathIndex: 160,
+    gender: 1,
+    age: 89,
+    county: 'argeș',
+    preexistingCondition: ['infarct', 'insuficienta cardiaca', 'hipertensiune arteriala', 'bpoc'],
+  },
+  {
+    deathIndex: 159,
+    gender: 0,
+    age: 70,
+    county: 'iași',
+    preexistingCondition: ['ciroza', 'etilism cronic', 'hipertensiune arteriala'],
+  },
+  {
+    deathIndex: 158,
+    gender: 0,
+    age: 67,
+    county: 'ilfov',
+    preexistingCondition: ['diabet', 'insuficienta renala', 'boala neuromusculara', 'obezitate'],
+  },
+  {
     deathIndex: 157,
     gender: 1,
     age: 70,
     county: 'iași',
-    preexistingCondition: undefined
+    preexistingCondition: undefined,
   },
   {
     deathIndex: 156,
     gender: 0,
     age: 70,
     county: 'bihor',
-    preexistingCondition: undefined
+    preexistingCondition: undefined,
   },
   {
     deathIndex: 155,
     gender: 1,
     age: 66,
     county: 'cluj',
-    preexistingCondition: undefined
+    preexistingCondition: undefined,
   },
   {
     deathIndex: 154,
