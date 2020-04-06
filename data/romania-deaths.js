@@ -1,5 +1,47 @@
 window.romaniaDeaths = [
   {
+    deathIndex: 156,
+    gender: 1,
+    age: 70,
+    county: 'iași',
+    preexistingCondition: undefined
+  },
+  {
+    deathIndex: 156,
+    gender: 0,
+    age: 70,
+    county: 'bihor',
+    preexistingCondition: undefined
+  },
+  {
+    deathIndex: 155,
+    gender: 1,
+    age: 66,
+    county: 'cluj',
+    preexistingCondition: undefined
+  },
+  {
+    deathIndex: 154,
+    gender: 0,
+    age: 71,
+    county: 'hunedoara',
+    preexistingCondition: ['diabet', 'hipertensiune arteriala', 'bpoc'],
+  },
+  {
+    deathIndex: 153,
+    gender: 1,
+    age: 72,
+    county: 'satu',
+    preexistingCondition: ['avc'],
+  },
+  {
+    deathIndex: 152,
+    gender: 0,
+    age: 66,
+    county: 'constanța',
+    preexistingCondition: undefined,
+  },
+  {
     deathIndex: 151,
     gender: 0,
     age: 74,
@@ -18,7 +60,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 68,
     county: 'ilfov',
-    preexistingCondition: undefined
+    preexistingCondition: undefined,
   },
   {
     deathIndex: 148,
@@ -499,14 +541,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 77,
     county: 'bistrița N.',
-    preexistingCondition: [
-      'bpoc',
-      'cardiomiopatie',
-      'cardiopatie',
-      'fibrilatie atriala',
-      'hipertrofie de prostata',
-      'insuficienta renala',
-    ],
+    preexistingCondition: ['bpoc', 'cardiomiopatie', 'cardiopatie', 'fibrilatie atriala', 'hipertrofie de prostata', 'insuficienta renala'],
   },
   {
     deathIndex: 86,
@@ -530,13 +565,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 85,
     county: 'timiș',
-    preexistingCondition: [
-      'diabet',
-      'hipertensiune arteriala',
-      'fibrilatie atriala',
-      'insuficienta renala cronica',
-      'alzheimer',
-    ],
+    preexistingCondition: ['diabet', 'hipertensiune arteriala', 'fibrilatie atriala', 'insuficienta renala cronica', 'alzheimer'],
   },
   {
     deathIndex: 83,
