@@ -1,6 +1,6 @@
 window.romaniaDeaths = [
   {
-    deathIndex: 156,
+    deathIndex: 157,
     gender: 1,
     age: 70,
     county: 'iași',
