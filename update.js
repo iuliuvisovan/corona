@@ -4,12 +4,12 @@ function cleanupActiveCasesFiles() {
   const activeCasesFolder = './data/active';
   const filesInFolder = fs.readdirSync(activeCasesFolder);
 
-  filesInFolder.forEach(fileName => {
+  filesInFolder.forEach((fileName) => {
     const filePath = activeCasesFolder + '/' + fileName;
     let content = fs.readFileSync(filePath, 'utf8');
 
     if (!content.startsWith('window.data')) {
-      content = 'window.data = ' + content;
+      content = content.replace('"records": ', 'window.data = ');
     }
 
     fs.writeFileSync(filePath, content);
@@ -20,7 +20,7 @@ function cleanupRecoveredCasesFiles() {
   const activeCasesFolder = './data/recovered';
   const filesInFolder = fs.readdirSync(activeCasesFolder);
 
-  filesInFolder.forEach(fileName => {
+  filesInFolder.forEach((fileName) => {
     const filePath = activeCasesFolder + '/' + fileName;
     let content = fs.readFileSync(filePath, 'utf8');
 
@@ -39,7 +39,7 @@ function referenceMostRecentActiveCasesFile() {
   let largestFilePath = '';
   let largestFileSize = 0;
 
-  filesInFolder.forEach(fileName => {
+  filesInFolder.forEach((fileName) => {
     const filePath = activeCasesFolder + '/' + fileName;
     let fileContent = fs.readFileSync(filePath, 'utf8');
 

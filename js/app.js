@@ -371,11 +371,11 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800') {
 
   const countryData = data
     .filter((x) => x.CountryExp == countryName)
-    .sort((a, b) => +moment(b.dateRep, 'MM/DD/YYYY') - +moment(a.dateRep, 'MM/DD/YYYY'))
+    .sort((a, b) => +moment(b.dateRep, 'DD/MM/YYYY') - +moment(a.dateRep, 'DD/MM/YYYY'))
     .slice(0, isMobile ? 10 : 20)
     .reverse();
 
-  const labels = countryData.map((x) => moment(x.dateRep, 'MM/DD/YYYY').format(defaultDateFormat));
+  const labels = countryData.map((x) => moment(x.dateRep, 'DD/MM/YYYY').format(defaultDateFormat));
   const values = countryData.map((x) => x.cases);
   const deaths = countryData.map((x) => +x.deaths);
   const recoveries = countryData.map((x) => +x.recoveries);
@@ -489,7 +489,7 @@ function drawCountryActiveCases(countryName) {
   const data = window.data;
 
   const labels = dayStringsSinceStartOfYear;
-  const localizedLabels = labels.map((x) => moment(x, 'MM/DD/YYYY').format(defaultDateFormat));
+  const localizedLabels = labels.map((x) => moment(x, 'DD/MM/YYYY').format(defaultDateFormat));
 
   const firstCountryInfections = labels.map((x) =>
     data
@@ -585,7 +585,7 @@ function drawGlobalActiveCases() {
   const data = window.data;
 
   const labels = dayStringsSinceStartOfYear;
-  const localizedLabels = labels.map((x) => moment(x, 'MM/DD/YYYY').format(defaultDateFormat));
+  const localizedLabels = labels.map((x) => moment(x, 'DD/MM/YYYY').format(defaultDateFormat));
 
   const topCountries = ['China', 'USA', 'Italy', 'Spain'];
 
@@ -740,7 +740,7 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
   const ctx = document.getElementById(chartId).getContext('2d');
   const data = window.data;
 
-  const localizedLabels = dayStringsSinceStartOfYear.map((x) => moment(x, 'MM/DD/YYYY').format(defaultDateFormat));
+  const localizedLabels = dayStringsSinceStartOfYear.map((x) => moment(x, 'DD/MM/YYYY').format(defaultDateFormat));
   const values = dayStringsSinceStartOfYear.map((x) =>
     data
       .filter((y) => y.dateRep == x && y.CountryExp == countryName)
@@ -850,7 +850,7 @@ function drawGlobalEvolutionLine() {
   const data = window.data;
 
   const labels = dayStringsSinceStartOfYear;
-  const localizedLabels = labels.map((x) => moment(x, 'MM/DD/YYYY').format(defaultDateFormat));
+  const localizedLabels = labels.map((x) => moment(x, 'DD/MM/YYYY').format(defaultDateFormat));
   const values = labels.map((x) =>
     data
       .filter((y) => y.dateRep == x)
@@ -955,14 +955,14 @@ function drawGlobalEvolutionLine() {
 
 function maybeAddEntryForRomaniaToday() {
   const romaniaEntries = window.data.filter((x) => x['countriesAndTerritories'] == 'Romania');
-  const todayString = moment().format('MM/DD/YYYY');
+  const todayString = moment().format('DD/MM/YYYY');
   const maybeMissingDays = [todayString, '03/03/2020', '03/05/2020'];
 
   maybeMissingDays.forEach((maybeMissingDay) => {
-    if (!romaniaEntries.find((x) => x.dateRep == maybeMissingDay)) {
+    if (!romaniaEntries.find((x) => DDMMtoMMDD(x.date) == maybeMissingDay)) {
       const currentHour = moment().format('HH');
       if (+currentHour > 12 || maybeMissingDay !== todayString) {
-        window.data = [...window.data, { countriesAndTerritories: 'Romania', dateRep: maybeMissingDay, deaths: 0, recoveries: 0, cases: 0 }];
+        window.data = [...window.data, { countriesAndTerritories: 'Romania', dateRep: DDMMtoMMDD(maybeMissingDay), deaths: 0, recoveries: 0, cases: 0 }];
       }
     }
   });
@@ -995,8 +995,8 @@ function populateRecoveriesObject() {
 }
 
 function getRecoveriesForToday(countryName, dateRep) {
-  const yesterdaysKey = moment(dateRep, 'MM/DD/YYYY').subtract(1, 'day').format('M/D/YY');
-  const todaysKey = moment(dateRep, 'MM/DD/YYYY').format('M/D/YY');
+  const yesterdaysKey = moment(dateRep, 'DD/MM/YYYY').subtract(1, 'day').format('M/D/YY');
+  const todaysKey = moment(dateRep, 'DD/MM/YYYY').format('M/D/YY');
 
   const todaysRecoveries = (recoveries[todaysKey] || {})[countryName] || 0;
   const yesterdaysRecoveries = (recoveries[yesterdaysKey] || {})[countryName] || 0;
@@ -1052,7 +1052,7 @@ async function processData() {
     x.recoveries = getRecoveriesForToday(countryName.replace(/[\s\_]/g, '').toLowerCase(), x.dateRep);
 
     if (countryName == 'Romania') {
-      const { cases = 0, recoveries = 0, deaths = 0 } = window.romaniaData[x.dateRep] || {};
+      const { cases = 0, recoveries = 0, deaths = 0 } = window.romaniaData[DDMMtoMMDD(x.dateRep)] || {};
       x.cases = cases;
       x.recoveries = recoveries;
       x.deaths = deaths;
@@ -1170,7 +1170,7 @@ let dayStringsSinceStartOfYear = [];
 function populateLabelsSinceStartOfYear() {
   dayStringsSinceStartOfYear = [
     ...new Set(window.data.filter((x) => x['countriesAndTerritories'] == 'China' || x['countriesAndTerritories'] == 'Romania').map((x) => x.dateRep)),
-  ].sort((a, b) => moment(a, 'MM/DD/YYYY') - moment(b, 'MM/DD/YYYY'));
+  ].sort((a, b) => moment(a, 'DD/MM/YYYY') - moment(b, 'DD/MM/YYYY'));
 }
 
 setCurrentDate();
@@ -1256,4 +1256,8 @@ function csvToArray(csv) {
   console.log('result', result);
 
   return result;
+}
+
+function DDMMtoMMDD(date) {
+  return moment(date, 'DD/MM/YYYY').format('MM/DD/YYYY');
 }

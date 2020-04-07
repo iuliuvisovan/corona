@@ -449,7 +449,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 133,
-    dateConfirmed: '04/03/2020',
+
     gender: 1,
     age: 62,
     county: 'ialomița',
@@ -457,7 +457,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 132,
-    dateConfirmed: '04/03/2020',
+
     gender: 0,
     age: 58,
     county: 'suceava',
@@ -465,7 +465,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 131,
-    dateConfirmed: '04/03/2020',
+
     gender: 0,
     age: 67,
     county: 'suceava',
@@ -473,7 +473,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 130,
-    dateConfirmed: '04/03/2020',
+
     gender: 1,
     age: 63,
     county: 'suceava',
@@ -481,7 +481,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 129,
-    dateConfirmed: '04/03/2020',
+
     gender: 0,
     age: 62,
     county: 'suceava',
@@ -489,7 +489,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 128,
-    dateConfirmed: '04/03/2020',
+
     gender: 1,
     age: 77,
     county: 'suceava',
@@ -497,7 +497,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 127,
-    dateConfirmed: '04/03/2020',
+
     gender: 0,
     age: 46,
     county: 'ialomița',
@@ -505,7 +505,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 126,
-    dateConfirmed: '04/03/2020',
+
     gender: 0,
     age: 61,
     county: 'galați',
@@ -513,7 +513,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 125,
-    dateConfirmed: '04/03/2020',
+
     gender: 0,
     age: 27,
     county: 'sibiu',
@@ -521,7 +521,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 124,
-    dateConfirmed: '04/03/2020',
+
     gender: 0,
     age: 59,
     county: 'bistrița N.',
@@ -529,7 +529,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 123,
-    dateConfirmed: '04/03/2020',
+
     gender: 0,
     age: 66,
     county: 'bistrița N.',
@@ -537,7 +537,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 122,
-    dateConfirmed: '04/03/2020',
+
     gender: 1,
     age: 60,
     county: 'neamț',
@@ -545,7 +545,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 121,
-    dateConfirmed: '04/03/2020',
+
     gender: 0,
     age: 78,
     county: 'timiș',
@@ -553,7 +553,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 120,
-    dateConfirmed: '04/03/2020',
+
     gender: 1,
     age: 69,
     county: 'ialomița',
@@ -561,7 +561,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 119,
-    dateConfirmed: '04/03/2020',
+
     gender: 1,
     age: 69,
     county: 'hunedoara',
@@ -569,7 +569,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 118,
-    dateConfirmed: '04/03/2020',
+
     gender: 0,
     age: 61,
     county: 'bucurești',
@@ -577,7 +577,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 117,
-    dateConfirmed: '04/03/2020',
+
     gender: 1,
     age: 54,
     county: 'constanța',
@@ -585,7 +585,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 116,
-    dateConfirmed: '04/02/2020',
+
     gender: 0,
     age: 70,
     county: 'mureș',
@@ -593,7 +593,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 115,
-    dateConfirmed: '04/02/2020',
+
     gender: 1,
     age: 53,
     county: 'caraș severin',
@@ -601,7 +601,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 114,
-    dateConfirmed: '04/02/2020',
+
     gender: 0,
     age: 71,
     county: 'suceava',
@@ -609,7 +609,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 113,
-    dateConfirmed: '04/02/2020',
+
     gender: 0,
     age: 34,
     county: 'suceava',
@@ -617,7 +617,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 112,
-    dateConfirmed: '04/02/2020',
+
     gender: 0,
     age: 81,
     county: 'suceava',
@@ -625,7 +625,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 111,
-    dateConfirmed: '04/02/2020',
+
     gender: 1,
     age: 77,
     county: 'sibiu',
@@ -633,7 +633,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 110,
-    dateConfirmed: '04/02/2020',
+
     gender: 0,
     age: 77,
     county: 'galați',
@@ -641,7 +641,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 109,
-    dateConfirmed: '04/02/2020',
+
     gender: 1,
     age: 83,
     county: 'vrancea',
@@ -649,7 +649,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 108,
-    dateConfirmed: '04/02/2020',
+
     gender: 0,
     age: 64,
     county: 'arad',
@@ -657,7 +657,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 107,
-    dateConfirmed: '04/02/2020',
+
     gender: 0,
     age: 81,
     county: 'bistrița N.',
@@ -665,7 +665,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 106,
-    dateConfirmed: '04/02/2020',
+
     gender: 0,
     age: 61,
     county: 'arad',
@@ -673,7 +673,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 105,
-    dateConfirmed: '04/02/2020',
+
     gender: 0,
     age: 59,
     county: 'ilfov',
@@ -681,7 +681,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 104,
-    dateConfirmed: '04/02/2020',
+
     gender: 1,
     age: 54,
     county: 'arad',
@@ -689,7 +689,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 103,
-    dateConfirmed: '04/02/2020',
+
     gender: 0,
     age: 77,
     county: 'arad',
@@ -697,7 +697,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 102,
-    dateConfirmed: '04/02/2020',
+
     gender: 0,
     age: 83,
     county: 'suceava',
@@ -705,7 +705,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 101,
-    dateConfirmed: '04/02/2020',
+
     gender: 1,
     age: 68,
     county: 'hunedoara',
@@ -713,7 +713,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 100,
-    dateConfirmed: '04/02/2020',
+
     gender: 0,
     age: 56,
     county: 'dâmbovița',
@@ -721,7 +721,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 99,
-    dateConfirmed: '04/02/2020',
+
     gender: 0,
     age: 67,
     county: 'bacău',
@@ -729,7 +729,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 98,
-    dateConfirmed: '04/02/2020',
+
     gender: 0,
     age: 87,
     county: 'bistrița N.',
@@ -737,7 +737,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 97,
-    dateConfirmed: '04/02/2020',
+
     gender: 0,
     age: 42,
     county: 'teleorman',
@@ -745,7 +745,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 96,
-    dateConfirmed: '04/02/2020',
+
     gender: 0,
     age: 72,
     county: 'bucurești',
@@ -753,7 +753,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 95,
-    dateConfirmed: '04/02/2020',
+
     gender: 0,
     age: 75,
     county: 'bucurești',
@@ -761,7 +761,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 94,
-    dateConfirmed: '04/02/2020',
+
     gender: 1,
     age: 84,
     county: 'bacău',
@@ -769,7 +769,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 93,
-    dateConfirmed: '04/02/2020',
+
     gender: 1,
     age: 75,
     county: 'neamț',
@@ -777,7 +777,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 92,
-    dateConfirmed: '04/01/2020',
+
     gender: 1,
     age: 78,
     county: 'bucurești',
@@ -785,7 +785,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 91,
-    dateConfirmed: '04/01/2020',
+
     gender: 0,
     age: 70,
     county: 'bucurești',
@@ -793,7 +793,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 90,
-    dateConfirmed: '04/01/2020',
+
     gender: 1,
     age: 88,
     county: 'covasna',
@@ -801,7 +801,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 89,
-    dateConfirmed: '04/01/2020',
+
     gender: 1,
     age: 66,
     county: 'bucurești',
@@ -809,7 +809,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 88,
-    dateConfirmed: '04/01/2020',
+
     gender: 0,
     age: 72,
     county: 'suceava',
@@ -817,7 +817,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 87,
-    dateConfirmed: '04/01/2020',
+
     gender: 0,
     age: 77,
     county: 'bistrița N.',
@@ -825,7 +825,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 86,
-    dateConfirmed: '04/01/2020',
+
     gender: 1,
     age: 45,
     county: 'neamț',
@@ -833,7 +833,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 85,
-    dateConfirmed: '04/01/2020',
+
     gender: 1,
     age: 63,
     county: 'bucurești',
@@ -841,7 +841,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 84,
-    dateConfirmed: '04/01/2020',
+
     gender: 0,
     age: 85,
     county: 'timiș',
@@ -849,7 +849,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 83,
-    dateConfirmed: '04/01/2020',
+
     gender: 1,
     age: 54,
     county: 'bucurești',
@@ -857,7 +857,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 82,
-    dateConfirmed: '03/31/2020',
+
     gender: 0,
     age: 70,
     county: 'mures',
@@ -865,7 +865,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 81,
-    dateConfirmed: '03/31/2020',
+
     gender: 0,
     age: 70,
     county: 'sibiu',
@@ -873,7 +873,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 80,
-    dateConfirmed: '03/31/2020',
+
     gender: 1,
     age: 61,
     county: 'bihor',
@@ -881,7 +881,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 79,
-    dateConfirmed: '03/31/2020',
+
     gender: 1,
     age: 84,
     county: 'bucurești',
@@ -889,7 +889,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 78,
-    dateConfirmed: '03/31/2020',
+
     gender: 1,
     age: 64,
     county: 'suceava',
@@ -897,7 +897,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 77,
-    dateConfirmed: '03/31/2020',
+
     gender: 1,
     age: 82,
     county: 'suceava',
@@ -905,7 +905,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 76,
-    dateConfirmed: '03/31/2020',
+
     gender: 0,
     age: 57,
     county: 'suceava',
@@ -913,7 +913,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 75,
-    dateConfirmed: '03/31/2020',
+
     gender: 0,
     age: 68,
     county: 'suceava',
@@ -921,7 +921,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 74,
-    dateConfirmed: '03/31/2020',
+
     gender: 1,
     age: 69,
     county: 'suceava',
@@ -929,7 +929,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 73,
-    dateConfirmed: '03/31/2020',
+
     gender: 0,
     age: 62,
     county: 'suceava',
@@ -937,7 +937,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 72,
-    dateConfirmed: '03/31/2020',
+
     gender: 0,
     age: 65,
     county: 'hunedoara',
@@ -945,7 +945,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 71,
-    dateConfirmed: '03/31/2020',
+
     gender: 1,
     age: 53,
     county: 'hunedoara',
@@ -953,7 +953,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 70,
-    dateConfirmed: '03/31/2020',
+
     gender: 1,
     age: 60,
     county: 'ialomița',
@@ -961,7 +961,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 69,
-    dateConfirmed: '03/31/2020',
+
     gender: 0,
     age: 56,
     county: 'suceava',
@@ -969,7 +969,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 68,
-    dateConfirmed: '03/31/2020',
+
     gender: 1,
     age: 81,
     county: 'mehedinti',
@@ -977,7 +977,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 67,
-    dateConfirmed: '03/31/2020',
+
     gender: 0,
     age: 69,
     county: 'iași',
@@ -985,7 +985,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 66,
-    dateConfirmed: '03/31/2020',
+
     gender: 1,
     age: 73,
     county: 'suceava',
@@ -993,7 +993,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 65,
-    dateConfirmed: '03/30/2020',
+
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -1001,7 +1001,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 64,
-    dateConfirmed: '03/30/2020',
+
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -1009,7 +1009,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 63,
-    dateConfirmed: '03/30/2020',
+
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -1017,7 +1017,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 62,
-    dateConfirmed: '03/30/2020',
+
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -1025,7 +1025,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 61,
-    dateConfirmed: '03/30/2020',
+
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -1033,7 +1033,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 60,
-    dateConfirmed: '03/30/2020',
+
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -1041,7 +1041,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 59,
-    dateConfirmed: '03/30/2020',
+
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -1049,7 +1049,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 58,
-    dateConfirmed: '03/30/2020',
+
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -1057,7 +1057,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 57,
-    dateConfirmed: '03/30/2020',
+
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -1065,7 +1065,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 56,
-    dateConfirmed: '03/30/2020',
+
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -1073,7 +1073,7 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 55,
-    dateConfirmed: '03/30/2020',
+
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -1081,7 +1081,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 54,
-    dateConfirmed: '03/30/2020',
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -1089,7 +1088,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 53,
-    dateConfirmed: '03/30/2020',
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -1097,7 +1095,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 52,
-    dateConfirmed: '03/30/2020',
     gender: 0,
     age: 52,
     county: 'ialomița',
@@ -1105,7 +1102,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 51,
-    dateConfirmed: '03/30/2020',
     gender: 1,
     age: 65,
     county: 'sibiu',
@@ -1113,7 +1109,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 50,
-    dateConfirmed: '03/30/2020',
     gender: 1,
     age: 60,
     county: 'hunedoara',
@@ -1121,7 +1116,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 49,
-    dateConfirmed: '03/30/2020',
     gender: 0,
     age: 74,
     county: 'hunedoara',
@@ -1129,7 +1123,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 48,
-    dateConfirmed: '03/30/2020',
     gender: 0,
     age: 59,
     county: 'bacău',
@@ -1137,7 +1130,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 47,
-    dateConfirmed: '03/30/2020',
     gender: 0,
     age: 77,
     county: 'hunedoara',
@@ -1145,7 +1137,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 46,
-    dateConfirmed: '03/30/2020',
     gender: 0,
     age: 70,
     county: 'timiș',
@@ -1156,7 +1147,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 57,
     county: 'timiș',
-    dateConfirmed: '03/30/2020',
     preexistingCondition: ['cardiopatie', 'diabet'],
   },
   {
@@ -1164,7 +1154,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 74,
     county: 'satu mare',
-    dateConfirmed: '03/30/2020',
     preexistingCondition: ['diabet', 'hipertensiune arteriala'],
   },
   {
@@ -1172,7 +1161,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 72,
     county: 'arad',
-    dateConfirmed: '03/29/2020',
     preexistingCondition: ['bronhopneumonie', 'insuficienta cardiaca'],
   },
   {
@@ -1180,7 +1168,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 82,
     county: 'hunedoara',
-    dateConfirmed: '03/29/2020',
     preexistingCondition: ['bronhopneumopatie'],
   },
   {
@@ -1188,7 +1175,6 @@ window.romaniaDeaths = [
     gender: 1,
     age: 75,
     county: 'hunedoara',
-    dateConfirmed: '03/29/2020',
     preexistingCondition: ['cancer', 'hemoragie digestiva'],
   },
   {
@@ -1196,7 +1182,6 @@ window.romaniaDeaths = [
     gender: 1,
     age: 27,
     county: 'botosani',
-    dateConfirmed: '03/29/2020',
     preexistingCondition: ['diabet'],
   },
   {
@@ -1204,7 +1189,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 71,
     county: 'suceava',
-    dateConfirmed: '03/29/2020',
     preexistingCondition: ['tumora', 'hipertensiune arteriala', 'anevrism de aorta'],
   },
   {
@@ -1212,7 +1196,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 66,
     county: 'timiș',
-    dateConfirmed: '03/29/2020',
     preexistingCondition: ['diabet', 'hipertensiune arteriala'],
   },
   {
@@ -1220,7 +1203,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 77,
     county: 'ialomița',
-    dateConfirmed: '03/28/2020',
     preexistingCondition: undefined,
   },
   {
@@ -1228,7 +1210,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 60,
     county: 'ialomița',
-    dateConfirmed: '03/28/2020',
     preexistingCondition: ['obezitate'],
   },
   {
@@ -1236,7 +1217,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 39,
     county: 'ialomița',
-    dateConfirmed: '03/28/2020',
     preexistingCondition: [],
   },
   {
@@ -1244,7 +1224,6 @@ window.romaniaDeaths = [
     gender: 1,
     age: 61,
     county: 'hunedoara',
-    dateConfirmed: '03/28/2020',
     preexistingCondition: ['boli cardiovasculare'],
   },
   {
@@ -1252,7 +1231,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 43,
     county: 'suceava',
-    dateConfirmed: '03/28/2020',
     preexistingCondition: ['arsuri'],
   },
   {
@@ -1260,7 +1238,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 67,
     county: 'constanta',
-    dateConfirmed: '03/28/2020',
     preexistingCondition: ['hipertensiune arteriala', 'diabet'],
   },
   {
@@ -1268,7 +1245,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 65,
     county: 'arad',
-    dateConfirmed: '03/28/2020',
     preexistingCondition: ['hipertensiune arteriala', 'obezitate'],
   },
   {
@@ -1276,7 +1252,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 74,
     county: 'hunedoara',
-    dateConfirmed: '03/28/2020',
     preexistingCondition: ['cancer'],
   },
   {
@@ -1284,7 +1259,6 @@ window.romaniaDeaths = [
     gender: 1,
     age: 60,
     county: 'arad',
-    dateConfirmed: '03/28/2020',
     preexistingCondition: undefined,
   },
   {
@@ -1292,7 +1266,6 @@ window.romaniaDeaths = [
     gender: 1,
     age: 74,
     county: 'arad',
-    dateConfirmed: '03/28/2020',
     preexistingCondition: ['diabet'],
   },
   {
@@ -1300,7 +1273,6 @@ window.romaniaDeaths = [
     gender: 1,
     age: 71,
     county: 'arad',
-    dateConfirmed: '03/28/2020',
     preexistingCondition: ['diabet'],
   },
   {
@@ -1308,7 +1280,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 65,
     county: 'timiș',
-    dateConfirmed: '03/27/2020',
     preexistingCondition: ['boli cardiovasculare'],
   },
   {
@@ -1316,7 +1287,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 81,
     county: 'bucurești',
-    dateConfirmed: '03/27/2020',
     preexistingCondition: undefined,
   },
   {
@@ -1324,7 +1294,6 @@ window.romaniaDeaths = [
     gender: 1,
     age: 80,
     county: 'bacău',
-    dateConfirmed: '03/26/2020',
     preexistingCondition: ['insuficienta cardiaca', 'fibrilatie atriala'],
   },
   {
@@ -1332,7 +1301,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 75,
     county: 'iași',
-    dateConfirmed: '03/26/2020',
     preexistingCondition: ['diabet'],
   },
   {
@@ -1340,7 +1308,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 45,
     county: 'arad',
-    dateConfirmed: '03/26/2020',
     preexistingCondition: undefined,
   },
   {
@@ -1348,7 +1315,6 @@ window.romaniaDeaths = [
     gender: 1,
     age: 70,
     county: 'neamț',
-    dateConfirmed: '03/26/2020',
     preexistingCondition: ['hemodializa'],
   },
   {
@@ -1356,7 +1322,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 49,
     county: 'timiș',
-    dateConfirmed: '03/26/2020',
     preexistingCondition: ['poliartrita reumatoida', 'hipertensiune arteriala'],
   },
   {
@@ -1364,7 +1329,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 56,
     county: 'dambovita',
-    dateConfirmed: '03/26/2020',
     preexistingCondition: undefined,
   },
   {
@@ -1372,7 +1336,6 @@ window.romaniaDeaths = [
     gender: 1,
     age: 76,
     county: 'cluj',
-    dateConfirmed: '03/26/2020',
     preexistingCondition: ['hipertensiune arteriala', 'diabet'],
   },
   {
@@ -1380,7 +1343,6 @@ window.romaniaDeaths = [
     gender: 1,
     age: 70,
     county: 'suceava',
-    dateConfirmed: '03/25/2020',
     preexistingCondition: undefined,
   },
   {
@@ -1388,7 +1350,6 @@ window.romaniaDeaths = [
     gender: 1,
     age: 70,
     county: 'suceava',
-    dateConfirmed: '03/25/2020',
     preexistingCondition: undefined,
   },
   {
@@ -1396,7 +1357,6 @@ window.romaniaDeaths = [
     gender: 1,
     age: 63,
     county: 'neamț',
-    dateConfirmed: '03/25/2020',
     preexistingCondition: undefined,
   },
   {
@@ -1404,7 +1364,6 @@ window.romaniaDeaths = [
     gender: 1,
     age: 64,
     county: 'suceava',
-    dateConfirmed: '03/24/2020',
     preexistingCondition: ['hipertensiune arteriala', 'cardiopatie ischemica', 'fibrilatie atriala'],
   },
   {
@@ -1412,7 +1371,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 71,
     county: 'suceava',
-    dateConfirmed: '03/24/2020',
     preexistingCondition: undefined,
   },
   {
@@ -1420,7 +1378,6 @@ window.romaniaDeaths = [
     gender: 1,
     age: 72,
     county: 'suceava',
-    dateConfirmed: '03/24/2020',
     preexistingCondition: ['diabet', 'boli cardiovasculare'],
   },
   {
@@ -1428,7 +1385,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 71,
     county: 'suceava',
-    dateConfirmed: '03/24/2020',
     preexistingCondition: undefined,
   },
   {
@@ -1436,7 +1392,6 @@ window.romaniaDeaths = [
     gender: 1,
     age: 80,
     county: 'suceava',
-    dateConfirmed: '03/24/2020',
     preexistingCondition: undefined,
   },
   {
@@ -1444,7 +1399,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 59,
     county: 'suceava',
-    dateConfirmed: '03/24/2020',
     preexistingCondition: undefined,
   },
   {
@@ -1452,7 +1406,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 70,
     county: 'dolj',
-    dateConfirmed: '03/24/2020',
     preexistingCondition: ['diabet', 'obezitate'],
   },
   {
@@ -1460,7 +1413,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 65,
     county: 'bucurești',
-    dateConfirmed: '03/23/2020',
     preexistingCondition: ['diabet'],
   },
   {
@@ -1468,7 +1420,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 64,
     county: 'arad',
-    dateConfirmed: '03/23/2020',
     preexistingCondition: undefined,
   },
   {
@@ -1476,7 +1427,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 71,
     county: 'suceava',
-    dateConfirmed: '03/23/2020',
     preexistingCondition: undefined,
   },
   {
@@ -1484,7 +1434,6 @@ window.romaniaDeaths = [
     gender: 1,
     age: 72,
     county: 'suceava',
-    dateConfirmed: '03/23/2020',
     preexistingCondition: ['diabet', 'boli cardiovasculare'],
   },
   {
@@ -1492,7 +1441,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 70,
     county: 'neamț',
-    dateConfirmed: '03/22/2020',
     preexistingCondition: ['diabet'],
   },
   {
@@ -1500,7 +1448,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 74,
     county: 'bucurești',
-    dateConfirmed: '03/22/2020',
     preexistingCondition: ['diabet'],
   },
   {
@@ -1508,7 +1455,6 @@ window.romaniaDeaths = [
     gender: 0,
     age: 67,
     county: 'dolj',
-    dateConfirmed: '03/22/2020',
     preexistingCondition: ['cancer'],
   },
 ];
