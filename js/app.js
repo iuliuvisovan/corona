@@ -1253,7 +1253,6 @@ function csvToArray(csv) {
 
     result.push(obj);
   }
-  console.log('result', result);
 
   return result;
 }
