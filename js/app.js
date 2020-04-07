@@ -224,10 +224,7 @@ function drawRomaniaConditionPie() {
 
   let labels = [...new Set(allConditionsDuplicated)]
     .sort((a, b) => (a.startsWith('Boli') ? 1 : -1))
-    .sort(
-      (a, b) =>
-        allConditionsDuplicated.filter((y) => y == b).length - allConditionsDuplicated.filter((y) => y == a).length
-    )
+    .sort((a, b) => allConditionsDuplicated.filter((y) => y == b).length - allConditionsDuplicated.filter((y) => y == a).length)
     .slice(0, 5)
     .sort((a, b) => a - b);
 
@@ -243,34 +240,17 @@ function drawRomaniaConditionPie() {
 
   const unknownValue = data.filter((x) => !x.preexistingCondition).length;
   const noConditionValue = data.filter((x) => x.preexistingCondition && x.preexistingCondition.length == 0).length;
-  const values = [
-    unknownValue,
-    ...labels.map((x) => allConditionsDuplicated.filter((y) => y == x).length),
-    othersValue,
-    noConditionValue,
-  ];
+  const values = [unknownValue, ...labels.map((x) => allConditionsDuplicated.filter((y) => y == x).length), othersValue, noConditionValue];
 
   otherCountryChart = new Chart(ctx, {
     type: 'pie',
     data: {
-      labels: ['Necunoscut', ...labels, 'Alte afecțiuni', 'Fara boli \npreexistente'].map(
-        (x, i) => x[0].toUpperCase() + x.substr(1) + ':\n ' + values[i]
-      ),
+      labels: ['Necunoscut', ...labels, 'Alte afecțiuni', 'Fara boli \npreexistente'].map((x, i) => x[0].toUpperCase() + x.substr(1) + ':\n ' + values[i]),
       datasets: [
         {
           label: 'Morți pe baza afectiunilor preexistente',
           data: values,
-          backgroundColor: [
-            undefined,
-            '#E91E63',
-            '#F44336',
-            '#ff5722',
-            '#ff9800',
-            '#ffc107',
-            '#ffeb3b',
-            '#cddc39',
-            '#4caf50',
-          ],
+          backgroundColor: [undefined, '#E91E63', '#F44336', '#ff5722', '#ff9800', '#ffc107', '#ffeb3b', '#cddc39', '#4caf50'],
         },
       ],
     },
@@ -542,9 +522,7 @@ function drawCountryActiveCases(countryName) {
     return totalSoFar + x;
   });
 
-  const values = summedFirstCountryInfections.map(
-    (x, i) => x - (summedFirstCountryrecoveries[i] + summedFirstCountrydeaths[i])
-  );
+  const values = summedFirstCountryInfections.map((x, i) => x - (summedFirstCountryrecoveries[i] + summedFirstCountrydeaths[i]));
 
   const filterFunction = (x, i, a) => {
     if (i < (countryName == 'China' ? 30 : 50)) {
@@ -984,10 +962,7 @@ function maybeAddEntryForRomaniaToday() {
     if (!romaniaEntries.find((x) => x.dateRep == maybeMissingDay)) {
       const currentHour = moment().format('HH');
       if (+currentHour > 12 || maybeMissingDay !== todayString) {
-        window.data = [
-          ...window.data,
-          { countriesAndTerritories: 'Romania', dateRep: maybeMissingDay, deaths: 0, recoveries: 0, cases: 0 },
-        ];
+        window.data = [...window.data, { countriesAndTerritories: 'Romania', dateRep: maybeMissingDay, deaths: 0, recoveries: 0, cases: 0 }];
       }
     }
   });
@@ -1012,7 +987,7 @@ function populateRecoveriesObject() {
       ] = window.recoveredData
         .filter((x) => x['Country/Region'] == recoveredCountryName)
         .map((x) => x[date])
-        .reduce((a, b) => a + b, 0);
+        .reduce((a, b) => +a + +b, 0);
     });
 
     recoveries[date] = casesForAllCountriesForCurrentDate;
@@ -1033,8 +1008,7 @@ async function getRecoveriesData() {
   const recoveriesCsvUrl =
     'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv';
   const recoveriesCsv = await (await fetch(recoveriesCsvUrl)).text();
-  const recoveriesJson = csvJSON(recoveriesCsv);
-  window.recoveredData = JSON.parse(recoveriesJson);
+  window.recoveredData = csvToArray(recoveriesCsv);
 }
 
 const getRecoveriesDataPromise = getRecoveriesData();
@@ -1047,7 +1021,6 @@ async function getActiveData() {
       // cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
     })
   ).json();
-  console.log('activeDataJson', activeDataJson);
 
   // window.data = JSON.parse(activeDataJson);
 }
@@ -1142,11 +1115,7 @@ function setupBarLabels() {
         return;
       }
 
-      ctx.font = Chart.helpers.fontString(
-        Chart.defaults.global.defaultFontSize,
-        'normal',
-        Chart.defaults.global.defaultFontFamily
-      );
+      ctx.font = Chart.helpers.fontString(Chart.defaults.global.defaultFontSize, 'normal', Chart.defaults.global.defaultFontFamily);
       ctx.textAlign = 'center';
       ctx.textBaseline = 'bottom';
       ctx.fillStyle = '#000';
@@ -1200,11 +1169,7 @@ let dayStringsSinceStartOfYear = [];
 
 function populateLabelsSinceStartOfYear() {
   dayStringsSinceStartOfYear = [
-    ...new Set(
-      window.data
-        .filter((x) => x['countriesAndTerritories'] == 'China' || x['countriesAndTerritories'] == 'Romania')
-        .map((x) => x.dateRep)
-    ),
+    ...new Set(window.data.filter((x) => x['countriesAndTerritories'] == 'China' || x['countriesAndTerritories'] == 'Romania').map((x) => x.dateRep)),
   ].sort((a, b) => moment(a, 'MM/DD/YYYY') - moment(b, 'MM/DD/YYYY'));
 }
 
@@ -1223,37 +1188,72 @@ window.onscroll = function () {
       if (!hasReachedBottom) {
         ga('send', 'event', 'Scroll', 'toHalf');
         hasReachedBottom = true;
-        console.log('bottom');
       }
     }
     if (currentScrollPos >= pageHalf) {
       if (!hasReachedHalf) {
         ga('send', 'event', 'Scroll', 'toBottom');
         hasReachedHalf = true;
-        console.log('half');
       }
     }
   }, 0);
 };
 
-function csvJSON(csv) {
+function csvToArray(csv) {
   var lines = csv.split('\n');
-
   var result = [];
-
   var headers = lines[0].split(',');
 
   for (var i = 1; i < lines.length; i++) {
     var obj = {};
-    var currentline = lines[i].split(',');
 
-    for (var j = 0; j < headers.length; j++) {
-      obj[headers[j]] = !isNaN(currentline[j]) && currentline[j].length > 0 ? +currentline[j] : currentline[j];
+    var row = lines[i],
+      queryIdx = 0,
+      startValueIdx = 0,
+      idx = 0;
+
+    if (row.trim() === '') {
+      continue;
+    }
+
+    while (idx < row.length) {
+      /* if we meet a double quote we skip until the next one */
+      var c = row[idx];
+
+      if (c === '"') {
+        do {
+          c = row[++idx];
+        } while (c !== '"' && idx < row.length - 1);
+      }
+
+      if (c === ',' || /* handle end of line with no comma */ idx === row.length - 1) {
+        /* we've got a value */
+        var value = row.substr(startValueIdx, idx - startValueIdx + 1).trim();
+
+        /* skip first double quote */
+        if (value[0] === '"') {
+          value = value.substr(1);
+        }
+        /* skip last comma */
+        if (value[value.length - 1] === ',') {
+          value = value.substr(0, value.length - 1);
+        }
+        /* skip last double quote */
+        if (value[value.length - 1] === '"') {
+          value = value.substr(0, value.length - 1);
+        }
+
+        var key = headers[queryIdx++];
+        obj[key] = value;
+        startValueIdx = idx + 1;
+      }
+
+      ++idx;
     }
 
     result.push(obj);
   }
+  console.log('result', result);
 
-  //return result; //JavaScript object
-  return JSON.stringify(result); //JSON
+  return result;
 }
