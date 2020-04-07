@@ -983,7 +983,7 @@ function maybeAddEntryForRomaniaToday() {
   maybeMissingDays.forEach((maybeMissingDay) => {
     if (!romaniaEntries.find((x) => x.dateRep == maybeMissingDay)) {
       const currentHour = moment().format('HH');
-      if (+currentHour > 11 || maybeMissingDay !== todayString) {
+      if (+currentHour > 12 || maybeMissingDay !== todayString) {
         window.data = [
           ...window.data,
           { countriesAndTerritories: 'Romania', dateRep: maybeMissingDay, deaths: 0, recoveries: 0, cases: 0 },
