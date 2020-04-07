@@ -1,5 +1,47 @@
 window.romaniaDeaths = [
   {
+    deathIndex: 182,
+    gender: 1,
+    age: 70,
+    county: 'bucurești',
+    preexistingCondition: ['afectiuni cardiace'],
+  },
+  {
+    deathIndex: 181,
+    gender: 0,
+    age: 55,
+    county: 'sălaj',
+    preexistingCondition: ['afectiune pulmonara cronica'],
+  },
+  {
+    deathIndex: 180,
+    gender: 0,
+    age: 94,
+    county: 'arad',
+    preexistingCondition: ['cardiopatie', 'fibrilatie atriala'],
+  },
+  {
+    deathIndex: 179,
+    gender: 0,
+    age: 66,
+    county: 'alba',
+    preexistingCondition: ['cardiopatie ischiemica', 'hipertensiune arteriala', ' insuficienta mitrala', 'diabet']
+  },
+  {
+    deathIndex: 178,
+    gender: 0,
+    age: 60,
+    county: 'ialomița',
+    preexistingCondition: undefined
+  },
+  {
+    deathIndex: 177,
+    gender: 1,
+    age: 67,
+    county: 'mehedinți',
+    preexistingCondition: ['afectiune pulmonara cronica'],
+  },
+  {
     deathIndex: 176,
     gender: 0,
     age: 83,
@@ -39,14 +81,14 @@ window.romaniaDeaths = [
     gender: 1,
     age: 65,
     county: 'suceava',
-    preexistingCondition: undefined
+    preexistingCondition: undefined,
   },
   {
     deathIndex: 170,
     gender: 1,
     age: 79,
     county: 'suceava',
-    preexistingCondition: undefined
+    preexistingCondition: undefined,
   },
   {
     deathIndex: 169,
