@@ -91,6 +91,20 @@ window.romaniaDeaths = [
     preexistingCondition: undefined,
   },
   {
+    deathIndex: 184,
+    gender: 0,
+    age: 46,
+    county: 'neamț',
+    preexistingCondition: [],
+  },
+  {
+    deathIndex: 183,
+    gender: 0,
+    age: 69,
+    county: 'suceava',
+    preexistingCondition: ['diabet', 'anemie'],
+  },
+  {
     deathIndex: 182,
     gender: 1,
     age: 70,
