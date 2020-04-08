@@ -1028,7 +1028,7 @@ async function getActiveData() {
 // const getActiveDataPromise = getActiveData();
 
 async function processData() {
-  maybeAddEntryForRomaniaToday();
+  // maybeAddEntryForRomaniaToday();
 
   await getRecoveriesDataPromise;
   // try {

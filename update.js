@@ -1,19 +1,40 @@
 const fs = require('fs');
 const fetch = require('node-fetch');
+const moment = require('moment');
 
 async function fetchActiveCases() {
   const jsonUrl = 'https://opendata.ecdc.europa.eu/covid19/casedistribution/json';
 
-  const activeCases = await (await fetch(jsonUrl)).json();
+  const { records: activeCases } = await (await fetch(jsonUrl)).json();
 
-  const activeCasesNormalized = activeCases.records.map(({ dateRep, cases, deaths, countriesAndTerritories }) => ({
+  const activeCasesNormalized = activeCases.map(({ dateRep, cases, deaths, countriesAndTerritories }) => ({
     dateString: dateRep,
     cases: +cases,
     deaths: +deaths,
     countryName: countriesAndTerritories,
   }));
 
-  fs.writeFileSync('./data/active/current.js', 'window.data = ' + JSON.stringify(activeCasesNormalized, null, 4));
+  const completeActiveCases = maybeAddMissingDays(activeCasesNormalized);
+
+  fs.writeFileSync('./data/active/current.js', 'window.data = ' + JSON.stringify(completeActiveCases, null, 4));
+}
+
+function maybeAddMissingDays(activeCases) {
+  const completeActiveCases = activeCases;
+  const romaniaEntries = activeCases.filter((x) => x.countryName == 'Romania');
+  const todayString = moment().format('DD/MM/YYYY');
+  const maybeMissingDays = [todayString, '05/03/2020', '03/03/2020'];
+
+  maybeMissingDays.forEach((maybeMissingDay) => {
+    if (!romaniaEntries.find((x) => x.dateString == maybeMissingDay)) {
+      const currentHour = moment().format('HH');
+      if (+currentHour > 12 || maybeMissingDay !== todayString) {
+        completeActiveCases.push({ countryName: 'Romania', dateString: maybeMissingDay, deaths: 0, recoveries: 0, cases: 0 });
+      }
+    }
+  });
+
+  return completeActiveCases;
 }
 
 function bumpRomaniaVersion() {
