@@ -975,7 +975,9 @@ const recoveriesCountriesMap = {
 
 const recoveries = {};
 
-function populateRecoveriesObject() {
+async function populateRecoveriesObject() {
+  await getRecoveriesDataPromise;
+
   const allCountries = [...new Set(window.recoveredData.map((x) => x['Country/Region']).filter((x) => x))];
   const allDates = Object.keys(window.recoveredData[0]).filter((x) => x.includes('/20'));
 
@@ -1013,41 +1015,11 @@ async function getRecoveriesData() {
 
 const getRecoveriesDataPromise = getRecoveriesData();
 
-async function getActiveData() {
-  const activeDataJsonUrl = 'https://opendata.ecdc.europa.eu/covid19/casedistribution/json/';
-  const activeDataJson = await (
-    await fetch(activeDataJsonUrl, {
-      // mode: 'cors', // no-cors, *cors, same-origin
-      // cache: 'no-cache', // *default, no-cache, reload, force-cache, only-if-cached
-    })
-  ).json();
-
-  // window.data = JSON.parse(activeDataJson);
-}
-
-// const getActiveDataPromise = getActiveData();
-
 async function processData() {
-  // maybeAddEntryForRomaniaToday();
-
-  await getRecoveriesDataPromise;
-  // try {
-  //   await getActiveDataPromise;
-  // } catch (e) {}
-
-  populateRecoveriesObject();
+  await populateRecoveriesObject();
 
   window.data = window.data.map((x) => {
-    let countryName = x['countryName'].replace(/\_/g, ' ');
-    if (countryName.toLowerCase().startsWith('united states of amer')) {
-      countryName = 'USA';
-    }
-    if (countryName.startsWith('cases')) {
-      countryName = 'Diamond Princess';
-    }
-    if (countryName.toLowerCase().startsWith('canada')) {
-      countryName = 'Canada';
-    }
+    const { countryName } = x;
 
     x.recoveries = getRecoveriesForToday(countryName.replace(/[\s\_]/g, '').toLowerCase(), x.dateString);
 

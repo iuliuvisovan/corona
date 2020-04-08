@@ -11,16 +11,15 @@ async function fetchActiveCases() {
     dateString: dateRep,
     cases: +cases,
     deaths: +deaths,
-    countryName: countriesAndTerritories,
+    countryName: getCountryName(countriesAndTerritories),
   }));
 
-  const completeActiveCases = maybeAddMissingDays(activeCasesNormalized);
+  maybeAddMissingDays(activeCasesNormalized);
 
-  fs.writeFileSync('./data/active/current.js', 'window.data = ' + JSON.stringify(completeActiveCases, null, 4));
+  fs.writeFileSync('./data/active/current.js', 'window.data = ' + JSON.stringify(activeCasesNormalized, null, 4));
 }
 
 function maybeAddMissingDays(activeCases) {
-  const completeActiveCases = activeCases;
   const romaniaEntries = activeCases.filter((x) => x.countryName == 'Romania');
   const todayString = moment().format('DD/MM/YYYY');
   const maybeMissingDays = [todayString, '05/03/2020', '03/03/2020'];
@@ -29,12 +28,21 @@ function maybeAddMissingDays(activeCases) {
     if (!romaniaEntries.find((x) => x.dateString == maybeMissingDay)) {
       const currentHour = moment().format('HH');
       if (+currentHour > 12 || maybeMissingDay !== todayString) {
-        completeActiveCases.push({ countryName: 'Romania', dateString: maybeMissingDay, deaths: 0, recoveries: 0, cases: 0 });
+        activeCases.push({ countryName: 'Romania', dateString: maybeMissingDay, deaths: 0, recoveries: 0, cases: 0 });
       }
     }
   });
+}
 
-  return completeActiveCases;
+function getCountryName(countryName) {
+  if (countryName.toLowerCase().startsWith('united_states_of_amer')) {
+    return 'USA';
+  }
+  if (countryName.startsWith('cases')) {
+    return 'Diamond Princess';
+  }
+
+  return countryName.replace(/\_/g, ' ');
 }
 
 function bumpRomaniaVersion() {
