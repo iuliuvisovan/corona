@@ -317,7 +317,7 @@ function drawRomaniaSexCasesPie() {
   const ctx = document.getElementById('romaniaSexDeaths').getContext('2d');
   const data = window.romaniaDeaths;
 
-  let labels = ['Barbati', 'Femei'];
+  let labels = ['Bărbați', 'Femei'];
   const values = [data.filter((x) => !x.gender).length, data.filter((x) => x.gender).length];
 
   new Chart(ctx, {
