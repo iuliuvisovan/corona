@@ -16,7 +16,7 @@ async function fetchActiveCases() {
 
   maybeAddMissingDays(activeCasesNormalized);
 
-  fs.writeFileSync('./data/active/current.js', 'window.data = ' + JSON.stringify(activeCasesNormalized, null, 4));
+  fs.writeFileSync('./data/global-cases-and-deaths.js', 'window.data = ' + JSON.stringify(activeCasesNormalized, null, 4));
 }
 
 function maybeAddMissingDays(activeCases) {
@@ -57,14 +57,14 @@ function bumpRomaniaVersion() {
   fs.writeFileSync(indexHtmlPath, replacedIndexHtml);
 }
 
-function bumpActiveCasesVerions() {
+function bumpGlobalCasesVersion() {
   const indexHtmlPath = './index.html';
   let indexHtml = fs.readFileSync(indexHtmlPath, 'utf8');
 
-  const myRegexp = /data\/active\/current\.js\?v=([0-9]*)/;
+  const myRegexp = /data\/global-cases-and-deaths\.js\?v=([0-9]*)/;
   const [_, version] = myRegexp.exec(indexHtml);
 
-  const replacedIndexHtml = indexHtml.replace(myRegexp, 'data/active/current.js?v=' + (+version + 1));
+  const replacedIndexHtml = indexHtml.replace(myRegexp, 'data/global-cases-and-deaths.js?v=' + (+version + 1));
 
   fs.writeFileSync(indexHtmlPath, replacedIndexHtml);
 }
@@ -83,5 +83,5 @@ function bumpAppJsVersion() {
 
 fetchActiveCases();
 bumpAppJsVersion();
-bumpActiveCasesVerions();
+bumpGlobalCasesVersion();
 bumpRomaniaVersion();
