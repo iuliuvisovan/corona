@@ -20,30 +20,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <link id="favicon" rel="icon" href="img/favicon.png" type="image/png" sizes="16x16" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css" rel="stylesheet" />
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "NewsArticle",
-        "mainEntityOfPage": {
-          "@type": "WebPage",
-          "@id": "https://www.iuliu.net/corona/"
-        },
-        "headline": "COVID-19 | Cazuri zilnice, evoluție, situația pe județe. Coronavirus în România și global - grafice complete.",
-        "image": ["https://i.imgur.com/xTEY7WD.png"],
-        "datePublished": "2020-04-06 11:25:35",
-        "dateModified": "2020-04-06 11:25:59",
-        "author": "Iuliu Vișovan",
-        "publisher": {
-          "@type": "Organization",
-          "name": "iuliu.net",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.iuliu.net/img/favicon.png"
-          }
-        },
-        "description": "Grafice complete cu situația cazurilor de COVID-19 (coronavirus) în România și global. Actualizat zilnic."
-      }
-    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet" />
   </head>
 
   <body>
@@ -54,20 +31,24 @@
       crossorigin="anonymous"
       src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=306856700168414&autoLogAppEvents=1"
     ></script>
-    <h2 style="margin-top: 5px;">Situația cazurilor de COVID-19 (coronavirus) în România</h2>
-    <i id="lastUpdated" style="margin-top: -16px;">actualizată la: 08 aprilie 2020</i>
-    <h3 class="graph-title top-title">Situația morților în România:</h3>
+    <h2 style="margin-top: 5px;">Situația cazurilor de <b>COVID-19</b> în <b>România</b> și la nivel global</h2>
+    <i id="lastUpdated" style="margin-top: -16px;">actualizată la: 09 aprilie 2020</i>
+    <h3 class="graph-title top-title">Situația <b>morților</b> în <b>România</b>:</h3>
     <div class="top-pies-wrapper">
       <div>
-        <h3 class="graph-title top-title">Ce procent sunt bărbați/femei?</h3>
-        <div class="chart-container" style="width: 400px; height: 260px; margin-top: 12px;">
-          <canvas id="romaniaSexDeaths"></canvas>
+        <h3 class="graph-title top-title">Ce procent sunt <b>bărbați/femei?</b></h3>
+        <div class="pie-wrapper">
+          <div class="pie" style="width: 400px; height: 86%;">
+            <canvas id="romaniaSexDeaths"></canvas>
+          </div>
         </div>
       </div>
       <div>
-        <h3 class="graph-title top-title" style="margin-bottom: -16px;">Ce județe au cei mai mulți morți?</h3>
-        <div class="chart-container" style="width: 430px; height: 320px;">
-          <canvas id="romaniaCountyDeaths"></canvas>
+        <h3 class="graph-title top-title">Ce <b>județe</b> au cei mai mulți <b>morți</b>?</h3>
+        <div id="countyPieWrapper" class="pie-wrapper">
+          <div class="pie" style="width: 430px;">
+            <canvas id="romaniaCountyDeaths"></canvas>
+          </div>
         </div>
         <div class="pie-total">
           <span style="font-size: 12px;"> Total:</span>
@@ -75,26 +56,30 @@
         </div>
       </div>
     </div>
-    <div class="top-pies-wrapper" style="margin-top: 15px;">
+    <div class="top-pies-wrapper" id="secondPiesWrapper">
       <div>
-        <h3 class="graph-title top-title" style="margin-bottom: 16px;">În ce categorii de vârstă se încadrează?</h3>
-        <div class="chart-container" style="width: 400px; height: 270px;">
-          <canvas id="romaniaAgeDeaths"></canvas>
+        <h3 class="graph-title top-title" style="margin-bottom: 16px;">În ce categorii de <b>vârstă</b> se încadrează?</h3>
+        <div class="pie-wrapper">
+          <div class="pie" style="width: 430px; height: 90%;">
+            <canvas id="romaniaAgeDeaths"></canvas>
+          </div>
         </div>
-        <div class="pie-total" style="margin-top: -292px; margin-left: -2px;">
+        <div class="pie-total" style="margin-top: -318px; margin-left: -2px;">
           <span style="font-size: 12px;"> Total:</span>
           <span class="total-deaths"></span>
         </div>
       </div>
-      <div>
-        <h3 class="graph-title top-title">Ce alte boli au avut cei care au murit?</h3>
-        <div id="conditionsPie" class="chart-container" style="width: 430px; height: 400px;">
-          <canvas id="romaniaConditionDeaths"></canvas>
+      <div id="otherDiseases">
+        <h3 class="graph-title top-title">Ce <b>alte boli</b> au avut cei care au murit?</h3>
+        <div class="pie-wrapper">
+          <div id="conditionsPie" class="pie" style="width: 400px; height: 139%; margin-top: 30px;">
+            <canvas id="romaniaConditionDeaths"></canvas>
+          </div>
         </div>
       </div>
     </div>
 
-    <h3 class="graph-title top-title">Cazuri zilnice - infecții/vindecări/morți coronavirus România</h3>
+    <h3 class="graph-title top-title" style="margin-top: 75px;">Cazuri zilnice - <hide-mobile>infecții/vindecări/morți</hide-mobile> România</h3>
     <div class="chart-container">
       <canvas id="romaniaChart"></canvas>
     </div>
@@ -104,33 +89,33 @@
       <canvas id="romaniaTotals"></canvas>
     </div>
 
-    <h4>Alege grafic:</h4>
+    <h4>Alege un grafic:</h4>
     <div class="buttons-wrapper">
-      <button onclick="show('globalActiveCasesWrapper', this)">
+      <button title="Evoluția cazurilor active - comparație pe țări" onclick="show('globalActiveCasesWrapper', this)">
         <img src="./img/globalactive.jpg" alt="Global active cases graph" />
         <span> <b>Cazuri active</b> <br />global </span>
       </button>
-      <button onclick="show('otherCountryChartWrapper', this)">
+      <button title="Cazuri zilnice pe o anumită țară" onclick="show('otherCountryChartWrapper', this)">
         <img src="./img/country-daily.jpg" alt="Total daily cases per country graph" />
         <span> <b>Cazuri zilnice</b> <br />pe țară </span>
       </button>
-      <button onclick="show('otherCountryTotalsWrapper', this)">
+      <button title="Evoluția cazurilor totale pe o anumită țară" onclick="show('otherCountryTotalsWrapper', this)">
         <img src="./img/country-evolution.jpg" alt="Evolution of cases per country graph" />
         <span><b>Evoluție</b> <br />pe țară </span>
       </button>
-      <button onclick="show('countryActiveCasesWrapper', this)">
+      <button title="Evoluția cazurilor totale pe o anumită țară" onclick="show('countryActiveCasesWrapper', this)">
         <img src="./img/country-active-evolution.jpg" alt="Evolution of active cases per country graph" />
         <span> <b>Cazuri active</b> <br />pe țară </span>
       </button>
-      <button onclick="show('totalsChartWrapper', this)">
+      <button title="Top 10 țări cu cele mai multe cazuri de infectare" onclick="show('totalsChartWrapper', this)">
         <img src="./img/global-total-top.jpg" alt="Top 10 countries graph" />
         <span><b>Top 10</b><br />global</span>
       </button>
-      <button onclick="show('lastWeekTotalsWrapper', this)">
+      <button title="Top 10 țări cu cele mai multe cazuri de infectare - în ultimele 7 zile " onclick="show('lastWeekTotalsWrapper', this)">
         <img src="./img/global-total-top-week.jpg" alt="Top 10 countries in the last week graph" />
         <span> <b>Top 10</b> <br />ultimele 7 zile </span>
       </button>
-      <button onclick="show('globalTotalsWrapper', this)">
+      <button title="Evoluția globala a cazurilor" onclick="show('globalTotalsWrapper', this)">
         <img src="./img/global-evolution.jpg" alt="Global evolution of cases graph" />
         <span> <b>Evoluție</b><br />global </span>
       </button>
@@ -215,7 +200,7 @@
       >
     </div>
 
-    <i style="text-align: center; margin: 30px;">
+    <i style="text-align: center; margin: 30px; word-break: break-all;">
       Surse:
       <br />
       <a
@@ -244,11 +229,11 @@
     <script src="js/moment-with-locales.js"></script>
     <script src="js/chartjs-plugin-labels.js"></script>
 
-    <script src="data/global-cases-and-deaths.js?v=24"></script>
-    <script src="data/romania.js?v=136"></script>
+    <script src="data/global-cases-and-deaths.js?v=25"></script>
+    <script src="data/romania.js?v=137"></script>
     <script src="data/romania-deaths.js?v=114"></script>
 
-    <script src="js/app.js?v=160"></script>
+    <script src="js/app.js?v=161"></script>
     <script>
       (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;

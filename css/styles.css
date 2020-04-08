@@ -3,6 +3,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
 }
 
 .chart-title {
@@ -20,6 +22,8 @@ h2,
 h3,
 h4 {
   text-align: center;
+  font-weight: 100;
+  padding: 0 5px;
 }
 
 .chart-container {
@@ -36,13 +40,13 @@ h4 {
 }
 
 .graph-title {
-  margin-bottom: 14px;
+  margin-bottom: 0;
   margin-top: 73px;
 }
 
 .top-title {
   margin-top: 35px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 button {
@@ -57,6 +61,7 @@ button {
   align-items: center;
   transition: all 0.15s ease-in-out;
   padding: 0;
+  cursor: pointer;
 }
 
 button img {
@@ -116,7 +121,27 @@ button[selected] span {
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.top-pies-wrapper > div {
+  height: 390px;
+}
+
+.pie-wrapper {
+  height: 320px;
+  display: flex;
+  justify-content: center;
   align-items: center;
+}
+
+.pie {
+  height: 100%;
+  width: 100%;
+}
+
+.pie-wrapper {
+  flex: 1;
 }
 
 @media (max-width: 768px) {
@@ -138,12 +163,41 @@ button[selected] span {
   margin-left: 2px;
 }
 
-#conditionsPie {
-  margin-top: -25px;
-}
-
 @media (max-width: 768px) {
   #conditionsPie {
     height: 380px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 22px;
+  }
+  .graph-title {
+    margin-top: 25px !important;
+  }
+  #countyPieWrapper {
+    margin-top: -25px;
+    margin-bottom: -45px;
+  }
+  #countyPieWrapper .pie {
+    height: 270px;
+  }
+  #secondPiesWrapper {
+    margin-top: -25px;
+  }
+  .top-pies-wrapper {
+    align-items: center;
+  }
+  .pie {
+    max-width: 100vw !important;
+  }
+  #otherDiseases {
+    margin-top: 45px !important;
+    margin-bottom: 20px !important;
+  }
+
+  hide-mobile {
+    display: none;
   }
 }
