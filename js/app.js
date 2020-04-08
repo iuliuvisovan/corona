@@ -626,34 +626,39 @@ function drawGlobalActiveCases() {
           data: datasets[0].filter(filterFunction),
           backgroundColor: '#F4433600',
           borderColor: '#5b9bd5',
-          borderWidth: 2,
+          borderWidth: 3,
         },
         {
           label: topCountries[1],
           data: datasets[1].filter(filterFunction),
           backgroundColor: '#F4433600',
           borderColor: '#ffc001',
-          borderWidth: 2,
+          borderWidth: 3,
         },
         {
           label: topCountries[2],
           data: datasets[2].filter(filterFunction),
           backgroundColor: '#F4433600',
           borderColor: '#ed7d31',
-          borderWidth: 2,
+          borderWidth: 3,
         },
         {
           label: topCountries[3],
           data: datasets[3].filter(filterFunction),
           backgroundColor: '#F4433600',
           borderColor: '#9C27B0',
-          borderWidth: 2,
+          borderWidth: 3,
         },
       ],
     },
     options: {
       animation: {
         duration: 0,
+      },
+      elements: {
+        point: {
+          radius: 0,
+        },
       },
       minValueForLabel: 2000,
       skipLabelFactor: 5,
