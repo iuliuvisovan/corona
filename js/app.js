@@ -42,7 +42,7 @@ function draw() {
       drawAllTimeTotalsBars(); //22
       drawGlobalEvolutionLine(); //22
     },
-    isMobile ? 1500 : 1000
+    isMobile ? 1200 : 1000
   );
 }
 
