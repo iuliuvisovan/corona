@@ -1641,121 +1641,121 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "05/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "04/04/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "03/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "02/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "01/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "31/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "30/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "29/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "27/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "26/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "25/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "24/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "23/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "22/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "21/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "15/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Antigua_and_Barbuda"
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "08/04/2020",
@@ -7239,163 +7239,163 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 86,
         "deaths": 4,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "07/04/2020",
         "cases": 32,
         "deaths": 4,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "06/04/2020",
         "cases": 31,
         "deaths": 3,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "05/04/2020",
         "cases": 46,
         "deaths": 3,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "04/04/2020",
         "cases": 54,
         "deaths": 1,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "03/04/2020",
         "cases": 68,
         "deaths": 4,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "02/04/2020",
         "cases": 51,
         "deaths": 1,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "01/04/2020",
         "cases": 60,
         "deaths": 4,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "31/03/2020",
         "cases": 30,
         "deaths": 2,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "30/03/2020",
         "cases": 66,
         "deaths": 1,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "29/03/2020",
         "cases": 28,
         "deaths": 2,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "28/03/2020",
         "cases": 48,
         "deaths": 0,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "27/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "26/03/2020",
         "cases": 19,
         "deaths": 1,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "25/03/2020",
         "cases": 33,
         "deaths": 1,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "24/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "23/03/2020",
         "cases": 33,
         "deaths": 0,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "22/03/2020",
         "cases": 48,
         "deaths": 1,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "21/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "20/03/2020",
         "cases": 8,
         "deaths": 0,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "19/03/2020",
         "cases": 15,
         "deaths": 0,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "18/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "17/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "16/03/2020",
         "cases": 15,
         "deaths": 0,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "13/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "12/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "06/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Bosnia_and_Herzegovina"
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "08/04/2020",
@@ -8031,253 +8031,253 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "British_Virgin_Islands"
+        "countryName": "British Virgin Islands"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "British_Virgin_Islands"
+        "countryName": "British Virgin Islands"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "British_Virgin_Islands"
+        "countryName": "British Virgin Islands"
     },
     {
         "dateString": "05/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "British_Virgin_Islands"
+        "countryName": "British Virgin Islands"
     },
     {
         "dateString": "04/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "British_Virgin_Islands"
+        "countryName": "British Virgin Islands"
     },
     {
         "dateString": "03/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "British_Virgin_Islands"
+        "countryName": "British Virgin Islands"
     },
     {
         "dateString": "02/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "British_Virgin_Islands"
+        "countryName": "British Virgin Islands"
     },
     {
         "dateString": "01/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "British_Virgin_Islands"
+        "countryName": "British Virgin Islands"
     },
     {
         "dateString": "31/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "British_Virgin_Islands"
+        "countryName": "British Virgin Islands"
     },
     {
         "dateString": "30/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "British_Virgin_Islands"
+        "countryName": "British Virgin Islands"
     },
     {
         "dateString": "29/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "British_Virgin_Islands"
+        "countryName": "British Virgin Islands"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "British_Virgin_Islands"
+        "countryName": "British Virgin Islands"
     },
     {
         "dateString": "27/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "British_Virgin_Islands"
+        "countryName": "British Virgin Islands"
     },
     {
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "05/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "04/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "03/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "02/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "01/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "31/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "30/03/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "29/03/2020",
         "cases": 5,
         "deaths": 1,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "28/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "27/03/2020",
         "cases": 7,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "26/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "25/03/2020",
         "cases": 13,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "24/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "23/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "22/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "21/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "20/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "19/03/2020",
         "cases": 12,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "18/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "17/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "16/03/2020",
         "cases": 10,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "15/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "14/03/2020",
         "cases": 12,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "13/03/2020",
         "cases": 14,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "12/03/2020",
         "cases": 10,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "10/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Brunei_Darussalam"
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "08/04/2020",
@@ -8463,163 +8463,163 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 20,
         "deaths": 2,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "07/04/2020",
         "cases": 19,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "06/04/2020",
         "cases": 43,
         "deaths": 1,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "05/04/2020",
         "cases": 14,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "04/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "03/04/2020",
         "cases": 27,
         "deaths": 2,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "02/04/2020",
         "cases": 15,
         "deaths": 2,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "01/04/2020",
         "cases": 24,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "31/03/2020",
         "cases": 42,
         "deaths": 3,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "30/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "29/03/2020",
         "cases": 34,
         "deaths": 6,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "27/03/2020",
         "cases": 32,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "26/03/2020",
         "cases": 15,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "25/03/2020",
         "cases": 24,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "24/03/2020",
         "cases": 11,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "23/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "22/03/2020",
         "cases": 24,
         "deaths": 2,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "21/03/2020",
         "cases": 7,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "20/03/2020",
         "cases": 7,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "19/03/2020",
         "cases": 6,
         "deaths": 1,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "18/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "17/03/2020",
         "cases": 17,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "16/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "15/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "12/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "11/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Burkina_Faso"
+        "countryName": "Burkina Faso"
     },
     {
         "dateString": "08/04/2020",
@@ -9981,763 +9981,763 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "05/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "04/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "03/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "02/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "01/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "31/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "30/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "29/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "27/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "26/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "25/03/2020",
         "cases": 0,
         "deaths": 1,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "24/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "23/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "22/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "21/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Cape_Verde"
+        "countryName": "Cape Verde"
     },
     {
         "dateString": "10/03/2020",
         "cases": -9,
         "deaths": 1,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "02/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "01/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "29/02/2020",
         "cases": 0,
         "deaths": 2,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "28/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "27/02/2020",
         "cases": 14,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "26/02/2020",
         "cases": 0,
         "deaths": 1,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "25/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "24/02/2020",
         "cases": 57,
         "deaths": 1,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "23/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "22/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "21/02/2020",
         "cases": 13,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "20/02/2020",
         "cases": 79,
         "deaths": 2,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "19/02/2020",
         "cases": 88,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "18/02/2020",
         "cases": 99,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "17/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "16/02/2020",
         "cases": 134,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "15/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "14/02/2020",
         "cases": 47,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "13/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "12/02/2020",
         "cases": 39,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "11/02/2020",
         "cases": 65,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "10/02/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "09/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "08/02/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "07/02/2020",
         "cases": 41,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "06/02/2020",
         "cases": 10,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "05/02/2020",
         "cases": 10,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "04/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "03/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "02/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "01/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "31/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "30/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "29/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "28/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "27/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "26/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "25/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "24/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "23/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "22/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "21/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "20/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "19/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "18/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "17/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "16/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "15/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "14/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "13/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "12/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "11/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "10/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "09/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "08/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "07/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "06/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "05/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "04/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "03/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "02/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "01/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "31/12/2019",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cases_on_an_international_conveyance_Japan"
+        "countryName": "Cases on an international conveyance Japan"
     },
     {
         "dateString": "08/04/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "06/04/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "05/04/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "04/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "03/04/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "02/04/2020",
         "cases": 8,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "01/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "31/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "30/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "29/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "28/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "27/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "26/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "25/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "24/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "23/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "22/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "21/03/2020",
         "cases": 2,
         "deaths": 1,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "20/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Cayman_Islands"
+        "countryName": "Cayman Islands"
     },
     {
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "05/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "04/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "03/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "02/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "01/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "31/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "30/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "29/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "27/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "26/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "25/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "24/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "23/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "22/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "21/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "20/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "19/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "18/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "17/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "16/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Central_African_Republic"
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "08/04/2020",
@@ -11991,349 +11991,349 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 16,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "07/04/2020",
         "cases": 13,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "06/04/2020",
         "cases": 19,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "05/04/2020",
         "cases": 19,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "04/04/2020",
         "cases": 20,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "03/04/2020",
         "cases": 21,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "02/04/2020",
         "cases": 28,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "01/04/2020",
         "cases": 17,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "31/03/2020",
         "cases": 16,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "30/03/2020",
         "cases": 19,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "29/03/2020",
         "cases": 32,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "28/03/2020",
         "cases": 32,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "27/03/2020",
         "cases": 30,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "26/03/2020",
         "cases": 24,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "25/03/2020",
         "cases": 19,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "24/03/2020",
         "cases": 24,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "23/03/2020",
         "cases": 17,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "22/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "21/03/2020",
         "cases": 26,
         "deaths": 1,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "20/03/2020",
         "cases": 18,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "19/03/2020",
         "cases": 19,
         "deaths": 1,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "18/03/2020",
         "cases": 9,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "17/03/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "16/03/2020",
         "cases": 8,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "15/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "14/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "13/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "12/03/2020",
         "cases": 9,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "11/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "10/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "09/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "07/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Costa_Rica"
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "08/04/2020",
         "cases": 26,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "07/04/2020",
         "cases": 62,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "06/04/2020",
         "cases": 16,
         "deaths": 1,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "05/04/2020",
         "cases": 27,
         "deaths": 1,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "04/04/2020",
         "cases": 24,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "03/04/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "02/04/2020",
         "cases": 22,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "01/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "31/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "30/03/2020",
         "cases": 25,
         "deaths": 1,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "29/03/2020",
         "cases": 39,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "28/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "27/03/2020",
         "cases": 16,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "26/03/2020",
         "cases": 7,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "25/03/2020",
         "cases": 48,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "24/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "23/03/2020",
         "cases": 8,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "22/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "21/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "20/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "19/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "18/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "17/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "16/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "15/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "12/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Cote_dIvoire"
+        "countryName": "Cote dIvoire"
     },
     {
         "dateString": "08/04/2020",
@@ -13935,163 +13935,163 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 19,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "07/04/2020",
         "cases": 7,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "05/04/2020",
         "cases": 20,
         "deaths": 5,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "04/04/2020",
         "cases": 11,
         "deaths": 2,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "03/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "02/04/2020",
         "cases": 25,
         "deaths": 3,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "01/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "31/03/2020",
         "cases": 17,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "30/03/2020",
         "cases": 23,
         "deaths": 2,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "29/03/2020",
         "cases": 0,
         "deaths": 2,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "28/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "27/03/2020",
         "cases": 9,
         "deaths": 1,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "26/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "25/03/2020",
         "cases": 19,
         "deaths": 1,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "24/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "23/03/2020",
         "cases": 3,
         "deaths": 1,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "22/03/2020",
         "cases": 9,
         "deaths": 1,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "21/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "20/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "19/03/2020",
         "cases": 11,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "18/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "17/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "16/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "15/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "14/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "11/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Democratic_Republic_of_the_Congo"
+        "countryName": "Democratic Republic of the Congo"
     },
     {
         "dateString": "08/04/2020",
@@ -14925,547 +14925,547 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 128,
         "deaths": 12,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "07/04/2020",
         "cases": 83,
         "deaths": 4,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "06/04/2020",
         "cases": 167,
         "deaths": 5,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "05/04/2020",
         "cases": 90,
         "deaths": 9,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "04/04/2020",
         "cases": 108,
         "deaths": 8,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "03/04/2020",
         "cases": 96,
         "deaths": 3,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "02/04/2020",
         "cases": 175,
         "deaths": 6,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "01/04/2020",
         "cases": 208,
         "deaths": 9,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "31/03/2020",
         "cases": 42,
         "deaths": 3,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "30/03/2020",
         "cases": 140,
         "deaths": 11,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "29/03/2020",
         "cases": 138,
         "deaths": 8,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "28/03/2020",
         "cases": 93,
         "deaths": 10,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "27/03/2020",
         "cases": 96,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "26/03/2020",
         "cases": 80,
         "deaths": 4,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "25/03/2020",
         "cases": 67,
         "deaths": 3,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "24/03/2020",
         "cases": 43,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "23/03/2020",
         "cases": 90,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "22/03/2020",
         "cases": 78,
         "deaths": 1,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "21/03/2020",
         "cases": 13,
         "deaths": 2,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "20/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "19/03/2020",
         "cases": 10,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "18/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "17/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "16/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "15/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "14/03/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "10/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "07/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "02/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "01/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "29/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "28/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "27/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "26/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "25/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "24/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "23/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "22/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "21/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "20/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "19/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "18/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "17/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "16/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "15/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "14/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "13/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "12/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "11/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "10/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "09/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "08/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "07/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "06/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "05/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "04/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "03/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "02/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "01/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "31/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "30/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "29/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "28/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "27/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "26/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "25/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "24/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "23/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "22/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "21/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "20/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "19/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "18/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "17/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "16/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "15/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "14/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "13/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "12/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "11/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "10/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "09/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "08/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "07/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "06/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "05/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "04/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "03/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "02/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "01/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "31/12/2019",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Dominican_Republic"
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "08/04/2020",
@@ -16617,277 +16617,277 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "07/04/2020",
         "cases": 9,
         "deaths": 1,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "06/04/2020",
         "cases": 7,
         "deaths": 0,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "05/04/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "04/04/2020",
         "cases": 10,
         "deaths": 1,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "03/04/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "02/04/2020",
         "cases": 9,
         "deaths": 1,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "01/04/2020",
         "cases": 0,
         "deaths": 1,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "31/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "30/03/2020",
         "cases": 11,
         "deaths": 0,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "29/03/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "27/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "26/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "25/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "24/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "23/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "22/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "21/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "20/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "19/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "El_Salvador"
+        "countryName": "El Salvador"
     },
     {
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "05/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "04/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "03/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "02/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "01/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "31/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "30/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "29/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "28/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "27/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "26/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "25/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "24/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "23/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "22/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "21/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "20/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "19/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "18/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "17/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "16/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "15/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Equatorial_Guinea"
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "08/04/2020",
@@ -17877,151 +17877,151 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Falkland_Islands_(Malvinas)"
+        "countryName": "Falkland Islands (Malvinas)"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Falkland_Islands_(Malvinas)"
+        "countryName": "Falkland Islands (Malvinas)"
     },
     {
         "dateString": "06/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Falkland_Islands_(Malvinas)"
+        "countryName": "Falkland Islands (Malvinas)"
     },
     {
         "dateString": "05/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Falkland_Islands_(Malvinas)"
+        "countryName": "Falkland Islands (Malvinas)"
     },
     {
         "dateString": "04/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Falkland_Islands_(Malvinas)"
+        "countryName": "Falkland Islands (Malvinas)"
     },
     {
         "dateString": "08/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "07/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "05/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "04/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "03/04/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "02/04/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "01/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "31/03/2020",
         "cases": 9,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "30/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "29/03/2020",
         "cases": 11,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "28/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "27/03/2020",
         "cases": 8,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "26/03/2020",
         "cases": 10,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "25/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "24/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "23/03/2020",
         "cases": 23,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "22/03/2020",
         "cases": 12,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "21/03/2020",
         "cases": 8,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "20/03/2020",
         "cases": 72,
         "deaths": 0,
-        "countryName": "Faroe_Islands"
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "08/04/2020",
@@ -19317,127 +19317,127 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "06/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "05/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "04/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "03/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "02/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "01/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "31/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "30/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "29/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "27/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "26/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "25/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "24/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "23/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "22/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "21/03/2020",
         "cases": 12,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "20/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "19/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "French_Polynesia"
+        "countryName": "French Polynesia"
     },
     {
         "dateString": "08/04/2020",
@@ -22545,79 +22545,79 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Guinea_Bissau"
+        "countryName": "Guinea Bissau"
     },
     {
         "dateString": "07/04/2020",
         "cases": 15,
         "deaths": 0,
-        "countryName": "Guinea_Bissau"
+        "countryName": "Guinea Bissau"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Guinea_Bissau"
+        "countryName": "Guinea Bissau"
     },
     {
         "dateString": "05/04/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Guinea_Bissau"
+        "countryName": "Guinea Bissau"
     },
     {
         "dateString": "04/04/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "Guinea_Bissau"
+        "countryName": "Guinea Bissau"
     },
     {
         "dateString": "03/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Guinea_Bissau"
+        "countryName": "Guinea Bissau"
     },
     {
         "dateString": "02/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Guinea_Bissau"
+        "countryName": "Guinea Bissau"
     },
     {
         "dateString": "01/04/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "Guinea_Bissau"
+        "countryName": "Guinea Bissau"
     },
     {
         "dateString": "31/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Guinea_Bissau"
+        "countryName": "Guinea Bissau"
     },
     {
         "dateString": "30/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Guinea_Bissau"
+        "countryName": "Guinea Bissau"
     },
     {
         "dateString": "29/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Guinea_Bissau"
+        "countryName": "Guinea Bissau"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Guinea_Bissau"
+        "countryName": "Guinea Bissau"
     },
     {
         "dateString": "27/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Guinea_Bissau"
+        "countryName": "Guinea Bissau"
     },
     {
         "dateString": "08/04/2020",
@@ -22893,151 +22893,151 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "05/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "04/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "03/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "02/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "01/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "31/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "30/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "29/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "27/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "26/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "25/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "24/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "23/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "22/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "21/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "20/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "19/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "18/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "17/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "16/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "07/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Holy_See"
+        "countryName": "Holy See"
     },
     {
         "dateString": "08/04/2020",
@@ -26931,115 +26931,115 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 11,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "07/04/2020",
         "cases": 12,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "06/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "05/04/2020",
         "cases": 12,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "04/04/2020",
         "cases": 43,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "03/04/2020",
         "cases": 6,
         "deaths": 1,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "02/04/2020",
         "cases": 13,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "01/04/2020",
         "cases": 10,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "31/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "30/03/2020",
         "cases": 10,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "29/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "28/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "27/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "26/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "25/03/2020",
         "cases": 10,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "24/03/2020",
         "cases": 11,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "23/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "22/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "21/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Isle_of_Man"
+        "countryName": "Isle of Man"
     },
     {
         "dateString": "08/04/2020",
@@ -37557,661 +37557,661 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "05/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "04/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "03/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "02/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "01/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "31/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "30/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "29/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "27/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "26/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "25/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "24/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "23/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "22/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "21/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "New_Caledonia"
+        "countryName": "New Caledonia"
     },
     {
         "dateString": "08/04/2020",
         "cases": 26,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "07/04/2020",
         "cases": 32,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "06/04/2020",
         "cases": 39,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "05/04/2020",
         "cases": 48,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "04/04/2020",
         "cases": 52,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "03/04/2020",
         "cases": 49,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "02/04/2020",
         "cases": 76,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "01/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "31/03/2020",
         "cases": 95,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "30/03/2020",
         "cases": 76,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "29/03/2020",
         "cases": 60,
         "deaths": 1,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "28/03/2020",
         "cases": 78,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "27/03/2020",
         "cases": 76,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "26/03/2020",
         "cases": 73,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "25/03/2020",
         "cases": 47,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "24/03/2020",
         "cases": 40,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "23/03/2020",
         "cases": 36,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "22/03/2020",
         "cases": 13,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "21/03/2020",
         "cases": 14,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "20/03/2020",
         "cases": 11,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "19/03/2020",
         "cases": 8,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "18/03/2020",
         "cases": 12,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "15/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "14/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "07/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "06/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "05/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "04/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "02/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "01/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "29/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "28/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "27/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "26/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "25/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "24/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "23/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "22/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "21/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "20/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "19/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "18/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "17/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "16/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "15/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "14/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "13/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "12/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "11/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "10/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "09/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "08/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "07/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "06/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "05/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "04/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "03/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "02/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "01/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "31/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "30/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "29/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "28/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "27/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "26/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "25/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "24/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "23/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "22/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "21/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "20/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "19/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "18/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "17/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "16/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "15/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "14/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "13/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "12/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "11/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "10/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "09/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "08/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "07/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "06/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "05/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "04/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "03/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "02/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "01/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "31/12/2019",
         "cases": 0,
         "deaths": 0,
-        "countryName": "New_Zealand"
+        "countryName": "New Zealand"
     },
     {
         "dateString": "08/04/2020",
@@ -38991,601 +38991,601 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 29,
         "deaths": 5,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "07/04/2020",
         "cases": 87,
         "deaths": 4,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "05/04/2020",
         "cases": 53,
         "deaths": 5,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "04/04/2020",
         "cases": 76,
         "deaths": 1,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "03/04/2020",
         "cases": 0,
         "deaths": 1,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "02/04/2020",
         "cases": 25,
         "deaths": 1,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "01/04/2020",
         "cases": 44,
         "deaths": 2,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "31/03/2020",
         "cases": 26,
         "deaths": 1,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "30/03/2020",
         "cases": 18,
         "deaths": 2,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "29/03/2020",
         "cases": 22,
         "deaths": 1,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "28/03/2020",
         "cases": 18,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "27/03/2020",
         "cases": 24,
         "deaths": 1,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "26/03/2020",
         "cases": 29,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "25/03/2020",
         "cases": 12,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "24/03/2020",
         "cases": 22,
         "deaths": 1,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "23/03/2020",
         "cases": 29,
         "deaths": 1,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "22/03/2020",
         "cases": 15,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "21/03/2020",
         "cases": 22,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "20/03/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "19/03/2020",
         "cases": 11,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "18/03/2020",
         "cases": 12,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "17/03/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "16/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "14/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "13/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "11/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "07/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "02/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "01/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "29/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "28/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "27/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "26/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "25/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "24/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "23/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "22/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "21/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "20/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "19/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "18/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "17/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "16/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "15/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "14/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "13/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "12/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "11/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "10/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "09/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "08/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "07/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "06/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "05/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "04/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "03/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "02/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "01/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "31/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "30/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "29/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "28/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "27/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "26/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "25/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "24/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "23/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "22/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "21/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "20/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "19/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "18/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "17/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "16/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "15/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "14/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "13/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "12/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "11/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "10/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "09/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "08/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "07/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "06/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "05/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "04/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "03/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "02/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "01/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "31/12/2019",
         "cases": 0,
         "deaths": 0,
-        "countryName": "North_Macedonia"
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 1,
-        "countryName": "Northern_Mariana_Islands"
+        "countryName": "Northern Mariana Islands"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Northern_Mariana_Islands"
+        "countryName": "Northern Mariana Islands"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Northern_Mariana_Islands"
+        "countryName": "Northern Mariana Islands"
     },
     {
         "dateString": "05/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Northern_Mariana_Islands"
+        "countryName": "Northern Mariana Islands"
     },
     {
         "dateString": "04/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Northern_Mariana_Islands"
+        "countryName": "Northern Mariana Islands"
     },
     {
         "dateString": "03/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Northern_Mariana_Islands"
+        "countryName": "Northern Mariana Islands"
     },
     {
         "dateString": "02/04/2020",
         "cases": 0,
         "deaths": 1,
-        "countryName": "Northern_Mariana_Islands"
+        "countryName": "Northern Mariana Islands"
     },
     {
         "dateString": "01/04/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Northern_Mariana_Islands"
+        "countryName": "Northern Mariana Islands"
     },
     {
         "dateString": "31/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Northern_Mariana_Islands"
+        "countryName": "Northern Mariana Islands"
     },
     {
         "dateString": "08/04/2020",
@@ -41691,115 +41691,115 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "05/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "04/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "03/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "02/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "01/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "31/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "30/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "29/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "27/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "26/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "25/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "24/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "23/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "22/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "21/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Papua_New_Guinea"
+        "countryName": "Papua New Guinea"
     },
     {
         "dateString": "08/04/2020",
@@ -43167,73 +43167,73 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 60,
         "deaths": 2,
-        "countryName": "Puerto_Rico"
+        "countryName": "Puerto Rico"
     },
     {
         "dateString": "07/04/2020",
         "cases": 38,
         "deaths": 1,
-        "countryName": "Puerto_Rico"
+        "countryName": "Puerto Rico"
     },
     {
         "dateString": "06/04/2020",
         "cases": 23,
         "deaths": 2,
-        "countryName": "Puerto_Rico"
+        "countryName": "Puerto Rico"
     },
     {
         "dateString": "05/04/2020",
         "cases": 74,
         "deaths": 3,
-        "countryName": "Puerto_Rico"
+        "countryName": "Puerto Rico"
     },
     {
         "dateString": "04/04/2020",
         "cases": 62,
         "deaths": 3,
-        "countryName": "Puerto_Rico"
+        "countryName": "Puerto Rico"
     },
     {
         "dateString": "03/04/2020",
         "cases": 30,
         "deaths": 1,
-        "countryName": "Puerto_Rico"
+        "countryName": "Puerto Rico"
     },
     {
         "dateString": "02/04/2020",
         "cases": 47,
         "deaths": 3,
-        "countryName": "Puerto_Rico"
+        "countryName": "Puerto Rico"
     },
     {
         "dateString": "01/04/2020",
         "cases": 65,
         "deaths": 2,
-        "countryName": "Puerto_Rico"
+        "countryName": "Puerto Rico"
     },
     {
         "dateString": "31/03/2020",
         "cases": 47,
         "deaths": 1,
-        "countryName": "Puerto_Rico"
+        "countryName": "Puerto Rico"
     },
     {
         "dateString": "30/03/2020",
         "cases": 27,
         "deaths": 2,
-        "countryName": "Puerto_Rico"
+        "countryName": "Puerto Rico"
     },
     {
         "dateString": "29/03/2020",
         "cases": 36,
         "deaths": 1,
-        "countryName": "Puerto_Rico"
+        "countryName": "Puerto Rico"
     },
     {
         "dateString": "28/03/2020",
         "cases": 64,
         "deaths": 2,
-        "countryName": "Puerto_Rico"
+        "countryName": "Puerto Rico"
     },
     {
         "dateString": "08/04/2020",
@@ -45123,1129 +45123,1129 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Kitts_and_Nevis"
+        "countryName": "Saint Kitts and Nevis"
     },
     {
         "dateString": "07/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Saint_Kitts_and_Nevis"
+        "countryName": "Saint Kitts and Nevis"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Kitts_and_Nevis"
+        "countryName": "Saint Kitts and Nevis"
     },
     {
         "dateString": "05/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Saint_Kitts_and_Nevis"
+        "countryName": "Saint Kitts and Nevis"
     },
     {
         "dateString": "04/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Saint_Kitts_and_Nevis"
+        "countryName": "Saint Kitts and Nevis"
     },
     {
         "dateString": "03/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Kitts_and_Nevis"
+        "countryName": "Saint Kitts and Nevis"
     },
     {
         "dateString": "02/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Kitts_and_Nevis"
+        "countryName": "Saint Kitts and Nevis"
     },
     {
         "dateString": "01/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Saint_Kitts_and_Nevis"
+        "countryName": "Saint Kitts and Nevis"
     },
     {
         "dateString": "31/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Kitts_and_Nevis"
+        "countryName": "Saint Kitts and Nevis"
     },
     {
         "dateString": "30/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "Saint_Kitts_and_Nevis"
+        "countryName": "Saint Kitts and Nevis"
     },
     {
         "dateString": "29/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Kitts_and_Nevis"
+        "countryName": "Saint Kitts and Nevis"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Kitts_and_Nevis"
+        "countryName": "Saint Kitts and Nevis"
     },
     {
         "dateString": "27/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Kitts_and_Nevis"
+        "countryName": "Saint Kitts and Nevis"
     },
     {
         "dateString": "26/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Saint_Kitts_and_Nevis"
+        "countryName": "Saint Kitts and Nevis"
     },
     {
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "05/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "04/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "03/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "02/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "01/04/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "31/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "30/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "29/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "27/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "26/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "25/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "24/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "23/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "22/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "21/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "20/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "19/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "18/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "17/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "16/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "15/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Saint_Lucia"
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "08/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Saint_Vincent_and_the_Grenadines"
+        "countryName": "Saint Vincent and the Grenadines"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Vincent_and_the_Grenadines"
+        "countryName": "Saint Vincent and the Grenadines"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Vincent_and_the_Grenadines"
+        "countryName": "Saint Vincent and the Grenadines"
     },
     {
         "dateString": "05/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Vincent_and_the_Grenadines"
+        "countryName": "Saint Vincent and the Grenadines"
     },
     {
         "dateString": "04/04/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "Saint_Vincent_and_the_Grenadines"
+        "countryName": "Saint Vincent and the Grenadines"
     },
     {
         "dateString": "03/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Vincent_and_the_Grenadines"
+        "countryName": "Saint Vincent and the Grenadines"
     },
     {
         "dateString": "02/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Saint_Vincent_and_the_Grenadines"
+        "countryName": "Saint Vincent and the Grenadines"
     },
     {
         "dateString": "01/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Vincent_and_the_Grenadines"
+        "countryName": "Saint Vincent and the Grenadines"
     },
     {
         "dateString": "31/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Vincent_and_the_Grenadines"
+        "countryName": "Saint Vincent and the Grenadines"
     },
     {
         "dateString": "30/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Vincent_and_the_Grenadines"
+        "countryName": "Saint Vincent and the Grenadines"
     },
     {
         "dateString": "29/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Vincent_and_the_Grenadines"
+        "countryName": "Saint Vincent and the Grenadines"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Vincent_and_the_Grenadines"
+        "countryName": "Saint Vincent and the Grenadines"
     },
     {
         "dateString": "27/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Vincent_and_the_Grenadines"
+        "countryName": "Saint Vincent and the Grenadines"
     },
     {
         "dateString": "26/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Vincent_and_the_Grenadines"
+        "countryName": "Saint Vincent and the Grenadines"
     },
     {
         "dateString": "25/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saint_Vincent_and_the_Grenadines"
+        "countryName": "Saint Vincent and the Grenadines"
     },
     {
         "dateString": "13/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Saint_Vincent_and_the_Grenadines"
+        "countryName": "Saint Vincent and the Grenadines"
     },
     {
         "dateString": "08/04/2020",
         "cases": 2,
         "deaths": 2,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "07/04/2020",
         "cases": 11,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "06/04/2020",
         "cases": 7,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "05/04/2020",
         "cases": 8,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "04/04/2020",
         "cases": 6,
         "deaths": 2,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "03/04/2020",
         "cases": 9,
         "deaths": 4,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "02/04/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "01/04/2020",
         "cases": 1,
         "deaths": 1,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "31/03/2020",
         "cases": 0,
         "deaths": 1,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "30/03/2020",
         "cases": 5,
         "deaths": 2,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "29/03/2020",
         "cases": 1,
         "deaths": 1,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "28/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "27/03/2020",
         "cases": 10,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "26/03/2020",
         "cases": 21,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "25/03/2020",
         "cases": 0,
         "deaths": 1,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "24/03/2020",
         "cases": 36,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "23/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "22/03/2020",
         "cases": 0,
         "deaths": 6,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "21/03/2020",
         "cases": 25,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "20/03/2020",
         "cases": 17,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "19/03/2020",
         "cases": 5,
         "deaths": 3,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "18/03/2020",
         "cases": 2,
         "deaths": 2,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "17/03/2020",
         "cases": 4,
         "deaths": 2,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "16/03/2020",
         "cases": 6,
         "deaths": 2,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "15/03/2020",
         "cases": 19,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "14/03/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "13/03/2020",
         "cases": 1,
         "deaths": 2,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "12/03/2020",
         "cases": 4,
         "deaths": 1,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "11/03/2020",
         "cases": 13,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "10/03/2020",
         "cases": 12,
         "deaths": 1,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "09/03/2020",
         "cases": 11,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "08/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "07/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "06/03/2020",
         "cases": 7,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "05/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "04/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "02/03/2020",
         "cases": 7,
         "deaths": 1,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "01/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "29/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "28/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "27/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "26/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "25/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "24/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "23/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "22/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "21/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "20/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "19/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "18/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "17/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "16/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "15/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "14/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "13/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "12/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "11/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "10/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "09/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "08/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "07/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "06/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "05/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "04/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "03/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "02/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "01/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "31/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "30/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "29/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "28/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "27/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "26/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "25/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "24/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "23/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "22/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "21/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "20/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "19/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "18/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "17/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "16/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "15/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "14/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "13/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "12/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "11/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "10/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "09/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "08/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "07/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "06/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "05/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "04/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "03/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "02/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "01/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "31/12/2019",
         "cases": 0,
         "deaths": 0,
-        "countryName": "San_Marino"
+        "countryName": "San Marino"
     },
     {
         "dateString": "08/04/2020",
         "cases": 272,
         "deaths": 3,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "07/04/2020",
         "cases": 138,
         "deaths": 4,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "06/04/2020",
         "cases": 206,
         "deaths": 5,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "05/04/2020",
         "cases": 294,
         "deaths": 8,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "04/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "03/04/2020",
         "cases": 165,
         "deaths": 5,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "02/04/2020",
         "cases": 157,
         "deaths": 6,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "01/04/2020",
         "cases": 110,
         "deaths": 2,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "31/03/2020",
         "cases": 224,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "30/03/2020",
         "cases": 26,
         "deaths": 4,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "29/03/2020",
         "cases": 99,
         "deaths": 1,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "28/03/2020",
         "cases": 92,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "27/03/2020",
         "cases": 112,
         "deaths": 1,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "26/03/2020",
         "cases": 133,
         "deaths": 1,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "25/03/2020",
         "cases": 205,
         "deaths": 1,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "24/03/2020",
         "cases": 51,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "23/03/2020",
         "cases": 119,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "22/03/2020",
         "cases": 118,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "21/03/2020",
         "cases": 36,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "20/03/2020",
         "cases": 67,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "19/03/2020",
         "cases": 38,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "18/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "17/03/2020",
         "cases": 15,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "16/03/2020",
         "cases": 32,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "15/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "14/03/2020",
         "cases": 24,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "13/03/2020",
         "cases": 17,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "12/03/2020",
         "cases": 25,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "11/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "10/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "09/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "08/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "06/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "03/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Saudi_Arabia"
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "08/04/2020",
@@ -46761,49 +46761,49 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sierra_Leone"
+        "countryName": "Sierra Leone"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sierra_Leone"
+        "countryName": "Sierra Leone"
     },
     {
         "dateString": "06/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Sierra_Leone"
+        "countryName": "Sierra Leone"
     },
     {
         "dateString": "05/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Sierra_Leone"
+        "countryName": "Sierra Leone"
     },
     {
         "dateString": "04/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sierra_Leone"
+        "countryName": "Sierra Leone"
     },
     {
         "dateString": "03/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Sierra_Leone"
+        "countryName": "Sierra Leone"
     },
     {
         "dateString": "02/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sierra_Leone"
+        "countryName": "Sierra Leone"
     },
     {
         "dateString": "01/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Sierra_Leone"
+        "countryName": "Sierra Leone"
     },
     {
         "dateString": "08/04/2020",
@@ -47409,85 +47409,85 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 15,
         "deaths": 4,
-        "countryName": "Sint_Maarten"
+        "countryName": "Sint Maarten"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sint_Maarten"
+        "countryName": "Sint Maarten"
     },
     {
         "dateString": "06/04/2020",
         "cases": 2,
         "deaths": 2,
-        "countryName": "Sint_Maarten"
+        "countryName": "Sint Maarten"
     },
     {
         "dateString": "05/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sint_Maarten"
+        "countryName": "Sint Maarten"
     },
     {
         "dateString": "04/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sint_Maarten"
+        "countryName": "Sint Maarten"
     },
     {
         "dateString": "03/04/2020",
         "cases": 7,
         "deaths": 1,
-        "countryName": "Sint_Maarten"
+        "countryName": "Sint Maarten"
     },
     {
         "dateString": "02/04/2020",
         "cases": 10,
         "deaths": 1,
-        "countryName": "Sint_Maarten"
+        "countryName": "Sint Maarten"
     },
     {
         "dateString": "01/04/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Sint_Maarten"
+        "countryName": "Sint Maarten"
     },
     {
         "dateString": "30/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sint_Maarten"
+        "countryName": "Sint Maarten"
     },
     {
         "dateString": "29/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sint_Maarten"
+        "countryName": "Sint Maarten"
     },
     {
         "dateString": "28/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Sint_Maarten"
+        "countryName": "Sint Maarten"
     },
     {
         "dateString": "27/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sint_Maarten"
+        "countryName": "Sint Maarten"
     },
     {
         "dateString": "26/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Sint_Maarten"
+        "countryName": "Sint Maarten"
     },
     {
         "dateString": "03/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Sint_Maarten"
+        "countryName": "Sint Maarten"
     },
     {
         "dateString": "08/04/2020",
@@ -48027,811 +48027,811 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 63,
         "deaths": 1,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "07/04/2020",
         "cases": 31,
         "deaths": 1,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "06/04/2020",
         "cases": 70,
         "deaths": 2,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "05/04/2020",
         "cases": 80,
         "deaths": 2,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "04/04/2020",
         "cases": 43,
         "deaths": 2,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "03/04/2020",
         "cases": 82,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "02/04/2020",
         "cases": 27,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "01/04/2020",
         "cases": 27,
         "deaths": 2,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "31/03/2020",
         "cases": 46,
         "deaths": 1,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "30/03/2020",
         "cases": 93,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "29/03/2020",
         "cases": 17,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "28/03/2020",
         "cases": 243,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "27/03/2020",
         "cases": 218,
         "deaths": 2,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "26/03/2020",
         "cases": 152,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "25/03/2020",
         "cases": 155,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "24/03/2020",
         "cases": 128,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "23/03/2020",
         "cases": 34,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "22/03/2020",
         "cases": 35,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "21/03/2020",
         "cases": 55,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "20/03/2020",
         "cases": 34,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "19/03/2020",
         "cases": 31,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "18/03/2020",
         "cases": 23,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "17/03/2020",
         "cases": 11,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "16/03/2020",
         "cases": 27,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "15/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "14/03/2020",
         "cases": 7,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "13/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "12/03/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "10/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "09/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "08/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "06/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "South_Africa"
+        "countryName": "South Africa"
     },
     {
         "dateString": "08/04/2020",
         "cases": 53,
         "deaths": 8,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "07/04/2020",
         "cases": 47,
         "deaths": 6,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "06/04/2020",
         "cases": 47,
         "deaths": 3,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "05/04/2020",
         "cases": 81,
         "deaths": 6,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "04/04/2020",
         "cases": 94,
         "deaths": 3,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "03/04/2020",
         "cases": 86,
         "deaths": 5,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "02/04/2020",
         "cases": 190,
         "deaths": 6,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "01/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "31/03/2020",
         "cases": 125,
         "deaths": 5,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "30/03/2020",
         "cases": 78,
         "deaths": 6,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "29/03/2020",
         "cases": 105,
         "deaths": 8,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "28/03/2020",
         "cases": 146,
         "deaths": 5,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "27/03/2020",
         "cases": 91,
         "deaths": 8,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "26/03/2020",
         "cases": 104,
         "deaths": 5,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "25/03/2020",
         "cases": 100,
         "deaths": 6,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "24/03/2020",
         "cases": 76,
         "deaths": 7,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "23/03/2020",
         "cases": 64,
         "deaths": 9,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "22/03/2020",
         "cases": 98,
         "deaths": 1,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "21/03/2020",
         "cases": 147,
         "deaths": 3,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "20/03/2020",
         "cases": 87,
         "deaths": 9,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "19/03/2020",
         "cases": 152,
         "deaths": 5,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "18/03/2020",
         "cases": 93,
         "deaths": 5,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "17/03/2020",
         "cases": 84,
         "deaths": 6,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "16/03/2020",
         "cases": 74,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "15/03/2020",
         "cases": 76,
         "deaths": 3,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "14/03/2020",
         "cases": 107,
         "deaths": 5,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "13/03/2020",
         "cases": 110,
         "deaths": 1,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "12/03/2020",
         "cases": 114,
         "deaths": 6,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "11/03/2020",
         "cases": 242,
         "deaths": 6,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "10/03/2020",
         "cases": 131,
         "deaths": 3,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "09/03/2020",
         "cases": 248,
         "deaths": 1,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "08/03/2020",
         "cases": 367,
         "deaths": 6,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "07/03/2020",
         "cases": 483,
         "deaths": 2,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "06/03/2020",
         "cases": 518,
         "deaths": 7,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "05/03/2020",
         "cases": 438,
         "deaths": 3,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "04/03/2020",
         "cases": 516,
         "deaths": 4,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "03/03/2020",
         "cases": 600,
         "deaths": 6,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "02/03/2020",
         "cases": 686,
         "deaths": 5,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "01/03/2020",
         "cases": 595,
         "deaths": 1,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "29/02/2020",
         "cases": 909,
         "deaths": 3,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "28/02/2020",
         "cases": 427,
         "deaths": 1,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "27/02/2020",
         "cases": 449,
         "deaths": 1,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "26/02/2020",
         "cases": 254,
         "deaths": 3,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "25/02/2020",
         "cases": 130,
         "deaths": 1,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "24/02/2020",
         "cases": 161,
         "deaths": 2,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "23/02/2020",
         "cases": 256,
         "deaths": 3,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "22/02/2020",
         "cases": 190,
         "deaths": 1,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "21/02/2020",
         "cases": 75,
         "deaths": 1,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "20/02/2020",
         "cases": 34,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "19/02/2020",
         "cases": 15,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "18/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "17/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "16/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "15/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "14/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "13/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "12/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "11/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "10/02/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "09/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "08/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "07/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "06/02/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "05/02/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "04/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "03/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "02/02/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "01/02/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "31/01/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "30/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "29/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "28/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "27/01/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "26/01/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "25/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "24/01/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "23/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "22/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "21/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "20/01/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "19/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "18/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "17/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "16/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "15/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "14/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "13/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "12/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "11/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "10/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "09/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "08/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "07/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "06/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "05/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "04/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "03/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "02/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "01/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "31/12/2019",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Korea"
+        "countryName": "South Korea"
     },
     {
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Sudan"
+        "countryName": "South Sudan"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "South_Sudan"
+        "countryName": "South Sudan"
     },
     {
         "dateString": "06/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "South_Sudan"
+        "countryName": "South Sudan"
     },
     {
         "dateString": "08/04/2020",
@@ -49437,547 +49437,547 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 7,
         "deaths": 1,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "07/04/2020",
         "cases": 12,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "06/04/2020",
         "cases": 7,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "05/04/2020",
         "cases": 8,
         "deaths": 1,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "04/04/2020",
         "cases": 3,
         "deaths": 1,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "03/04/2020",
         "cases": 5,
         "deaths": 1,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "02/04/2020",
         "cases": 21,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "01/04/2020",
         "cases": 2,
         "deaths": 1,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "31/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "30/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "29/03/2020",
         "cases": 9,
         "deaths": 1,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "27/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "26/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "25/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "24/03/2020",
         "cases": 10,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "23/03/2020",
         "cases": 9,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "22/03/2020",
         "cases": 12,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "21/03/2020",
         "cases": 13,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "20/03/2020",
         "cases": 11,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "19/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "18/03/2020",
         "cases": 13,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "17/03/2020",
         "cases": 10,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "16/03/2020",
         "cases": 8,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "15/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "14/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "13/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "12/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "02/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "01/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "29/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "28/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "27/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "26/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "25/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "24/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "23/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "22/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "21/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "20/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "19/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "18/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "17/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "16/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "15/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "14/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "13/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "12/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "11/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "10/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "09/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "08/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "07/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "06/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "05/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "04/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "03/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "02/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "01/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "31/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "30/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "29/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "28/01/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "27/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "26/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "25/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "24/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "23/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "22/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "21/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "20/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "19/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "18/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "17/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "16/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "15/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "14/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "13/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "12/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "11/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "10/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "09/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "08/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "07/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "06/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "05/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "04/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "03/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "02/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "01/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "31/12/2019",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Sri_Lanka"
+        "countryName": "Sri Lanka"
     },
     {
         "dateString": "08/04/2020",
@@ -52707,109 +52707,109 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "05/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "04/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "03/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "02/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "01/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "31/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "30/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "29/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "27/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "26/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "25/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "24/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "23/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "22/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Timor_Leste"
+        "countryName": "Timor Leste"
     },
     {
         "dateString": "08/04/2020",
@@ -52971,163 +52971,163 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "07/04/2020",
         "cases": 1,
         "deaths": 1,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "06/04/2020",
         "cases": 1,
         "deaths": 1,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "05/04/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "04/04/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "03/04/2020",
         "cases": 8,
         "deaths": 1,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "02/04/2020",
         "cases": 2,
         "deaths": 2,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "01/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "31/03/2020",
         "cases": 7,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "30/03/2020",
         "cases": 4,
         "deaths": 1,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "29/03/2020",
         "cases": 8,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "28/03/2020",
         "cases": 1,
         "deaths": 1,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "27/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "26/03/2020",
         "cases": 3,
         "deaths": 1,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "25/03/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "24/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "23/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "22/03/2020",
         "cases": 40,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "21/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "20/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "19/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "18/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "17/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "16/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "15/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "14/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "13/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Trinidad_and_Tobago"
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "08/04/2020",
@@ -53475,91 +53475,91 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Turks_and_Caicos_islands"
+        "countryName": "Turks and Caicos islands"
     },
     {
         "dateString": "07/04/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Turks_and_Caicos_islands"
+        "countryName": "Turks and Caicos islands"
     },
     {
         "dateString": "06/04/2020",
         "cases": 0,
         "deaths": 1,
-        "countryName": "Turks_and_Caicos_islands"
+        "countryName": "Turks and Caicos islands"
     },
     {
         "dateString": "05/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Turks_and_Caicos_islands"
+        "countryName": "Turks and Caicos islands"
     },
     {
         "dateString": "04/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Turks_and_Caicos_islands"
+        "countryName": "Turks and Caicos islands"
     },
     {
         "dateString": "03/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Turks_and_Caicos_islands"
+        "countryName": "Turks and Caicos islands"
     },
     {
         "dateString": "02/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Turks_and_Caicos_islands"
+        "countryName": "Turks and Caicos islands"
     },
     {
         "dateString": "01/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Turks_and_Caicos_islands"
+        "countryName": "Turks and Caicos islands"
     },
     {
         "dateString": "31/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Turks_and_Caicos_islands"
+        "countryName": "Turks and Caicos islands"
     },
     {
         "dateString": "30/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Turks_and_Caicos_islands"
+        "countryName": "Turks and Caicos islands"
     },
     {
         "dateString": "29/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "Turks_and_Caicos_islands"
+        "countryName": "Turks and Caicos islands"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Turks_and_Caicos_islands"
+        "countryName": "Turks and Caicos islands"
     },
     {
         "dateString": "27/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Turks_and_Caicos_islands"
+        "countryName": "Turks and Caicos islands"
     },
     {
         "dateString": "26/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "Turks_and_Caicos_islands"
+        "countryName": "Turks and Caicos islands"
     },
     {
         "dateString": "25/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "Turks_and_Caicos_islands"
+        "countryName": "Turks and Caicos islands"
     },
     {
         "dateString": "08/04/2020",
@@ -53829,1993 +53829,1993 @@ window.data = [
         "dateString": "08/04/2020",
         "cases": 283,
         "deaths": 1,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "07/04/2020",
         "cases": 277,
         "deaths": 1,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "06/04/2020",
         "cases": 294,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "05/04/2020",
         "cases": 481,
         "deaths": 2,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "04/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "03/04/2020",
         "cases": 360,
         "deaths": 2,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "02/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "01/04/2020",
         "cases": 53,
         "deaths": 1,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "31/03/2020",
         "cases": 143,
         "deaths": 3,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "30/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "29/03/2020",
         "cases": 63,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "28/03/2020",
         "cases": 72,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "27/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "26/03/2020",
         "cases": 85,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "25/03/2020",
         "cases": 50,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "24/03/2020",
         "cases": 45,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "23/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "22/03/2020",
         "cases": 13,
         "deaths": 2,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "21/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "20/03/2020",
         "cases": 27,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "19/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "18/03/2020",
         "cases": 15,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "17/03/2020",
         "cases": 12,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "16/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "15/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "13/03/2020",
         "cases": 11,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "11/03/2020",
         "cases": 15,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "10/03/2020",
         "cases": 14,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "08/03/2020",
         "cases": 16,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "06/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "04/03/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "02/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "01/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "29/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "28/02/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "27/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "26/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "25/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "24/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "23/02/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "22/02/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "21/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "20/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "19/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "18/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "17/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "16/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "15/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "14/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "13/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "12/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "11/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "10/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "09/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "08/02/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "07/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "06/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "05/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "04/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "03/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "02/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "01/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "31/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "30/01/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "29/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "28/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "27/01/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "26/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "25/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "24/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "23/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "22/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "21/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "20/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "19/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "18/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "17/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "16/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "15/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "14/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "13/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "12/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "11/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "10/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "09/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "08/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "07/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "06/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "05/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "04/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "03/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "02/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "01/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "31/12/2019",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Arab_Emirates"
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "08/04/2020",
         "cases": 3634,
         "deaths": 786,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "07/04/2020",
         "cases": 3802,
         "deaths": 439,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "06/04/2020",
         "cases": 5903,
         "deaths": 621,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "05/04/2020",
         "cases": 3735,
         "deaths": 708,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "04/04/2020",
         "cases": 4450,
         "deaths": 684,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "03/04/2020",
         "cases": 4244,
         "deaths": 389,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "02/04/2020",
         "cases": 4324,
         "deaths": 743,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "01/04/2020",
         "cases": 3009,
         "deaths": 381,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "31/03/2020",
         "cases": 2619,
         "deaths": 180,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "30/03/2020",
         "cases": 2433,
         "deaths": 209,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "29/03/2020",
         "cases": 2546,
         "deaths": 260,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "28/03/2020",
         "cases": 2885,
         "deaths": 181,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "27/03/2020",
         "cases": 2129,
         "deaths": 115,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "26/03/2020",
         "cases": 1452,
         "deaths": 41,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "25/03/2020",
         "cases": 1427,
         "deaths": 87,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "24/03/2020",
         "cases": 967,
         "deaths": 54,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "23/03/2020",
         "cases": 665,
         "deaths": 48,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "22/03/2020",
         "cases": 1035,
         "deaths": 56,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "21/03/2020",
         "cases": 706,
         "deaths": 33,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "20/03/2020",
         "cases": 647,
         "deaths": 41,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "19/03/2020",
         "cases": 680,
         "deaths": 43,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "18/03/2020",
         "cases": 407,
         "deaths": 5,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "17/03/2020",
         "cases": 152,
         "deaths": 20,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "16/03/2020",
         "cases": 251,
         "deaths": 14,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "15/03/2020",
         "cases": 433,
         "deaths": 11,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "14/03/2020",
         "cases": 117,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "13/03/2020",
         "cases": 134,
         "deaths": 4,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "12/03/2020",
         "cases": 83,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "11/03/2020",
         "cases": 52,
         "deaths": 1,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "10/03/2020",
         "cases": 48,
         "deaths": 2,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "09/03/2020",
         "cases": 67,
         "deaths": 1,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "08/03/2020",
         "cases": 43,
         "deaths": 1,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "07/03/2020",
         "cases": 48,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "06/03/2020",
         "cases": 30,
         "deaths": 1,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "05/03/2020",
         "cases": 34,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "04/03/2020",
         "cases": 11,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "03/03/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "02/03/2020",
         "cases": 13,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "01/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "29/02/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "28/02/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "27/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "26/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "25/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "24/02/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "23/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "22/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "21/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "20/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "19/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "18/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "17/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "16/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "15/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "14/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "13/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "12/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "11/02/2020",
         "cases": 4,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "10/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "09/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "08/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "07/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "06/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "05/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "04/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "03/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "02/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "01/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "31/01/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "30/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "29/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "28/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "27/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "26/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "25/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "24/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "23/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "22/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "21/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "20/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "19/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "18/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "17/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "16/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "15/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "14/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "13/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "12/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "11/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "10/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "09/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "08/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "07/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "06/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "05/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "04/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "03/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "02/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "01/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "31/12/2019",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Kingdom"
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "08/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "07/04/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "06/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "05/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "04/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "03/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "02/04/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "01/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "31/03/2020",
         "cases": 5,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "30/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "29/03/2020",
         "cases": 0,
         "deaths": 1,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "28/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "27/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "26/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "25/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "24/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "23/03/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "22/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "21/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "20/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "19/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "18/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "17/03/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_Republic_of_Tanzania"
+        "countryName": "United Republic of Tanzania"
     },
     {
         "dateString": "08/04/2020",
         "cases": 30613,
         "deaths": 1906,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "07/04/2020",
         "cases": 30561,
         "deaths": 1342,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "06/04/2020",
         "cases": 25398,
         "deaths": 1146,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "05/04/2020",
         "cases": 34272,
         "deaths": 1344,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "04/04/2020",
         "cases": 32425,
         "deaths": 1104,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "03/04/2020",
         "cases": 28819,
         "deaths": 915,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "02/04/2020",
         "cases": 27103,
         "deaths": 1059,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "01/04/2020",
         "cases": 24998,
         "deaths": 909,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "31/03/2020",
         "cases": 21595,
         "deaths": 661,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "30/03/2020",
         "cases": 18360,
         "deaths": 318,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "29/03/2020",
         "cases": 19979,
         "deaths": 484,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "28/03/2020",
         "cases": 18695,
         "deaths": 411,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "27/03/2020",
         "cases": 16797,
         "deaths": 246,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "26/03/2020",
         "cases": 13963,
         "deaths": 249,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "25/03/2020",
         "cases": 8789,
         "deaths": 211,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "24/03/2020",
         "cases": 11236,
         "deaths": 119,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "23/03/2020",
         "cases": 8459,
         "deaths": 131,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "22/03/2020",
         "cases": 7123,
         "deaths": 80,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "21/03/2020",
         "cases": 5374,
         "deaths": 110,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "20/03/2020",
         "cases": 4835,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "19/03/2020",
         "cases": 2988,
         "deaths": 42,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "18/03/2020",
         "cases": 1766,
         "deaths": 23,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "17/03/2020",
         "cases": 887,
         "deaths": 16,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "16/03/2020",
         "cases": 823,
         "deaths": 12,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "15/03/2020",
         "cases": 777,
         "deaths": 10,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "14/03/2020",
         "cases": 511,
         "deaths": 7,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "13/03/2020",
         "cases": 351,
         "deaths": 10,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "12/03/2020",
         "cases": 287,
         "deaths": 2,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "11/03/2020",
         "cases": 271,
         "deaths": 2,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "10/03/2020",
         "cases": 200,
         "deaths": 5,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "09/03/2020",
         "cases": 121,
         "deaths": 4,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "08/03/2020",
         "cases": 95,
         "deaths": 3,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "07/03/2020",
         "cases": 105,
         "deaths": 2,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "06/03/2020",
         "cases": 74,
         "deaths": 1,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "05/03/2020",
         "cases": 34,
         "deaths": 2,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "04/03/2020",
         "cases": 22,
         "deaths": 3,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "03/03/2020",
         "cases": 14,
         "deaths": 4,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "02/03/2020",
         "cases": 20,
         "deaths": 1,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "01/03/2020",
         "cases": 3,
         "deaths": 1,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "29/02/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "28/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "27/02/2020",
         "cases": 6,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "26/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "25/02/2020",
         "cases": 18,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "24/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "23/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "22/02/2020",
         "cases": 19,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "21/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "20/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "19/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "18/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "17/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "16/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "15/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "14/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "13/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "12/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "11/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "10/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "09/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "08/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "07/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "06/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "05/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "04/02/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "03/02/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "02/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "01/02/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "31/01/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "30/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "29/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "28/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "27/01/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "26/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "25/01/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "24/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "23/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "22/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "21/01/2020",
         "cases": 1,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "20/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "19/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "18/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "17/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "16/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "15/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "14/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "13/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "12/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "11/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "10/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "09/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "08/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "07/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "06/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "05/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "04/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "03/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "02/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "01/01/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "31/12/2019",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_of_America"
+        "countryName": "USA"
     },
     {
         "dateString": "08/04/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "United_States_Virgin_Islands"
+        "countryName": "United States Virgin Islands"
     },
     {
         "dateString": "07/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_Virgin_Islands"
+        "countryName": "United States Virgin Islands"
     },
     {
         "dateString": "06/04/2020",
         "cases": 2,
         "deaths": 1,
-        "countryName": "United_States_Virgin_Islands"
+        "countryName": "United States Virgin Islands"
     },
     {
         "dateString": "05/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_Virgin_Islands"
+        "countryName": "United States Virgin Islands"
     },
     {
         "dateString": "04/04/2020",
         "cases": 7,
         "deaths": 0,
-        "countryName": "United_States_Virgin_Islands"
+        "countryName": "United States Virgin Islands"
     },
     {
         "dateString": "03/04/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "United_States_Virgin_Islands"
+        "countryName": "United States Virgin Islands"
     },
     {
         "dateString": "02/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_Virgin_Islands"
+        "countryName": "United States Virgin Islands"
     },
     {
         "dateString": "01/04/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_Virgin_Islands"
+        "countryName": "United States Virgin Islands"
     },
     {
         "dateString": "30/03/2020",
         "cases": 8,
         "deaths": 0,
-        "countryName": "United_States_Virgin_Islands"
+        "countryName": "United States Virgin Islands"
     },
     {
         "dateString": "29/03/2020",
         "cases": 3,
         "deaths": 0,
-        "countryName": "United_States_Virgin_Islands"
+        "countryName": "United States Virgin Islands"
     },
     {
         "dateString": "28/03/2020",
         "cases": 2,
         "deaths": 0,
-        "countryName": "United_States_Virgin_Islands"
+        "countryName": "United States Virgin Islands"
     },
     {
         "dateString": "27/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_Virgin_Islands"
+        "countryName": "United States Virgin Islands"
     },
     {
         "dateString": "26/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_Virgin_Islands"
+        "countryName": "United States Virgin Islands"
     },
     {
         "dateString": "25/03/2020",
         "cases": 0,
         "deaths": 0,
-        "countryName": "United_States_Virgin_Islands"
+        "countryName": "United States Virgin Islands"
     },
     {
         "dateString": "24/03/2020",
         "cases": 17,
         "deaths": 0,
-        "countryName": "United_States_Virgin_Islands"
+        "countryName": "United States Virgin Islands"
     },
     {
         "dateString": "08/04/2020",
