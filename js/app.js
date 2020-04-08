@@ -956,13 +956,15 @@ function drawGlobalEvolutionLine() {
 function maybeAddEntryForRomaniaToday() {
   const romaniaEntries = window.data.filter((x) => x['countriesAndTerritories'] == 'Romania');
   const todayString = moment().format('DD/MM/YYYY');
-  const maybeMissingDays = [todayString, '03/03/2020', '03/05/2020'];
+  const maybeMissingDays = [todayString, '03/03/2020', '05/03/2020'];
 
   maybeMissingDays.forEach((maybeMissingDay) => {
     if (!romaniaEntries.find((x) => DDMMtoMMDD(x.date) == maybeMissingDay)) {
       const currentHour = moment().format('HH');
       if (+currentHour > 12 || maybeMissingDay !== todayString) {
-        window.data = [...window.data, { countriesAndTerritories: 'Romania', dateRep: DDMMtoMMDD(maybeMissingDay), deaths: 0, recoveries: 0, cases: 0 }];
+        console.log('maybeMissingDay', maybeMissingDay);
+
+        window.data = [...window.data, { countriesAndTerritories: 'Romania', dateRep: maybeMissingDay, deaths: 0, recoveries: 0, cases: 0 }];
       }
     }
   });
