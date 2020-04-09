@@ -771,12 +771,12 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
     return totalSoFar + x;
   });
 
-  const summedDailydeaths = deaths.map((x, i, a) => {
+  const summedDailyDeaths = deaths.map((x, i, a) => {
     const totalSoFar = deaths.slice(0, i).reduce((a, b) => a + b, 0);
     return totalSoFar + x;
   });
 
-  const summedDailyrecoveries = recoveries.map((x, i, a) => {
+  const summedDailyRecoveries = recoveries.map((x, i, a) => {
     const totalSoFar = recoveries.slice(0, i).reduce((a, b) => a + b, 0);
     return totalSoFar + x;
   });
@@ -795,6 +795,11 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
     return i % rarifyingFactor == 0;
   };
 
+  if (countryName == 'Romania') {
+    document.getElementById('totalCases').innerText = summedDailyValues[summedDailyValues.length - 1].toLocaleString();
+    document.getElementById('totalDeaths').innerText = summedDailyDeaths[summedDailyDeaths.length - 2].toLocaleString();
+  }
+
   otherCountryChartTotals = new Chart(ctx, {
     type: 'line',
     data: {
@@ -802,14 +807,14 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
       datasets: [
         {
           label: 'Morți - ' + countryName,
-          data: summedDailydeaths.filter(filterFunction),
+          data: summedDailyDeaths.filter(filterFunction),
           backgroundColor: '#E91E6333',
           borderColor: '#E91E63',
           borderWidth: 1,
         },
         {
           label: 'Vindecări - ' + countryName,
-          data: summedDailyrecoveries.filter(filterFunction),
+          data: summedDailyRecoveries.filter(filterFunction),
           backgroundColor: '#4CAF5033',
           borderColor: '#4CAF50',
           borderWidth: 1,

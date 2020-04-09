@@ -244,3 +244,7 @@ button[selected] span {
     margin-top: -15px;
   }
 }
+
+.explanatory-texts {
+  max-width: 650px;
+}
