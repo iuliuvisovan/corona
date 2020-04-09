@@ -48,7 +48,7 @@ function draw() {
 
 function setCurrentDate() {
   const currentDateSpan = document.getElementById('lastUpdated');
-  currentDateSpan.innerText = 'actualizată la: ' + moment().format('DD MMMM YYYY');
+  currentDateSpan.innerText = moment().format('DD.MM.YYYY');
 }
 
 var otherCountryChart = undefined;

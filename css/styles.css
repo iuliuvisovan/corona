@@ -3,8 +3,12 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 100;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 400;
+}
+
+button {
+  /* font-family: 'Roboto Slab', sans-serif; */
 }
 
 .chart-title {
@@ -22,7 +26,7 @@ h2,
 h3,
 h4 {
   text-align: center;
-  font-weight: 100;
+  font-weight: 400;
   padding: 0 5px;
 }
 
@@ -199,5 +203,44 @@ button[selected] span {
 
   hide-mobile {
     display: none;
+  }
+}
+
+.last-update-indicator {
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: -25px;
+}
+
+.live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  font-size: 30px;
+  background-color  : #00cc00;
+  margin: 0 4px;
+  margin-top: 1px;
+  animation: pulsate;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+  0%{
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (max-width: 768px) {
+  .last-update-indicator {
+    margin-top: -15px;
   }
 }
