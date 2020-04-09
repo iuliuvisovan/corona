@@ -1,5 +1,40 @@
 window.romaniaDeaths = [
   {
+    deathIndex: 220,
+    gender: 0,
+    age: 85,
+    county: 'suceava',
+    preexistingCondition: ['parkinson', 'glaucom'],
+  },
+  {
+    deathIndex: 219,
+    gender: 0,
+    age: 61,
+    county: 'sibiu',
+    preexistingCondition: ['diabet', 'psoriazis'],
+  },
+  {
+    deathIndex: 218,
+    gender: 0,
+    age: 58,
+    county: 'arad',
+    preexistingCondition: undefined,
+  },
+  {
+    deathIndex: 217,
+    gender: 0,
+    age: 51,
+    county: 'bistrița N.',
+    preexistingCondition: undefined,
+  },
+  {
+    deathIndex: 216,
+    gender: 0,
+    age: 35,
+    county: 'bucurești',
+    preexistingCondition: ['boli renale'],
+  },
+  {
     deathIndex: 215,
     gender: 0,
     age: 68,
