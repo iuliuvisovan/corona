@@ -660,7 +660,7 @@ function drawGlobalActiveCases() {
           radius: 0,
         },
       },
-      minValueForLabel: 2000,
+      minPercentageForLabel: 5,
       skipLabelFactor: 5,
       maintainAspectRatio: false,
       scales: {
@@ -832,7 +832,7 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
       animation: {
         duration: 0,
       },
-      minValueForLabel: countryName !== 'Romania' ? 200 : 0,
+      minPercentageForLabelPercentage: countryName !== 'Romania' ? 5 : 0,
       skipLabelFactor: countryName !== 'Romania' ? 2 : 0,
       maintainAspectRatio: false,
       scales: {
@@ -937,7 +937,7 @@ function drawGlobalEvolutionLine() {
       animation: {
         duration: 0,
       },
-      minValueForLabel: 2000,
+      minPercentageForLabel: 5,
       skipLabelFactor: 3,
       maintainAspectRatio: false,
       scales: {
@@ -1102,7 +1102,7 @@ function setupBarLabels() {
       ctx.textBaseline = 'bottom';
       ctx.fillStyle = '#000';
 
-      const { minValueForLabel = 0, skipLabelFactor = 0, labelsToIgnore = [] } = chartInstance.options;
+      const { minPercentageForLabel = 0, skipLabelFactor = 0, labelsToIgnore = [] } = chartInstance.options;
 
       chartInstance.data.datasets.forEach((dataset, j) => {
         for (var i = 0; i < dataset.data.length; i++) {
@@ -1118,9 +1118,13 @@ function setupBarLabels() {
             formattedValue = formattedValue > 999 ? thousandsWithoutZero + 'k' : formattedValue;
           }
 
-          const shouldShowLabel = skipLabelFactor ? i % skipLabelFactor == j || i == dataset.data.length - 1 : true;
+          let shouldShowLabel = skipLabelFactor ? (i + j) % skipLabelFactor == 0 || i == dataset.data.length - 1 : true;
 
-          if (currentValue > minValueForLabel && !labelsToIgnore.includes(formattedValue) && shouldShowLabel) {
+          if (
+            currentValue > minPercentageForLabel * (dataset.data[dataset.data.length - 1] / 100) &&
+            !labelsToIgnore.includes(formattedValue) &&
+            shouldShowLabel
+          ) {
             ctx.fillText(formattedValue, model.x, model.y - 2);
           }
         }
