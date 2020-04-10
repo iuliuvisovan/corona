@@ -1,5 +1,40 @@
 window.romaniaDeaths = [
   {
+    deathIndex: 270,
+    gender: 1,
+    age: 78,
+    county: 'ilfov',
+    preexistingCondition: undefined,
+  },
+  {
+    deathIndex: 269,
+    gender: 0,
+    age: 51,
+    county: 'sibiu',
+    preexistingCondition: ['ciroza', 'trombocitopenie', 'hipersplenism', 'verice', 'hipertensiune arteriala', 'tiroidita autoimuna', 'obezitate'],
+  },
+  {
+    deathIndex: 268,
+    gender: 0,
+    age: 72,
+    county: 'brașov',
+    preexistingCondition: ['insuficienta rneala', 'DZ'],
+  },
+  {
+    deathIndex: 267,
+    gender: 0,
+    age: 65,
+    county: 'brașov',
+    preexistingCondition: ['diabet', 'angiopatie periferica', 'polineuropatie', 'obezitate', 'cardiopatie ischemica'],
+  },
+  {
+    deathIndex: 266,
+    gender: 0,
+    age: 42,
+    county: 'constanța',
+    preexistingCondition: ['obezitate', 'hipergliecemie'],
+  },
+  {
     deathIndex: 265,
     gender: 1,
     age: 80,
@@ -25,14 +60,14 @@ window.romaniaDeaths = [
     gender: 1,
     age: 80,
     county: 'municipiul',
-    preexistingCondition: ['boli cardiovasculare']
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 261,
     gender: 1,
     age: 47,
     county: 'bihor',
-    preexistingCondition: undefined
+    preexistingCondition: undefined,
   },
   {
     deathIndex: 260,
