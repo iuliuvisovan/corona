@@ -1,5 +1,61 @@
 window.romaniaDeaths = [
   {
+    deathIndex: 265,
+    gender: 1,
+    age: 80,
+    county: 'timiș',
+    preexistingCondition: ['boli cardiovasculare', 'diabet'],
+  },
+  {
+    deathIndex: 264,
+    gender: 0,
+    age: 46,
+    county: 'suceava',
+    preexistingCondition: ['obezitate morbida', 'cic', 'hipertensiune arteriala', 'diabet'],
+  },
+  {
+    deathIndex: 263,
+    gender: 0,
+    age: 50,
+    county: 'galați',
+    preexistingCondition: ['hipertensiune arteriala', 'diabet'],
+  },
+  {
+    deathIndex: 262,
+    gender: 1,
+    age: 80,
+    county: 'municipiul',
+    preexistingCondition: ['boli cardiovasculare']
+  },
+  {
+    deathIndex: 261,
+    gender: 1,
+    age: 47,
+    county: 'bihor',
+    preexistingCondition: undefined
+  },
+  {
+    deathIndex: 260,
+    gender: 0,
+    age: 53,
+    county: 'bacău',
+    preexistingCondition: ['diabet'],
+  },
+  {
+    deathIndex: 259,
+    gender: 0,
+    age: 53,
+    county: 'bacău',
+    preexistingCondition: ['peumonie bilaterala', 'insuficienta respiratorie acuta', 'hipertensiune arteriala', 'obezitate'],
+  },
+  {
+    deathIndex: 258,
+    gender: 0,
+    age: 75,
+    county: 'bacău',
+    preexistingCondition: ['pneumopatie', 'insuficienta respiratorie', 'bpoc', 'hipertensiune arteriala', 'icc', 'insuficienta renala'],
+  },
+  {
     deathIndex: 257,
     gender: 0,
     age: 84,
