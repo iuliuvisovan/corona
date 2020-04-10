@@ -61,7 +61,7 @@ function drawRomaniaCountyCasesPie() {
 
   let labels = [...new Set(data.map((x) => x.county))]
     .sort((a, b) => data.filter((y) => y.county == b).length - data.filter((y) => y.county == a).length)
-    .slice(0, 12);
+    .slice(0, 15);
 
   const othersValue = data.filter((x) => !labels.includes(x.county)).length;
   const values = [...labels.map((x) => data.filter((y) => y.county == x).length), othersValue];
@@ -89,6 +89,9 @@ function drawRomaniaCountyCasesPie() {
             '#03A9F4',
             '#2196f3',
             '#3f51b5',
+            '#673ab7',
+            '#673ab7',
+            '#673ab7',
             '#673ab7',
           ],
         },
