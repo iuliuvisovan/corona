@@ -38,7 +38,7 @@ window.romaniaDeaths = [
     deathIndex: 286,
     gender: 0,
     age: 78,
-    county: 'municipiul',
+    county: 'bucurești',
     preexistingCondition: ['fibrilatie atriala', 'sindrom de colestaza', 'soc septic'],
   },
   {
