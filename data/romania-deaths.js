@@ -1,5 +1,68 @@
 window.romaniaDeaths = [
   {
+    deathIndex: 291,
+    gender: 1,
+    age: 58,
+    county: 'brașov',
+    preexistingCondition: undefined
+  },
+  {
+    deathIndex: 290,
+    gender: 0,
+    age: 47,
+    county: 'suceava',
+    preexistingCondition: ['hipertensiune arteriala', 'obezitate'],
+  },
+  {
+    deathIndex: 289,
+    gender: 1,
+    age: 98,
+    county: 'suceava',
+    preexistingCondition: undefined
+  },
+  {
+    deathIndex: 288,
+    gender: 0,
+    age: 27,
+    county: 'suceava',
+    preexistingCondition: ['fibrilatie atriala paroxistica', 'sindrom de colestaza', 'soc septic', 'schizofrenie'],
+  },
+  {
+    deathIndex: 287,
+    gender: 0,
+    age: 54,
+    county: 'suceava',
+    preexistingCondition: [],
+  },
+  {
+    deathIndex: 286,
+    gender: 0,
+    age: 78,
+    county: 'municipiul',
+    preexistingCondition: ['fibrilatie atriala', 'sindrom de colestaza', 'soc septic'],
+  },
+  {
+    deathIndex: 285,
+    gender: 0,
+    age: 78,
+    county: 'iași',
+    preexistingCondition: ['hepatocarcinom', 'ciroza', 'hepatita'],
+  },
+  {
+    deathIndex: 284,
+    gender: 1,
+    age: 67,
+    county: 'timiș',
+    preexistingCondition: ['cancer', 'obezitate','diabet','tumora'],
+  },
+  {
+    deathIndex: 283,
+    gender: 0,
+    age: 75,
+    county: 'bacău',
+    preexistingCondition: ['insuficienta renala', 'adenom de prostata','insuficienta hepatica'],
+  },
+  {
     deathIndex: 282,
     gender: 1,
     age: 27,
@@ -11,7 +74,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 56,
     county: 'neamț',
-    preexistingCondition: ['neo bronhopulmonar', 'anemie']
+    preexistingCondition: ['neo bronhopulmonar', 'anemie'],
   },
   {
     deathIndex: 280,
@@ -74,7 +137,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 76,
     county: 'bcurești',
-    preexistingCondition: undefined
+    preexistingCondition: undefined,
   },
   {
     deathIndex: 271,
