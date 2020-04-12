@@ -1,10 +1,66 @@
 window.romaniaDeaths = [
   {
+    deathIndex: 314,
+    gender: 0,
+    age: 69,
+    county: 'suceava',
+    preexistingCondition: ['diabet', 'bpoc', 'avc'],
+  },
+  {
+    deathIndex: 313,
+    gender: 0,
+    age: 57,
+    county: 'suceava',
+    preexistingCondition: ['osteomielita costala', 'hipertensiune arteriala', 'bronsita'],
+  },
+  {
+    deathIndex: 312,
+    gender: 1,
+    age: 77,
+    county: 'suceava',
+    preexistingCondition: ['poliartrita reumatoidian'],
+  },
+  {
+    deathIndex: 311,
+    gender: 0,
+    age: 41,
+    county: 'gorj',
+    preexistingCondition: ['obezitate'],
+  },
+  {
+    deathIndex: 310,
+    gender: 1,
+    age: 66,
+    county: 'dâmbovița',
+    preexistingCondition: ['insuficienta renala', 'ciroza', 'diabet', 'avc'],
+  },
+  {
+    deathIndex: 309,
+    gender: 0,
+    age: 69,
+    county: 'arad',
+    preexistingCondition: ['cardiomiopatie ischemica', 'diabet', 'hipertensiune arteriala', 'icter'],
+  },
+  {
+    deathIndex: 308,
+    gender: 0,
+    age: 66,
+    county: 'hunedoara',
+    preexistingCondition: ['cancer'],
+  },
+  {
+    deathIndex: 307,
+    gender: 0,
+    age: 52,
+    county: 'arad',
+    preexistingCondition: ['insuficienta renala', 'ciroza', 'anemie'],
+  },
+  {
     deathIndex: 306,
     gender: 0,
     age: 81,
     county: 'hunedoara',
-    preexistingCondition: undefined
+    preexistingCondition: undefined,
   },
   {
     deathIndex: 305,
@@ -18,7 +74,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 82,
     county: 'hunedoara',
-    preexistingCondition: ['hipertensiune arteiala', 'accident vascular cerebral']
+    preexistingCondition: ['hipertensiune arteiala', 'accident vascular cerebral'],
   },
   {
     deathIndex: 303,
@@ -38,7 +94,7 @@ window.romaniaDeaths = [
     deathIndex: 301,
     gender: 1,
     age: 71,
-    county: 'municipiul',
+    county: 'bucurești',
     preexistingCondition: ['cancer'],
   },
   {
@@ -60,7 +116,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 77,
     county: 'mureș',
-    preexistingCondition: undefined
+    preexistingCondition: undefined,
   },
   {
     deathIndex: 297,
