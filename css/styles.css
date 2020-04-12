@@ -160,7 +160,7 @@ button[selected] span {
   flex-direction: column;
   height: 320px;
   margin-top: -318px;
-  margin-left: 2px;
+  margin-left: -12px;
 }
 
 @media (max-width: 768px) {
