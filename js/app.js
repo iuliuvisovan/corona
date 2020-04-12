@@ -104,7 +104,7 @@ function drawRomaniaCountyCasesPie() {
       maintainAspectRatio: false,
       layout: {
         padding: {
-          right: 70,
+          right: 85,
           left: 70,
         },
       },

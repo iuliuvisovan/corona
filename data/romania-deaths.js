@@ -1,10 +1,115 @@
 window.romaniaDeaths = [
   {
+    deathIndex: 306,
+    gender: 0,
+    age: 81,
+    county: 'hunedoara',
+    preexistingCondition: undefined
+  },
+  {
+    deathIndex: 305,
+    gender: 0,
+    age: 34,
+    county: 'hunedoara',
+    preexistingCondition: ['imunodepresie'],
+  },
+  {
+    deathIndex: 304,
+    gender: 1,
+    age: 82,
+    county: 'hunedoara',
+    preexistingCondition: ['hipertensiune arteiala', 'accident vascular cerebral']
+  },
+  {
+    deathIndex: 303,
+    gender: 0,
+    age: 80,
+    county: 'hunedoara',
+    preexistingCondition: ['hipertensiune arteiala', 'accident vascular cerebral'],
+  },
+  {
+    deathIndex: 302,
+    gender: 1,
+    age: 59,
+    county: 'sălaj',
+    preexistingCondition: ['hipertensiune arteriala', 'aritmie extrasistolica', 'depresie'],
+  },
+  {
+    deathIndex: 301,
+    gender: 1,
+    age: 71,
+    county: 'municipiul',
+    preexistingCondition: ['cancer'],
+  },
+  {
+    deathIndex: 300,
+    gender: 1,
+    age: 79,
+    county: 'arad',
+    preexistingCondition: ['insuficienta cardiaca', 'fibrilatie atriala'],
+  },
+  {
+    deathIndex: 299,
+    gender: 0,
+    age: 63,
+    county: 'mureș',
+    preexistingCondition: ['diabet'],
+  },
+  {
+    deathIndex: 298,
+    gender: 1,
+    age: 77,
+    county: 'mureș',
+    preexistingCondition: undefined
+  },
+  {
+    deathIndex: 297,
+    gender: 0,
+    age: 63,
+    county: 'botoșani',
+    preexistingCondition: ['diabet', 'obezitate'],
+  },
+  {
+    deathIndex: 296,
+    gender: 0,
+    age: 38,
+    county: 'mehedinți',
+    preexistingCondition: ['insuficienta renala cronica', 'bronhopneumopatie cronica', 'hepatita virala'],
+  },
+  {
+    deathIndex: 295,
+    gender: 0,
+    age: 87,
+    county: 'suceava',
+    preexistingCondition: ['fibrilatie atriala', 'cardiopatie ischemica', 'bronhopneumonie cronica'],
+  },
+  {
+    deathIndex: 294,
+    gender: 1,
+    age: 79,
+    county: 'suceava',
+    preexistingCondition: undefined,
+  },
+  {
+    deathIndex: 293,
+    gender: 0,
+    age: 86,
+    county: 'suceava',
+    preexistingCondition: [],
+  },
+  {
+    deathIndex: 292,
+    gender: 0,
+    age: 53,
+    county: 'suceava',
+    preexistingCondition: ['diabet'],
+  },
+  {
     deathIndex: 291,
     gender: 1,
     age: 58,
     county: 'brașov',
-    preexistingCondition: undefined
+    preexistingCondition: ['ateroscleroza', 'obezitate'],
   },
   {
     deathIndex: 290,
@@ -18,7 +123,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 98,
     county: 'suceava',
-    preexistingCondition: undefined
+    preexistingCondition: undefined,
   },
   {
     deathIndex: 288,
@@ -53,14 +158,14 @@ window.romaniaDeaths = [
     gender: 1,
     age: 67,
     county: 'timiș',
-    preexistingCondition: ['cancer', 'obezitate','diabet','tumora'],
+    preexistingCondition: ['cancer', 'obezitate', 'diabet', 'tumora'],
   },
   {
     deathIndex: 283,
     gender: 0,
     age: 75,
     county: 'bacău',
-    preexistingCondition: ['insuficienta renala', 'adenom de prostata','insuficienta hepatica'],
+    preexistingCondition: ['insuficienta renala', 'adenom de prostata', 'insuficienta hepatica'],
   },
   {
     deathIndex: 282,
