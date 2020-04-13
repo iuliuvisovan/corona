@@ -1,5 +1,33 @@
 window.romaniaDeaths = [
   {
+    deathIndex: 318,
+    gender: 0,
+    age: 56,
+    county: 'suceava',
+    preexistingCondition: ['hiprtensiune arteriala'],
+  },
+  {
+    deathIndex: 317,
+    gender: 0,
+    age: 56,
+    county: 'suceava',
+    preexistingCondition: [],
+  },
+  {
+    deathIndex: 316,
+    gender: 1,
+    age: 63,
+    county: 'caraș severin',
+    preexistingCondition: ['obezitate', 'boala cronica coronariana', 'tabagism'],
+  },
+  {
+    deathIndex: 315,
+    gender: 0,
+    age: 62,
+    county: 'mureș',
+    preexistingCondition: ['hipertensiune arteriala'],
+  },
+  {
     deathIndex: 314,
     gender: 0,
     age: 69,
