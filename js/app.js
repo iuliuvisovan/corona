@@ -229,7 +229,7 @@ function drawRomaniaConditionPie() {
     .sort((a, b) => (a.startsWith('Boli') ? 1 : -1))
     .sort((a, b) => allConditionsDuplicated.filter((y) => y == b).length - allConditionsDuplicated.filter((y) => y == a).length)
     .slice(0, 5)
-    .sort((a, b) => a - b);
+    .sort((a, b) => b - a);
 
   const othersValue = data.filter((x) => {
     let hasOneOfTopDiseases = false;
@@ -243,17 +243,17 @@ function drawRomaniaConditionPie() {
 
   const unknownValue = data.filter((x) => !x.preexistingCondition).length;
   const noConditionValue = data.filter((x) => x.preexistingCondition && x.preexistingCondition.length == 0).length;
-  const values = [unknownValue, ...labels.map((x) => allConditionsDuplicated.filter((y) => y == x).length), othersValue, noConditionValue];
+  const values = [othersValue, ...labels.map((x) => allConditionsDuplicated.filter((y) => y == x).length), noConditionValue, unknownValue];
 
   otherCountryChart = new Chart(ctx, {
     type: 'horizontalBar',
     data: {
-      labels: ['Necunoscut', ...labels, 'Alte afecțiuni', 'Fara boli \npreexistente'].map((x, i) => x[0].toUpperCase() + x.substr(1) + ':\n ' + values[i]),
+      labels: ['Alte afecțiuni', ...labels, 'Fără boli \npreexistente', 'Necunoscut'].map((x, i) => x[0].toUpperCase() + x.substr(1) + ':\n ' + values[i]),
       datasets: [
         {
           label: 'Morți pe baza afectiunilor preexistente',
           data: values,
-          backgroundColor: [undefined, '#E91E63', '#F44336', '#ff5722', '#ff9800', '#ffc107', '#ffeb3b', '#cddc39', '#4caf50'],
+          backgroundColor: ['#ffeb3b', '#E91E63', '#F44336', '#ff5722', '#ff9800', '#ffc107', '#4caf50', undefined],
         },
       ],
     },
