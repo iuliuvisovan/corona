@@ -246,7 +246,7 @@ function drawRomaniaConditionPie() {
   const values = [unknownValue, ...labels.map((x) => allConditionsDuplicated.filter((y) => y == x).length), othersValue, noConditionValue];
 
   otherCountryChart = new Chart(ctx, {
-    type: 'pie',
+    type: 'horizontalBar',
     data: {
       labels: ['Necunoscut', ...labels, 'Alte afecțiuni', 'Fara boli \npreexistente'].map((x, i) => x[0].toUpperCase() + x.substr(1) + ':\n ' + values[i]),
       datasets: [

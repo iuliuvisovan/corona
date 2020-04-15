@@ -284,7 +284,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 81,
     county: 'hunedoara',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 305,
@@ -340,7 +340,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 77,
     county: 'mureș',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 297,
@@ -368,7 +368,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 79,
     county: 'suceava',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 293,
@@ -403,7 +403,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 98,
     county: 'suceava',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 288,
@@ -522,7 +522,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 76,
     county: 'bcurești',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 271,
@@ -536,7 +536,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 78,
     county: 'ilfov',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 269,
@@ -599,7 +599,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 47,
     county: 'bihor',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 260,
@@ -809,14 +809,14 @@ window.romaniaDeaths = [
     gender: 0,
     age: 57,
     county: 'suceava',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 230,
     gender: 0,
     age: 83,
     county: 'hunedoara',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 229,
@@ -900,14 +900,14 @@ window.romaniaDeaths = [
     gender: 0,
     age: 58,
     county: 'arad',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 217,
     gender: 0,
     age: 51,
     county: 'bistrița N.',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 216,
@@ -998,7 +998,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 90,
     county: 'alba',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 203,
@@ -1040,7 +1040,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 53,
     county: 'suceava',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 197,
@@ -1061,7 +1061,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 50,
     county: 'suceava',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 194,
@@ -1103,21 +1103,21 @@ window.romaniaDeaths = [
     gender: 0,
     age: 93,
     county: 'arad',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 188,
     gender: 1,
     age: 44,
     county: 'arad',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 187,
     gender: 0,
     age: 55,
     county: 'arad',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 186,
@@ -1131,7 +1131,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 63,
     county: 'arad',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 184,
@@ -1180,7 +1180,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 60,
     county: 'ialomița',
-    preexistingCondition: undefined,
+    preexistingCondition: ['boli cardiovasculare'],
   },
   {
     deathIndex: 177,
