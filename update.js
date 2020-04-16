@@ -57,6 +57,18 @@ function bumpRomaniaVersion() {
   fs.writeFileSync(indexHtmlPath, replacedIndexHtml);
 }
 
+function bumpRomaniaDeathsVersion() {
+  const indexHtmlPath = './index.html';
+  let indexHtml = fs.readFileSync(indexHtmlPath, 'utf8');
+
+  const myRegexp = /data\/romania-deaths\.js\?v=([0-9]*)/;
+  const [_, version] = myRegexp.exec(indexHtml);
+
+  const replacedIndexHtml = indexHtml.replace(myRegexp, 'data/romania-deaths.js?v=' + (+version + 1));
+
+  fs.writeFileSync(indexHtmlPath, replacedIndexHtml);
+}
+
 function bumpGlobalCasesVersion() {
   const indexHtmlPath = './index.html';
   let indexHtml = fs.readFileSync(indexHtmlPath, 'utf8');
@@ -85,3 +97,4 @@ fetchActiveCases();
 bumpAppJsVersion();
 bumpGlobalCasesVersion();
 bumpRomaniaVersion();
+bumpRomaniaDeathsVersion();
