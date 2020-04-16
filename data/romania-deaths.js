@@ -1,5 +1,40 @@
 window.romaniaDeaths = [
   {
+    deathIndex: 392,
+    gender: 0,
+    age: 50,
+    county: 'timiș',
+    preexistingCondition: ['diabet', 'boli cardiovasculare', 'hipertensiune arteriala'],
+  },
+  {
+    deathIndex: 391,
+    gender: 0,
+    age: 66,
+    county: 'hunedoara',
+    preexistingCondition: ['poliartrita', 'cardiomiopatie', 'aplazie'],
+  },
+  {
+    deathIndex: 390,
+    gender: 0,
+    age: 89,
+    county: 'hunedoara',
+    preexistingCondition: ['avc', 'hemipareza'],
+  },
+  {
+    deathIndex: 389,
+    gender: 1,
+    age: 67,
+    county: 'bistrița N.',
+    preexistingCondition: ['hipertensiune arteriala', 'cardiopatie', 'BPOC'],
+  },
+  {
+    deathIndex: 388,
+    gender: 1,
+    age: 66,
+    county: 'vrancea',
+    preexistingCondition: ['diabet', 'boala hepatica', 'insuficienta renala'],
+  },
+  {
     deathIndex: 387,
     gender: 0,
     age: 76,
