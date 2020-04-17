@@ -21,8 +21,8 @@ function draw() {
 
   setTimeout(
     () => {
-      drawRomaniaConditionPie();
       drawRomaniaAgeCasesPie();
+      drawRomaniaConditionPie();
     },
     isMobile ? 500 : 0
   );
@@ -55,6 +55,24 @@ var otherCountryChart = undefined;
 var otherCountryChartTotals = undefined;
 var countryActiveCases = undefined;
 
+const countyCodes = {
+  Suceava: 'SV',
+  Hunedoara: 'HD',
+  Arad: 'AR',
+  București: 'B',
+  Timiș: 'TM',
+  Mureș: 'MS',
+  Neamț: 'NT',
+  Galați: 'GL',
+  Ialomița: 'IL',
+  Botoșani: 'BT',
+  'Bistrița N.': 'BN',
+  Sibiu: 'SB',
+  Vrancea: 'VN',
+  Brașov: 'BV',
+  Bacău: 'BC',
+};
+
 function drawRomaniaCountyCasesPie() {
   const ctx = document.getElementById('romaniaCountyDeaths').getContext('2d');
   const data = window.romaniaDeaths;
@@ -71,7 +89,7 @@ function drawRomaniaCountyCasesPie() {
   otherCountryChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
-      labels: [...labels, 'Restul județelor'].map((x) => x[0].toUpperCase() + x.substr(1)),
+      labels: [...labels.map((x) => x[0].toUpperCase() + x.substr(1)).map((x) => (isMobile ? countyCodes[x] || 'bb' : x)), 'Restul județelor'],
       datasets: [
         {
           label: 'Morți pe judet',
@@ -111,6 +129,10 @@ function drawRomaniaCountyCasesPie() {
       plugins: {
         labels: {
           render: ({ label, value }) => {
+            if(label.startsWith('     Restul')) {
+              return `${label}: ${value}\n`;
+            }
+
             return `${label}: ${value}`;
           },
           precision: 0,
@@ -149,38 +171,61 @@ function drawRomaniaAgeCasesPie() {
 
   const intervals = [
     {
-      min: 60,
-      max: 100,
-      label: '60+ ani',
+      min: 0,
+      max: 20,
+      label: '<20 ani',
     },
     {
       min: 20,
       max: 40,
-      label: '20-40 ani',
+      label: '20-40',
     },
     {
       min: 40,
       max: 60,
-      label: '40-60 ani',
+      label: '40-60',
+    },
+    {
+      min: 60,
+      max: 100,
+      label: '60+ ani',
     },
   ];
 
-  let labels = intervals.map((x) => x.label || x.min + ' - ' + x.max);
+  let labels = intervals.map((x) => x.label);
   const values = intervals.map((x) => data.filter((y) => y.age > x.min && y.age <= x.max).length);
 
   otherCountryChart = new Chart(ctx, {
-    type: 'doughnut',
+    type: 'horizontalBar',
     data: {
-      labels: labels.map((x, i) => `${x}\n${values[i]} (${((values[i] / data.length) * 100).toFixed(0)}%)`),
+      labels: labels.map((x, i) => `${x} (${values[i]})`),
       datasets: [
         {
           label: 'Morți pe grupe de varsta',
           data: values,
-          backgroundColor: ['#ff5722', '#009688bb', '#4caf50bb', '#ff9800'],
+          backgroundColor: ['#4caf50', '#cddc39', '#ffc107', '#ff5722'],
         },
       ],
     },
     options: {
+      scales: {
+        yAxes: [
+          {
+            ticks: {
+              reverse: true,
+              beginAtZero: true,
+            },
+          },
+        ],
+        xAxes: [
+          {
+            ticks: {
+              reverse: true,
+              beginAtZero: true,
+            },
+          },
+        ],
+      },
       maintainAspectRatio: false,
       tooltips: {
         enabled: false,
@@ -320,48 +365,57 @@ function drawRomaniaSexCasesPie() {
   const ctx = document.getElementById('romaniaSexDeaths').getContext('2d');
   const data = window.romaniaDeaths;
 
-  let labels = ['Bărbați', 'Femei'];
-  const values = [data.filter((x) => !x.gender).length, data.filter((x) => x.gender).length];
+  let labels = [''];
+  const valueMen = data.filter((x) => !x.gender).length;
+  const valueWomen = data.filter((x) => x.gender).length;
+
+  const total = valueMen + valueWomen;
+
+  console.log('total', total);
 
   new Chart(ctx, {
-    type: 'pie',
+    type: 'horizontalBar',
     data: {
       labels: labels,
       datasets: [
         {
-          label: 'Morți pe sex',
-          data: values,
-          backgroundColor: ['#2196f3', '#F06292'],
+          label: `Bărbați (${((100 / total) * valueMen).toFixed(1)}%)`,
+          data: [valueMen],
+          backgroundColor: ['#2196f3'],
+        },
+        {
+          label: `Femei (${((100 / total) * valueWomen).toFixed(1)}%)`,
+          data: [valueWomen],
+          backgroundColor: ['#F06292'],
         },
       ],
     },
     options: {
-      legend: {
-        display: false,
+      scales: {
+        xAxes: [
+          {
+            stacked: true,
+            ticks: {
+              display: false,
+            },
+            gridLines: {
+              display: false,
+            },
+          },
+        ],
+        yAxes: [
+          {
+            stacked: true,
+            gridLines: {
+              display: false,
+            },
+          },
+        ],
       },
       maintainAspectRatio: false,
-      plugins: {
-        labels: {
-          render: ({ value, percentage, label }) => {
-            return `${label}: ${value} (${percentage}%)`;
-          },
-          precision: 0,
-          showZero: true,
-          fontSize: 14,
-          fontColor: '#fff',
-          fontStyle: 'normal',
-          fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
-          textShadow: true,
-          shadowBlur: 10,
-          shadowOffsetX: -5,
-          shadowOffsetY: 5,
-          shadowColor: '#0000',
-          arc: false,
-          // position: 'outside',
-          overlap: true,
-          showActualPercentages: true,
-          outsidePadding: 50,
-          textMargin: 25,
+      layout: {
+        padding: {
+          bottom: 45,
         },
       },
     },

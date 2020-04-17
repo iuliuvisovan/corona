@@ -39,23 +39,22 @@
     <h3 class="graph-title top-title">Situația <b>morților</b> în <b>România</b>:</h3>
     <div class="top-pies-wrapper">
       <div>
-        <h3 class="graph-title top-title">Ce procent sunt <b>bărbați/femei?</b></h3>
-        <div class="pie-wrapper">
-          <div class="pie" style="width: 400px; height: 86%;">
-            <canvas id="romaniaSexDeaths"></canvas>
-          </div>
-        </div>
-      </div>
-      <div>
         <h3 class="graph-title top-title">Ce <b>județe</b> au cei mai mulți <b>morți</b>?</h3>
         <div id="countyPieWrapper" class="pie-wrapper">
-          <div class="pie" style="width: 430px;">
+          <div class="pie" style="width: 630px;">
             <canvas id="romaniaCountyDeaths"></canvas>
           </div>
         </div>
         <div class="pie-total">
           <span style="font-size: 12px;"> Total:</span>
           <span class="total-deaths"></span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="pie-wrapper" id="sexPie" style="margin-top: -60px; margin-bottom: -130px;">
+        <div class="pie" id="sexPie" style="width: 800px; height: 120px;">
+          <canvas id="romaniaSexDeaths"></canvas>
         </div>
       </div>
     </div>
@@ -66,10 +65,6 @@
           <div class="pie" style="width: 430px; height: 83%;">
             <canvas id="romaniaAgeDeaths"></canvas>
           </div>
-        </div>
-        <div class="pie-total" style="margin-top: -318px; margin-left: -2px;">
-          <span style="font-size: 12px;"> Total:</span>
-          <span class="total-deaths"></span>
         </div>
       </div>
       <div id="otherDiseases">
