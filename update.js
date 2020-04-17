@@ -27,7 +27,7 @@ function maybeAddMissingDays(activeCases) {
   maybeMissingDays.forEach((maybeMissingDay) => {
     if (!romaniaEntries.find((x) => x.dateString == maybeMissingDay)) {
       const currentHour = moment().format('HH');
-      if (+currentHour > 12 || maybeMissingDay !== todayString) {
+      if (+currentHour > 11 || maybeMissingDay !== todayString) {
         activeCases.push({ countryName: 'Romania', dateString: maybeMissingDay, deaths: 0, recoveries: 0, cases: 0 });
       }
     }
