@@ -93,8 +93,21 @@ function bumpAppJsVersion() {
   fs.writeFileSync(indexHtmlPath, replacedIndexHtml);
 }
 
+function bumpAppCssVersion() {
+  const indexHtmlPath = './index.html';
+  let indexHtml = fs.readFileSync(indexHtmlPath, 'utf8');
+
+  const myRegexp = /css\/styles\.css\?v=([0-9]*)/;
+  const [_, version] = myRegexp.exec(indexHtml);
+
+  const replacedIndexHtml = indexHtml.replace(myRegexp, 'css/styles.css?v=' + (+version + 1));
+
+  fs.writeFileSync(indexHtmlPath, replacedIndexHtml);
+}
+
 fetchActiveCases();
 bumpAppJsVersion();
+bumpAppCssVersion();
 bumpGlobalCasesVersion();
 bumpRomaniaVersion();
 bumpRomaniaDeathsVersion();
