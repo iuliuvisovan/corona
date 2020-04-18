@@ -250,6 +250,8 @@ button[selected] span {
 
 .explanatory-texts {
   max-width: 650px;
+  padding: 0 16px;
+  margin-top: -30px;
 }
 
 html,
@@ -277,5 +279,22 @@ body {
     /* height: 60vw; */
     width: 145vw;
     margin-bottom: calc(50px + 15vw);
+  }
+}
+
+.total-deaths {
+  /* height: 30px!important; */
+  /* width: 130px; */
+  /* text-align: center; */
+  /* margin-top: -15px; */
+  border: 1px solid #9e9e9e44;
+  padding: 8px;
+  margin-top: -15px;
+}
+
+@media (max-width: 768px) {
+  .total-deaths {
+    margin-bottom: 60px;
+    margin-top: -40px;
   }
 }
