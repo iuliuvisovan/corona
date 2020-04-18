@@ -31,6 +31,9 @@
       crossorigin="anonymous"
       src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=306856700168414&autoLogAppEvents=1"
     ></script>
+    <div class="split"></div>
+    <div class="split-plus"></div>
+    <div class="split-minus"></div>
     <h2 style="margin-top: 5px;">Situația cazurilor de <b>COVID-19</b> în <b>România</b> și la nivel global</h2>
     <div class="last-update-indicator">
       <div class="live-dot"></div>
@@ -56,17 +59,17 @@
     <span class="total-deaths"> Total morți: <b class="total-deaths-value"></b> </span>
     <div class="top-pies-wrapper" id="secondPiesWrapper">
       <div>
-        <h3 class="graph-title top-title">În ce categorii de <b>vârstă</b> se încadrează?</h3>
-        <div class="pie-wrapper">
-          <div class="pie" style="width: 430px; height: 83%;">
+        <h3 class="graph-title top-title" style="text-align: right; padding-right: 30px;">În ce categorii de <b>vârstă</b> se încadrează?</h3>
+        <div class="pie-wrapper" style="margin-top: 10px;">
+          <div class="pie" style="width: 400px; padding-right: 20px;">
             <canvas id="romaniaAgeDeaths"></canvas>
           </div>
         </div>
       </div>
       <div id="otherDiseases">
-        <h3 class="graph-title top-title" style="margin-bottom: -20px;">Ce <b>alte boli</b> au avut cei care au murit?</h3>
-        <div class="pie-wrapper">
-          <div id="conditionsPie" class="pie" style="width: 400px; height: 120%; margin-top: 110px;">
+        <h3 class="graph-title top-title" style="text-align: left; padding-left: 30px;">Ce <b>alte boli</b> au avut cei care au murit?</h3>
+        <div class="pie-wrapper" style="margin-top: 10px;">
+          <div id="conditionsPie" class="pie" style="width: 400px; padding-left: 20px;">
             <canvas id="romaniaConditionDeaths"></canvas>
           </div>
         </div>

@@ -22,7 +22,7 @@ function draw() {
 
   setTimeout(
     () => {
-      drawRomaniaConditionPie();
+      drawRomaniaDiseasesPie();
     },
     isMobile ? 500 : 0
   );
@@ -195,7 +195,6 @@ function drawRomaniaCountyCasesPie() {
       layout: {
         padding: {
           right: 85,
-          left: 70,
         },
       },
       plugins: {
@@ -244,23 +243,43 @@ function drawRomaniaAgeCasesPie() {
   const intervals = [
     {
       min: 0,
+      max: 10,
+      label: '<10 ani',
+    },
+    {
+      min: 10,
       max: 20,
-      label: '<20 ani',
+      label: '10-20',
     },
     {
       min: 20,
+      max: 30,
+      label: '20-30',
+    },
+    {
+      min: 30,
       max: 40,
-      label: '20-40',
+      label: '30-40',
     },
     {
       min: 40,
+      max: 50,
+      label: '40-50',
+    },
+    {
+      min: 50,
       max: 60,
-      label: '40-60',
+      label: '50-60',
     },
     {
       min: 60,
+      max: 70,
+      label: '60-70',
+    },
+    {
+      min: 70,
       max: 100,
-      label: '60+ ani',
+      label: '70+',
     },
   ];
 
@@ -275,7 +294,7 @@ function drawRomaniaAgeCasesPie() {
         {
           label: 'Morți pe grupe de varsta',
           data: values,
-          backgroundColor: ['#4caf50', '#cddc39', '#ffc107', '#E91E63'],
+          backgroundColor: ['#E91E63', '#F44336', '#ff5722', '#ff9800', '#ffc107', '#ffeb3b', '#2196f3', undefined].reverse(),
         },
       ],
     },
@@ -286,6 +305,12 @@ function drawRomaniaAgeCasesPie() {
             ticks: {
               reverse: true,
               beginAtZero: true,
+              stepSize: 10,
+              display: false,
+            },
+            gridLines: {
+              display: false,
+              color: 'rgba(0, 0, 0, 0)',
             },
           },
         ],
@@ -294,11 +319,23 @@ function drawRomaniaAgeCasesPie() {
             ticks: {
               reverse: true,
               beginAtZero: true,
+              display: false,
+              max: values[values.length - 1],
+            },
+            gridLines: {
+              display: false,
+              color: 'rgba(0, 0, 0, 0)',
             },
           },
         ],
       },
       maintainAspectRatio: false,
+      layout: {
+        padding: {
+          left: 170,
+          right: 12
+        },
+      },
       tooltips: {
         enabled: false,
       },
@@ -308,39 +345,31 @@ function drawRomaniaAgeCasesPie() {
       plugins: {
         labels: {
           render: ({ label }) => {
-            return label;
+            return label + '                      ';
           },
           precision: 0,
           showZero: true,
           fontSize: 14,
-          fontColor: '#fff',
+          fontColor: '#000',
           fontStyle: 'normal',
           fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
-          textShadow: true,
-          shadowBlur: 1,
-          shadowOffsetX: 1,
-          shadowOffsetY: 1,
-          shadowColor: '#000',
           arc: false,
           // position: 'outside',
           overlap: true,
           showActualPercentages: true,
-          outsidePadding: 4,
-          textMargin: 15,
+          outsidePadding: 100,
+          textMargin: 100,
         },
       },
     },
   });
 }
 
-function drawRomaniaConditionPie() {
+function drawRomaniaDiseasesPie() {
   const ctx = document.getElementById('romaniaConditionDeaths').getContext('2d');
   const data = window.romaniaDeaths;
 
-  const allConditionsDuplicated = data
-    .map((x) => x.preexistingCondition)
-    .flat()
-    .map((x) => ((x || {}).length > 12 ? x.split(' ').join('\n') : x));
+  const allConditionsDuplicated = data.map((x) => x.preexistingCondition).flat();
 
   let labels = [...new Set(allConditionsDuplicated)]
     .sort((a, b) => (a.startsWith('Boli') ? 1 : -1))
@@ -365,16 +394,45 @@ function drawRomaniaConditionPie() {
   otherCountryChart = new Chart(ctx, {
     type: 'horizontalBar',
     data: {
-      labels: ['Alte afecțiuni', ...labels, 'Fără boli \npreexistente', 'Necunoscut'].map((x, i) => x[0].toUpperCase() + x.substr(1) + ':\n ' + values[i]),
+      labels: ['Alte afecțiuni', ...labels, 'Fără boli preexistente', 'Necunoscut'].map((x, i) => x[0].toUpperCase() + x.substr(1) + ': ' + values[i]),
       datasets: [
         {
           label: 'Morți pe baza afectiunilor preexistente',
           data: values,
-          backgroundColor: ['#ffeb3b', '#E91E63', '#F44336', '#ff5722', '#ff9800', '#ffc107', '#2196f3', undefined],
+          backgroundColor: ['#E91E63', '#F44336', '#ff5722', '#ff9800', '#ffc107', '#ffeb3b', '#2196f3', undefined],
         },
       ],
     },
     options: {
+      scales: {
+        yAxes: [
+          {
+            ticks: {
+              beginAtZero: true,
+              stepSize: 10,
+              display: false,
+            },
+            gridLines: {
+              display: false,
+              // color: 'rgba(0, 0, 0, 0)',
+            },
+          },
+        ],
+        xAxes: [
+          {
+            ticks: {
+              beginAtZero: true,
+              display: false,
+              max: othersValue,
+            },
+            gridLines: {
+              display: false,
+              color: 'rgba(0, 0, 0, 0)',
+              stepSize: 10,
+            },
+          },
+        ],
+      },
       tooltips: {
         enabled: false,
       },
@@ -384,49 +442,27 @@ function drawRomaniaConditionPie() {
       maintainAspectRatio: false,
       layout: {
         padding: {
-          right: 50,
-          left: 60,
+          right: 170,
+          // left:5,
         },
       },
       plugins: {
         labels: {
-          render: ({ label, value, percentage }) => {
-            if (label.startsWith('Fara')) {
-              return 'Fără boli \npreexistente: ' + value + '\n\n';
-            }
-            if (label.startsWith('Hiper') || label.startsWith('Boli card')) {
-              return '\n\n' + label;
-            }
-            if (label.startsWith('Fibril')) {
-              return label;
-            }
-
-            return `\n ${label}`;
+          render: ({ label, value }) => {
+            return ' '.repeat(8 + label.length * 1.4) + label;
           },
           precision: 0,
           showZero: true,
-          fontSize: 12,
-          fontColor: '#333',
+          fontSize: 14,
+          fontColor: '#000',
           fontStyle: 'normal',
           fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
-          textShadow: true,
-          shadowBlur: 5,
-          shadowOffsetX: -2,
-          shadowOffsetY: -2,
-          shadowColor: '#fff',
           arc: false,
-          position: 'outside',
+          // position: 'outside',
           overlap: true,
           showActualPercentages: true,
-          images: [
-            {
-              src: 'image.png',
-              width: 16,
-              height: 16,
-            },
-          ],
-          outsidePadding: 60,
-          textMargin: 2,
+          outsidePadding: 4,
+          textMargin: 15,
         },
       },
     },
@@ -449,18 +485,37 @@ function drawRomaniaSexCasesPie() {
       labels: labels,
       datasets: [
         {
-          label: `Bărbați (${((100 / total) * valueMen).toFixed(1)}%)`,
+          label: `Bărbați`,
           data: [valueMen],
           backgroundColor: ['#2196f3'],
         },
         {
-          label: `Femei (${((100 / total) * valueWomen).toFixed(1)}%)`,
+          label: `Femei`,
           data: [valueWomen],
           backgroundColor: ['#E91E63'],
         },
       ],
     },
     options: {
+      plugins: {
+        labels: {
+          render: ({ value }) => {
+            return `${((100 / total) * value).toFixed(1)}% (${value})                        `;
+          },
+          precision: 0,
+          showZero: true,
+          fontSize: 14,
+          fontColor: '#fff',
+          fontStyle: 'normal',
+          fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
+          arc: false,
+          // position: 'outside',
+          overlap: true,
+          showActualPercentages: true,
+          outsidePadding: 100,
+          textMargin: 100,
+        },
+      },
       scales: {
         xAxes: [
           {

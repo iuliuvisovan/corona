@@ -298,3 +298,28 @@ body {
     margin-top: -40px;
   }
 }
+
+/* .split {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: calc((50vw - 8px) - 1px);
+  height: 100vh;
+  border-right: 1px solid red;
+}
+.split-plus {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: calc((50vw - 8px) + 34px);
+  height: 100vh;
+  border-right: 1px solid blue;
+}
+.split-minus {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: calc((50vw - 8px) - 36px);
+  height: 100vh;
+  border-right: 1px solid blue;
+} */
