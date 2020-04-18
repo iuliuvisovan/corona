@@ -80,7 +80,7 @@ window.romaniaDeaths = [
     deathIndex: 389,
     gender: 1,
     age: 67,
-    county: 'bistrița N.',
+    county: 'bistrița-năsăud',
     preexistingCondition: ['hipertensiune arteriala', 'cardiopatie', 'BPOC'],
   },
   {
@@ -269,7 +269,7 @@ window.romaniaDeaths = [
     deathIndex: 362,
     gender: 0,
     age: 55,
-    county: 'bistrița N.',
+    county: 'bistrița-năsăud',
     preexistingCondition: ['boli cardiovasculare', 'hipertensiune arteriala', 'IMA', 'AVC'],
   },
   {
@@ -493,7 +493,7 @@ window.romaniaDeaths = [
     deathIndex: 330,
     gender: 0,
     age: 73,
-    county: 'bistrița N.',
+    county: 'bistrița-năsăud',
     preexistingCondition: ['fibrilatie atriala cronica', 'diabet'],
   },
   {
@@ -1165,7 +1165,7 @@ window.romaniaDeaths = [
     deathIndex: 234,
     gender: 0,
     age: 56,
-    county: 'bistrița N.',
+    county: 'bistrița-năsăud',
     preexistingCondition: ['hipertensiune arteriala', 'diabet'],
   },
   {
@@ -1284,7 +1284,7 @@ window.romaniaDeaths = [
     deathIndex: 217,
     gender: 0,
     age: 51,
-    county: 'bistrița N.',
+    county: 'bistrița-năsăud',
     preexistingCondition: ['boli cardiovasculare'],
   },
   {
@@ -1571,7 +1571,7 @@ window.romaniaDeaths = [
     deathIndex: 176,
     gender: 0,
     age: 83,
-    county: 'bistrița N.',
+    county: 'bistrița-năsăud',
     preexistingCondition: ['diabet'],
   },
   {
@@ -1945,7 +1945,7 @@ window.romaniaDeaths = [
 
     gender: 0,
     age: 59,
-    county: 'bistrița N.',
+    county: 'bistrița-năsăud',
     preexistingCondition: ['diabet'],
   },
   {
@@ -1953,7 +1953,7 @@ window.romaniaDeaths = [
 
     gender: 0,
     age: 66,
-    county: 'bistrița N.',
+    county: 'bistrița-năsăud',
     preexistingCondition: ['leucemie', 'diabet', 'hipertensiune arteriala'],
   },
   {
@@ -2081,7 +2081,7 @@ window.romaniaDeaths = [
 
     gender: 0,
     age: 81,
-    county: 'bistrița N.',
+    county: 'bistrița-năsăud',
     preexistingCondition: ['diabet', 'amputatie'],
   },
   {
@@ -2153,7 +2153,7 @@ window.romaniaDeaths = [
 
     gender: 0,
     age: 87,
-    county: 'bistrița N.',
+    county: 'bistrița-năsăud',
     preexistingCondition: ['cardiopatie', 'hipertensiune arteriala', 'dementa', 'insuficienta renala'],
   },
   {
@@ -2241,7 +2241,7 @@ window.romaniaDeaths = [
 
     gender: 0,
     age: 77,
-    county: 'bistrița N.',
+    county: 'bistrița-năsăud',
     preexistingCondition: ['bpoc', 'cardiomiopatie', 'cardiopatie', 'fibrilatie atriala', 'hipertrofie de prostata', 'insuficienta renala'],
   },
   {
