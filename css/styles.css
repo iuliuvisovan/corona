@@ -164,9 +164,6 @@ button[selected] span {
 }
 
 @media (max-width: 768px) {
-  #conditionsPie {
-    height: 380px !important;
-  }
   h2 {
     font-size: 22px;
   }
@@ -188,10 +185,10 @@ button[selected] span {
   }
   #sexPie {
     width: calc(100vw - 20px) !important;
-    height: 100px !important;
+    height: 115px !important;
     margin-left: -7px;
-    margin-top: -80px !important;
-    margin-bottom: -40px !important;
+    margin-top: -85px !important;
+    margin-bottom: -30px !important;
   }
   .top-pies-wrapper {
     align-items: center;
@@ -200,8 +197,8 @@ button[selected] span {
     max-width: 100vw !important;
   }
   #otherDiseases {
-    margin-top: -20px !important;
-    margin-bottom: 50px !important;
+    margin-top: -100px !important;
+    margin-bottom: -90px !important;
   }
 
   hide-mobile {
