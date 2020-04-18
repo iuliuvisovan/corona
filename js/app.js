@@ -58,23 +58,11 @@ var countryActiveCases = undefined;
 
 function drawRomaniaDeathMap() {
   const country = window.romaniaTopo;
-  // const country = window.usTopo;
-  // const nation = ChartGeo.topojson.feature(country, country.objects.nation).features[0];
-  let states = ChartGeo.topojson.feature(country, country.objects.states).features;
+  const states = ChartGeo.topojson.feature(country, country.objects.states).features;
 
-  // states = states.map((x) => ({
-  //   ...x,
-  //   id: x.properties['ID_1'] + '',
-  // }));
-
-  console.log('states', states);
   const labels = states.map((d) => d.properties.name);
 
-  console.log(labels);
-
   const nation = JSON.parse(JSON.stringify(states[0]));
-
-  console.log('nation.geometry.coordinates[0][0]', nation.geometry.coordinates[0][0]);
 
   nation.geometry.coordinates[0][0][0] -= 0;
   nation.geometry.coordinates[0][0][1] += 1.9;
@@ -82,33 +70,22 @@ function drawRomaniaDeathMap() {
   nation.geometry.coordinates[0][260 / 2][0] += 4;
   nation.geometry.coordinates[0][260 / 2][1] -= 2.5;
 
-  // nation.geometry.coordinates[0][0][0] -= -2;
-  // nation.geometry.coordinates[0][0][1] += 3;
+  window.romaniaDeaths;
 
-  // nation.geometry.coordinates[0] = [
-  //   [46.0651155, 20.0171801],
-  //   [45.7260105, 29.1050406],
-  // ];
+  console.log(
+    'states',
+    states.map((x) => x.properties.name)
+  );
 
-  // nation.geometry.coordinates[0] = [
-  //   nation.geometry.coordinates[0][0],
-  //   nation.geometry.coordinates[0][1],
-  //   nation.geometry.coordinates[0][2],
-  //   nation.geometry.coordinates[0][3],
-  //   nation.geometry.coordinates[0][4],
-  //   nation.geometry.coordinates[0][5],
-  //   nation.geometry.coordinates[0][6],
-  //   nation.geometry.coordinates[0][7],
-  // ];
-
-  nation.geometry.coordinates[0] = [...nation.geometry.coordinates[0]];
-
-  console.log('nation', nation);
+  const values = states.map((d) => ({
+    feature: d,
+    value: window.romaniaDeaths.filter((x) => d.properties.name.toLowerCase() == x.county.toLowerCase()).length,
+  }));
 
   new Chart(document.getElementById('romaniaDeathMap').getContext('2d'), {
     type: 'choropleth',
     data: {
-      labels,
+      labels: labels.map((x, i) => `${x}: ${values[i].value}`),
       datasets: [
         {
           label: 'States',
@@ -118,9 +95,20 @@ function drawRomaniaDeathMap() {
               return null;
             }
             const value = context.dataset.data[context.dataIndex];
-            return new Color('steelblue').lightness(value.value * 100).rgbString();
+
+
+            let rotateValue = -10 + (maximumDeaths - value.value) / 1.2;
+
+            if (value.value == 0) {
+              rotateValue = 90;
+            }
+            if (value.value == 1) {
+              rotateValue = 70;
+            }
+
+            return new Color('#F44336').rotate(rotateValue).rgbString();
           },
-          data: states.map((d) => ({ feature: d, value: Math.random() })),
+          data: values,
         },
       ],
     },
