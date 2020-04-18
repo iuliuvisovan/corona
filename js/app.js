@@ -60,6 +60,10 @@ function drawRomaniaDeathMap() {
   const country = window.romaniaTopo;
   const states = ChartGeo.topojson.feature(country, country.objects.states).features;
 
+  states.forEach(({ properties }) => {
+    properties.name = properties.name.startsWith('Buch') ? 'București' : properties.name;
+  });
+
   const labels = states.map((d) => d.properties.name);
 
   const nation = JSON.parse(JSON.stringify(states[0]));
@@ -69,13 +73,6 @@ function drawRomaniaDeathMap() {
 
   nation.geometry.coordinates[0][260 / 2][0] += 4;
   nation.geometry.coordinates[0][260 / 2][1] -= 2.5;
-
-  window.romaniaDeaths;
-
-  console.log(
-    'states',
-    states.map((x) => x.properties.name)
-  );
 
   const values = states.map((d) => ({
     feature: d,
@@ -94,19 +91,27 @@ function drawRomaniaDeathMap() {
             if (context.dataIndex == null) {
               return null;
             }
-            const value = context.dataset.data[context.dataIndex];
+            const { value } = context.dataset.data[context.dataIndex];
 
+            const colors = ['#f44336', '#ff5722', '#ff9800', '#ffc107', '#ffeb3b', '#cddc39'];
 
-            let rotateValue = -10 + (maximumDeaths - value.value) / 1.2;
-
-            if (value.value == 0) {
-              rotateValue = 90;
+            if (value > 80) {
+              return colors[0];
             }
-            if (value.value == 1) {
-              rotateValue = 70;
+            if (value > 35) {
+              return colors[1];
+            }
+            if (value > 20) {
+              return colors[2];
+            }
+            if (value > 5) {
+              return colors[3];
+            }
+            if (value > 0) {
+              return colors[4];
             }
 
-            return new Color('#F44336').rotate(rotateValue).rgbString();
+            return '#fff';
           },
           data: values,
         },
