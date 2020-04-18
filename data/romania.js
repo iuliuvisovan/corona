@@ -1,4 +1,9 @@
 window.romaniaData = {
+  '18/04/2020': {
+    cases: 351,
+    deaths: 17,
+    recoveries: 222,
+  },
   '17/04/2020': {
     cases: 360,
     deaths: 13,
