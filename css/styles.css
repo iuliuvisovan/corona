@@ -163,6 +163,10 @@ button[selected] span {
   margin-left: -12px;
 }
 
+#sexPie {
+  margin-left: 20px;
+}
+
 @media (max-width: 768px) {
   h2 {
     font-size: 22px;
@@ -229,7 +233,7 @@ button[selected] span {
   animation-iteration-count: infinite;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .live-dot {
     margin-left: -14px;
   }
