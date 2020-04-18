@@ -16,8 +16,9 @@ var startTime;
 var endTime;
 
 function draw() {
+  drawRomaniaDeathMap();
+  // drawRomaniaCountyCasesPie();
   drawRomaniaSexCasesPie();
-  drawRomaniaCountyCasesPie();
 
   setTimeout(
     () => {
@@ -54,6 +55,85 @@ function setCurrentDate() {
 var otherCountryChart = undefined;
 var otherCountryChartTotals = undefined;
 var countryActiveCases = undefined;
+
+function drawRomaniaDeathMap() {
+  const country = window.romaniaTopo;
+  // const country = window.usTopo;
+  // const nation = ChartGeo.topojson.feature(country, country.objects.nation).features[0];
+  let states = ChartGeo.topojson.feature(country, country.objects.states).features;
+
+  // states = states.map((x) => ({
+  //   ...x,
+  //   id: x.properties['ID_1'] + '',
+  // }));
+
+  console.log('states', states);
+  const labels = states.map((d) => d.properties.name);
+
+  console.log(labels);
+
+  const nation = JSON.parse(JSON.stringify(states[0]));
+
+  console.log('nation.geometry.coordinates[0][0]', nation.geometry.coordinates[0][0]);
+
+  nation.geometry.coordinates[0][0][0] -= 0;
+  nation.geometry.coordinates[0][0][1] += 1.9;
+
+  nation.geometry.coordinates[0][260 / 2][0] += 4;
+  nation.geometry.coordinates[0][260 / 2][1] -= 2.5;
+
+  // nation.geometry.coordinates[0][0][0] -= -2;
+  // nation.geometry.coordinates[0][0][1] += 3;
+
+  // nation.geometry.coordinates[0] = [
+  //   [46.0651155, 20.0171801],
+  //   [45.7260105, 29.1050406],
+  // ];
+
+  // nation.geometry.coordinates[0] = [
+  //   nation.geometry.coordinates[0][0],
+  //   nation.geometry.coordinates[0][1],
+  //   nation.geometry.coordinates[0][2],
+  //   nation.geometry.coordinates[0][3],
+  //   nation.geometry.coordinates[0][4],
+  //   nation.geometry.coordinates[0][5],
+  //   nation.geometry.coordinates[0][6],
+  //   nation.geometry.coordinates[0][7],
+  // ];
+
+  nation.geometry.coordinates[0] = [...nation.geometry.coordinates[0]];
+
+  console.log('nation', nation);
+
+  new Chart(document.getElementById('romaniaDeathMap').getContext('2d'), {
+    type: 'choropleth',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: 'States',
+          outline: nation,
+          backgroundColor: (context) => {
+            if (context.dataIndex == null) {
+              return null;
+            }
+            const value = context.dataset.data[context.dataIndex];
+            return new Color('steelblue').lightness(value.value * 100).rgbString();
+          },
+          data: states.map((d) => ({ feature: d, value: Math.random() })),
+        },
+      ],
+    },
+    options: {
+      legend: {
+        display: false,
+      },
+      scale: {
+        projection: d3.geoMercator(),
+      },
+    },
+  });
+}
 
 const countyCodes = {
   Suceava: 'SV',
@@ -129,7 +209,7 @@ function drawRomaniaCountyCasesPie() {
       plugins: {
         labels: {
           render: ({ label, value }) => {
-            if(label.startsWith('     Restul')) {
+            if (label.startsWith('     Restul')) {
               return `${label}: ${value}\n`;
             }
 
@@ -370,8 +450,6 @@ function drawRomaniaSexCasesPie() {
   const valueWomen = data.filter((x) => x.gender).length;
 
   const total = valueMen + valueWomen;
-
-  console.log('total', total);
 
   new Chart(ctx, {
     type: 'horizontalBar',
