@@ -333,7 +333,7 @@ function drawRomaniaAgeCasesPie() {
       layout: {
         padding: {
           left: 170,
-          right: 12
+          right: 12,
         },
       },
       tooltips: {
@@ -449,7 +449,7 @@ function drawRomaniaDiseasesPie() {
       plugins: {
         labels: {
           render: ({ label, value }) => {
-            return ' '.repeat(8 + label.length * 1.4) + label;
+            return ' '.repeat(8 + label.length * (isMobile ? 1.6 : 1.4)) + label;
           },
           precision: 0,
           showZero: true,
