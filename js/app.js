@@ -78,6 +78,8 @@ function drawRomaniaDeathMap() {
     value: window.romaniaDeaths.filter((x) => d.properties.name.toLowerCase() == x.county.toLowerCase()).length,
   }));
 
+  document.querySelectorAll('.total-deaths-value').forEach((x) => (x.innerText = window.romaniaDeaths.length));
+
   new Chart(document.getElementById('romaniaDeathMap').getContext('2d'), {
     type: 'choropleth',
     data: {
@@ -155,8 +157,6 @@ function drawRomaniaCountyCasesPie() {
 
   const othersValue = data.filter((x) => !labels.includes(x.county)).length;
   const values = [...labels.map((x) => data.filter((y) => y.county == x).length), othersValue];
-
-  document.querySelectorAll('.total-deaths').forEach((x) => (x.innerText = data.length));
 
   otherCountryChart = new Chart(ctx, {
     type: 'doughnut',
@@ -923,8 +923,7 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
   };
 
   if (countryName == 'Romania') {
-    document.getElementById('totalCases').innerText = summedDailyValues[summedDailyValues.length - 1].toLocaleString();
-    document.getElementById('totalDeaths').innerText = summedDailyDeaths[summedDailyDeaths.length - 2].toLocaleString();
+    document.querySelector('.total-cases-value').innerText = summedDailyValues[summedDailyValues.length - 1].toLocaleString();
   }
 
   otherCountryChartTotals = new Chart(ctx, {
