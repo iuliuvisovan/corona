@@ -6,7 +6,7 @@
  * @copyright Chen, Yi-Cyuan 2017-2018
  * @license MIT
  */
-(function() {
+(function () {
   'use strict';
 
   if (typeof Chart === 'undefined') {
@@ -15,7 +15,7 @@
   }
 
   if (typeof Object.assign != 'function') {
-    Object.assign = function(target, varArgs) {
+    Object.assign = function (target, varArgs) {
       if (target == null) {
         throw new TypeError('Cannot convert undefined or null to object');
       }
@@ -35,7 +35,7 @@
   }
 
   var SUPPORTED_TYPES = {};
-  ['pie', 'doughnut', 'polarArea'].forEach(function(t) {
+  ['pie', 'doughnut', 'polarArea', 'horizontalBar'].forEach(function (t) {
     SUPPORTED_TYPES[t] = true;
   });
 
@@ -43,7 +43,7 @@
     this.renderToDataset = this.renderToDataset.bind(this);
   }
 
-  Label.prototype.setup = function(chart, options) {
+  Label.prototype.setup = function (chart, options) {
     this.chart = chart;
     this.ctx = chart.ctx;
     this.args = {};
@@ -64,7 +64,7 @@
         images: [],
         outsidePadding: 2,
         textMargin: 2,
-        overlap: true
+        overlap: true,
       },
       options
     );
@@ -75,23 +75,23 @@
     }
   };
 
-  Label.prototype.render = function() {
+  Label.prototype.render = function () {
     this.labelBounds = [];
     this.chart.data.datasets.forEach(this.renderToDataset);
   };
 
-  Label.prototype.renderToDataset = function(dataset, index) {
+  Label.prototype.renderToDataset = function (dataset, index) {
     this.totalPercentage = 0;
     this.total = null;
     var arg = this.args[index];
     arg.meta.data.forEach(
-      function(element, index) {
+      function (element, index) {
         this.renderToElement(dataset, arg, element, index);
       }.bind(this)
     );
   };
 
-  Label.prototype.renderToElement = function(dataset, arg, element, index) {
+  Label.prototype.renderToElement = function (dataset, arg, element, index) {
     if (!this.shouldRenderToElement(arg.meta, element)) {
       return;
     }
@@ -114,11 +114,11 @@
     ctx.restore();
   };
 
-  Label.prototype.renderLabel = function(label, renderInfo) {
+  Label.prototype.renderLabel = function (label, renderInfo) {
     return this.options.arc ? this.renderArcLabel(label, renderInfo) : this.renderBaseLabel(label, renderInfo);
   };
 
-  Label.prototype.renderBaseLabel = function(label, position) {
+  Label.prototype.renderBaseLabel = function (label, position) {
     var ctx = this.ctx;
     if (typeof label === 'object') {
       ctx.drawImage(label, position.x - label.width / 2, position.y - label.height / 2, label.width, label.height);
@@ -143,7 +143,7 @@
     }
   };
 
-  Label.prototype.renderArcLabel = function(label, renderInfo) {
+  Label.prototype.renderArcLabel = function (label, renderInfo) {
     var ctx = this.ctx,
       radius = renderInfo.radius,
       view = renderInfo.view;
@@ -192,17 +192,15 @@
     ctx.restore();
   };
 
-  Label.prototype.shouldRenderToElement = function(meta, element) {
+  Label.prototype.shouldRenderToElement = function (meta, element) {
     return (
       !meta.hidden &&
       !element.hidden &&
-      (this.options.showZero || this.chart.config.type === 'polarArea'
-        ? element._view.outerRadius !== 0
-        : element._view.circumference !== 0)
+      (this.options.showZero || this.chart.config.type === 'polarArea' ? element._view.outerRadius !== 0 : element._view.circumference !== 0)
     );
   };
 
-  Label.prototype.getLabel = function(dataset, element, index) {
+  Label.prototype.getLabel = function (dataset, element, index) {
     var label;
     if (typeof this.options.render === 'function') {
       label = this.options.render({
@@ -210,7 +208,7 @@
         value: dataset.data[index],
         percentage: this.getPercentage(dataset, element, index),
         dataset: dataset,
-        index: index
+        index: index,
       });
     } else {
       switch (this.options.render) {
@@ -237,7 +235,7 @@
     return label;
   };
 
-  Label.prototype.getFontColor = function(dataset, element, index) {
+  Label.prototype.getFontColor = function (dataset, element, index) {
     var fontColor = this.options.fontColor;
     if (typeof fontColor === 'function') {
       fontColor = fontColor({
@@ -246,7 +244,7 @@
         percentage: this.getPercentage(dataset, element, index),
         backgroundColor: dataset.backgroundColor[index],
         dataset: dataset,
-        index: index
+        index: index,
       });
     } else if (typeof fontColor !== 'string') {
       fontColor = fontColor[index] || this.chart.config.options.defaultFontColor;
@@ -254,7 +252,7 @@
     return fontColor;
   };
 
-  Label.prototype.getPercentage = function(dataset, element, index) {
+  Label.prototype.getPercentage = function (dataset, element, index) {
     if (this.percentage !== null) {
       return this.percentage;
     }
@@ -296,7 +294,7 @@
     return percentage;
   };
 
-  Label.prototype.getRenderInfo = function(element, label) {
+  Label.prototype.getRenderInfo = function (element, label) {
     if (this.chart.config.type === 'bar') {
       return this.getBarRenderInfo(element, label);
     } else {
@@ -304,7 +302,7 @@
     }
   };
 
-  Label.prototype.getBaseRenderInfo = function(element, label) {
+  Label.prototype.getBaseRenderInfo = function (element, label) {
     if (this.options.position === 'outside' || this.options.position === 'border') {
       var renderInfo,
         rangeFromCentre,
@@ -318,7 +316,7 @@
       }
       renderInfo = {
         x: view.x + Math.cos(centreAngle) * rangeFromCentre,
-        y: view.y + Math.sin(centreAngle) * rangeFromCentre
+        y: view.y + Math.sin(centreAngle) * rangeFromCentre,
       };
       if (this.options.position === 'outside') {
         var offset = this.options.textMargin + this.measureLabel(label).width / 2;
@@ -330,7 +328,7 @@
     }
   };
 
-  Label.prototype.getArcRenderInfo = function(element, label) {
+  Label.prototype.getArcRenderInfo = function (element, label) {
     var radius,
       view = element._view;
     if (this.options.position === 'outside') {
@@ -352,17 +350,17 @@
       startAngle: startAngle,
       endAngle: endAngle,
       totalAngle: totalAngle,
-      view: view
+      view: view,
     };
   };
 
-  Label.prototype.getBarRenderInfo = function(element, label) {
+  Label.prototype.getBarRenderInfo = function (element, label) {
     var renderInfo = element.tooltipPosition();
     renderInfo.y -= this.measureLabel(label).height / 2 + this.options.textMargin;
     return renderInfo;
   };
 
-  Label.prototype.drawable = function(element, label, renderInfo) {
+  Label.prototype.drawable = function (element, label, renderInfo) {
     if (this.options.overlap) {
       return true;
     } else if (this.options.arc) {
@@ -376,17 +374,12 @@
       if (this.options.renderInfo === 'outside') {
         return this.outsideInRange(left, right, top, bottom);
       } else {
-        return (
-          element.inRange(left, top) &&
-          element.inRange(left, bottom) &&
-          element.inRange(right, top) &&
-          element.inRange(right, bottom)
-        );
+        return element.inRange(left, top) && element.inRange(left, bottom) && element.inRange(right, top) && element.inRange(right, bottom);
       }
     }
   };
 
-  Label.prototype.outsideInRange = function(left, right, top, bottom) {
+  Label.prototype.outsideInRange = function (left, right, top, bottom) {
     var labelBounds = this.labelBounds;
     for (var i = 0; i < labelBounds.length; ++i) {
       var bound = labelBounds[i];
@@ -394,7 +387,7 @@
         [left, top],
         [left, bottom],
         [right, top],
-        [right, bottom]
+        [right, bottom],
       ];
       for (var j = 0; j < potins.length; ++j) {
         var x = potins[j][0];
@@ -407,7 +400,7 @@
         [bound.left, bound.top],
         [bound.left, bound.bottom],
         [bound.right, bound.top],
-        [bound.right, bound.bottom]
+        [bound.right, bound.bottom],
       ];
       for (var j = 0; j < potins.length; ++j) {
         var x = potins[j][0];
@@ -421,12 +414,12 @@
       left: left,
       right: right,
       top: top,
-      bottom: bottom
+      bottom: bottom,
     });
     return true;
   };
 
-  Label.prototype.measureLabel = function(label) {
+  Label.prototype.measureLabel = function (label) {
     if (typeof label === 'object') {
       return { width: label.width, height: label.height };
     } else {
@@ -442,7 +435,7 @@
     }
   };
 
-  Label.prototype.loadImage = function(obj) {
+  Label.prototype.loadImage = function (obj) {
     var image = new Image();
     image.src = obj.src;
     image.width = obj.width;
@@ -452,7 +445,7 @@
 
   Chart.plugins.register({
     id: 'labels',
-    beforeDatasetsUpdate: function(chart, options) {
+    beforeDatasetsUpdate: function (chart, options) {
       if (!SUPPORTED_TYPES[chart.config.type]) {
         return;
       }
@@ -461,7 +454,7 @@
       }
       var count = options.length;
       if (!chart._labels || count !== chart._labels.length) {
-        chart._labels = options.map(function() {
+        chart._labels = options.map(function () {
           return new Label();
         });
       }
@@ -483,29 +476,29 @@
         chart.chartArea.bottom -= maxPadding;
       }
     },
-    afterDatasetUpdate: function(chart, args, options) {
+    afterDatasetUpdate: function (chart, args, options) {
       if (!SUPPORTED_TYPES[chart.config.type]) {
         return;
       }
-      chart._labels.forEach(function(label) {
+      chart._labels.forEach(function (label) {
         label.args[args.index] = args;
       });
     },
-    beforeDraw: function(chart) {
+    beforeDraw: function (chart) {
       if (!SUPPORTED_TYPES[chart.config.type]) {
         return;
       }
-      chart._labels.forEach(function(label) {
+      chart._labels.forEach(function (label) {
         label.barTotalPercentage = {};
       });
     },
-    afterDatasetsDraw: function(chart) {
+    afterDatasetsDraw: function (chart) {
       if (!SUPPORTED_TYPES[chart.config.type]) {
         return;
       }
-      chart._labels.forEach(function(label) {
+      chart._labels.forEach(function (label) {
         label.render();
       });
-    }
+    },
   });
 })();
