@@ -1289,15 +1289,19 @@ function setupBarLabels() {
         for (var i = 0; i < dataset.data.length; i++) {
           var model = dataset._meta[Object.keys(dataset._meta)[0]].data[i]._model;
           const currentValue = dataset.data[i];
-          let formattedValue = currentValue > 9999 ? Math.floor(dataset.data[i] / 1000) + 'k' : dataset.data[i] + '';
+          // let formattedValue = currentValue > 9999 ? Math.floor(dataset.data[i] / 1000) + 'k' : dataset.data[i] + '';
 
-          if (isMobile) {
-            const thousands = (currentValue / 1000).toFixed(1);
-            const endsWithZero = thousands.endsWith('.0');
-            const thousandsWithoutZero = (dataset.data[i] / 1000).toFixed(endsWithZero ? 0 : 1);
-
-            formattedValue = formattedValue > 999 ? thousandsWithoutZero + 'k' : formattedValue;
+          let thousands = currentValue / 1000;
+          let letter = 'k';
+          if (thousands > 999) {
+            letter = 'M';
+            thousands = thousands / 1000;
           }
+
+          const endsWithZero = thousands.toFixed(1).endsWith('.0');
+          const thousandsWithoutZero = thousands.toFixed(endsWithZero || thousands > 99 ? 0 : 1);
+
+          const formattedValue = currentValue > 999 ? thousandsWithoutZero + letter : currentValue;
 
           let shouldShowLabel = skipLabelFactor ? (i + j) % skipLabelFactor == 0 || i == dataset.data.length - 1 : true;
 
