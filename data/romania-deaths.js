@@ -1,5 +1,26 @@
 window.romaniaDeaths = [
   {
+    deathIndex: 421,
+    gender: 0,
+    age: 76,
+    county: 'mehedinți',
+    preexistingCondition: ['insuficienta hepato-renala', 'insuficienta cardiaca', 'hipertensiune arterială', 'fibroza pulmonara'],
+  },
+  {
+    deathIndex: 420,
+    gender: 0,
+    age: 49,
+    county: 'botoșani',
+    preexistingCondition: ['ciroza', 'hepatita', 'trombocitopenie'],
+  },
+  {
+    deathIndex: 419,
+    gender: 1,
+    age: 73,
+    county: 'neamț',
+    preexistingCondition: ['insuficiență renală', 'infectie urinara', 'insuficienta venoasa'],
+  },
+  {
     deathIndex: 418,
     gender: 0,
     age: 64,
