@@ -190,7 +190,7 @@ button[selected] span {
     width: calc(100vw - 20px) !important;
     height: 100px !important;
     margin-left: -7px;
-    margin-top: -90px !important;
+    margin-top: -80px !important;
     margin-bottom: -40px !important;
   }
   .top-pies-wrapper {
@@ -266,8 +266,16 @@ body {
 }
 
 @media (max-width: 768px) {
+  #deathMapWrapper {
+    height: auto !important;
+  }
+  #deathMapWrapper .pie-wrapper {
+    height: auto !important;
+  }
   #deathMap {
     max-width: none !important;
+    /* height: 60vw; */
     width: 145vw;
+    margin-bottom: calc(50px + 15vw);
   }
 }
