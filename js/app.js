@@ -17,12 +17,11 @@ var endTime;
 
 function draw() {
   drawRomaniaDeathMap();
-  // drawRomaniaCountyCasesPie();
   drawRomaniaSexCasesPie();
+  drawRomaniaAgeCasesPie();
 
   setTimeout(
     () => {
-      drawRomaniaAgeCasesPie();
       drawRomaniaConditionPie();
     },
     isMobile ? 500 : 0
@@ -93,7 +92,7 @@ function drawRomaniaDeathMap() {
             }
             const { value } = context.dataset.data[context.dataIndex];
 
-            const colors = ['#f44336', '#ff5722', '#ff9800', '#ffc107', '#ffeb3b', '#cddc39'];
+            const colors = ['#E91E63', '#ff5722', '#ff9800', '#ffc107', '#ffeb3b', '#cddc39'];
 
             if (value > 80) {
               return colors[0];
@@ -276,7 +275,7 @@ function drawRomaniaAgeCasesPie() {
         {
           label: 'Morți pe grupe de varsta',
           data: values,
-          backgroundColor: ['#4caf50', '#cddc39', '#ffc107', '#ff5722'],
+          backgroundColor: ['#4caf50', '#cddc39', '#ffc107', '#E91E63'],
         },
       ],
     },
@@ -371,7 +370,7 @@ function drawRomaniaConditionPie() {
         {
           label: 'Morți pe baza afectiunilor preexistente',
           data: values,
-          backgroundColor: ['#ffeb3b', '#E91E63', '#F44336', '#ff5722', '#ff9800', '#ffc107', '#4caf50', undefined],
+          backgroundColor: ['#ffeb3b', '#E91E63', '#F44336', '#ff5722', '#ff9800', '#ffc107', '#2196f3', undefined],
         },
       ],
     },
@@ -457,7 +456,7 @@ function drawRomaniaSexCasesPie() {
         {
           label: `Femei (${((100 / total) * valueWomen).toFixed(1)}%)`,
           data: [valueWomen],
-          backgroundColor: ['#F06292'],
+          backgroundColor: ['#E91E63'],
         },
       ],
     },
