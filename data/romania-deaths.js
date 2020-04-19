@@ -1,5 +1,96 @@
 window.romaniaDeaths = [
   {
+    deathIndex: 434,
+    gender: 0,
+    age: 67,
+    county: 'dâmbovița',
+    preexistingCondition: ['sechele tbc', 'fibroza pulmonara', 'hipertensiune arterială'],
+  },
+  {
+    deathIndex: 433,
+    gender: 1,
+    age: 78,
+    county: 'galați',
+    preexistingCondition: ['diabet', 'boala cronica neurologica', 'alzheimer'],
+  },
+  {
+    deathIndex: 432,
+    gender: 0,
+    age: 75,
+    county: 'botoșani',
+    preexistingCondition: [ 'boli renale', 'diabet'],
+  },
+  {
+    deathIndex: 431,
+    gender: 0,
+    age: 76,
+    county: 'botoșani',
+    preexistingCondition: ['mielom', 'amilodoza primara'],
+  },
+  {
+    deathIndex: 430,
+    gender: 1,
+    age: 76,
+    county: 'arad',
+    preexistingCondition: ['hipertensiune arterială', 'boli renale', 'obezitate'],
+  },
+  {
+    deathIndex: 429,
+    gender: 0,
+    age: 76,
+    county: 'giurgiu',
+    preexistingCondition: [ 'boli renale', 'hidronefroa bilaterala', 'boala cardiaca', 'cistectomie'],
+  },
+  {
+    deathIndex: 428,
+    gender: 0,
+    age: 76,
+    county: 'galați',
+    preexistingCondition: ['diabet', 'boli renale', 'dementa'],
+  },
+  {
+    deathIndex: 427,
+    gender: 0,
+    age: 54,
+    county: 'suceava',
+    preexistingCondition: undefined,
+  },
+  {
+    deathIndex: 426,
+    gender: 1,
+    age: 64,
+    county: 'suceava',
+    preexistingCondition: undefined,
+  },
+  {
+    deathIndex: 425,
+    gender: 0,
+    age: 57,
+    county: 'suceava',
+    preexistingCondition: undefined,
+  },
+  {
+    deathIndex: 424,
+    gender: 1,
+    age: 76,
+    county: 'suceava',
+    preexistingCondition: ['cardiopatie ischiemica', 'fibrilatie atriala','angor de efort', 'pleurezie bilaterala'],
+  },
+  {
+    deathIndex: 423,
+    gender: 1,
+    age: 72,
+    county: 'suceava',
+    preexistingCondition: undefined,
+  },
+  {
+    deathIndex: 422,
+    gender: 0,
+    age: 67,
+    county: 'suceava',
+    preexistingCondition: undefined,
+  },
+  {
     deathIndex: 421,
     gender: 0,
     age: 76,
@@ -18,7 +109,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 73,
     county: 'neamț',
-    preexistingCondition: ['insuficiență renală', 'infectie urinara', 'insuficienta venoasa'],
+    preexistingCondition: ['boli renale', 'infectie urinara', 'insuficienta venoasa'],
   },
   {
     deathIndex: 418,
@@ -53,7 +144,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 64,
     county: 'mureș',
-    preexistingCondition: ['hipertensiune arterială', 'diabet', 'boli cardiovasculare', 'insuficiență renală', 'anemie secundara'],
+    preexistingCondition: ['hipertensiune arterială', 'diabet', 'boli cardiovasculare', 'boli renale', 'anemie secundara'],
   },
   {
     deathIndex: 413,
@@ -103,7 +194,7 @@ window.romaniaDeaths = [
     age: 94,
     county: 'bucurești',
     preexistingCondition: [
-      'insuficiență renală',
+      'boli renale',
       'hipertensiune arterială',
       'boala cardiaca ischemica',
       'insuficienta cardiaca',
@@ -249,7 +340,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 66,
     county: 'vrancea',
-    preexistingCondition: ['diabet', 'boala hepatica', 'insuficiență renală'],
+    preexistingCondition: ['diabet', 'boala hepatica', 'boli renale'],
   },
   {
     deathIndex: 387,
@@ -487,7 +578,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 77,
     county: 'vrancea',
-    preexistingCondition: ['insuficiență renală', 'insuficiență hepatica', 'insuficiență cardiaca', 'sechele IMA', 'hepatita cronica'],
+    preexistingCondition: ['boli renale', 'insuficiență hepatica', 'insuficiență cardiaca', 'sechele IMA', 'hepatita cronica'],
   },
   {
     deathIndex: 353,
@@ -515,7 +606,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 69,
     county: 'hunedoara',
-    preexistingCondition: ['cancer', 'uretrostoma', 'uropatie', 'insuficiență renală'],
+    preexistingCondition: ['cancer', 'uretrostoma', 'uropatie', 'boli renale'],
   },
   {
     deathIndex: 349,
@@ -634,7 +725,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 55,
     county: 'neamț',
-    preexistingCondition: ['hipertensiune arterială', 'insuficiență renală'],
+    preexistingCondition: ['hipertensiune arterială', 'boli renale'],
   },
   {
     deathIndex: 332,
@@ -662,7 +753,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 70,
     county: 'timiș',
-    preexistingCondition: ['boala cardiaca', 'hipertensiune arterială', 'insuficiență renală', 'boala hepatica'],
+    preexistingCondition: ['boala cardiaca', 'hipertensiune arterială', 'boli renale', 'boala hepatica'],
   },
   {
     deathIndex: 328,
@@ -795,7 +886,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 66,
     county: 'dâmbovița',
-    preexistingCondition: ['insuficiență renală', 'ciroza', 'diabet', 'avc'],
+    preexistingCondition: ['boli renale', 'ciroza', 'diabet', 'avc'],
   },
   {
     deathIndex: 309,
@@ -816,7 +907,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 52,
     county: 'arad',
-    preexistingCondition: ['insuficiență renală', 'ciroza', 'anemie'],
+    preexistingCondition: ['boli renale', 'ciroza', 'anemie'],
   },
   {
     deathIndex: 306,
@@ -893,7 +984,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 38,
     county: 'mehedinți',
-    preexistingCondition: ['insuficiență renală cronica', 'bronhopneumopatie cronica', 'hepatita virala'],
+    preexistingCondition: ['boli renale cronica', 'bronhopneumopatie cronica', 'hepatita virala'],
   },
   {
     deathIndex: 295,
@@ -984,7 +1075,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 75,
     county: 'bacău',
-    preexistingCondition: ['insuficiență renală', 'adenom de prostata', 'insuficiență hepatica'],
+    preexistingCondition: ['boli renale', 'adenom de prostata', 'insuficiență hepatica'],
   },
   {
     deathIndex: 282,
@@ -1033,7 +1124,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 74,
     county: 'hunedoara',
-    preexistingCondition: ['insuficiență renală', 'hipertensiune arterială', 'diabet', 'cardiopatie', 'insuficiență aortica'],
+    preexistingCondition: ['boli renale', 'hipertensiune arterială', 'diabet', 'cardiopatie', 'insuficiență aortica'],
   },
   {
     deathIndex: 275,
@@ -1047,7 +1138,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 81,
     county: 'iași',
-    preexistingCondition: ['insuficiență cardiaca', 'anevrism de aorta', 'hipertensiune arterială', 'insuficiență renală'],
+    preexistingCondition: ['insuficiență cardiaca', 'anevrism de aorta', 'hipertensiune arterială', 'boli renale'],
   },
   {
     deathIndex: 273,
@@ -1068,7 +1159,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 70,
     county: 'suceava',
-    preexistingCondition: ['dializa', 'insuficiență renală', 'diabet'],
+    preexistingCondition: ['dializa', 'boli renale', 'diabet'],
   },
   {
     deathIndex: 270,
@@ -1159,14 +1250,14 @@ window.romaniaDeaths = [
     gender: 0,
     age: 75,
     county: 'bacău',
-    preexistingCondition: ['pneumopatie', 'insuficiență respiratorie', 'bpoc', 'hipertensiune arterială', 'icc', 'insuficiență renală'],
+    preexistingCondition: ['pneumopatie', 'insuficiență respiratorie', 'bpoc', 'hipertensiune arterială', 'icc', 'boli renale'],
   },
   {
     deathIndex: 257,
     gender: 0,
     age: 84,
     county: 'neamț',
-    preexistingCondition: ['insuficiență renală'],
+    preexistingCondition: ['boli renale'],
   },
   {
     deathIndex: 256,
@@ -1180,7 +1271,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 49,
     county: 'mureș',
-    preexistingCondition: ['boli cardiovasculare', 'hipertensiune arterială', 'diabet', 'obezitate', 'insuficiență renalăm', 'hiperparatiroidism'],
+    preexistingCondition: ['boli cardiovasculare', 'hipertensiune arterială', 'diabet', 'obezitate', 'boli renalem', 'hiperparatiroidism'],
   },
   {
     deathIndex: 254,
@@ -1201,7 +1292,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 77,
     county: 'bucurești',
-    preexistingCondition: ['insuficiență renală'],
+    preexistingCondition: ['boli renale'],
   },
   {
     deathIndex: 251,
@@ -1271,7 +1362,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 72,
     county: 'bucurești',
-    preexistingCondition: ['insuficiență renală'],
+    preexistingCondition: ['boli renale'],
   },
   {
     deathIndex: 241,
@@ -1362,7 +1453,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 64,
     county: 'bucurești',
-    preexistingCondition: ['boli cardiovasculare', 'insuficiență renală'],
+    preexistingCondition: ['boli cardiovasculare', 'boli renale'],
   },
   {
     deathIndex: 228,
@@ -1390,7 +1481,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 66,
     county: 'mureș',
-    preexistingCondition: ['insuficiență renală'],
+    preexistingCondition: ['boli renale'],
   },
   {
     deathIndex: 224,
@@ -1411,7 +1502,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 80,
     county: 'bucurești',
-    preexistingCondition: ['diabet', 'boli hepatice', 'boli cardiovasculare', 'insuficiență renală'],
+    preexistingCondition: ['diabet', 'boli hepatice', 'boli cardiovasculare', 'boli renale'],
   },
   {
     deathIndex: 221,
@@ -1467,7 +1558,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 70,
     county: 'sibiu',
-    preexistingCondition: ['boli cardiovasculare', 'insuficiență renală'],
+    preexistingCondition: ['boli cardiovasculare', 'boli renale'],
   },
   {
     deathIndex: 213,
@@ -1544,7 +1635,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 76,
     county: 'bucurești',
-    preexistingCondition: ['obezitate', 'diabet', 'polineuropatie', 'insuficiență renală'],
+    preexistingCondition: ['obezitate', 'diabet', 'polineuropatie', 'boli renale'],
   },
   {
     deathIndex: 202,
@@ -1754,7 +1845,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 66,
     county: 'suceava',
-    preexistingCondition: ['insuficiență renală', 'vasculita'],
+    preexistingCondition: ['boli renale', 'vasculita'],
   },
   {
     deathIndex: 172,
@@ -1810,14 +1901,14 @@ window.romaniaDeaths = [
     gender: 0,
     age: 56,
     county: 'mureș',
-    preexistingCondition: ['insuficiență renală', 'hipertensiune arterială'],
+    preexistingCondition: ['boli renale', 'hipertensiune arterială'],
   },
   {
     deathIndex: 164,
     gender: 0,
     age: 84,
     county: 'cluj',
-    preexistingCondition: ['hipertensiune arterială', 'litiaza', 'insuficiență renală'],
+    preexistingCondition: ['hipertensiune arterială', 'litiaza', 'boli renale'],
   },
   {
     deathIndex: 163,
@@ -1859,7 +1950,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 67,
     county: 'ilfov',
-    preexistingCondition: ['diabet', 'insuficiență renală', 'boala neuromusculara', 'obezitate'],
+    preexistingCondition: ['diabet', 'boli renale', 'boala neuromusculara', 'obezitate'],
   },
   {
     deathIndex: 157,
@@ -1915,7 +2006,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 56,
     county: 'suceava',
-    preexistingCondition: ['insuficiență renală'],
+    preexistingCondition: ['boli renale'],
   },
   {
     deathIndex: 149,
@@ -1929,7 +2020,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 70,
     county: 'giurgiu',
-    preexistingCondition: ['insuficiență renală', 'dializa'],
+    preexistingCondition: ['boli renale', 'dializa'],
   },
   {
     deathIndex: 147,
@@ -2139,7 +2230,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 69,
     county: 'ialomița',
-    preexistingCondition: ['diabet', 'hipertensiune arterială', 'insuficiență renală'],
+    preexistingCondition: ['diabet', 'hipertensiune arterială', 'boli renale'],
   },
   {
     deathIndex: 119,
@@ -2187,7 +2278,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 71,
     county: 'suceava',
-    preexistingCondition: ['insuficiență renală'],
+    preexistingCondition: ['boli renale'],
   },
   {
     deathIndex: 113,
@@ -2195,7 +2286,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 34,
     county: 'suceava',
-    preexistingCondition: ['insuficiență renală'],
+    preexistingCondition: ['boli renale'],
   },
   {
     deathIndex: 112,
@@ -2211,7 +2302,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 77,
     county: 'sibiu',
-    preexistingCondition: ['hipertensiune arterială', 'CIC', 'insuficiență renală'],
+    preexistingCondition: ['hipertensiune arterială', 'CIC', 'boli renale'],
   },
   {
     deathIndex: 110,
@@ -2251,7 +2342,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 61,
     county: 'arad',
-    preexistingCondition: ['diabet', 'insuficiență renală', 'hipertensiune arterială'],
+    preexistingCondition: ['diabet', 'boli renale', 'hipertensiune arterială'],
   },
   {
     deathIndex: 105,
@@ -2259,7 +2350,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 59,
     county: 'ilfov',
-    preexistingCondition: ['diabet', 'insuficiență renală', 'diabet', 'boli cardiovasculare'],
+    preexistingCondition: ['diabet', 'boli renale', 'diabet', 'boli cardiovasculare'],
   },
   {
     deathIndex: 104,
@@ -2275,7 +2366,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 77,
     county: 'arad',
-    preexistingCondition: ['diabet', 'hipertensiune arterială', 'insuficiență renală'],
+    preexistingCondition: ['diabet', 'hipertensiune arterială', 'boli renale'],
   },
   {
     deathIndex: 102,
@@ -2299,7 +2390,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 56,
     county: 'dâmbovița',
-    preexistingCondition: ['insuficiență renală', 'miocardita'],
+    preexistingCondition: ['boli renale', 'miocardita'],
   },
   {
     deathIndex: 99,
@@ -2315,7 +2406,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 87,
     county: 'bistrița-năsăud',
-    preexistingCondition: ['cardiopatie', 'hipertensiune arterială', 'dementa', 'insuficiență renală'],
+    preexistingCondition: ['cardiopatie', 'hipertensiune arterială', 'dementa', 'boli renale'],
   },
   {
     deathIndex: 97,
@@ -2331,7 +2422,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 72,
     county: 'bucurești',
-    preexistingCondition: ['insuficiență renală', 'hipertensiune arterială'],
+    preexistingCondition: ['boli renale', 'hipertensiune arterială'],
   },
   {
     deathIndex: 95,
@@ -2339,7 +2430,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 75,
     county: 'bucurești',
-    preexistingCondition: ['transplant', 'insuficiență renală', 'diabet', 'hipertensiune arterială'],
+    preexistingCondition: ['transplant', 'boli renale', 'diabet', 'hipertensiune arterială'],
   },
   {
     deathIndex: 94,
@@ -2403,7 +2494,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 77,
     county: 'bistrița-năsăud',
-    preexistingCondition: ['bpoc', 'cardiomiopatie', 'cardiopatie', 'fibrilatie atriala', 'hipertrofie de prostata', 'insuficiență renală'],
+    preexistingCondition: ['bpoc', 'cardiomiopatie', 'cardiopatie', 'fibrilatie atriala', 'hipertrofie de prostata', 'boli renale'],
   },
   {
     deathIndex: 86,
@@ -2427,7 +2518,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 85,
     county: 'timiș',
-    preexistingCondition: ['diabet', 'hipertensiune arterială', 'fibrilatie atriala', 'insuficiență renală cronica', 'alzheimer'],
+    preexistingCondition: ['diabet', 'hipertensiune arterială', 'fibrilatie atriala', 'boli renale cronica', 'alzheimer'],
   },
   {
     deathIndex: 83,
@@ -2451,7 +2542,7 @@ window.romaniaDeaths = [
     gender: 0,
     age: 70,
     county: 'sibiu',
-    preexistingCondition: ['insuficiență renală cronica'],
+    preexistingCondition: ['boli renale cronica'],
   },
   {
     deathIndex: 80,
@@ -2459,7 +2550,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 61,
     county: 'bihor',
-    preexistingCondition: ['insuficiență renală cronica', 'afectiune oncologica'],
+    preexistingCondition: ['boli renale cronica', 'afectiune oncologica'],
   },
   {
     deathIndex: 79,
@@ -2539,7 +2630,7 @@ window.romaniaDeaths = [
     gender: 1,
     age: 60,
     county: 'ialomița',
-    preexistingCondition: ['insuficiență renală cronica', 'diabet', 'hipertensiune arterială', 'hepatita'],
+    preexistingCondition: ['boli renale cronica', 'diabet', 'hipertensiune arterială', 'hepatita'],
   },
   {
     deathIndex: 69,
