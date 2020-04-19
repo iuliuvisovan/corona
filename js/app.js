@@ -382,13 +382,6 @@ function drawRomaniaDiseasesPie() {
 
   const intermediateValue = unknownValue + noConditionValue + diseasesValues.reduce((a, b) => a + b);
 
-  console.log('unknownValue', unknownValue);
-  console.log('noConditionValue', noConditionValue);
-  console.log(
-    'diseasesValues.reduce((a, b) => a + b',
-    diseasesValues.reduce((a, b) => a + b)
-  );
-
   const othersValue = allConditionsDuplicated.length - intermediateValue;
 
   const values = [othersValue, ...diseasesValues, noConditionValue, unknownValue];
