@@ -372,7 +372,6 @@ function drawRomaniaDiseasesPie() {
   const allConditionsDuplicated = data.map((x) => x.preexistingCondition).flat();
 
   let labels = [...new Set(allConditionsDuplicated)]
-    .sort((a, b) => (a.startsWith('Boli') ? 1 : -1))
     .sort((a, b) => allConditionsDuplicated.filter((y) => y == b).length - allConditionsDuplicated.filter((y) => y == a).length)
     .slice(0, 5)
     .sort((a, b) => b - a);
@@ -384,7 +383,7 @@ function drawRomaniaDiseasesPie() {
         hasOneOfTopDiseases = true;
       }
     });
-    return hasOneOfTopDiseases;
+    return !hasOneOfTopDiseases;
   }).length;
 
   const unknownValue = data.filter((x) => !x.preexistingCondition).length;
