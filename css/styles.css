@@ -163,10 +163,6 @@ button[selected] span {
   margin-left: -12px;
 }
 
-#sexPie {
-  margin-left: 4px;
-}
-
 @media (max-width: 768px) {
   h2 {
     font-size: 22px;
@@ -184,18 +180,6 @@ button[selected] span {
   #secondPiesWrapper {
     margin-top: -70px;
   }
-  #sexPieWrapper {
-    margin-bottom: 0;
-  }
-  #sexPieWrapper {
-    margin-bottom: 0;
-  }
-  #sexPie {
-    width: calc(100vw - 38px) !important;
-    height: 115px !important;
-    margin-top: -135px !important;
-    margin-bottom: -30px !important;
-  }
   .top-pies-wrapper {
     align-items: center;
   }
@@ -209,12 +193,6 @@ button[selected] span {
 
   hide-mobile {
     display: none;
-  }
-}
-
-@media (max-width: 376px) {
-  #sexPie {
-    margin-left: 20px;
   }
 }
 
@@ -279,30 +257,7 @@ body {
   margin: 0;
 }
 
-#deathMap {
-  width: 700px;
-}
-
-@media (max-width: 768px) {
-  #deathMapWrapper {
-    height: auto !important;
-  }
-  #deathMapWrapper .pie-wrapper {
-    height: auto !important;
-  }
-  #deathMap {
-    max-width: none !important;
-    /* height: 60vw; */
-    width: 145vw;
-    margin-bottom: calc(50px + 15vw);
-  }
-}
-
 .total-deaths {
-  /* height: 30px!important; */
-  /* width: 130px; */
-  /* text-align: center; */
-  /* margin-top: -15px; */
   border: 1px solid #9e9e9e44;
   padding: 8px;
   margin-top: -15px;
@@ -314,28 +269,49 @@ body {
     margin-top: -40px;
   }
 }
+
+#deathMap,
+#sexBar {
+  width: 670px;
+  max-width: calc(100vw + 170px);
+}
+
+#sexBar {
+  max-width: calc(100vw - 60px);
+  height: 125px;
+  margin-bottom: -29px;
+}
+
+@media (max-width: 768px) {
+  #sexBar {
+    margin-bottom: -7px;
+  }
+}
 /* 
 .split {
   position: fixed;
   left: 0;
   top: 0;
-  width: calc((50vw - 8px) - 1px);
+  width: calc((50vw - 0px) - 1px);
   height: 100vh;
   border-right: 1px solid red;
+  pointer-events: none;
 }
 .split-plus {
   position: fixed;
   left: 0;
   top: 0;
-  width: calc((50vw - 8px) + 34px);
+  width: calc((50vw - 0px) + 334px);
   height: 100vh;
   border-right: 1px solid blue;
+  pointer-events: none;
 }
 .split-minus {
   position: fixed;
   left: 0;
   top: 0;
-  width: calc((50vw - 8px) - 36px);
+  width: calc((50vw - 0px) - 336px);
   height: 100vh;
   border-right: 1px solid blue;
+  pointer-events: none;
 } */

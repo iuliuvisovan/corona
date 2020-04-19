@@ -17,7 +17,7 @@ var endTime;
 
 function draw() {
   drawRomaniaDeathMap();
-  drawRomaniaSexCasesPie();
+  drawRomaniaSexBar();
   drawRomaniaAgeCasesPie();
 
   setTimeout(
@@ -80,7 +80,7 @@ function drawRomaniaDeathMap() {
 
   document.querySelectorAll('.total-deaths-value').forEach((x) => (x.innerText = window.romaniaDeaths.length));
 
-  new Chart(document.getElementById('romaniaDeathMap').getContext('2d'), {
+  new Chart(document.querySelector('#deathMap canvas').getContext('2d'), {
     type: 'choropleth',
     data: {
       labels: labels.map((x, i) => `${x}: ${values[i].value}`),
@@ -443,7 +443,7 @@ function drawRomaniaDiseasesPie() {
       layout: {
         padding: {
           right: 170,
-          // left:5,
+          left: 3,
         },
       },
       plugins: {
@@ -469,8 +469,8 @@ function drawRomaniaDiseasesPie() {
   });
 }
 
-function drawRomaniaSexCasesPie() {
-  const ctx = document.getElementById('romaniaSexDeaths').getContext('2d');
+function drawRomaniaSexBar() {
+  const ctx = document.querySelector('#sexBar canvas').getContext('2d');
   const data = window.romaniaDeaths;
 
   let labels = [''];
@@ -509,7 +509,6 @@ function drawRomaniaSexCasesPie() {
           fontStyle: 'normal',
           fontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
           arc: false,
-          // position: 'outside',
           overlap: true,
           showActualPercentages: true,
         },
@@ -517,9 +516,11 @@ function drawRomaniaSexCasesPie() {
       scales: {
         xAxes: [
           {
+            display: false,
             stacked: true,
             ticks: {
               display: false,
+              max: valueMen + valueWomen,
             },
             gridLines: {
               display: false,
@@ -528,8 +529,12 @@ function drawRomaniaSexCasesPie() {
         ],
         yAxes: [
           {
+            display: false,
             stacked: true,
             gridLines: {
+              display: false,
+            },
+            ticks: {
               display: false,
             },
           },
@@ -538,7 +543,7 @@ function drawRomaniaSexCasesPie() {
       maintainAspectRatio: false,
       layout: {
         padding: {
-          bottom: 45,
+          bottom: 58,
         },
       },
     },
