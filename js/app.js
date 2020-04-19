@@ -376,19 +376,22 @@ function drawRomaniaDiseasesPie() {
     .slice(0, 5)
     .sort((a, b) => b - a);
 
-  const othersValue = data.filter((x) => {
-    let hasOneOfTopDiseases = false;
-    (x.preexistingCondition || []).forEach((disease) => {
-      if (labels.includes(disease)) {
-        hasOneOfTopDiseases = true;
-      }
-    });
-    return !hasOneOfTopDiseases;
-  }).length;
-
   const unknownValue = data.filter((x) => !x.preexistingCondition).length;
   const noConditionValue = data.filter((x) => x.preexistingCondition && x.preexistingCondition.length == 0).length;
-  const values = [othersValue, ...labels.map((x) => allConditionsDuplicated.filter((y) => y == x).length), noConditionValue, unknownValue];
+  const diseasesValues = [...labels.map((x) => allConditionsDuplicated.filter((y) => y == x).length)];
+
+  const intermediateValue = unknownValue + noConditionValue + diseasesValues.reduce((a, b) => a + b);
+
+  console.log('unknownValue', unknownValue);
+  console.log('noConditionValue', noConditionValue);
+  console.log(
+    'diseasesValues.reduce((a, b) => a + b',
+    diseasesValues.reduce((a, b) => a + b)
+  );
+
+  const othersValue = allConditionsDuplicated.length - intermediateValue;
+
+  const values = [othersValue, ...diseasesValues, noConditionValue, unknownValue];
 
   otherCountryChart = new Chart(ctx, {
     type: 'horizontalBar',
