@@ -512,8 +512,6 @@ function drawRomaniaSexCasesPie() {
           // position: 'outside',
           overlap: true,
           showActualPercentages: true,
-          outsidePadding: 100,
-          textMargin: 100,
         },
       },
       scales: {

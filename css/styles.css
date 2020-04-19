@@ -164,7 +164,7 @@ button[selected] span {
 }
 
 #sexPie {
-  margin-left: 20px;
+  margin-left: 4px;
 }
 
 @media (max-width: 768px) {
@@ -187,11 +187,13 @@ button[selected] span {
   #sexPieWrapper {
     margin-bottom: 0;
   }
+  #sexPieWrapper {
+    margin-bottom: 0;
+  }
   #sexPie {
-    width: calc(100vw - 26px) !important;
+    width: calc(100vw - 38px) !important;
     height: 115px !important;
-    margin-left: -9px;
-    margin-top: -85px !important;
+    margin-top: -135px !important;
     margin-bottom: -30px !important;
   }
   .top-pies-wrapper {
@@ -207,6 +209,12 @@ button[selected] span {
 
   hide-mobile {
     display: none;
+  }
+}
+
+@media (max-width: 376px) {
+  #sexPie {
+    margin-left: 20px;
   }
 }
 
