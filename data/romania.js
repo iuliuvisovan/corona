@@ -1,5 +1,3 @@
-//9710 2406 508
-
 window.romaniaData = {
   '22/04/2020': {
     cases: 468,
