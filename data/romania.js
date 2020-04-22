@@ -1,4 +1,11 @@
+//9710 2406 508
+
 window.romaniaData = {
+  '22/04/2020': {
+    cases: 468,
+    deaths: 26,
+    recoveries: 253,
+  },
   '21/04/2020': {
     cases: 306,
     deaths: 31,
