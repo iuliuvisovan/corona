@@ -32906,7 +32906,7 @@ window.data = [
     {
         "dateString": "22/04/2020",
         "cases": 1297,
-        "deaths": 1082,
+        "deaths": 88,
         "countryName": "Iran"
     },
     {
@@ -58447,12 +58447,6 @@ window.data = [
     },
     {
         "dateString": "22/04/2020",
-        "cases": 3,
-        "deaths": 0,
-        "countryName": "Saint Helena"
-    },
-    {
-        "dateString": "22/04/2020",
         "cases": 0,
         "deaths": 0,
         "countryName": "Saint Kitts and Nevis"
@@ -59035,7 +59029,7 @@ window.data = [
     },
     {
         "dateString": "22/04/2020",
-        "cases": 4304,
+        "cases": 14,
         "deaths": 1,
         "countryName": "San Marino"
     },
