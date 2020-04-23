@@ -1027,7 +1027,7 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
       },
       layout: {
         padding: {
-          right: 13,
+          right: 15,
         },
       },
     },
