@@ -1299,7 +1299,7 @@ function setupBarLabels() {
           const endsWithZero = thousands.toFixed(1).endsWith('.0');
           const thousandsWithoutZero = thousands.toFixed(endsWithZero || thousands > 99 ? 0 : 1);
 
-          const formattedValue = currentValue > 9999 ? thousandsWithoutZero + letter : currentValue;
+          const formattedValue = currentValue > (isMobile ? 7000 : 9999) ? thousandsWithoutZero + letter : currentValue;
 
           let shouldShowLabel = skipLabelFactor ? (i + j) % skipLabelFactor == 0 || i == dataset.data.length - 1 : true;
 
