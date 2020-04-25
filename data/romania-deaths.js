@@ -98,13 +98,6 @@ window.romaniaDeaths = [
     preexistingCondition: ['dializa', 'boli renale', 'hipertensiune arterială', 'fibrilatie atriala', 'aritmie ventriculara'],
   },
   {
-    deathIndex: 553,
-    gender: 0,
-    age: 51,
-    county: 'suceava',
-    preexistingCondition: [],
-  },
-  {
     deathIndex: 552,
     gender: 0,
     age: 73,
