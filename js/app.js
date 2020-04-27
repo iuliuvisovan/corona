@@ -1,7 +1,9 @@
 moment.locale('ro');
-const isMobile = window.innerWidth < 768;
+const isPortrait = window.innerHeight > window.innerWidth;
+const isPortraitMobile = window.innerWidth < 768 && isPortrait;
+const isLandscapeMobile = window.innerWidth < 768 && !isPortrait;
 const maxElementsInWidth = window.innerWidth / 30;
-const defaultDateFormat = isMobile ? 'DD.MM' : 'DD MMMM';
+const defaultDateFormat = isPortraitMobile ? 'DD.MM' : 'DD MMMM';
 const formatThousandsAsK = (value) => (value > 999 ? value / 1000 + 'k' : value);
 
 async function init() {
@@ -25,7 +27,7 @@ function draw() {
     () => {
       drawRomaniaDiseasesPie();
     },
-    isMobile ? 500 : 0
+    isPortraitMobile ? 500 : 0
   );
   setTimeout(
     async () => {
@@ -43,7 +45,7 @@ function draw() {
       drawAllTimeTotalsBars(); //22
       drawGlobalEvolutionLine(); //22
     },
-    isMobile ? 1200 : 1000
+    isPortraitMobile ? 1200 : 1000
   );
 }
 
@@ -162,7 +164,7 @@ function drawRomaniaCountyCasesPie() {
   otherCountryChart = new Chart(ctx, {
     type: 'doughnut',
     data: {
-      labels: [...labels.map((x) => x[0].toUpperCase() + x.substr(1)).map((x) => (isMobile ? countyCodes[x] || 'bb' : x)), 'Restul județelor'],
+      labels: [...labels.map((x) => x[0].toUpperCase() + x.substr(1)).map((x) => (isPortraitMobile ? countyCodes[x] || 'bb' : x)), 'Restul județelor'],
       datasets: [
         {
           label: 'Morți pe judet',
@@ -445,7 +447,7 @@ function drawRomaniaDiseasesPie() {
       plugins: {
         labels: {
           render: ({ label, value }) => {
-            return ' '.repeat(8 + label.length * (isMobile ? 1.6 : 1.4)) + label;
+            return ' '.repeat(8 + label.length * (isPortraitMobile ? 1.6 : 1.4)) + label;
           },
           precision: 0,
           showZero: true,
@@ -550,11 +552,12 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800') {
   const ctx = document.getElementById(chartId).getContext('2d');
   const data = window.data;
 
-  const countryData = data
+  let countryData = data
     .filter((x) => x.countryName == countryName)
     .sort((a, b) => +moment(b.dateString, 'DD/MM/YYYY') - +moment(a.dateString, 'DD/MM/YYYY'))
-    .reverse()
-    .slice(isMobile ? 90 : Math.max(110 - maxElementsInWidth, 55));
+    .reverse();
+
+  countryData = countryData.slice(isPortraitMobile ? countryData.length - 10 : Math.max(110 - maxElementsInWidth, 55));
 
   console.log('countryData', countryData);
 
@@ -597,7 +600,6 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800') {
     },
     options: {
       maintainAspectRatio: false,
-      skipLabelFactor: isMobile ? 100 : 0,
       scales: {
         yAxes: [
           {
@@ -726,7 +728,7 @@ function drawCountryActiveCases(countryName) {
 
     const distanceFromPresent = a.length - i;
 
-    const volumeToShow = isMobile ? 6 : 16;
+    const volumeToShow = isPortraitMobile ? 6 : 16;
 
     const rarifyingFactor = Math.floor(distanceFromPresent / volumeToShow) + 1;
 
@@ -803,12 +805,12 @@ function drawGlobalActiveCases() {
   });
 
   const filterFunction = (_, i, a) => {
-    const itemsToSkip = isMobile ? 40 : 30;
+    const itemsToSkip = isPortraitMobile ? 40 : 30;
     if (i < itemsToSkip) {
       return false;
     }
 
-    return i % (isMobile ? 4 : 2) == 0 || i == a.length - 1;
+    return i % (isPortraitMobile ? 4 : 2) == 0 || i == a.length - 1;
   };
 
   new Chart(ctx, {
@@ -855,8 +857,8 @@ function drawGlobalActiveCases() {
           radius: 0,
         },
       },
-      minPercentageForLabel: isMobile ? 5 : 3,
-      skipLabelFactor: isMobile ? 5 : 2,
+      minPercentageForLabel: isPortraitMobile ? 5 : 3,
+      skipLabelFactor: isPortraitMobile ? 5 : 2,
       maintainAspectRatio: false,
       scales: {
         yAxes: [
@@ -977,13 +979,13 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
   });
 
   const filterFunction = (x, i, a) => {
-    if (i < (isMobile ? 70 : 50)) {
+    if (i < (isPortraitMobile ? 70 : 50)) {
       return false;
     }
 
     const distanceFromPresent = a.length - i;
 
-    const volumeToShow = isMobile ? 7 : 16;
+    const volumeToShow = isPortraitMobile ? 7 : 16;
 
     const rarifyingFactor = Math.floor(distanceFromPresent / volumeToShow) + 1;
 
@@ -1026,8 +1028,8 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
       animation: {
         duration: 0,
       },
-      minPercentageForLabel: isMobile ? 15 : 0,
-      skipLabelFactor: isMobile ? 2 : 0,
+      minPercentageForLabel: isPortraitMobile ? 5 : 0,
+      skipLabelFactor: isPortraitMobile || isLandscapeMobile ? 2 : 0,
       maintainAspectRatio: false,
       scales: {
         yAxes: [
@@ -1092,7 +1094,7 @@ function drawGlobalEvolutionLine() {
   const filterFunction = (_, i, a) => {
     const distanceFromPresent = a.length - i;
 
-    const volumeToShow = isMobile ? 6 : 16;
+    const volumeToShow = isPortraitMobile ? 6 : 16;
 
     const rarifyingFactor = Math.floor(distanceFromPresent / volumeToShow) + 1;
 
@@ -1131,8 +1133,8 @@ function drawGlobalEvolutionLine() {
       animation: {
         duration: 0,
       },
-      minPercentageForLabel: isMobile ? 5 : 2,
-      skipLabelFactor: isMobile ? 3 : 2,
+      minPercentageForLabel: isPortraitMobile ? 5 : 2,
+      skipLabelFactor: isPortraitMobile ? 3 : 2,
       maintainAspectRatio: false,
       scales: {
         yAxes: [
@@ -1314,7 +1316,7 @@ function setupBarLabels() {
           const endsWithZero = thousands.toFixed(1).endsWith('.0');
           const thousandsWithoutZero = thousands.toFixed(endsWithZero || thousands > 99 ? 0 : 1);
 
-          const formattedValue = currentValue > (isMobile ? 7000 : 9999) ? thousandsWithoutZero + letter : currentValue;
+          const formattedValue = currentValue > (isPortraitMobile ? 7000 : 9999) ? thousandsWithoutZero + letter : currentValue;
 
           let shouldShowLabel = skipLabelFactor ? i != 0 && ((i + j) % skipLabelFactor == 0 || i == dataset.data.length - 1) : true;
 
