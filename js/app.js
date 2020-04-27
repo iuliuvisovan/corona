@@ -1,5 +1,6 @@
 moment.locale('ro');
 const isMobile = window.innerWidth < 768;
+const maxElementsInWidth = window.innerWidth / 30;
 const defaultDateFormat = isMobile ? 'DD.MM' : 'DD MMMM';
 const formatThousandsAsK = (value) => (value > 999 ? value / 1000 + 'k' : value);
 
@@ -552,8 +553,14 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800') {
   const countryData = data
     .filter((x) => x.countryName == countryName)
     .sort((a, b) => +moment(b.dateString, 'DD/MM/YYYY') - +moment(a.dateString, 'DD/MM/YYYY'))
-    .slice(0, isMobile ? 10 : 20)
-    .reverse();
+    .reverse()
+    .slice(isMobile ? 90 : Math.max(110 - maxElementsInWidth, 55));
+
+  console.log('countryData', countryData);
+
+  // .slice(30)
+  // .reverse()
+  // .reverse();
 
   const labels = countryData.map((x) => moment(x.dateString, 'DD/MM/YYYY').format(defaultDateFormat));
   const values = countryData.map((x) => x.cases);
@@ -590,12 +597,20 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800') {
     },
     options: {
       maintainAspectRatio: false,
+      skipLabelFactor: isMobile ? 100 : 0,
       scales: {
         yAxes: [
           {
             ticks: {
               beginAtZero: true,
               callback: formatThousandsAsK,
+            },
+          },
+        ],
+        xAxes: [
+          {
+            ticks: {
+              beginAtZero: true,
             },
           },
         ],
@@ -840,8 +855,8 @@ function drawGlobalActiveCases() {
           radius: 0,
         },
       },
-      minPercentageForLabel: 5,
-      skipLabelFactor: 5,
+      minPercentageForLabel: isMobile ? 5 : 3,
+      skipLabelFactor: isMobile ? 5 : 2,
       maintainAspectRatio: false,
       scales: {
         yAxes: [
@@ -962,7 +977,7 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
   });
 
   const filterFunction = (x, i, a) => {
-    if (i < a.length - (isMobile ? 30 : 40)) {
+    if (i < (isMobile ? 70 : 50)) {
       return false;
     }
 
@@ -1011,8 +1026,8 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
       animation: {
         duration: 0,
       },
-      minPercentageForLabelPercentage: countryName !== 'Romania' ? 5 : 0,
-      skipLabelFactor: countryName !== 'Romania' ? 2 : 0,
+      minPercentageForLabel: isMobile ? 15 : 0,
+      skipLabelFactor: isMobile ? 2 : 0,
       maintainAspectRatio: false,
       scales: {
         yAxes: [
@@ -1116,8 +1131,8 @@ function drawGlobalEvolutionLine() {
       animation: {
         duration: 0,
       },
-      minPercentageForLabel: 5,
-      skipLabelFactor: 3,
+      minPercentageForLabel: isMobile ? 5 : 2,
+      skipLabelFactor: isMobile ? 3 : 2,
       maintainAspectRatio: false,
       scales: {
         yAxes: [
@@ -1279,7 +1294,7 @@ function setupBarLabels() {
       ctx.font = Chart.helpers.fontString(Chart.defaults.global.defaultFontSize, 'normal', Chart.defaults.global.defaultFontFamily);
       ctx.textAlign = 'center';
       ctx.textBaseline = 'bottom';
-      ctx.fillStyle = '#000';
+      ctx.fillStyle = '#555';
 
       const { minPercentageForLabel = 0, skipLabelFactor = 0, labelsToIgnore = [] } = chartInstance.options;
 
@@ -1301,7 +1316,7 @@ function setupBarLabels() {
 
           const formattedValue = currentValue > (isMobile ? 7000 : 9999) ? thousandsWithoutZero + letter : currentValue;
 
-          let shouldShowLabel = skipLabelFactor ? (i + j) % skipLabelFactor == 0 || i == dataset.data.length - 1 : true;
+          let shouldShowLabel = skipLabelFactor ? i != 0 && ((i + j) % skipLabelFactor == 0 || i == dataset.data.length - 1) : true;
 
           if (
             currentValue > minPercentageForLabel * (dataset.data[dataset.data.length - 1] / 100) &&
