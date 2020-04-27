@@ -68953,7 +68953,7 @@ window.data = [
     },
     {
         "dateString": "27/04/2020",
-        "cases": 0,
+        "cases": 1831,
         "deaths": 0,
         "countryName": "Spain"
     },
