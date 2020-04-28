@@ -557,13 +557,7 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800') {
     .sort((a, b) => +moment(b.dateString, 'DD/MM/YYYY') - +moment(a.dateString, 'DD/MM/YYYY'))
     .reverse();
 
-  countryData = countryData.slice(isPortraitMobile ? countryData.length - 10 : Math.max(110 - maxElementsInWidth, 55));
-
-  console.log('countryData', countryData);
-
-  // .slice(30)
-  // .reverse()
-  // .reverse();
+  countryData = countryData.slice(isPortraitMobile ? countryData.length - 10 : Math.max(115 - maxElementsInWidth, 60));
 
   const labels = countryData.map((x) => moment(x.dateString, 'DD/MM/YYYY').format(defaultDateFormat));
   const values = countryData.map((x) => x.cases);
