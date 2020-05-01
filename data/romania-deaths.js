@@ -1,5 +1,3 @@
-window.someOthertest = 3;
-
 window.romaniaDeaths = [
   {
     deathIndex: 695,
