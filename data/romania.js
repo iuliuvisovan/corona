@@ -1,3 +1,5 @@
+window.sometest = 2;
+
 window.romaniaData = {
   '01/05/2020': {
     cases: 327,
