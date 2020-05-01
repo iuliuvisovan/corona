@@ -81,7 +81,7 @@ function drawRomaniaDeathMap() {
     value: window.romaniaDeaths.filter((x) => d.properties.name.toLowerCase() == x.county.toLowerCase()).length,
   }));
 
-  document.querySelectorAll('.total-deaths-value').forEach((x) => (x.innerText = window.romaniaDeaths.length));
+  // document.querySelectorAll('.total-deaths-value').forEach((x) => (x.innerText = window.romaniaDeaths.length));
 
   new Chart(document.querySelector('#deathMap canvas').getContext('2d'), {
     type: 'choropleth',
