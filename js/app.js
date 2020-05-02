@@ -18,7 +18,7 @@ async function init() {
 var startTime;
 var endTime;
 
-function draw() {
+async function draw() {
   drawRomaniaDeathMap();
   drawRomaniaSexBar();
   drawRomaniaAgeCasesPie();
@@ -45,7 +45,7 @@ function draw() {
       drawAllTimeTotalsBars(); //22
       drawGlobalEvolutionLine(); //22
     },
-    isPortraitMobile ? 1200 : 1000
+    isPortraitMobile ? 1200 : 800
   );
 }
 
@@ -80,8 +80,6 @@ function drawRomaniaDeathMap() {
     feature: d,
     value: window.romaniaDeaths.filter((x) => d.properties.name.toLowerCase() == x.county.toLowerCase()).length,
   }));
-
-  // document.querySelectorAll('.total-deaths-value').forEach((x) => (x.innerText = window.romaniaDeaths.length));
 
   new Chart(document.querySelector('#deathMap canvas').getContext('2d'), {
     type: 'choropleth',
@@ -966,6 +964,10 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
     const totalSoFar = deaths.slice(0, i).reduce((a, b) => a + b, 0);
     return totalSoFar + x;
   });
+
+  if (countryName == 'Romania') {
+    document.querySelectorAll('.total-deaths-value').forEach((x) => (x.innerText = summedDailyDeaths[summedDailyDeaths.length - 1]));
+  }
 
   const summedDailyRecoveries = recoveries.map((x, i, a) => {
     const totalSoFar = recoveries.slice(0, i).reduce((a, b) => a + b, 0);
