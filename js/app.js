@@ -45,7 +45,7 @@ async function draw() {
       drawAllTimeTotalsBars(); //22
       drawGlobalEvolutionLine(); //22
     },
-    isPortraitMobile ? 1200 : 800
+    isPortraitMobile ? 1200 : 900
   );
 }
 
