@@ -900,7 +900,7 @@ window.romaniaDeaths = [
     deathIndex: 731,
     gender: 0,
     age: 55,
-    county: 'caraș severin',
+    county: 'caraș-severin',
     preexistingCondition: undefined,
   },
   {
