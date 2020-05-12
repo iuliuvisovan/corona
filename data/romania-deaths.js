@@ -1,80 +1,213 @@
 window.romaniaDeaths = [
   {
+    deathIndex: 991,
+    gender: 1,
+    age: 72,
+    county: 'sălaj',
+    preexistingCondition: ['hipertensiune arterială', 'diabet', 'boli renale'],
+  },
+  {
+    deathIndex: 990,
+    gender: 0,
+    age: 48,
+    county: 'sălaj',
+    preexistingCondition: undefined,
+  },
+  {
+    deathIndex: 989,
+    gender: 0,
+    age: 73,
+    county: 'timiș',
+    preexistingCondition: ['hipertensiune arterială', 'bpoc', 'scleroemfizem pulmonar'],
+  },
+  {
+    deathIndex: 988,
+    gender: 0,
+    age: 74,
+    county: 'timiș',
+    preexistingCondition: ['hipertensiune arterială', 'boli renale', 'dializa'],
+  },
+  {
+    deathIndex: 987,
+    gender: 0,
+    age: 70,
+    county: 'mureș',
+    preexistingCondition: ['insuficienta cardiaca', 'hipertensiune arterială', 'diabet', 'boli renale', 'avc'],
+  },
+  {
+    deathIndex: 986,
+    gender: 0,
+    age: 71,
+    county: 'galați',
+    preexistingCondition: ['hepatita', 'cancer', 'boli renale'],
+  },
+  {
+    deathIndex: 985,
+    gender: 0,
+    age: 47,
+    county: 'constanța',
+    preexistingCondition: ['pneumonie acuta', 'hepatita cronica', 'cancer', 'boli renale'],
+  },
+  {
+    deathIndex: 984,
+    gender: 1,
+    age: 72,
+    county: 'sibiu',
+    preexistingCondition: ['fibrilatie atriala', 'insuficienta ventriculara stanga', 'NYHA III-IV'],
+  },
+  {
+    deathIndex: 983,
+    gender: 0,
+    age: 31,
+    county: 'neamț',
+    preexistingCondition: ['schizofrenie', 'obezitate'],
+  },
+  {
+    deathIndex: 982,
+    gender: 1,
+    age: 68,
+    county: 'neamț',
+    preexistingCondition: ['boli renale', 'diabet', 'avc', 'dementa vasculara', 'brs'],
+  },
+  {
+    deathIndex: 981,
+    gender: 1,
+    age: 64,
+    county: 'neamț',
+    preexistingCondition: ['bronhopneumonie', 'fibrilatie atriala', 'hipertensiune arterială', 'obezitate'],
+  },
+  {
+    deathIndex: 980,
+    gender: 1,
+    age: 61,
+    county: 'bucurești',
+    preexistingCondition: ['encefalopatie hepatica', 'boli renale'],
+  },
+  {
+    deathIndex: 979,
+    gender: 0,
+    age: 71,
+    county: 'brașov',
+    preexistingCondition: ['tumora esofagiana stenozanta', 'boli renale', 'obezitate'],
+  },
+  {
+    deathIndex: 978,
+    gender: 1,
+    age: 67,
+    county: 'brașov',
+    preexistingCondition: ['diabet', 'boli renale', 'hipertensiune arterială', 'obezitate'],
+  },
+  {
+    deathIndex: 977,
+    gender: 1,
+    age: 70,
+    county: 'bistrița năsăud',
+    preexistingCondition: ['hipertensiune arterială', 'diabet', 'bpoc'],
+  },
+  {
+    deathIndex: 976,
+    gender: 1,
+    age: 74,
+    county: 'galați',
+    preexistingCondition: ['hipertensiune arterială', 'alzheimer'],
+  },
+  {
+    deathIndex: 975,
+    gender: 1,
+    age: 74,
+    county: 'suceava',
+    preexistingCondition: ['hipertensiune arterială', 'coxartroza bilaterala', 'boala varicoasa cu tromboflebita'],
+  },
+  {
+    deathIndex: 974,
+    gender: 0,
+    age: 84,
+    county: 'bacău',
+    preexistingCondition: ['dementa', 'hemoragie digestiva', 'insuficienta cardiaca'],
+  },
+  {
+    deathIndex: 973,
+    gender: 1,
+    age: 60,
+    county: 'botoșani',
+    preexistingCondition: ['insuficienta renala cronica'],
+  },
+  {
     deathIndex: 972,
     gender: 0,
     age: 82,
     county: 'bucurești',
-    preexistingCondition: ['s'],
+    preexistingCondition: ['ciroza hepatica'],
   },
   {
     deathIndex: 971,
     gender: 1,
     age: 82,
     county: 'vrancea',
-    preexistingCondition: ['s'],
+    preexistingCondition: ['boli cardiovasculare', 'pleurezie', 'ascita', 'diabet', 'sindrom diareic'],
   },
   {
     deathIndex: 970,
     gender: 0,
     age: 77,
     county: 'bucurești',
-    preexistingCondition: ['s'],
+    preexistingCondition: ['diabet'],
   },
   {
     deathIndex: 969,
     gender: 1,
     age: 72,
     county: 'vrancea',
-    preexistingCondition: ['s'],
+    preexistingCondition: ['edem pulmonar acut', 'hipertensiune arterială', 'insuficienta mitrala', 'diabet', 'arteriopatie obliteranta'],
   },
   {
     deathIndex: 968,
     gender: 0,
     age: 37,
     county: 'brașov',
-    preexistingCondition: ['s'],
+    preexistingCondition: ['sepsis', 'paraplegie flasca', 'pleurezie', 'escare de decubit'],
   },
   {
     deathIndex: 967,
     gender: 1,
     age: 96,
     county: 'suceava',
-    preexistingCondition: ['s'],
+    preexistingCondition: ['bronsita cronica', 'tulburare pshiotica'],
   },
   {
     deathIndex: 966,
     gender: 1,
     age: 73,
     county: 'bacău',
-    preexistingCondition: ['s'],
+    preexistingCondition: ['ciroza hepatica', 'insuficienta hepatica', 'hipersplenism', 'varice esofagiene', 'encefalopatie hepatica'],
   },
   {
     deathIndex: 965,
     gender: 0,
     age: 49,
     county: 'ialomița',
-    preexistingCondition: ['s'],
+    preexistingCondition: ['obezitate'],
   },
   {
     deathIndex: 964,
     gender: 1,
     age: 72,
     county: 'timiș',
-    preexistingCondition: ['s'],
+    preexistingCondition: ['hipertensiune arterială', 'insuficienta cardiaca', 'stenoza', 'diabet'],
   },
   {
     deathIndex: 963,
     gender: 1,
     age: 60,
     county: 'bihor',
-    preexistingCondition: ['s'],
+    preexistingCondition: ['diabet', 'obezitate'],
   },
   {
     deathIndex: 962,
     gender: 1,
     age: 89,
     county: 'iași',
-    preexistingCondition: ['s'],
+    preexistingCondition: ['hipertensiune arterială', 'boli renale'],
   },
   {
     deathIndex: 961,
@@ -351,20 +484,6 @@ window.romaniaDeaths = [
     preexistingCondition: ['diabet', 'parkinson'],
   },
   {
-    deathIndex: 896,
-    gender: 0,
-    age: 63,
-    county: 'argeș',
-    preexistingCondition: ['s'],
-  },
-  {
-    deathIndex: 891,
-    gender: 0,
-    age: 896,
-    county: 'acelasi',
-    preexistingCondition: ['s'],
-  },
-  {
     deathIndex: 923,
     gender: 1,
     age: 71,
@@ -538,13 +657,6 @@ window.romaniaDeaths = [
     age: 67,
     county: 'dolj',
     preexistingCondition: ['hipertensiune arterială', 'tiroidectomie'],
-  },
-  {
-    deathIndex: 898,
-    gender: 0,
-    age: 63,
-    county: 'alba',
-    preexistingCondition: ['hipertensiune arterială', 'hepatita'],
   },
   {
     deathIndex: 898,
@@ -5957,7 +6069,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 133,
-
     gender: 1,
     age: 62,
     county: 'ialomița',
@@ -5965,7 +6076,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 132,
-
     gender: 0,
     age: 58,
     county: 'suceava',
@@ -5973,7 +6083,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 131,
-
     gender: 0,
     age: 67,
     county: 'suceava',
@@ -5981,7 +6090,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 130,
-
     gender: 1,
     age: 63,
     county: 'suceava',
@@ -5989,7 +6097,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 129,
-
     gender: 0,
     age: 62,
     county: 'suceava',
@@ -5997,7 +6104,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 128,
-
     gender: 1,
     age: 77,
     county: 'suceava',
@@ -6005,7 +6111,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 127,
-
     gender: 0,
     age: 46,
     county: 'ialomița',
@@ -6013,7 +6118,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 126,
-
     gender: 0,
     age: 61,
     county: 'galați',
@@ -6021,7 +6125,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 125,
-
     gender: 0,
     age: 27,
     county: 'sibiu',
@@ -6029,7 +6132,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 124,
-
     gender: 0,
     age: 59,
     county: 'bistrița-năsăud',
@@ -6037,7 +6139,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 123,
-
     gender: 0,
     age: 66,
     county: 'bistrița-năsăud',
@@ -6045,7 +6146,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 122,
-
     gender: 1,
     age: 60,
     county: 'neamț',
@@ -6053,7 +6153,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 121,
-
     gender: 0,
     age: 78,
     county: 'timiș',
@@ -6061,7 +6160,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 120,
-
     gender: 1,
     age: 69,
     county: 'ialomița',
@@ -6069,7 +6167,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 119,
-
     gender: 1,
     age: 69,
     county: 'hunedoara',
@@ -6077,7 +6174,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 118,
-
     gender: 0,
     age: 61,
     county: 'bucurești',
@@ -6085,7 +6181,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 117,
-
     gender: 1,
     age: 54,
     county: 'constanța',
@@ -6093,7 +6188,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 116,
-
     gender: 0,
     age: 70,
     county: 'mureș',
@@ -6101,7 +6195,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 115,
-
     gender: 1,
     age: 53,
     county: 'caraș severin',
@@ -6109,7 +6202,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 114,
-
     gender: 0,
     age: 71,
     county: 'suceava',
@@ -6117,7 +6209,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 113,
-
     gender: 0,
     age: 34,
     county: 'suceava',
@@ -6125,7 +6216,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 112,
-
     gender: 0,
     age: 81,
     county: 'suceava',
@@ -6133,7 +6223,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 111,
-
     gender: 1,
     age: 77,
     county: 'sibiu',
@@ -6141,7 +6230,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 110,
-
     gender: 0,
     age: 77,
     county: 'galați',
@@ -6149,7 +6237,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 109,
-
     gender: 1,
     age: 83,
     county: 'vrancea',
@@ -6157,7 +6244,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 108,
-
     gender: 0,
     age: 64,
     county: 'arad',
@@ -6165,7 +6251,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 107,
-
     gender: 0,
     age: 81,
     county: 'bistrița-năsăud',
@@ -6173,7 +6258,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 106,
-
     gender: 0,
     age: 61,
     county: 'arad',
@@ -6181,7 +6265,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 105,
-
     gender: 0,
     age: 59,
     county: 'ilfov',
@@ -6189,7 +6272,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 104,
-
     gender: 1,
     age: 54,
     county: 'arad',
@@ -6197,7 +6279,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 103,
-
     gender: 0,
     age: 77,
     county: 'arad',
@@ -6205,7 +6286,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 102,
-
     gender: 0,
     age: 83,
     county: 'suceava',
@@ -6213,7 +6293,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 101,
-
     gender: 1,
     age: 68,
     county: 'hunedoara',
@@ -6221,7 +6300,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 100,
-
     gender: 0,
     age: 56,
     county: 'dâmbovița',
@@ -6229,7 +6307,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 99,
-
     gender: 0,
     age: 67,
     county: 'bacău',
@@ -6237,7 +6314,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 98,
-
     gender: 0,
     age: 87,
     county: 'bistrița-năsăud',
@@ -6245,7 +6321,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 97,
-
     gender: 0,
     age: 42,
     county: 'teleorman',
@@ -6253,7 +6328,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 96,
-
     gender: 0,
     age: 72,
     county: 'bucurești',
@@ -6261,7 +6335,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 95,
-
     gender: 0,
     age: 75,
     county: 'bucurești',
@@ -6269,7 +6342,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 94,
-
     gender: 1,
     age: 84,
     county: 'bacău',
@@ -6277,7 +6349,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 93,
-
     gender: 1,
     age: 75,
     county: 'neamț',
@@ -6285,7 +6356,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 92,
-
     gender: 1,
     age: 78,
     county: 'bucurești',
@@ -6293,7 +6363,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 91,
-
     gender: 0,
     age: 70,
     county: 'bucurești',
@@ -6301,7 +6370,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 90,
-
     gender: 1,
     age: 88,
     county: 'covasna',
@@ -6309,7 +6377,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 89,
-
     gender: 1,
     age: 66,
     county: 'bucurești',
@@ -6317,7 +6384,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 88,
-
     gender: 0,
     age: 72,
     county: 'suceava',
@@ -6325,7 +6391,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 87,
-
     gender: 0,
     age: 77,
     county: 'bistrița-năsăud',
@@ -6333,7 +6398,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 86,
-
     gender: 1,
     age: 45,
     county: 'neamț',
@@ -6341,7 +6405,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 85,
-
     gender: 1,
     age: 63,
     county: 'bucurești',
@@ -6349,7 +6412,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 84,
-
     gender: 0,
     age: 85,
     county: 'timiș',
@@ -6357,7 +6419,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 83,
-
     gender: 1,
     age: 54,
     county: 'bucurești',
@@ -6365,7 +6426,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 82,
-
     gender: 0,
     age: 70,
     county: 'mures',
@@ -6373,7 +6433,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 81,
-
     gender: 0,
     age: 70,
     county: 'sibiu',
@@ -6381,7 +6440,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 80,
-
     gender: 1,
     age: 61,
     county: 'bihor',
@@ -6389,7 +6447,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 79,
-
     gender: 1,
     age: 84,
     county: 'bucurești',
@@ -6397,7 +6454,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 78,
-
     gender: 1,
     age: 64,
     county: 'suceava',
@@ -6405,7 +6461,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 77,
-
     gender: 1,
     age: 82,
     county: 'suceava',
@@ -6413,7 +6468,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 76,
-
     gender: 0,
     age: 57,
     county: 'suceava',
@@ -6421,7 +6475,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 75,
-
     gender: 0,
     age: 68,
     county: 'suceava',
@@ -6429,7 +6482,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 74,
-
     gender: 1,
     age: 69,
     county: 'suceava',
@@ -6437,7 +6489,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 73,
-
     gender: 0,
     age: 62,
     county: 'suceava',
@@ -6445,7 +6496,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 72,
-
     gender: 0,
     age: 65,
     county: 'hunedoara',
@@ -6453,7 +6503,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 71,
-
     gender: 1,
     age: 53,
     county: 'hunedoara',
@@ -6461,7 +6510,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 70,
-
     gender: 1,
     age: 60,
     county: 'ialomița',
@@ -6469,7 +6517,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 69,
-
     gender: 0,
     age: 56,
     county: 'suceava',
@@ -6477,7 +6524,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 68,
-
     gender: 1,
     age: 81,
     county: 'mehedinti',
@@ -6485,7 +6531,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 67,
-
     gender: 0,
     age: 69,
     county: 'iași',
@@ -6493,7 +6538,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 66,
-
     gender: 1,
     age: 73,
     county: 'suceava',
@@ -6501,7 +6545,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 65,
-
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -6509,7 +6552,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 64,
-
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -6517,7 +6559,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 63,
-
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -6525,7 +6566,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 62,
-
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -6533,7 +6573,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 61,
-
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -6541,7 +6580,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 60,
-
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -6549,7 +6587,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 59,
-
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -6557,7 +6594,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 58,
-
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -6565,7 +6601,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 57,
-
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -6573,7 +6608,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 56,
-
     gender: 0,
     age: 52,
     county: 'suceava',
@@ -6581,7 +6615,6 @@ window.romaniaDeaths = [
   },
   {
     deathIndex: 55,
-
     gender: 0,
     age: 52,
     county: 'suceava',

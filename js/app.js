@@ -469,6 +469,9 @@ function drawRomaniaSexBar() {
   const ctx = document.querySelector('#sexBar canvas').getContext('2d');
   const data = window.romaniaDeaths;
 
+  const duplicates = data.filter((x) => data.filter((y) => y.deathIndex == x.deathIndex).length > 1);
+  console.log('duplicates', duplicates);
+
   let labels = [''];
   const valueMen = data.filter((x) => !x.gender).length;
   const valueWomen = data.filter((x) => x.gender).length;
