@@ -48680,7 +48680,7 @@ window.data = [
     {
         "dateString": "14/05/2020",
         "cases": 888,
-        "deaths": 2195,
+        "deaths": 195,
         "countryName": "Italy"
     },
     {
