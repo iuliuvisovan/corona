@@ -35,12 +35,12 @@ async function draw() {
       drawCountryDailyBars('romaniaChart', 'Romania');
       drawCountryEvolutionLine('romaniaTotals', 'Romania');
 
-      drawGlobalActiveCases();
-      show('globalActiveCasesWrapper', document.querySelector('button'), true);
-
-      drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
       drawCountryActiveCases('Romania'); // 29
+      show('countryActiveCasesWrapper', document.querySelector('button'), true);
+      
+      drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
       drawCountryEvolutionLine('otherCountryTotals', 'Italy', '#ffeb3b'); //30
+      drawGlobalActiveCases();
       drawLastWeekTotalsBars(); //122
       drawAllTimeTotalsBars(); //22
       drawGlobalEvolutionLine(); //22
@@ -469,8 +469,8 @@ function drawRomaniaSexBar() {
   const ctx = document.querySelector('#sexBar canvas').getContext('2d');
   const data = window.romaniaDeaths;
 
-  const duplicates = data.filter((x) => data.filter((y) => y.deathIndex == x.deathIndex).length > 1);
-  console.log('duplicates', duplicates);
+  // const duplicates = data.filter((x) => data.filter((y) => y.deathIndex == x.deathIndex).length > 1);
+  // console.log('duplicates', duplicates);
 
   let labels = [''];
   const valueMen = data.filter((x) => !x.gender).length;
