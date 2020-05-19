@@ -2,7 +2,7 @@ moment.locale('ro');
 const isPortrait = window.innerHeight > window.innerWidth;
 const isPortraitMobile = window.innerWidth < 768 && isPortrait;
 const isLandscapeMobile = window.innerWidth < 768 && !isPortrait;
-const maxElementsInWidth = window.innerWidth / 30;
+const maxElementsInWidth = window.innerWidth / 60;
 const defaultDateFormat = isPortraitMobile ? 'DD.MM' : 'DD MMMM';
 const formatThousandsAsK = (value) => (value > 999 ? value / 1000 + 'k' : value);
 
