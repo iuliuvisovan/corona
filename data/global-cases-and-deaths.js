@@ -1,5 +1,11 @@
 window.data = [
     {
+        "dateString": "19/05/2020",
+        "cases": 408,
+        "deaths": 4,
+        "countryName": "Afghanistan"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 262,
         "deaths": 1,
@@ -780,6 +786,12 @@ window.data = [
         "countryName": "Afghanistan"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 2,
+        "deaths": 0,
+        "countryName": "Albania"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 13,
         "deaths": 0,
@@ -1204,6 +1216,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Albania"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 182,
+        "deaths": 7,
+        "countryName": "Algeria"
     },
     {
         "dateString": "18/05/2020",
@@ -2016,6 +2034,12 @@ window.data = [
         "countryName": "Algeria"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Andorra"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -2412,6 +2436,12 @@ window.data = [
         "countryName": "Andorra"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Angola"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -2760,6 +2790,12 @@ window.data = [
         "countryName": "Angola"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Anguilla"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -3076,6 +3112,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Anguilla"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Antigua and Barbuda"
     },
     {
         "dateString": "18/05/2020",
@@ -3436,6 +3478,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Antigua and Barbuda"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 566,
+        "deaths": 16,
+        "countryName": "Argentina"
     },
     {
         "dateString": "18/05/2020",
@@ -3874,6 +3922,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Argentina"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 351,
+        "deaths": 1,
+        "countryName": "Armenia"
     },
     {
         "dateString": "18/05/2020",
@@ -4662,6 +4716,12 @@ window.data = [
         "countryName": "Armenia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Aruba"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -5002,6 +5062,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Aruba"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 15,
+        "deaths": 1,
+        "countryName": "Australia"
     },
     {
         "dateString": "18/05/2020",
@@ -5844,6 +5910,12 @@ window.data = [
         "countryName": "Australia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 25,
+        "deaths": 0,
+        "countryName": "Austria"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 14,
         "deaths": 1,
@@ -6684,6 +6756,12 @@ window.data = [
         "countryName": "Austria"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 13,
+        "deaths": 1,
+        "countryName": "Azerbaijan"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 136,
         "deaths": 3,
@@ -7482,6 +7560,12 @@ window.data = [
         "countryName": "Azerbaijan"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Bahamas"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -7852,6 +7936,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Bahamas"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 228,
+        "deaths": 0,
+        "countryName": "Bahrain"
     },
     {
         "dateString": "18/05/2020",
@@ -8688,6 +8778,12 @@ window.data = [
         "countryName": "Bahrain"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 1602,
+        "deaths": 21,
+        "countryName": "Bangladesh"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 1273,
         "deaths": 14,
@@ -9078,6 +9174,12 @@ window.data = [
         "countryName": "Bangladesh"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Barbados"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 2,
         "deaths": 0,
@@ -9448,6 +9550,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Barbados"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 922,
+        "deaths": 6,
+        "countryName": "Belarus"
     },
     {
         "dateString": "18/05/2020",
@@ -10240,6 +10348,12 @@ window.data = [
         "cases": 0,
         "deaths": 0,
         "countryName": "Belarus"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 279,
+        "deaths": 28,
+        "countryName": "Belgium"
     },
     {
         "dateString": "18/05/2020",
@@ -11082,6 +11196,12 @@ window.data = [
         "countryName": "Belgium"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Belize"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -11416,6 +11536,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Belize"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Benin"
     },
     {
         "dateString": "18/05/2020",
@@ -11796,6 +11922,12 @@ window.data = [
         "countryName": "Benin"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 2,
+        "deaths": 0,
+        "countryName": "Bermuda"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -12154,6 +12286,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Bermuda"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Bhutan"
     },
     {
         "dateString": "18/05/2020",
@@ -12550,6 +12688,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Bhutan"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 175,
+        "deaths": 5,
+        "countryName": "Bolivia"
     },
     {
         "dateString": "18/05/2020",
@@ -12954,6 +13098,12 @@ window.data = [
         "countryName": "Bolivia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Bonaire, Saint Eustatius and Saba"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -13234,6 +13384,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Bonaire, Saint Eustatius and Saba"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 14,
+        "deaths": 0,
+        "countryName": "Bosnia and Herzegovina"
     },
     {
         "dateString": "18/05/2020",
@@ -13638,6 +13794,12 @@ window.data = [
         "countryName": "Bosnia and Herzegovina"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Botswana"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 1,
         "deaths": 0,
@@ -13924,6 +14086,12 @@ window.data = [
         "cases": 3,
         "deaths": 0,
         "countryName": "Botswana"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 13140,
+        "deaths": 674,
+        "countryName": "Brazil"
     },
     {
         "dateString": "18/05/2020",
@@ -14766,6 +14934,12 @@ window.data = [
         "countryName": "Brazil"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "British Virgin Islands"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -15082,6 +15256,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "British Virgin Islands"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Brunei Darussalam"
     },
     {
         "dateString": "18/05/2020",
@@ -15496,6 +15676,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Brunei Darussalam"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 24,
+        "deaths": 2,
+        "countryName": "Bulgaria"
     },
     {
         "dateString": "18/05/2020",
@@ -15918,6 +16104,12 @@ window.data = [
         "countryName": "Bulgaria"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Burkina Faso"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 14,
         "deaths": 0,
@@ -16320,6 +16512,12 @@ window.data = [
         "countryName": "Burkina Faso"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Burundi"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 15,
         "deaths": 0,
@@ -16606,6 +16804,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Burundi"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Cambodia"
     },
     {
         "dateString": "18/05/2020",
@@ -17394,6 +17598,12 @@ window.data = [
         "countryName": "Cambodia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Cameroon"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -17794,6 +18004,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Cameroon"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 1070,
+        "deaths": 60,
+        "countryName": "Canada"
     },
     {
         "dateString": "18/05/2020",
@@ -18636,6 +18852,12 @@ window.data = [
         "countryName": "Canada"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Cape Verde"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -19374,6 +19596,12 @@ window.data = [
         "countryName": "Cases on an international conveyance Japan"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Cayman Islands"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -19732,6 +19960,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Cayman Islands"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 9,
+        "deaths": 0,
+        "countryName": "Central African Republic"
     },
     {
         "dateString": "18/05/2020",
@@ -20118,6 +20352,12 @@ window.data = [
         "countryName": "Central African Republic"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 16,
+        "deaths": 0,
+        "countryName": "Chad"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 29,
         "deaths": 3,
@@ -20476,6 +20716,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Chad"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 2278,
+        "deaths": 28,
+        "countryName": "Chile"
     },
     {
         "dateString": "18/05/2020",
@@ -20926,6 +21172,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Chile"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 9,
+        "deaths": 0,
+        "countryName": "China"
     },
     {
         "dateString": "18/05/2020",
@@ -21768,6 +22020,12 @@ window.data = [
         "countryName": "China"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 721,
+        "deaths": 18,
+        "countryName": "Colombia"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 635,
         "deaths": 12,
@@ -22182,6 +22440,12 @@ window.data = [
         "countryName": "Colombia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Comoros"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -22282,6 +22546,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Comoros"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Congo"
     },
     {
         "dateString": "18/05/2020",
@@ -22666,6 +22936,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Congo"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 3,
+        "deaths": 0,
+        "countryName": "Costa Rica"
     },
     {
         "dateString": "18/05/2020",
@@ -23100,6 +23376,12 @@ window.data = [
         "countryName": "Costa Rica"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 10,
+        "deaths": 1,
+        "countryName": "Cote dIvoire"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 48,
         "deaths": 2,
@@ -23494,6 +23776,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Cote dIvoire"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 2,
+        "deaths": 0,
+        "countryName": "Croatia"
     },
     {
         "dateString": "18/05/2020",
@@ -24318,6 +24606,12 @@ window.data = [
         "countryName": "Croatia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 9,
+        "deaths": 0,
+        "countryName": "Cuba"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 10,
         "deaths": 0,
@@ -24708,6 +25002,12 @@ window.data = [
         "countryName": "Cuba"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Curaçao"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -25042,6 +25342,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Curaçao"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 1,
+        "deaths": 0,
+        "countryName": "Cyprus"
     },
     {
         "dateString": "18/05/2020",
@@ -25452,9 +25758,15 @@ window.data = [
         "countryName": "Cyprus"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 111,
+        "deaths": 0,
+        "countryName": "Czechia"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 20,
-        "deaths": 2,
+        "deaths": 1,
         "countryName": "Czechia"
     },
     {
@@ -26292,6 +26604,12 @@ window.data = [
         "countryName": "Czechia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 175,
+        "deaths": 1,
+        "countryName": "Democratic Republic of the Congo"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -26692,6 +27010,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Democratic Republic of the Congo"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 41,
+        "deaths": 1,
+        "countryName": "Denmark"
     },
     {
         "dateString": "18/05/2020",
@@ -27534,6 +27858,12 @@ window.data = [
         "countryName": "Denmark"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 117,
+        "deaths": 3,
+        "countryName": "Djibouti"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 70,
         "deaths": 0,
@@ -27900,6 +28230,12 @@ window.data = [
         "countryName": "Djibouti"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Dominica"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -28240,6 +28576,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Dominica"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 411,
+        "deaths": 6,
+        "countryName": "Dominican Republic"
     },
     {
         "dateString": "18/05/2020",
@@ -29026,6 +29368,12 @@ window.data = [
         "cases": 0,
         "deaths": 0,
         "countryName": "Dominican Republic"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 400,
+        "deaths": 63,
+        "countryName": "Ecuador"
     },
     {
         "dateString": "18/05/2020",
@@ -29836,6 +30184,12 @@ window.data = [
         "cases": 0,
         "deaths": 0,
         "countryName": "Ecuador"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 535,
+        "deaths": 15,
+        "countryName": "Egypt"
     },
     {
         "dateString": "18/05/2020",
@@ -30654,6 +31008,12 @@ window.data = [
         "countryName": "Egypt"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 75,
+        "deaths": 0,
+        "countryName": "El Salvador"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 73,
         "deaths": 4,
@@ -31018,6 +31378,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "El Salvador"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 125,
+        "deaths": 0,
+        "countryName": "Equatorial Guinea"
     },
     {
         "dateString": "18/05/2020",
@@ -31410,6 +31776,12 @@ window.data = [
         "countryName": "Equatorial Guinea"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Eritrea"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -31756,6 +32128,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Eritrea"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 10,
+        "deaths": 1,
+        "countryName": "Estonia"
     },
     {
         "dateString": "18/05/2020",
@@ -32568,6 +32946,12 @@ window.data = [
         "countryName": "Estonia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Eswatini"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 1,
         "deaths": 0,
@@ -32956,6 +33340,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Eswatini"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 35,
+        "deaths": 0,
+        "countryName": "Ethiopia"
     },
     {
         "dateString": "18/05/2020",
@@ -33354,6 +33744,12 @@ window.data = [
         "countryName": "Ethiopia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Falkland Islands (Malvinas)"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -33622,6 +34018,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Falkland Islands (Malvinas)"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Faroe Islands"
     },
     {
         "dateString": "18/05/2020",
@@ -33984,6 +34386,12 @@ window.data = [
         "countryName": "Faroe Islands"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Fiji"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -34342,6 +34750,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Fiji"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 33,
+        "deaths": 2,
+        "countryName": "Finland"
     },
     {
         "dateString": "18/05/2020",
@@ -35158,6 +35572,12 @@ window.data = [
         "cases": 0,
         "deaths": 0,
         "countryName": "Finland"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 492,
+        "deaths": 131,
+        "countryName": "France"
     },
     {
         "dateString": "18/05/2020",
@@ -36000,6 +36420,12 @@ window.data = [
         "countryName": "France"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "French Polynesia"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -36364,6 +36790,12 @@ window.data = [
         "cases": 3,
         "deaths": 0,
         "countryName": "French Polynesia"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 112,
+        "deaths": 0,
+        "countryName": "Gabon"
     },
     {
         "dateString": "18/05/2020",
@@ -36762,6 +37194,12 @@ window.data = [
         "countryName": "Gabon"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 1,
+        "deaths": 0,
+        "countryName": "Gambia"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -37132,6 +37570,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Gambia"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 1,
+        "deaths": 0,
+        "countryName": "Georgia"
     },
     {
         "dateString": "18/05/2020",
@@ -37954,6 +38398,12 @@ window.data = [
         "cases": 0,
         "deaths": 0,
         "countryName": "Georgia"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 513,
+        "deaths": 72,
+        "countryName": "Germany"
     },
     {
         "dateString": "18/05/2020",
@@ -38796,6 +39246,12 @@ window.data = [
         "countryName": "Germany"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Ghana"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -39192,6 +39648,12 @@ window.data = [
         "countryName": "Ghana"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Gibraltar"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -39550,6 +40012,12 @@ window.data = [
         "cases": 10,
         "deaths": 0,
         "countryName": "Gibraltar"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 2,
+        "deaths": 2,
+        "countryName": "Greece"
     },
     {
         "dateString": "18/05/2020",
@@ -40380,6 +40848,12 @@ window.data = [
         "countryName": "Greece"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Greenland"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -40740,6 +41214,12 @@ window.data = [
         "countryName": "Greenland"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Grenada"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -41080,6 +41560,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Grenada"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Guam"
     },
     {
         "dateString": "18/05/2020",
@@ -41446,6 +41932,12 @@ window.data = [
         "cases": 3,
         "deaths": 0,
         "countryName": "Guam"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 89,
+        "deaths": 3,
+        "countryName": "Guatemala"
     },
     {
         "dateString": "18/05/2020",
@@ -41838,6 +42330,12 @@ window.data = [
         "countryName": "Guatemala"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Guernsey"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -42196,6 +42694,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Guernsey"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 138,
+        "deaths": 0,
+        "countryName": "Guinea"
     },
     {
         "dateString": "18/05/2020",
@@ -42588,6 +43092,12 @@ window.data = [
         "countryName": "Guinea"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Guinea Bissau"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 77,
         "deaths": 1,
@@ -42904,6 +43414,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Guinea Bissau"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 7,
+        "deaths": 0,
+        "countryName": "Guyana"
     },
     {
         "dateString": "18/05/2020",
@@ -43296,6 +43812,12 @@ window.data = [
         "countryName": "Guyana"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 77,
+        "deaths": 1,
+        "countryName": "Haiti"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 98,
         "deaths": 0,
@@ -43654,6 +44176,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Haiti"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Holy See"
     },
     {
         "dateString": "18/05/2020",
@@ -44044,6 +44572,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Holy See"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 152,
+        "deaths": 4,
+        "countryName": "Honduras"
     },
     {
         "dateString": "18/05/2020",
@@ -44440,6 +44974,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Honduras"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 21,
+        "deaths": 5,
+        "countryName": "Hungary"
     },
     {
         "dateString": "18/05/2020",
@@ -44884,6 +45424,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Hungary"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Iceland"
     },
     {
         "dateString": "18/05/2020",
@@ -45726,6 +46272,12 @@ window.data = [
         "countryName": "Iceland"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 4970,
+        "deaths": 134,
+        "countryName": "India"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 5242,
         "deaths": 157,
@@ -46560,6 +47112,12 @@ window.data = [
         "countryName": "India"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 496,
+        "deaths": 43,
+        "countryName": "Indonesia"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 489,
         "deaths": 59,
@@ -47356,6 +47914,12 @@ window.data = [
         "cases": 0,
         "deaths": 0,
         "countryName": "Indonesia"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 2294,
+        "deaths": 69,
+        "countryName": "Iran"
     },
     {
         "dateString": "18/05/2020",
@@ -48198,6 +48762,12 @@ window.data = [
         "countryName": "Iran"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 150,
+        "deaths": 4,
+        "countryName": "Iraq"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 144,
         "deaths": 2,
@@ -49024,6 +49594,12 @@ window.data = [
         "cases": 0,
         "deaths": 0,
         "countryName": "Iraq"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 88,
+        "deaths": 4,
+        "countryName": "Ireland"
     },
     {
         "dateString": "18/05/2020",
@@ -49854,6 +50430,12 @@ window.data = [
         "countryName": "Ireland"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Isle of Man"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -50206,6 +50788,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Isle of Man"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 4,
+        "deaths": 0,
+        "countryName": "Israel"
     },
     {
         "dateString": "18/05/2020",
@@ -51028,6 +51616,12 @@ window.data = [
         "cases": 0,
         "deaths": 0,
         "countryName": "Israel"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 451,
+        "deaths": 99,
+        "countryName": "Italy"
     },
     {
         "dateString": "18/05/2020",
@@ -51870,6 +52464,12 @@ window.data = [
         "countryName": "Italy"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Jamaica"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 3,
         "deaths": 0,
@@ -52270,6 +52870,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Jamaica"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 60,
+        "deaths": 14,
+        "countryName": "Japan"
     },
     {
         "dateString": "18/05/2020",
@@ -53112,6 +53718,12 @@ window.data = [
         "countryName": "Japan"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 1,
+        "deaths": 0,
+        "countryName": "Jersey"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -53470,6 +54082,12 @@ window.data = [
         "cases": 5,
         "deaths": 0,
         "countryName": "Jersey"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 16,
+        "deaths": 0,
+        "countryName": "Jordan"
     },
     {
         "dateString": "18/05/2020",
@@ -53874,6 +54492,12 @@ window.data = [
         "countryName": "Jordan"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 311,
+        "deaths": 1,
+        "countryName": "Kazakhstan"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 283,
         "deaths": 0,
@@ -54262,6 +54886,12 @@ window.data = [
         "cases": 6,
         "deaths": 0,
         "countryName": "Kazakhstan"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 25,
+        "deaths": 0,
+        "countryName": "Kenya"
     },
     {
         "dateString": "18/05/2020",
@@ -54660,6 +55290,12 @@ window.data = [
         "countryName": "Kenya"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Kosovo"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 11,
         "deaths": 0,
@@ -55042,6 +55678,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Kosovo"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 841,
+        "deaths": 6,
+        "countryName": "Kuwait"
     },
     {
         "dateString": "18/05/2020",
@@ -55866,6 +56508,12 @@ window.data = [
         "countryName": "Kuwait"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 27,
+        "deaths": 0,
+        "countryName": "Kyrgyzstan"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 78,
         "deaths": 0,
@@ -56232,6 +56880,12 @@ window.data = [
         "countryName": "Kyrgyzstan"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Laos"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -56560,6 +57214,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Laos"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 1,
+        "deaths": 0,
+        "countryName": "Latvia"
     },
     {
         "dateString": "18/05/2020",
@@ -56998,6 +57658,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Latvia"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 20,
+        "deaths": 0,
+        "countryName": "Lebanon"
     },
     {
         "dateString": "18/05/2020",
@@ -57816,6 +58482,12 @@ window.data = [
         "countryName": "Lebanon"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Lesotho"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -57838,6 +58510,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Lesotho"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 3,
+        "deaths": 1,
+        "countryName": "Liberia"
     },
     {
         "dateString": "18/05/2020",
@@ -58218,6 +58896,12 @@ window.data = [
         "countryName": "Liberia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Libya"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -58546,6 +59230,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Libya"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Liechtenstein"
     },
     {
         "dateString": "18/05/2020",
@@ -58960,6 +59650,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Liechtenstein"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 6,
+        "deaths": 3,
+        "countryName": "Lithuania"
     },
     {
         "dateString": "18/05/2020",
@@ -59746,6 +60442,12 @@ window.data = [
         "cases": 0,
         "deaths": 0,
         "countryName": "Lithuania"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 2,
+        "deaths": 0,
+        "countryName": "Luxembourg"
     },
     {
         "dateString": "18/05/2020",
@@ -60546,6 +61248,12 @@ window.data = [
         "countryName": "Luxembourg"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 18,
+        "deaths": 0,
+        "countryName": "Madagascar"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 21,
         "deaths": 1,
@@ -60900,6 +61608,12 @@ window.data = [
         "countryName": "Madagascar"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Malawi"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 5,
         "deaths": 0,
@@ -61174,6 +61888,12 @@ window.data = [
         "cases": 3,
         "deaths": 0,
         "countryName": "Malawi"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 47,
+        "deaths": 0,
+        "countryName": "Malaysia"
     },
     {
         "dateString": "18/05/2020",
@@ -62010,6 +62730,12 @@ window.data = [
         "countryName": "Malaysia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 12,
+        "deaths": 0,
+        "countryName": "Maldives"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 16,
         "deaths": 0,
@@ -62430,6 +63156,12 @@ window.data = [
         "countryName": "Maldives"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 14,
+        "deaths": 0,
+        "countryName": "Mali"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 25,
         "deaths": 4,
@@ -62752,6 +63484,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Mali"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 5,
+        "deaths": 0,
+        "countryName": "Malta"
     },
     {
         "dateString": "18/05/2020",
@@ -63192,6 +63930,12 @@ window.data = [
         "countryName": "Malta"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 19,
+        "deaths": 0,
+        "countryName": "Mauritania"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 33,
         "deaths": 1,
@@ -63582,6 +64326,12 @@ window.data = [
         "countryName": "Mauritania"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Mauritius"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -63940,6 +64690,12 @@ window.data = [
         "cases": 3,
         "deaths": 0,
         "countryName": "Mauritius"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 2414,
+        "deaths": 155,
+        "countryName": "Mexico"
     },
     {
         "dateString": "18/05/2020",
@@ -64734,6 +65490,12 @@ window.data = [
         "countryName": "Mexico"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 78,
+        "deaths": 4,
+        "countryName": "Moldova"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 126,
         "deaths": 4,
@@ -65152,6 +65914,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Moldova"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 1,
+        "deaths": 0,
+        "countryName": "Monaco"
     },
     {
         "dateString": "18/05/2020",
@@ -65922,6 +66690,12 @@ window.data = [
         "countryName": "Monaco"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Mongolia"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 4,
         "deaths": 0,
@@ -66306,6 +67080,12 @@ window.data = [
         "countryName": "Mongolia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Montenegro"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -66678,6 +67458,12 @@ window.data = [
         "countryName": "Montenegro"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Montserrat"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -67024,6 +67810,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Montserrat"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 82,
+        "deaths": 0,
+        "countryName": "Morocco"
     },
     {
         "dateString": "18/05/2020",
@@ -67446,6 +68238,12 @@ window.data = [
         "countryName": "Morocco"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 8,
+        "deaths": 0,
+        "countryName": "Mozambique"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 8,
         "deaths": 0,
@@ -67788,6 +68586,12 @@ window.data = [
         "countryName": "Mozambique"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 4,
+        "deaths": 0,
+        "countryName": "Myanmar"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 5,
         "deaths": 0,
@@ -68128,6 +68932,12 @@ window.data = [
         "cases": 0,
         "deaths": 0,
         "countryName": "Myanmar"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Namibia"
     },
     {
         "dateString": "18/05/2020",
@@ -68518,6 +69328,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Namibia"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 71,
+        "deaths": 0,
+        "countryName": "Nepal"
     },
     {
         "dateString": "18/05/2020",
@@ -69280,6 +70096,12 @@ window.data = [
         "cases": 0,
         "deaths": 0,
         "countryName": "Nepal"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 146,
+        "deaths": 14,
+        "countryName": "Netherlands"
     },
     {
         "dateString": "18/05/2020",
@@ -70122,6 +70944,12 @@ window.data = [
         "countryName": "Netherlands"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "New Caledonia"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -70474,6 +71302,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "New Caledonia"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 4,
+        "deaths": 0,
+        "countryName": "New Zealand"
     },
     {
         "dateString": "18/05/2020",
@@ -71262,6 +72096,12 @@ window.data = [
         "countryName": "New Zealand"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Nicaragua"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -71628,6 +72468,12 @@ window.data = [
         "countryName": "Nicaragua"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 5,
+        "deaths": 1,
+        "countryName": "Niger"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 15,
         "deaths": 3,
@@ -71980,6 +72826,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Niger"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 216,
+        "deaths": 9,
+        "countryName": "Nigeria"
     },
     {
         "dateString": "18/05/2020",
@@ -72754,6 +73606,12 @@ window.data = [
         "cases": 0,
         "deaths": 0,
         "countryName": "Nigeria"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 25,
+        "deaths": 3,
+        "countryName": "North Macedonia"
     },
     {
         "dateString": "18/05/2020",
@@ -73542,6 +74400,12 @@ window.data = [
         "countryName": "North Macedonia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Northern Mariana Islands"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -73834,6 +74698,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Northern Mariana Islands"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 52,
+        "deaths": 1,
+        "countryName": "Norway"
     },
     {
         "dateString": "18/05/2020",
@@ -74676,6 +75546,12 @@ window.data = [
         "countryName": "Norway"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 193,
+        "deaths": 4,
+        "countryName": "Oman"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 157,
         "deaths": 1,
@@ -75478,6 +76354,12 @@ window.data = [
         "cases": 0,
         "deaths": 0,
         "countryName": "Oman"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 1841,
+        "deaths": 36,
+        "countryName": "Pakistan"
     },
     {
         "dateString": "18/05/2020",
@@ -76290,6 +77172,12 @@ window.data = [
         "countryName": "Pakistan"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 7,
+        "deaths": 0,
+        "countryName": "Palestine"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 6,
         "deaths": 0,
@@ -76716,6 +77604,12 @@ window.data = [
         "countryName": "Palestine"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 120,
+        "deaths": 4,
+        "countryName": "Panama"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 157,
         "deaths": 6,
@@ -77136,6 +78030,12 @@ window.data = [
         "countryName": "Panama"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Papua New Guinea"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -77488,6 +78388,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Papua New Guinea"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 2,
+        "deaths": 0,
+        "countryName": "Paraguay"
     },
     {
         "dateString": "18/05/2020",
@@ -77896,6 +78802,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Paraguay"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 2660,
+        "deaths": 141,
+        "countryName": "Peru"
     },
     {
         "dateString": "18/05/2020",
@@ -78328,6 +79240,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Peru"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 205,
+        "deaths": 7,
+        "countryName": "Philippines"
     },
     {
         "dateString": "18/05/2020",
@@ -79146,6 +80064,12 @@ window.data = [
         "countryName": "Philippines"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 356,
+        "deaths": 11,
+        "countryName": "Poland"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 272,
         "deaths": 10,
@@ -79588,6 +80512,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Poland"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 173,
+        "deaths": 13,
+        "countryName": "Portugal"
     },
     {
         "dateString": "18/05/2020",
@@ -80052,6 +80982,12 @@ window.data = [
         "countryName": "Portugal"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 64,
+        "deaths": 1,
+        "countryName": "Puerto Rico"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 57,
         "deaths": 1,
@@ -80362,6 +81298,12 @@ window.data = [
         "cases": 64,
         "deaths": 2,
         "countryName": "Puerto Rico"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 1365,
+        "deaths": 0,
+        "countryName": "Qatar"
     },
     {
         "dateString": "18/05/2020",
@@ -81178,6 +82120,12 @@ window.data = [
         "cases": 0,
         "deaths": 0,
         "countryName": "Qatar"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 165,
+        "deaths": 10,
+        "countryName": "Romania"
     },
     {
         "dateString": "18/05/2020",
@@ -82006,6 +82954,12 @@ window.data = [
         "cases": 0,
         "deaths": 0,
         "countryName": "Romania"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 8926,
+        "deaths": 91,
+        "countryName": "Russia"
     },
     {
         "dateString": "18/05/2020",
@@ -82848,6 +83802,12 @@ window.data = [
         "countryName": "Russia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 5,
+        "deaths": 0,
+        "countryName": "Rwanda"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 3,
         "deaths": 0,
@@ -83238,6 +84198,12 @@ window.data = [
         "countryName": "Rwanda"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Saint Kitts and Nevis"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -83560,6 +84526,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Saint Kitts and Nevis"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Saint Lucia"
     },
     {
         "dateString": "18/05/2020",
@@ -83952,6 +84924,12 @@ window.data = [
         "countryName": "Saint Lucia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Saint Vincent and the Grenadines"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -84286,6 +85264,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Saint Vincent and the Grenadines"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "San Marino"
     },
     {
         "dateString": "18/05/2020",
@@ -85122,6 +86106,12 @@ window.data = [
         "countryName": "San Marino"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 11,
+        "deaths": 0,
+        "countryName": "Sao Tome and Principe"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -85360,6 +86350,12 @@ window.data = [
         "cases": 4,
         "deaths": 0,
         "countryName": "Sao Tome and Principe"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 2593,
+        "deaths": 8,
+        "countryName": "Saudi Arabia"
     },
     {
         "dateString": "18/05/2020",
@@ -85806,6 +86802,12 @@ window.data = [
         "countryName": "Saudi Arabia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 64,
+        "deaths": 0,
+        "countryName": "Senegal"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 51,
         "deaths": 1,
@@ -86224,6 +87226,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Senegal"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 89,
+        "deaths": 1,
+        "countryName": "Serbia"
     },
     {
         "dateString": "18/05/2020",
@@ -86646,6 +87654,12 @@ window.data = [
         "countryName": "Serbia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Seychelles"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -87036,6 +88050,12 @@ window.data = [
         "countryName": "Seychelles"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 14,
+        "deaths": 1,
+        "countryName": "Sierra Leone"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 43,
         "deaths": 3,
@@ -87322,6 +88342,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Sierra Leone"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 305,
+        "deaths": 0,
+        "countryName": "Singapore"
     },
     {
         "dateString": "18/05/2020",
@@ -88164,6 +89190,12 @@ window.data = [
         "countryName": "Singapore"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Sint Maarten"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -88486,6 +89518,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Sint Maarten"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 1,
+        "deaths": 0,
+        "countryName": "Slovakia"
     },
     {
         "dateString": "18/05/2020",
@@ -88918,6 +89956,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Slovakia"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Slovenia"
     },
     {
         "dateString": "18/05/2020",
@@ -89364,6 +90408,12 @@ window.data = [
         "countryName": "Slovenia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 34,
+        "deaths": 1,
+        "countryName": "Somalia"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 64,
         "deaths": 1,
@@ -89740,6 +90790,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Somalia"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 918,
+        "deaths": 22,
+        "countryName": "South Africa"
     },
     {
         "dateString": "18/05/2020",
@@ -90172,6 +91228,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "South Africa"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 13,
+        "deaths": 0,
+        "countryName": "South Korea"
     },
     {
         "dateString": "18/05/2020",
@@ -91014,8 +92076,14 @@ window.data = [
         "countryName": "South Korea"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "South Sudan"
+    },
+    {
         "dateString": "18/05/2020",
-        "cases": 49,
+        "cases": 46,
         "deaths": 0,
         "countryName": "South Sudan"
     },
@@ -91270,6 +92338,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "South Sudan"
+    },
+    {
+        "dateString": "18/05/2020",
+        "cases": 256,
+        "deaths": 59,
+        "countryName": "Spain"
     },
     {
         "dateString": "17/05/2020",
@@ -92106,6 +93180,12 @@ window.data = [
         "countryName": "Spain"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 11,
+        "deaths": 0,
+        "countryName": "Sri Lanka"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 21,
         "deaths": 0,
@@ -92892,6 +93972,12 @@ window.data = [
         "countryName": "Sri Lanka"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 302,
+        "deaths": 8,
+        "countryName": "Sudan"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 325,
         "deaths": 6,
@@ -93288,6 +94374,12 @@ window.data = [
         "countryName": "Sudan"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 1,
+        "deaths": 0,
+        "countryName": "Suriname"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -93646,6 +94738,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Suriname"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 234,
+        "deaths": 19,
+        "countryName": "Sweden"
     },
     {
         "dateString": "18/05/2020",
@@ -94488,6 +95586,12 @@ window.data = [
         "countryName": "Sweden"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 10,
+        "deaths": 0,
+        "countryName": "Switzerland"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 15,
         "deaths": 1,
@@ -95328,6 +96432,12 @@ window.data = [
         "countryName": "Switzerland"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Syria"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 7,
         "deaths": 0,
@@ -95668,6 +96778,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Syria"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Taiwan"
     },
     {
         "dateString": "18/05/2020",
@@ -96498,6 +97614,12 @@ window.data = [
         "countryName": "Taiwan"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 205,
+        "deaths": 2,
+        "countryName": "Tajikistan"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 202,
         "deaths": 3,
@@ -96604,6 +97726,12 @@ window.data = [
         "cases": 15,
         "deaths": 0,
         "countryName": "Tajikistan"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 3,
+        "deaths": 0,
+        "countryName": "Thailand"
     },
     {
         "dateString": "18/05/2020",
@@ -97404,6 +98532,12 @@ window.data = [
         "countryName": "Thailand"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Timor Leste"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -97750,6 +98884,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Timor Leste"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 29,
+        "deaths": 1,
+        "countryName": "Togo"
     },
     {
         "dateString": "18/05/2020",
@@ -98146,6 +99286,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Togo"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Trinidad and Tobago"
     },
     {
         "dateString": "18/05/2020",
@@ -98548,6 +99694,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Trinidad and Tobago"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 6,
+        "deaths": 1,
+        "countryName": "Tunisia"
     },
     {
         "dateString": "18/05/2020",
@@ -98976,6 +100128,12 @@ window.data = [
         "countryName": "Tunisia"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 1158,
+        "deaths": 31,
+        "countryName": "Turkey"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 1368,
         "deaths": 44,
@@ -99372,6 +100530,12 @@ window.data = [
         "countryName": "Turkey"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Turks and Caicos islands"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -99700,6 +100864,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Turks and Caicos islands"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 33,
+        "deaths": 0,
+        "countryName": "Uganda"
     },
     {
         "dateString": "18/05/2020",
@@ -100048,6 +101218,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Uganda"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 325,
+        "deaths": 21,
+        "countryName": "Ukraine"
     },
     {
         "dateString": "18/05/2020",
@@ -100444,6 +101620,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Ukraine"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 832,
+        "deaths": 4,
+        "countryName": "United Arab Emirates"
     },
     {
         "dateString": "18/05/2020",
@@ -101248,6 +102430,12 @@ window.data = [
         "cases": 0,
         "deaths": 0,
         "countryName": "United Arab Emirates"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 2711,
+        "deaths": 160,
+        "countryName": "United Kingdom"
     },
     {
         "dateString": "18/05/2020",
@@ -102090,6 +103278,12 @@ window.data = [
         "countryName": "United Kingdom"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "United Republic of Tanzania"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -102466,6 +103660,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "United Republic of Tanzania"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 21841,
+        "deaths": 791,
+        "countryName": "USA"
     },
     {
         "dateString": "18/05/2020",
@@ -103308,6 +104508,12 @@ window.data = [
         "countryName": "USA"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "United States Virgin Islands"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -103636,6 +104842,12 @@ window.data = [
         "cases": 17,
         "deaths": 0,
         "countryName": "United States Virgin Islands"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 3,
+        "deaths": 0,
+        "countryName": "Uruguay"
     },
     {
         "dateString": "18/05/2020",
@@ -104028,6 +105240,12 @@ window.data = [
         "countryName": "Uruguay"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 49,
+        "deaths": 1,
+        "countryName": "Uzbekistan"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 12,
         "deaths": 1,
@@ -104410,6 +105628,12 @@ window.data = [
         "cases": 6,
         "deaths": 0,
         "countryName": "Uzbekistan"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 77,
+        "deaths": 0,
+        "countryName": "Venezuela"
     },
     {
         "dateString": "18/05/2020",
@@ -104800,6 +106024,12 @@ window.data = [
         "cases": 10,
         "deaths": 0,
         "countryName": "Venezuela"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 4,
+        "deaths": 0,
+        "countryName": "Vietnam"
     },
     {
         "dateString": "18/05/2020",
@@ -105618,6 +106848,12 @@ window.data = [
         "countryName": "Vietnam"
     },
     {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Western Sahara"
+    },
+    {
         "dateString": "18/05/2020",
         "cases": 0,
         "deaths": 0,
@@ -105754,6 +106990,12 @@ window.data = [
         "cases": 6,
         "deaths": 0,
         "countryName": "Western Sahara"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 2,
+        "deaths": 0,
+        "countryName": "Yemen"
     },
     {
         "dateString": "18/05/2020",
@@ -105988,6 +107230,12 @@ window.data = [
         "cases": 1,
         "deaths": 0,
         "countryName": "Yemen"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 8,
+        "deaths": 0,
+        "countryName": "Zambia"
     },
     {
         "dateString": "18/05/2020",
@@ -106354,6 +107602,12 @@ window.data = [
         "cases": 2,
         "deaths": 0,
         "countryName": "Zambia"
+    },
+    {
+        "dateString": "19/05/2020",
+        "cases": 0,
+        "deaths": 0,
+        "countryName": "Zimbabwe"
     },
     {
         "dateString": "18/05/2020",
