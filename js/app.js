@@ -37,7 +37,7 @@ async function draw() {
 
       drawCountryActiveCases('Romania'); // 29
       show('countryActiveCasesWrapper', document.querySelector('button'), true);
-      
+
       drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
       drawCountryEvolutionLine('otherCountryTotals', 'Italy', '#ffeb3b'); //30
       drawGlobalActiveCases();
@@ -558,7 +558,7 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800') {
     .sort((a, b) => +moment(b.dateString, 'DD/MM/YYYY') - +moment(a.dateString, 'DD/MM/YYYY'))
     .reverse();
 
-  countryData = countryData.slice(isPortraitMobile ? countryData.length - 10 : Math.max(115 - maxElementsInWidth, 60));
+  countryData = countryData.slice(countryData.length - (isPortraitMobile ? 15 : (maxElementsInWidth * 1.5)));
 
   const labels = countryData.map((x) => moment(x.dateString, 'DD/MM/YYYY').format(defaultDateFormat));
   const values = countryData.map((x) => x.cases);
