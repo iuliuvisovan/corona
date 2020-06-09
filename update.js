@@ -105,9 +105,50 @@ function bumpAppCssVersion() {
   fs.writeFileSync(indexHtmlPath, replacedIndexHtml);
 }
 
+function addTodayCases() {
+  const [_, __, todayCases, todayRecoveries, todayDeaths] = process.argv;
+
+  if (!todayCases || !todayRecoveries || !todayDeaths) {
+    return;
+  }
+
+  let romaniaDailyCasesString = fs.readFileSync('./data/romania.js', 'utf8');
+
+  const romaniaDailyCases = JSON.parse(romaniaDailyCasesString.replace('window.romaniaData = ', ''));
+
+  const yesterdayKey = moment().subtract(1, 'day').format('DD/MM/YYYY');
+  const todayKey = moment().format('DD/MM/YYYY');
+
+  const totalCasesSoFar = Object.keys(romaniaDailyCases)
+    .map((x) => romaniaDailyCases[x].cases)
+    .reduce((a, b) => a + b);
+  const totalRecoveriesSoFar = Object.keys(romaniaDailyCases)
+    .map((x) => romaniaDailyCases[x].recoveries)
+    .reduce((a, b) => a + b);
+  const totalDeathsSoFar = Object.keys(romaniaDailyCases)
+    .map((x) => romaniaDailyCases[x].deaths)
+    .reduce((a, b) => a + b);
+
+  romaniaDailyCases[todayKey] = {
+    cases: todayCases - totalCasesSoFar,
+    recoveries: todayRecoveries - totalRecoveriesSoFar,
+    deaths: todayDeaths - totalDeathsSoFar,
+  };
+
+  const newRomaniaDailyCases = {};
+  [todayKey, ...Object.keys(romaniaDailyCases)].forEach((key) => {
+    newRomaniaDailyCases[key] = romaniaDailyCases[key];
+  });
+
+  const newRomaniaDailyCasesString = 'window.romaniaData = ' + JSON.stringify(newRomaniaDailyCases, null, 2);
+
+  fs.writeFileSync('./data/romania.js', newRomaniaDailyCasesString);
+}
+
 fetchActiveCases();
 bumpAppJsVersion();
 bumpAppCssVersion();
 bumpGlobalCasesVersion();
 bumpRomaniaVersion();
 bumpRomaniaDeathsVersion();
+addTodayCases();
