@@ -21,32 +21,24 @@ var endTime;
 async function draw() {
   drawRomaniaDeathMap();
   drawRomaniaSexBar();
+  drawRomaniaDiseasesPie();
   drawRomaniaAgeCasesPie();
 
-  setTimeout(
-    () => {
-      drawRomaniaDiseasesPie();
-    },
-    isPortraitMobile ? 500 : 0
-  );
-  setTimeout(
-    async () => {
-      await init();
-      drawCountryDailyBars('romaniaChart', 'Romania');
-      drawCountryEvolutionLine('romaniaTotals', 'Romania');
+  setTimeout(async () => {
+    await init();
+    drawCountryDailyBars('romaniaChart', 'Romania');
+    drawCountryEvolutionLine('romaniaTotals', 'Romania');
 
-      drawCountryActiveCases('Romania'); // 29
-      show('countryActiveCasesWrapper', document.querySelector('button'), true);
+    drawCountryActiveCases('Romania'); // 29
+    show('countryActiveCasesWrapper', document.querySelector('button'), true);
 
-      drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
-      drawCountryEvolutionLine('otherCountryTotals', 'Italy', '#ffeb3b'); //30
-      drawGlobalActiveCases();
-      drawLastWeekTotalsBars(); //122
-      drawAllTimeTotalsBars(); //22
-      drawGlobalEvolutionLine(); //22
-    },
-    isPortraitMobile ? 1200 : 900
-  );
+    drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
+    drawCountryEvolutionLine('otherCountryTotals', 'Italy', '#ffeb3b'); //30
+    drawGlobalActiveCases();
+    drawLastWeekTotalsBars(); //122
+    drawAllTimeTotalsBars(); //22
+    drawGlobalEvolutionLine(); //22
+  }, 1200);
 }
 
 function setCurrentDate() {
@@ -287,10 +279,12 @@ function drawRomaniaAgeCasesPie() {
   let labels = intervals.map((x) => x.label);
   const values = intervals.map((x) => data.filter((y) => y.age > x.min && y.age <= x.max).length);
 
+  const totalValues = data.length;
+
   otherCountryChart = new Chart(ctx, {
     type: 'horizontalBar',
     data: {
-      labels: labels.map((x, i) => `${x} (${values[i]})`),
+      labels: labels.map((x, i) => `${x} (${((values[i] / totalValues) * 100).toFixed(0)}%)`),
       datasets: [
         {
           label: 'Morți pe grupe de varsta',
@@ -390,7 +384,7 @@ function drawRomaniaDiseasesPie() {
   otherCountryChart = new Chart(ctx, {
     type: 'horizontalBar',
     data: {
-      labels: ['Alte afecțiuni', ...labels, 'Fără boli preexistente', 'Necunoscut'].map((x, i) => x[0].toUpperCase() + x.substr(1) + ': ' + values[i]),
+      labels: ['Alte afecțiuni', ...labels, 'Fără boli preexistente', 'Necunoscut'].map((x, i) => x[0].toUpperCase() + x.substr(1)),
       datasets: [
         {
           label: 'Morți pe baza afectiunilor preexistente',
@@ -499,7 +493,7 @@ function drawRomaniaSexBar() {
       plugins: {
         labels: {
           render: ({ value }) => {
-            return `${((100 / total) * value).toFixed(1)}% (${value})                        `;
+            return `${((100 / total) * value).toFixed(1)}%             `;
           },
           precision: 0,
           showZero: true,
@@ -558,7 +552,7 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800') {
     .sort((a, b) => +moment(b.dateString, 'DD/MM/YYYY') - +moment(a.dateString, 'DD/MM/YYYY'))
     .reverse();
 
-  countryData = countryData.slice(countryData.length - (isPortraitMobile ? 15 : (maxElementsInWidth * 1.5)));
+  countryData = countryData.slice(countryData.length - (isPortraitMobile ? 15 : maxElementsInWidth * 1.5));
 
   const labels = countryData.map((x) => moment(x.dateString, 'DD/MM/YYYY').format(defaultDateFormat));
   const values = countryData.map((x) => x.cases);
