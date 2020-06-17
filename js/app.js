@@ -711,7 +711,7 @@ function drawCountryActiveCases(countryName) {
   const values = summedFirstCountryInfections.map((x, i) => x - (summedFirstCountryrecoveries[i] + summedFirstCountrydeaths[i]));
 
   const filterFunction = (x, i, a) => {
-    if (i < (countryName == 'China' ? 30 : 50)) {
+    if (i < (countryName == 'China' ? 30 : 56)) {
       return false;
     }
 
