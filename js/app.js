@@ -715,13 +715,15 @@ function drawCountryActiveCases(countryName) {
       return false;
     }
 
-    const distanceFromPresent = a.length - i;
+    return true;
 
-    const volumeToShow = isPortraitMobile ? 6 : 16;
+    // const distanceFromPresent = a.length - i;
 
-    const rarifyingFactor = Math.floor(distanceFromPresent / volumeToShow) + 1;
+    // const volumeToShow = isPortraitMobile ? 6 : 16;
 
-    return i % rarifyingFactor == 0;
+    // const rarifyingFactor = Math.floor(distanceFromPresent / volumeToShow) + 1;
+
+    // return i % rarifyingFactor == 0;
   };
 
   countryActiveCases = new Chart(ctx, {
@@ -742,6 +744,12 @@ function drawCountryActiveCases(countryName) {
       animation: {
         duration: 0,
       },
+      elements: {
+        point: {
+          radius: 1,
+        },
+      },
+      skipLabelFactor: isPortraitMobile ? 10 : 3,
       maintainAspectRatio: false,
       scales: {
         yAxes: [
