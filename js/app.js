@@ -716,14 +716,6 @@ function drawCountryActiveCases(countryName) {
     }
 
     return true;
-
-    // const distanceFromPresent = a.length - i;
-
-    // const volumeToShow = isPortraitMobile ? 6 : 16;
-
-    // const rarifyingFactor = Math.floor(distanceFromPresent / volumeToShow) + 1;
-
-    // return i % rarifyingFactor == 0;
   };
 
   countryActiveCases = new Chart(ctx, {
