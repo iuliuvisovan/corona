@@ -116,7 +116,6 @@ function addTodayCases() {
 
   const romaniaDailyCases = JSON.parse(romaniaDailyCasesString.replace('window.romaniaData = ', ''));
 
-  const yesterdayKey = moment().subtract(1, 'day').format('DD/MM/YYYY');
   const todayKey = moment().format('DD/MM/YYYY');
 
   const totalCasesSoFar = Object.keys(romaniaDailyCases)
@@ -145,10 +144,10 @@ function addTodayCases() {
   fs.writeFileSync('./data/romania.js', newRomaniaDailyCasesString);
 }
 
+addTodayCases();
 fetchActiveCases();
 bumpAppJsVersion();
 bumpAppCssVersion();
 bumpGlobalCasesVersion();
 bumpRomaniaVersion();
 bumpRomaniaDeathsVersion();
-addTodayCases();
