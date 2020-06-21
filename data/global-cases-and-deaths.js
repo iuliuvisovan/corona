@@ -1,5 +1,11 @@
 window.data = [
     {
+        "dateString": "21/06/2020",
+        "cases": 658,
+        "deaths": 42,
+        "countryName": "Afghanistan"
+    },
+    {
         "dateString": "20/06/2020",
         "cases": 658,
         "deaths": 42,
@@ -110362,6 +110368,12 @@ window.data = [
         "cases": 0,
         "deaths": 0,
         "countryName": "Qatar"
+    },
+    {
+        "dateString": "21/06/2020",
+        "cases": 320,
+        "deaths": 22,
+        "countryName": "Romania"
     },
     {
         "dateString": "20/06/2020",
