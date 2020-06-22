@@ -30,14 +30,14 @@ async function draw() {
     drawCountryEvolutionLine('romaniaTotals', 'Romania');
 
     drawCountryActiveCases('Romania'); // 29
-    // show('countryActiveCasesWrapper', document.querySelector('button'), true);
+    show('countryActiveCasesWrapper', document.querySelector('button'), true);
 
-    // drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
-    // drawCountryEvolutionLine('otherCountryTotals', 'Italy', '#ffeb3b'); //30
-    // drawGlobalActiveCases();
-    // drawLastWeekTotalsBars(); //122
-    // drawAllTimeTotalsBars(); //22
-    // drawGlobalEvolutionLine(); //22
+    drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
+    drawCountryEvolutionLine('otherCountryTotals', 'Italy', '#ffeb3b'); //30
+    drawGlobalActiveCases();
+    drawLastWeekTotalsBars(); //122
+    drawAllTimeTotalsBars(); //22
+    drawGlobalEvolutionLine(); //22
   }, 1200);
 }
 
