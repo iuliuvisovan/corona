@@ -38,7 +38,7 @@ async function draw() {
     drawLastWeekTotalsBars(); //122
     drawAllTimeTotalsBars(); //22
     drawGlobalEvolutionLine(); //22
-  }, 1200);
+  }, 0);
 }
 
 function setCurrentDate() {
@@ -114,6 +114,9 @@ function drawRomaniaDeathMap() {
     options: {
       legend: {
         display: false,
+      },
+      animation: {
+        duration: 0,
       },
       scale: {
         projection: d3.geoMercator(),
@@ -294,6 +297,9 @@ function drawRomaniaAgeCasesPie() {
       ],
     },
     options: {
+      animation: {
+        duration: 0,
+      },
       scales: {
         yAxes: [
           {
@@ -394,6 +400,9 @@ function drawRomaniaDiseasesPie() {
       ],
     },
     options: {
+      animation: {
+        duration: 0,
+      },
       scales: {
         yAxes: [
           {
@@ -490,6 +499,9 @@ function drawRomaniaSexBar() {
       ],
     },
     options: {
+      animation: {
+        duration: 0,
+      },
       plugins: {
         labels: {
           render: ({ value }) => {
