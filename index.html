@@ -17,7 +17,7 @@
     <meta property="og:description" content="Grafice complete cu situația cazurilor de COVID-19 (coronavirus) în România și global. Actualizat zilnic." />
     <meta name="keywords" content="Coronavirus,Covid,Romania,Grafice" />
     <meta property="og:image" content="https://p3cdn4static.sharpschool.com/UserFiles/Servers/Server_1051846/Image/News/coronavirus.png" />
-    <link rel="stylesheet" href="css/styles.css?v=154" />
+    <link rel="stylesheet" href="css/styles.css?v=157" />
     <link id="favicon" rel="icon" href="img/favicon.png" type="image/png" sizes="16x16" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -73,10 +73,9 @@
     <div class="chart-container">
       <canvas id="romaniaTotals"></canvas>
     </div>
-<!-- 
     <h4>Alege un grafic:</h4>
     <div class="buttons-wrapper">
-      <button title="Evoluția cazurilor totale pe o anumită țară" onclick="show('countryActiveCasesWrapper', this)">
+      <button selected title="Evoluția cazurilor totale pe o anumită țară" onclick="show('countryActiveCasesWrapper', this)">
         <img src="./img/country-active-evolution.jpg" alt="Evolution of active cases per country graph" />
         <span> <b>Cazuri active</b> <br />pe țară </span>
       </button>
@@ -104,11 +103,11 @@
         <img src="./img/global-evolution.jpg" alt="Global evolution of cases graph" />
         <span> <b>Evoluție</b><br />global </span>
       </button>
-    </div> -->
+    </div> 
 
-    <span style="margin-bottom: 30px; margin-top: 20px; width: 700px; max-width: calc(100vw - 20px); text-align: center; color: #FF5722">Momentan, situația pe alte țări nu se poate afișa din cauza indisponibilității datelor de la ECDC: </br><a target="_blank" href="https://opendata.ecdc.europa.eu/covid19/casedistribution/json">https://opendata.ecdc.europa.eu/covi...</a></span>
+    <!-- <span style="margin-bottom: 30px; margin-top: 20px; width: 700px; max-width: calc(100vw - 20px); text-align: center; color: #FF5722">Momentan, situația pe alte țări nu se poate afișa din cauza indisponibilității datelor de la ECDC: </br><a target="_blank" href="https://opendata.ecdc.europa.eu/covid19/casedistribution/json">https://opendata.ecdc.europa.eu/covi...</a></span> -->
 
-    <div class="graph-wrapper" id="countryActiveCasesWrapper">
+    <div visible class="graph-wrapper" id="countryActiveCasesWrapper">
       <h3 class="graph-title">Cazuri active pe o anumită țară</h3>
       <select
         id="activeCasesCountryPicker"
@@ -242,14 +241,14 @@
     <script src="js/chartjs-plugin-labels.js"></script>
     <script src="js/chart-geo.min.js"></script>
 
-    <script src="data/global-cases-and-deaths.js?v=213"></script>
-    <script src="data/romania.js?v=325"></script>
-    <script src="data/romania-deaths.js?v=272"></script>
+    <script src="data/global-cases-and-deaths.js?v=216"></script>
+    <script src="data/romania.js?v=328"></script>
+    <script src="data/romania-deaths.js?v=275"></script>
     <script src="data/romania-topo.js?v=122"></script>
     <script src="data/us-topo.js?v=122"></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
 
-    <script src="js/app.js?v=349"></script>
+    <script src="js/app.js?v=352"></script>
     <script>
       (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
