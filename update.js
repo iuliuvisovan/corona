@@ -145,7 +145,7 @@ function addTodayCases() {
 }
 
 addTodayCases();
-fetchActiveCases();
+// fetchActiveCases();
 bumpAppJsVersion();
 bumpAppCssVersion();
 bumpGlobalCasesVersion();
