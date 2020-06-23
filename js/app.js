@@ -27,17 +27,23 @@ async function draw() {
   setTimeout(async () => {
     await init();
     drawCountryDailyBars('romaniaChart', 'Romania');
-    drawCountryEvolutionLine('romaniaTotals', 'Romania');
+    setTimeout(() => {
+      drawCountryEvolutionLine('romaniaTotals', 'Romania');
 
-    drawCountryActiveCases('Romania'); // 29
-    show('countryActiveCasesWrapper', document.querySelector('button'), true);
+      setTimeout(() => {
+        drawCountryActiveCases('Romania'); // 29
+        show('countryActiveCasesWrapper', document.querySelector('button'), true);
 
-    drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
-    drawCountryEvolutionLine('otherCountryTotals', 'Italy', '#ffeb3b'); //30
-    drawGlobalActiveCases();
-    drawLastWeekTotalsBars(); //122
-    drawAllTimeTotalsBars(); //22
-    drawGlobalEvolutionLine(); //22
+        setTimeout(() => {
+          drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
+          drawCountryEvolutionLine('otherCountryTotals', 'Italy', '#ffeb3b'); //30
+          drawGlobalActiveCases();
+          drawLastWeekTotalsBars(); //122
+          drawAllTimeTotalsBars(); //22
+          drawGlobalEvolutionLine(); //22
+        }, 1000);
+      }, 0);
+    }, 0);
   }, 0);
 }
 
@@ -112,11 +118,11 @@ function drawRomaniaDeathMap() {
       ],
     },
     options: {
-      legend: {
-        display: false,
-      },
       animation: {
         duration: 0,
+      },
+      legend: {
+        display: false,
       },
       scale: {
         projection: d3.geoMercator(),
@@ -184,6 +190,9 @@ function drawRomaniaCountyCasesPie() {
       ],
     },
     options: {
+      animation: {
+        duration: 0,
+      },
       legend: {
         display: false,
       },
@@ -600,6 +609,9 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800') {
       ],
     },
     options: {
+      animation: {
+        duration: 0,
+      },
       maintainAspectRatio: false,
       scales: {
         yAxes: [
