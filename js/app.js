@@ -4,7 +4,9 @@ const isPortraitMobile = window.innerWidth < 768 && isPortrait;
 const isLandscapeMobile = window.innerWidth < 768 && !isPortrait;
 const maxElementsInWidth = window.innerWidth / 60;
 const defaultDateFormat = isPortraitMobile ? 'DD.MM' : 'DD MMMM';
-const formatThousandsAsK = (value) => (value > 999 ? value / 1000 + 'k' : value);
+const formatThousandsAsK = (value) => {
+  return value > 999 ? value / 1000 + 'k' : value;
+};
 
 async function init() {
   await processData();
@@ -18,33 +20,41 @@ async function init() {
 var startTime;
 var endTime;
 
+var slider = document.getElementById('zoomInput');
+var output = document.getElementById('zoomValue');
+output.innerHTML = slider.value + 'x';
+
+slider.oninput = function () {
+  output.innerHTML = this.value + 'x';
+  roChart.destroy();
+  drawCountryDailyBars('romaniaChart', 'Romania', '#ff9800', this.value);
+};
+
 async function draw() {
   drawRomaniaDeathMap();
   drawRomaniaSexBar();
   drawRomaniaDiseasesPie();
   drawRomaniaAgeCasesPie();
+  await init();
+  drawCountryDailyBars('romaniaChart', 'Romania', '#ff9800', 10);
 
   setTimeout(async () => {
-    await init();
-    drawCountryDailyBars('romaniaChart', 'Romania');
+    drawCountryEvolutionLine('romaniaTotals', 'Romania');
+
     setTimeout(() => {
-      drawCountryEvolutionLine('romaniaTotals', 'Romania');
+      drawCountryActiveCases('Romania'); // 29
+      show('countryActiveCasesWrapper', document.querySelector('button'), true);
 
       setTimeout(() => {
-        drawCountryActiveCases('Romania'); // 29
-        show('countryActiveCasesWrapper', document.querySelector('button'), true);
-
-        setTimeout(() => {
-          drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
-          drawCountryEvolutionLine('otherCountryTotals', 'Italy', '#ffeb3b'); //30
-          drawGlobalActiveCases();
-          drawLastWeekTotalsBars(); //122
-          drawAllTimeTotalsBars(); //22
-          drawGlobalEvolutionLine(); //22
-        }, 1000);
+        drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
+        drawCountryEvolutionLine('otherCountryTotals', 'Italy', '#ffeb3b'); //30
+        drawGlobalActiveCases();
+        drawLastWeekTotalsBars(); //122
+        drawAllTimeTotalsBars(); //22
+        drawGlobalEvolutionLine(); //22
       }, 0);
     }, 0);
-  }, 0);
+  }, 1000);
 }
 
 function setCurrentDate() {
@@ -481,9 +491,6 @@ function drawRomaniaSexBar() {
   const ctx = document.querySelector('#sexBar canvas').getContext('2d');
   const data = window.romaniaDeaths;
 
-  // const duplicates = data.filter((x) => data.filter((y) => y.deathIndex == x.deathIndex).length > 1);
-  // console.log('duplicates', duplicates);
-
   let labels = [''];
   const valueMen = data.filter((x) => !x.gender).length;
   const valueWomen = data.filter((x) => x.gender).length;
@@ -564,27 +571,45 @@ function drawRomaniaSexBar() {
   });
 }
 
-function drawCountryDailyBars(chartId, countryName, color = '#ff9800') {
+function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue) {
   const ctx = document.getElementById(chartId).getContext('2d');
-  const data = window.data;
 
-  let countryData = data
-    .filter((x) => x.countryName == countryName)
-    .sort((a, b) => +moment(b.dateString, 'DD/MM/YYYY') - +moment(a.dateString, 'DD/MM/YYYY'))
-    .reverse();
+  let countryData =
+    countryName == 'Romania'
+      ? Object.keys(window.romaniaData)
+          .map((x) => ({ ...window.romaniaData[x], dateString: x }))
+          .sort((a, b) => moment(a.dateString, 'DD/MM/YYYY') - moment(b.dateString, 'DD/MM/YYYY'))
+      : window.data
+          .filter((x) => x.countryName == countryName)
+          .sort((a, b) => +moment(b.dateString, 'DD/MM/YYYY') - +moment(a.dateString, 'DD/MM/YYYY'))
+          .reverse();
 
-  countryData = countryData.slice(countryData.length - (isPortraitMobile ? 15 : maxElementsInWidth * 1.5));
+  if (countryName == 'Romania') {
+    const lastXItems = (countryData.length / 10) * (zoomValue - 1);
+
+    countryData = countryData.slice(lastXItems);
+  } else {
+    countryData = countryData.slice(countryData.length - (isPortraitMobile ? 15 : maxElementsInWidth * 1.5));
+  }
 
   const labels = countryData.map((x) => moment(x.dateString, 'DD/MM/YYYY').format(defaultDateFormat));
   const values = countryData.map((x) => x.cases);
   const deaths = countryData.map((x) => +x.deaths);
+  const tests = countryData.map((x) => Math.floor(+x.tests / 20));
   const recoveries = countryData.map((x) => +x.recoveries);
 
-  otherCountryChart = new Chart(ctx, {
+  const chart = new Chart(ctx, {
     type: 'bar',
     data: {
       labels: labels,
       datasets: [
+        countryName == 'Romania' && {
+          label: 'Teste (mii)',
+          data: tests,
+          backgroundColor: '#03A9F415',
+          borderColor: '#03A9F4',
+          borderWidth: 0,
+        },
         {
           label: 'Infectări',
           data: values,
@@ -606,11 +631,24 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800') {
           borderColor: '#E91E63',
           borderWidth: 1,
         },
-      ],
+      ].filter((x) => x),
     },
     options: {
       animation: {
         duration: 0,
+      },
+      skipLabelFactor: countryName !== 'Romania' || zoomValue > 5 ? 0 : 1000,
+      tooltips: {
+        callbacks: {
+          label: function (tooltipItem, data) {
+            var datasetLabel = data.datasets[tooltipItem.datasetIndex].label || 'Other';
+
+            if (datasetLabel == 'Teste (mii)') {
+              return 'Teste: ' + (tooltipItem.yLabel / 50).toFixed(1) + ' mii';
+            }
+            return datasetLabel + ': ' + tooltipItem.yLabel;
+          },
+        },
       },
       maintainAspectRatio: false,
       scales: {
@@ -627,6 +665,8 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800') {
             ticks: {
               beginAtZero: true,
             },
+            categoryPercentage: countryName == 'Romania' && zoomValue < 5 ? 1.0 : undefined,
+            barPercentage: 1.0,
           },
         ],
       },
@@ -637,6 +677,12 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800') {
       },
     },
   });
+
+  if (countryName == 'Romania' && zoomValue) {
+    roChart = chart;
+  } else {
+    otherCountryChart = chart;
+  }
 }
 
 function drawAllTimeTotalsBars() {
@@ -1019,7 +1065,7 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
       labels: localizedLabels.filter(filterFunction),
       datasets: [
         {
-          label: 'Morți - ' + countryName,
+          label: 'Decese - ' + countryName,
           data: summedDailyDeaths.filter(filterFunction),
           backgroundColor: '#E91E6333',
           borderColor: '#E91E63',
@@ -1320,8 +1366,7 @@ function setupBarLabels() {
       chartInstance.data.datasets.forEach((dataset, j) => {
         for (var i = 0; i < dataset.data.length; i++) {
           var model = dataset._meta[Object.keys(dataset._meta)[0]].data[i]._model;
-          const currentValue = dataset.data[i];
-          // let formattedValue = currentValue > 9999 ? Math.floor(dataset.data[i] / 1000) + 'k' : dataset.data[i] + '';
+          let currentValue = dataset.data[i];
 
           let thousands = currentValue / 1000;
           let letter = 'k';
@@ -1333,7 +1378,11 @@ function setupBarLabels() {
           const endsWithZero = thousands.toFixed(1).endsWith('.0');
           const thousandsWithoutZero = thousands.toFixed(endsWithZero || thousands > 99 ? 0 : 1);
 
-          const formattedValue = currentValue > (isPortraitMobile ? 7000 : 9999) ? thousandsWithoutZero + letter : currentValue;
+          let formattedValue = currentValue > (isPortraitMobile ? 7000 : 9999) ? thousandsWithoutZero + letter : currentValue;
+
+          if (dataset.label == 'Teste (mii)') {
+            formattedValue = (currentValue / 50).toFixed(1) + 'k';
+          }
 
           let shouldShowLabel = skipLabelFactor ? i != 0 && ((i + j) % skipLabelFactor == 0 || i == dataset.data.length - 1) : true;
 
