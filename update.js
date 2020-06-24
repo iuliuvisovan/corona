@@ -11,6 +11,7 @@ async function fetchActiveCases() {
     dateString: dateRep,
     cases: +cases,
     deaths: +deaths,
+    tests: 0,
     countryName: getCountryName(countriesAndTerritories),
   }));
 

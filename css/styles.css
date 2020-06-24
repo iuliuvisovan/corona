@@ -42,7 +42,6 @@ h4 {
   }
 }
 
-
 .graph-title {
   margin-bottom: 0;
   margin-top: 73px;
@@ -291,31 +290,14 @@ body {
     margin-bottom: -7px;
   }
 }
-/* 
-.split {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: calc((50vw - 0px) - 1px);
-  height: 100vh;
-  border-right: 1px solid red;
-  pointer-events: none;
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  margin-right: -75px;
 }
-.split-plus {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: calc((50vw - 0px) + 334px);
-  height: 100vh;
-  border-right: 1px solid blue;
-  pointer-events: none;
+.slider {
+  margin-right: 4px;
+  margin-top: 5px;
 }
-.split-minus {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: calc((50vw - 0px) - 336px);
-  height: 100vh;
-  border-right: 1px solid blue;
-  pointer-events: none;
-} */
