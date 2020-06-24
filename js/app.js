@@ -598,6 +598,8 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
   const tests = countryData.map((x) => Math.floor(+x.tests / 20));
   const recoveries = countryData.map((x) => +x.recoveries);
 
+  const hideLabels = zoomValue < (isPortraitMobile ? 10 : 5);
+
   const chart = new Chart(ctx, {
     type: 'bar',
     data: {
@@ -637,7 +639,7 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
       animation: {
         duration: 0,
       },
-      skipLabelFactor: countryName !== 'Romania' || zoomValue > 5 ? 0 : 1000,
+      skipLabelFactor: hideLabels ? 1000 : 0,
       tooltips: {
         callbacks: {
           label: function (tooltipItem, data) {
@@ -665,7 +667,7 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
             ticks: {
               beginAtZero: true,
             },
-            categoryPercentage: countryName == 'Romania' && zoomValue < 5 ? 1.0 : undefined,
+            categoryPercentage: hideLabels ? 1.0 : undefined,
             barPercentage: 1.0,
           },
         ],
