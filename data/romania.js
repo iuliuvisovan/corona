@@ -477,19 +477,19 @@ window.romaniaData = {
     "cases": 360,
     "deaths": 25,
     "recoveries": 54,
-    "tests": 2591
+    "tests": 5591
   },
   "06/04/2020": {
     "cases": 193,
     "deaths": 9,
     "recoveries": 32,
-    "tests": 2364
+    "tests": 4364
   },
   "05/04/2020": {
     "cases": 251,
     "deaths": 7,
     "recoveries": 45,
-    "tests": 2531
+    "tests": 7194
   },
   "04/04/2020": {
     "cases": 430,
