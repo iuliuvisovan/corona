@@ -1,10 +1,15 @@
 window.romaniaData = {
+  "25/06/2020": {
+    "cases": 460,
+    "recoveries": 515,
+    "deaths": 10,
+    "tests": 12555
+  },
   "24/06/2020": {
     "cases": 321,
     "recoveries": 204,
     "deaths": 16,
-    "tests": 11681,
-    "fullTests": 651003
+    "tests": 11681
   },
   "23/06/2020": {
     "cases": 214,
@@ -64,7 +69,7 @@ window.romaniaData = {
     "cases": 320,
     "recoveries": 84,
     "deaths": 16,
-    "tests": 7926,
+    "tests": 7926
   },
   "13/06/2020": {
     "cases": 275,
@@ -76,7 +81,6 @@ window.romaniaData = {
     "cases": 222,
     "recoveries": 162,
     "deaths": 11,
-    "fullTests":  542646,
     "tests": 11027
   },
   "11/06/2020": {
@@ -119,7 +123,7 @@ window.romaniaData = {
     "cases": 196,
     "deaths": 9,
     "recoveries": 226,
-    "tests":11932
+    "tests": 11932
   },
   "04/06/2020": {
     "cases": 238,
@@ -155,7 +159,7 @@ window.romaniaData = {
     "cases": 151,
     "deaths": 13,
     "recoveries": 217,
-    "tests":4368
+    "tests": 4368
   },
   "29/05/2020": {
     "cases": 191,
@@ -197,13 +201,13 @@ window.romaniaData = {
     "cases": 145,
     "deaths": 11,
     "recoveries": 410,
-    "tests":8919
+    "tests": 8919
   },
   "22/05/2020": {
     "cases": 127,
     "deaths": 8,
     "recoveries": 196,
-    "tests":10181
+    "tests": 10181
   },
   "21/05/2020": {
     "cases": 198,
@@ -215,25 +219,25 @@ window.romaniaData = {
     "cases": 196,
     "deaths": 15,
     "recoveries": 190,
-    "tests":10413
+    "tests": 10413
   },
   "19/05/2020": {
     "cases": 155,
     "deaths": 19,
     "recoveries": 236,
-    "tests":8453
+    "tests": 8453
   },
   "18/05/2020": {
     "cases": 165,
     "deaths": 10,
     "recoveries": 40,
-    "tests":3214
+    "tests": 3214
   },
   "17/05/2020": {
     "cases": 167,
     "deaths": 16,
     "recoveries": 316,
-    "tests":6673
+    "tests": 6673
   },
   "16/05/2020": {
     "cases": 267,
@@ -365,91 +369,91 @@ window.romaniaData = {
     "cases": 218,
     "deaths": 23,
     "recoveries": 73,
-    "tests":5043
+    "tests": 5043
   },
   "24/04/2020": {
     "cases": 321,
     "deaths": 25,
     "recoveries": 339,
-    "tests":8266
+    "tests": 8266
   },
   "23/04/2020": {
     "cases": 386,
     "deaths": 19,
     "recoveries": 72,
-    "tests":6979
+    "tests": 6979
   },
   "22/04/2020": {
     "cases": 468,
     "deaths": 26,
     "recoveries": 253,
-    "tests":4805
+    "tests": 4805
   },
   "21/04/2020": {
     "cases": 306,
     "deaths": 31,
     "recoveries": 136,
-    "tests":3061
+    "tests": 3061
   },
   "20/04/2020": {
     "cases": 190,
     "deaths": 17,
     "recoveries": 125,
-    "tests":4880
+    "tests": 4880
   },
   "19/04/2020": {
     "cases": 328,
     "deaths": 17,
     "recoveries": 162,
-    "tests":2620
+    "tests": 2620
   },
   "18/04/2020": {
     "cases": 351,
     "deaths": 17,
     "recoveries": 222,
-    "tests":5186
+    "tests": 5186
   },
   "17/04/2020": {
     "cases": 360,
     "deaths": 13,
     "recoveries": 151,
-    "tests":6176
+    "tests": 6176
   },
   "16/04/2020": {
     "cases": 491,
     "deaths": 25,
     "recoveries": 140,
-    "tests":4802
+    "tests": 4802
   },
   "15/04/2020": {
     "cases": 337,
     "deaths": 30,
     "recoveries": 166,
-    "tests":4730
+    "tests": 4730
   },
   "14/04/2020": {
     "cases": 246,
     "deaths": 14,
     "recoveries": 137,
-    "tests":2893
+    "tests": 2893
   },
   "13/04/2020": {
     "cases": 333,
     "deaths": 12,
     "recoveries": 62,
-    "tests":4876
+    "tests": 4876
   },
   "12/04/2020": {
     "cases": 310,
     "deaths": 24,
     "recoveries": 94,
-    "tests":3056
+    "tests": 3056
   },
   "11/04/2020": {
     "cases": 523,
     "deaths": 25,
     "recoveries": 29,
-    "tests":3842
+    "tests": 3842
   },
   "10/04/2020": {
     "cases": 265,
@@ -461,37 +465,37 @@ window.romaniaData = {
     "cases": 441,
     "deaths": 20,
     "recoveries": 119,
-    "tests":4595
+    "tests": 4595
   },
   "08/04/2020": {
     "cases": 344,
     "deaths": 27,
     "recoveries": 68,
-    "tests":3629
+    "tests": 3629
   },
   "07/04/2020": {
     "cases": 360,
     "deaths": 25,
     "recoveries": 54,
-    "tests":2591
+    "tests": 2591
   },
   "06/04/2020": {
     "cases": 193,
     "deaths": 9,
     "recoveries": 32,
-    "tests":2364
+    "tests": 2364
   },
   "05/04/2020": {
     "cases": 251,
     "deaths": 7,
     "recoveries": 45,
-    "tests":2531
+    "tests": 2531
   },
   "04/04/2020": {
     "cases": 430,
     "deaths": 25,
     "recoveries": 35,
-    "tests":4435
+    "tests": 4435
   },
   "03/04/2020": {
     "cases": 445,

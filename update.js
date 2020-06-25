@@ -107,11 +107,13 @@ function bumpAppCssVersion() {
 }
 
 function addTodayCases() {
-  const [_, __, todayCases, todayRecoveries, todayDeaths] = process.argv;
+  const [_, __, todayCases, todayRecoveries, todayDeaths, todayTests] = process.argv;
 
-  if (!todayCases || !todayRecoveries || !todayDeaths) {
+  if (!todayCases || !todayRecoveries || !todayDeaths || !todayTests) {
     return;
   }
+
+  console.log('todayCases', todayCases, todayRecoveries, todayDeaths, todayTests);
 
   let romaniaDailyCasesString = fs.readFileSync('./data/romania.js', 'utf8');
 
@@ -128,11 +130,17 @@ function addTodayCases() {
   const totalDeathsSoFar = Object.keys(romaniaDailyCases)
     .map((x) => romaniaDailyCases[x].deaths)
     .reduce((a, b) => a + b);
+  const totalTestsSoFar = Object.keys(romaniaDailyCases)
+    .map((x) => romaniaDailyCases[x].tests)
+    .reduce((a, b) => a + b);
+
+  console.log('totalTestsSoFar', totalTestsSoFar);
 
   romaniaDailyCases[todayKey] = {
     cases: todayCases - totalCasesSoFar,
     recoveries: todayRecoveries - totalRecoveriesSoFar,
     deaths: todayDeaths - totalDeathsSoFar,
+    tests: todayTests - totalTestsSoFar,
   };
 
   const newRomaniaDailyCases = {};
