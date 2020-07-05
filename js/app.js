@@ -847,7 +847,7 @@ function drawGlobalActiveCases() {
   const labels = dayStringsSinceStartOfYear;
   const localizedLabels = labels.map((x) => moment(x, 'DD/MM/YYYY').format(defaultDateFormat));
 
-  const topCountries = ['China', 'USA', 'Italy', 'Spain'];
+  const topCountries = ['China', 'USA', 'Brazil', 'Russia', 'India'];
 
   const datasets = [];
   topCountries.forEach((countryName) => {
@@ -868,11 +868,6 @@ function drawGlobalActiveCases() {
   });
 
   const filterFunction = (_, i, a) => {
-    const itemsToSkip = isPortraitMobile ? 40 : 30;
-    if (i < itemsToSkip) {
-      return false;
-    }
-
     return i % (isPortraitMobile ? 4 : 2) == 0 || i == a.length - 1;
   };
 
@@ -921,7 +916,7 @@ function drawGlobalActiveCases() {
         },
       },
       minPercentageForLabel: isPortraitMobile ? 5 : 3,
-      skipLabelFactor: isPortraitMobile ? 5 : 2,
+      skipLabelFactor: 1000,
       maintainAspectRatio: false,
       scales: {
         yAxes: [
@@ -1096,7 +1091,7 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
         duration: 0,
       },
       minPercentageForLabel: isPortraitMobile ? 5 : 0,
-      skipLabelFactor: isPortraitMobile || isLandscapeMobile ? 2 : 0,
+      skipLabelFactor: isPortraitMobile || isLandscapeMobile ? 4 : 0,
       maintainAspectRatio: false,
       scales: {
         yAxes: [
@@ -1388,7 +1383,7 @@ function setupBarLabels() {
             formattedValue = isPortraitMobile ? '' : (currentValue / 50).toFixed(1) + 'k';
           }
           if (dataset.label == 'Infectări') {
-            formattedValue =  formattedValue + '  ';
+            formattedValue = formattedValue + '  ';
           }
           if (dataset.label == 'Vindecări') {
             formattedValue = '  ' + formattedValue;
