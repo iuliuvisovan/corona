@@ -24,6 +24,8 @@ var slider = document.getElementById('zoomInput');
 var output = document.getElementById('zoomValue');
 output.innerHTML = slider.value + 'x';
 
+const zoomSteps = 30;
+
 slider.oninput = function () {
   output.innerHTML = this.value + 'x';
   roChart.destroy();
@@ -36,7 +38,7 @@ async function draw() {
   drawRomaniaDiseasesPie();
   drawRomaniaAgeCasesPie();
   await init();
-  drawCountryDailyBars('romaniaChart', 'Romania', '#ff9800', 10);
+  drawCountryDailyBars('romaniaChart', 'Romania', '#ff9800', zoomSteps);
 
   setTimeout(async () => {
     drawCountryEvolutionLine('romaniaTotals', 'Romania');
@@ -585,7 +587,7 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
           .reverse();
 
   if (countryName == 'Romania') {
-    const lastXItems = (countryData.length / 10) * (zoomValue - 1);
+    const lastXItems = (countryData.length / zoomSteps) * (zoomValue - 1);
 
     countryData = countryData.slice(lastXItems);
   } else {
@@ -598,7 +600,7 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
   const tests = countryData.map((x) => Math.floor(+x.tests / 20));
   const recoveries = countryData.map((x) => +x.recoveries);
 
-  const hideLabels = zoomValue < (isPortraitMobile ? 10 : 5);
+  const hideLabels = zoomValue < (isPortraitMobile ? 25 : 15);
 
   const chart = new Chart(ctx, {
     type: 'bar',
@@ -1383,7 +1385,13 @@ function setupBarLabels() {
           let formattedValue = currentValue > (isPortraitMobile ? 7000 : 9999) ? thousandsWithoutZero + letter : currentValue;
 
           if (dataset.label == 'Teste (mii)') {
-            formattedValue = (currentValue / 50).toFixed(1) + 'k';
+            formattedValue = isPortraitMobile ? '' : (currentValue / 50).toFixed(1) + 'k';
+          }
+          if (dataset.label == 'Infectări') {
+            formattedValue =  formattedValue + '  ';
+          }
+          if (dataset.label == 'Vindecări') {
+            formattedValue = '  ' + formattedValue;
           }
 
           let shouldShowLabel = skipLabelFactor ? i != 0 && ((i + j) % skipLabelFactor == 0 || i == dataset.data.length - 1) : true;
