@@ -17,19 +17,27 @@ async function init() {
   }, 0);
 }
 
-var startTime;
-var endTime;
-
-var slider = document.getElementById('zoomInput');
+var dailySlider = document.getElementById('zoomInput');
 var output = document.getElementById('zoomValue');
-output.innerHTML = slider.value + 'x';
+output.innerHTML = dailySlider.value + 'x';
 
 const zoomSteps = 30;
+const totalsZoomSteps = 10;
 
-slider.oninput = function () {
+dailySlider.oninput = function () {
   output.innerHTML = this.value + 'x';
   roChart.destroy();
   drawCountryDailyBars('romaniaChart', 'Romania', '#ff9800', this.value);
+};
+
+var totalsSlider = document.getElementById('totalsZoomInput');
+var totalsOutput = document.getElementById('totalsZoomValue');
+totalsOutput.innerHTML = totalsSlider.value + 'x';
+
+totalsSlider.oninput = function () {
+  totalsOutput.innerHTML = this.value + 'x';
+  roTotalsChart.destroy();
+  drawCountryEvolutionLine('romaniaTotals', 'Romania', '#ff9800', this.value);
 };
 
 async function draw() {
@@ -41,7 +49,7 @@ async function draw() {
   drawCountryDailyBars('romaniaChart', 'Romania', '#ff9800', zoomSteps);
 
   setTimeout(async () => {
-    drawCountryEvolutionLine('romaniaTotals', 'Romania');
+    drawCountryEvolutionLine('romaniaTotals', 'Romania', '#ff9800', totalsZoomSteps);
 
     setTimeout(() => {
       drawCountryActiveCases('Romania'); // 29
@@ -996,7 +1004,7 @@ function drawLastWeekTotalsBars() {
   });
 }
 
-function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
+function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800', zoomValue) {
   const ctx = document.getElementById(chartId).getContext('2d');
   const data = window.data;
 
@@ -1041,24 +1049,18 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
   });
 
   const filterFunction = (x, i, a) => {
-    if (i < (isPortraitMobile ? 70 : 50)) {
-      return false;
-    }
+    const lastXItems = (values.length / totalsZoomSteps) * (zoomValue - 1);
 
-    const distanceFromPresent = a.length - i;
-
-    const volumeToShow = isPortraitMobile ? 7 : 16;
-
-    const rarifyingFactor = Math.floor(distanceFromPresent / volumeToShow) + 1;
-
-    return i % rarifyingFactor == 0;
+    return i > lastXItems;
   };
 
   if (countryName == 'Romania') {
     document.querySelector('.total-cases-value').innerText = summedDailyValues[summedDailyValues.length - 1].toLocaleString();
   }
 
-  otherCountryChartTotals = new Chart(ctx, {
+  const hideLabels = zoomValue < 10;
+
+  const chart = new Chart(ctx, {
     type: 'line',
     data: {
       labels: localizedLabels.filter(filterFunction),
@@ -1090,8 +1092,12 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
       animation: {
         duration: 0,
       },
-      minPercentageForLabel: isPortraitMobile ? 5 : 0,
-      skipLabelFactor: isPortraitMobile || isLandscapeMobile ? 4 : 0,
+      elements: {
+        point: {
+          radius: isPortraitMobile ? 3 : 4,
+        },
+      },
+      skipLabelFactor: hideLabels ? 1000 : isPortraitMobile ? 2 : 0,
       maintainAspectRatio: false,
       scales: {
         yAxes: [
@@ -1111,6 +1117,12 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800') {
       },
     },
   });
+
+  if (countryName == 'Romania' && zoomValue) {
+    roTotalsChart = chart;
+  } else {
+    otherCountryChartTotals = chart;
+  }
 }
 
 function drawGlobalEvolutionLine() {
