@@ -1049,9 +1049,15 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800', zoomV
   });
 
   const filterFunction = (x, i, a) => {
-    const lastXItems = (values.length / totalsZoomSteps) * (zoomValue - 1);
+    if (countryName == 'Romania') {
+      const lastXItems = (values.length / totalsZoomSteps) * (zoomValue - 1);
 
-    return i > lastXItems;
+      return i > lastXItems;
+    }
+
+    const totalMod = a.length % 4;
+
+    return i > 50 && (i + 1) % 4 == totalMod;
   };
 
   if (countryName == 'Romania') {
