@@ -1398,7 +1398,7 @@ function setupBarLabels() {
           let formattedValue = currentValue > (isPortraitMobile ? 7000 : 9999) ? thousandsWithoutZero + letter : currentValue;
 
           if (dataset.label == 'Teste (mii)') {
-            formattedValue = isPortraitMobile ? '' : (currentValue / 50).toFixed(1) + 'k';
+            formattedValue = (currentValue / 50).toFixed(1) + 'k';
           }
           if (dataset.label == 'Infectări') {
             formattedValue = formattedValue + '  ';
