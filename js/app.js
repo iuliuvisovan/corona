@@ -605,7 +605,7 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
   const labels = countryData.map((x) => moment(x.dateString, 'DD/MM/YYYY').format(defaultDateFormat));
   const values = countryData.map((x) => x.cases);
   const deaths = countryData.map((x) => +x.deaths);
-  const tests = countryData.map((x) => Math.floor(+x.tests / 16));
+  const tests = countryData.map((x) => Math.floor(+x.tests / 10));
   const recoveries = countryData.map((x) => +x.recoveries);
 
   const hideLabels = zoomValue < (isPortraitMobile ? 25 : 15);
@@ -656,7 +656,7 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
             var datasetLabel = data.datasets[tooltipItem.datasetIndex].label || 'Other';
 
             if (datasetLabel == 'Teste (mii)') {
-              return 'Teste: ' + (tooltipItem.yLabel / 62.5).toFixed(1) + ' mii';
+              return 'Teste: ' + (tooltipItem.yLabel / 100).toFixed(1) + ' mii';
             }
             return datasetLabel + ': ' + tooltipItem.yLabel;
           },
@@ -1398,7 +1398,7 @@ function setupBarLabels() {
           let formattedValue = currentValue > (isPortraitMobile ? 7000 : 9999) ? thousandsWithoutZero + letter : currentValue;
 
           if (dataset.label == 'Teste (mii)') {
-            formattedValue = (currentValue / 62.5).toFixed(1) + 'k';
+            formattedValue = (currentValue / 100).toFixed(1) + 'k';
           }
           if (dataset.label == 'Infectări') {
             formattedValue = formattedValue + '  ';
