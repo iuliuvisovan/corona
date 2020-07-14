@@ -186,7 +186,7 @@ function drawRomaniaCountyCasesPie() {
       labels: [...labels.map((x) => x[0].toUpperCase() + x.substr(1)).map((x) => (isPortraitMobile ? countyCodes[x] || 'bb' : x)), 'Restul județelor'],
       datasets: [
         {
-          label: 'Morți pe judet',
+          label: 'Decese pe judet',
           data: values,
           backgroundColor: [
             '#ff5722',
@@ -319,7 +319,7 @@ function drawRomaniaAgeCasesPie() {
       labels: labels.map((x, i) => `${x} (${((values[i] / totalValues) * 100).toFixed(0)}%)`),
       datasets: [
         {
-          label: 'Morți pe grupe de varsta',
+          label: 'Decese pe grupe de varsta',
           data: values,
           backgroundColor: ['#E91E63', '#F44336', '#ff5722', '#ff9800', '#ffc107', '#ffeb3b', '#2196f3', undefined].reverse(),
         },
@@ -422,7 +422,7 @@ function drawRomaniaDiseasesPie() {
       labels: ['Alte afecțiuni', ...labels, 'Fără boli preexistente', 'Necunoscut'].map((x, i) => x[0].toUpperCase() + x.substr(1)),
       datasets: [
         {
-          label: 'Morți pe baza afectiunilor preexistente',
+          label: 'Decese pe baza afectiunilor preexistente',
           data: values,
           backgroundColor: ['#E91E63', '#F44336', '#ff5722', '#ff9800', '#ffc107', '#ffeb3b', '#2196f3', undefined],
         },
@@ -616,14 +616,14 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
       labels: labels,
       datasets: [
         countryName == 'Romania' && {
-          label: 'Teste (mii)',
+          label: 'Teste',
           data: tests,
           backgroundColor: '#03A9F415',
           borderColor: '#03A9F4',
           borderWidth: 0,
         },
         {
-          label: 'Infectări',
+          label: 'Cazuri',
           data: values,
           backgroundColor: color + '33',
           borderColor: color,
@@ -637,7 +637,7 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
           borderWidth: 1,
         },
         {
-          label: 'Morți',
+          label: 'Decese',
           data: deaths,
           backgroundColor: '#E91E6344',
           borderColor: '#E91E63',
@@ -655,7 +655,7 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
           label: function (tooltipItem, data) {
             var datasetLabel = data.datasets[tooltipItem.datasetIndex].label || 'Other';
 
-            if (datasetLabel == 'Teste (mii)') {
+            if (datasetLabel == 'Teste') {
               return 'Teste: ' + (tooltipItem.yLabel / 100).toFixed(1) + ' mii';
             }
             return datasetLabel + ': ' + tooltipItem.yLabel;
@@ -667,8 +667,13 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
         yAxes: [
           {
             ticks: {
+              display: !isPortraitMobile,
               beginAtZero: true,
               callback: formatThousandsAsK,
+              min: -50,
+            },
+            gridLines: {
+              display: false,
             },
           },
         ],
@@ -679,6 +684,9 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
             },
             categoryPercentage: hideLabels ? 1.0 : undefined,
             barPercentage: 1.0,
+            gridLines: {
+              display: false,
+            },
           },
         ],
       },
@@ -1397,7 +1405,7 @@ function setupBarLabels() {
 
           let formattedValue = currentValue > (isPortraitMobile ? 7000 : 9999) ? thousandsWithoutZero + letter : currentValue;
 
-          if (dataset.label == 'Teste (mii)') {
+          if (dataset.label == 'Teste') {
             formattedValue = (currentValue / 100).toFixed(1) + 'k';
           }
           if (dataset.label == 'Infectări') {
