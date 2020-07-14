@@ -673,7 +673,7 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
               min: -50,
             },
             gridLines: {
-              display: false,
+              display: !isPortraitMobile,
             },
           },
         ],
@@ -685,7 +685,7 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
             categoryPercentage: hideLabels ? 1.0 : undefined,
             barPercentage: 1.0,
             gridLines: {
-              display: false,
+              display: !isPortraitMobile,
             },
           },
         ],
