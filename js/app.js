@@ -1057,7 +1057,7 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800', zoomV
   });
 
   const filterFunction = (x, i, a) => {
-    if (countryName == 'Romania') {
+    if (countryName == 'Romania' && zoomValue != 1) {
       const lastXItems = (values.length / totalsZoomSteps) * (zoomValue - 1);
 
       return i > lastXItems;
@@ -1111,15 +1111,26 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800', zoomV
           radius: isPortraitMobile ? 3 : 4,
         },
       },
-      skipLabelFactor: hideLabels ? 1000 : isPortraitMobile ? 2 : 0,
+      skipLabelFactor: hideLabels ? 1000 : isPortraitMobile ? 4 : 0,
       maintainAspectRatio: false,
       scales: {
         yAxes: [
           {
             ticks: {
+              // display: !isPortraitMobile,
               fontColor: '#000',
               beginAtZero: true,
               callback: formatThousandsAsK,
+            },
+            gridLines: {
+              // display: !isPortraitMobile,
+            },
+          },
+        ],
+        xAxes: [
+          {
+            gridLines: {
+              display: !isPortraitMobile,
             },
           },
         ],
@@ -1127,6 +1138,7 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800', zoomV
       layout: {
         padding: {
           right: 15,
+          left: 0,
         },
       },
     },
@@ -1341,13 +1353,13 @@ async function processData() {
 function drawComparedCountry(picker) {
   otherCountryChart.destroy();
 
-  drawCountryDailyBars('otherCountryChart', picker.value, '#ffeb3b');
+  drawCountryDailyBars('otherCountryChart', picker.value, '#ffeb3b', 30);
   ga('send', 'event', 'ChooseCountryDailyBars', picker.value);
 }
 
 function drawComparedCountryTotalCases(picker) {
   otherCountryChartTotals.destroy();
-  drawCountryEvolutionLine('otherCountryTotals', picker.value, '#ffeb3b');
+  drawCountryEvolutionLine('otherCountryTotals', picker.value, '#ffeb3b', 1);
   ga('send', 'event', 'ChooseCountryCountryEvolution', picker.value);
 }
 
