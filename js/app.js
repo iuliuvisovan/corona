@@ -8,15 +8,6 @@ const formatThousandsAsK = (value) => {
   return value > 999 ? value / 1000 + 'k' : value;
 };
 
-async function init() {
-  await processData();
-  populateLabelsSinceStartOfYear();
-  setupBarLabels();
-  setTimeout(() => {
-    setPickerCountries(window.data);
-  }, 0);
-}
-
 var dailySlider = document.getElementById('zoomInput');
 var output = document.getElementById('zoomValue');
 output.innerHTML = dailySlider.value + 'x';
@@ -40,22 +31,31 @@ totalsSlider.oninput = function () {
   drawCountryEvolutionLine('romaniaTotals', 'Romania', '#ff9800', this.value);
 };
 
+async function init() {
+  await processData();
+  setTimeout(() => {
+    setPickerCountries(window.data);
+  }, 0);
+}
+
 async function draw() {
-  drawRomaniaDeathMap();
-  drawRomaniaSexBar();
-  drawRomaniaDiseasesPie();
-  drawRomaniaAgeCasesPie();
-  await init();
+  setupBarLabels();
+  populateLabelsSinceStartOfYear();
   drawCountryDailyBars('romaniaChart', 'Romania', '#ff9800', zoomSteps);
 
   setTimeout(async () => {
+    await init();
     drawCountryEvolutionLine('romaniaTotals', 'Romania', '#ff9800', totalsZoomSteps);
-
     setTimeout(() => {
       drawCountryActiveCases('Romania'); // 29
       show('countryActiveCasesWrapper', document.querySelector('button'), true);
 
       setTimeout(() => {
+        drawRomaniaDeathMap();
+        drawRomaniaSexBar();
+        drawRomaniaDiseasesPie();
+        drawRomaniaAgeCasesPie();
+
         drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
         drawCountryEvolutionLine('otherCountryTotals', 'Italy', '#ffeb3b'); //30
         drawGlobalActiveCases();
@@ -646,9 +646,9 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
       ].filter((x) => x),
     },
     options: {
-      animation: {
-        duration: 0,
-      },
+      // animation: {
+      //   duration: 0,
+      // },
       skipLabelFactor: hideLabels ? 1000 : 0,
       tooltips: {
         callbacks: {
@@ -1413,7 +1413,7 @@ function setupBarLabels() {
           }
 
           const endsWithZero = thousands.toFixed(1).endsWith('.0');
-          const thousandsWithoutZero = thousands.toFixed(endsWithZero || thousands > 99 ? 0 : 1);
+          const thousandsWithoutZero = thousands.toFixed(endsWithZero || thousands > 99 ? 0 : 0);
 
           let formattedValue = currentValue > (isPortraitMobile ? 7000 : 9999) ? thousandsWithoutZero + letter : currentValue;
 
