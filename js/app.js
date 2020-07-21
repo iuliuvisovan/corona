@@ -800,12 +800,12 @@ function drawCountryActiveCases(countryName) {
 
   const values = summedFirstCountryInfections.map((x, i) => x - (summedFirstCountryrecoveries[i] + summedFirstCountrydeaths[i]));
 
-  const filterFunction = (x, i, a) => {
-    if (i < (countryName == 'China' ? 30 : 56)) {
-      return false;
-    }
 
-    return true;
+
+  const filterFunction = (x, i, a) => {
+    const totalMod = a.length % 2;
+
+    return i > 50 && (i + 1) % 2 == totalMod;
   };
 
   countryActiveCases = new Chart(ctx, {
