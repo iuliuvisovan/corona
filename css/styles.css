@@ -248,7 +248,7 @@ button[selected] span {
 .explanatory-texts {
   max-width: 650px;
   padding: 0 16px;
-  margin-top: -30px;
+  margin-top: 30px;
 }
 
 html,
