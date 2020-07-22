@@ -673,7 +673,7 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
               display: !isPortraitMobile,
               beginAtZero: true,
               callback: formatThousandsAsK,
-              min: -50,
+              // min: -350,
             },
             gridLines: {
               display: !isPortraitMobile,
