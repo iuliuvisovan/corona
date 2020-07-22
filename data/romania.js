@@ -1,19 +1,19 @@
 window.romaniaData = {
   "22/07/2020": {
     "cases": 1030,
-    "recoveries": -923,
+    "recoveries": 209,
     "deaths": 27,
     "tests": 24877
   },
   "21/07/2020": {
     "cases": 994,
-    "recoveries": 373,
+    "recoveries": 1707,
     "deaths": 36,
     "tests": 17204
   },
   "20/07/2020": {
     "cases": 681,
-    "recoveries": 171,
+    "recoveries": 130,
     "deaths": 12,
     "tests": 8570
   },
