@@ -632,13 +632,13 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
           borderColor: color,
           borderWidth: 1,
         },
-        {
-          label: 'Vindecări',
-          data: recoveries,
-          backgroundColor: '#4CAF5044',
-          borderColor: '#4CAF50',
-          borderWidth: 1,
-        },
+        // {
+        //   label: 'Vindecări',
+        //   data: recoveries,
+        //   backgroundColor: '#4CAF5044',
+        //   borderColor: '#4CAF50',
+        //   borderWidth: 1,
+        // },
         {
           label: 'Decese',
           data: deaths,
@@ -1089,13 +1089,13 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800', zoomV
           borderColor: '#E91E63',
           borderWidth: 1,
         },
-        {
-          label: 'Vindecări - ' + countryName,
-          data: summedDailyRecoveries.filter(filterFunction),
-          backgroundColor: '#4CAF5033',
-          borderColor: '#4CAF50',
-          borderWidth: 1,
-        },
+        // {
+        //   label: 'Vindecări - ' + countryName,
+        //   data: summedDailyRecoveries.filter(filterFunction),
+        //   backgroundColor: '#4CAF5033',
+        //   borderColor: '#4CAF50',
+        //   borderWidth: 1,
+        // },
         {
           label: 'Infectări - ' + countryName,
           data: summedDailyValues.filter(filterFunction),
