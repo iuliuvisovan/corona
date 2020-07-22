@@ -51,7 +51,7 @@ async function draw() {
       show('countryActiveCasesWrapper', document.querySelector('button'), true);
 
       setTimeout(() => {
-        drawRomaniaDeathMap();
+        // drawRomaniaDeathMap();
         drawRomaniaSexBar();
         drawRomaniaDiseasesPie();
         drawRomaniaAgeCasesPie();
@@ -525,6 +525,9 @@ function drawRomaniaSexBar() {
       ],
     },
     options: {
+      tooltips: {
+        enabled: false,
+      },
       animation: {
         duration: 0,
       },
