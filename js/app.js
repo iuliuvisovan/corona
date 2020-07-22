@@ -47,8 +47,9 @@ async function draw() {
     await init();
     drawCountryEvolutionLine('romaniaTotals', 'Romania', '#ff9800', totalsZoomSteps);
     setTimeout(() => {
-      drawCountryActiveCases('Romania'); // 29
-      show('countryActiveCasesWrapper', document.querySelector('button'), true);
+      // drawCountryActiveCases('Romania'); // 29
+      drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
+      show('otherCountryChartWrapper', document.querySelector('button'), true);
 
       setTimeout(() => {
         // drawRomaniaDeathMap();
@@ -56,7 +57,6 @@ async function draw() {
         drawRomaniaDiseasesPie();
         drawRomaniaAgeCasesPie();
 
-        drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
         drawCountryEvolutionLine('otherCountryTotals', 'Italy', '#ffeb3b'); //30
         drawGlobalActiveCases();
         drawLastWeekTotalsBars(); //122
@@ -313,7 +313,7 @@ function drawRomaniaAgeCasesPie() {
 
   const totalValues = data.length;
 
-  otherCountryChart = new Chart(ctx, {
+  new Chart(ctx, {
     type: 'horizontalBar',
     data: {
       labels: labels.map((x, i) => `${x} (${((values[i] / totalValues) * 100).toFixed(0)}%)`),
@@ -416,7 +416,7 @@ function drawRomaniaDiseasesPie() {
 
   const values = [othersValue, ...diseasesValues, noConditionValue, unknownValue];
 
-  otherCountryChart = new Chart(ctx, {
+  new Chart(ctx, {
     type: 'horizontalBar',
     data: {
       labels: ['Alte afecțiuni', ...labels, 'Fără boli preexistente', 'Necunoscut'].map((x, i) => x[0].toUpperCase() + x.substr(1)),
@@ -632,13 +632,13 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
           borderColor: color,
           borderWidth: 1,
         },
-        // {
-        //   label: 'Vindecări',
-        //   data: recoveries,
-        //   backgroundColor: '#4CAF5044',
-        //   borderColor: '#4CAF50',
-        //   borderWidth: 1,
-        // },
+        countryName !== 'Romania' && {
+          label: 'Vindecări',
+          data: recoveries,
+          backgroundColor: '#4CAF5044',
+          borderColor: '#4CAF50',
+          borderWidth: 1,
+        },
         {
           label: 'Decese',
           data: deaths,
@@ -802,8 +802,6 @@ function drawCountryActiveCases(countryName) {
   });
 
   const values = summedFirstCountryInfections.map((x, i) => x - (summedFirstCountryrecoveries[i] + summedFirstCountrydeaths[i]));
-
-
 
   const filterFunction = (x, i, a) => {
     const totalMod = a.length % 2;
