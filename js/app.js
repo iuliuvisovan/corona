@@ -47,12 +47,11 @@ async function draw() {
     await init();
     drawCountryEvolutionLine('romaniaTotals', 'Romania', '#ff9800', totalsZoomSteps);
     setTimeout(() => {
-      // drawCountryActiveCases('Romania'); // 29
-      drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
-      show('otherCountryChartWrapper', document.querySelector('button'), true);
+      drawCountryActiveCases('Romania'); // 29
+      show('countryActiveCasesWrapper', document.querySelector('button'), true);
 
       setTimeout(() => {
-        // drawRomaniaDeathMap();
+        drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
         drawRomaniaSexBar();
         drawRomaniaDiseasesPie();
         drawRomaniaAgeCasesPie();
@@ -62,6 +61,7 @@ async function draw() {
         drawLastWeekTotalsBars(); //122
         drawAllTimeTotalsBars(); //22
         drawGlobalEvolutionLine(); //22
+        // drawRomaniaDeathMap();
       }, 0);
     }, 0);
   }, 1000);
@@ -632,7 +632,7 @@ function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue
           borderColor: color,
           borderWidth: 1,
         },
-        countryName !== 'Romania' && {
+        {
           label: 'Vindecări',
           data: recoveries,
           backgroundColor: '#4CAF5044',
@@ -1087,13 +1087,13 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800', zoomV
           borderColor: '#E91E63',
           borderWidth: 1,
         },
-        // {
-        //   label: 'Vindecări - ' + countryName,
-        //   data: summedDailyRecoveries.filter(filterFunction),
-        //   backgroundColor: '#4CAF5033',
-        //   borderColor: '#4CAF50',
-        //   borderWidth: 1,
-        // },
+        {
+          label: 'Vindecări - ' + countryName,
+          data: summedDailyRecoveries.filter(filterFunction),
+          backgroundColor: '#4CAF5033',
+          borderColor: '#4CAF50',
+          borderWidth: 1,
+        },
         {
           label: 'Infectări - ' + countryName,
           data: summedDailyValues.filter(filterFunction),
@@ -1214,13 +1214,13 @@ function drawGlobalEvolutionLine() {
           borderColor: '#ff9800',
           borderWidth: 1,
         },
-        // {
-        //   label: 'Vindecări - toata lumea',
-        //   data: summedDailyrecoveries.filter(filterFunction),
-        //   backgroundColor: '#4CAF5022',
-        //   borderColor: '#4CAF50',
-        //   borderWidth: 1,
-        // },
+        {
+          label: 'Vindecări - toata lumea',
+          data: summedDailyrecoveries.filter(filterFunction),
+          backgroundColor: '#4CAF5022',
+          borderColor: '#4CAF50',
+          borderWidth: 1,
+        },
         {
           label: 'Morți - toata lumea',
           data: summedDailydeaths.filter(filterFunction),
