@@ -1,43 +1,43 @@
 window.romaniaData = {
   "25/07/2020": {
     "cases": 1284,
-    "recoveries": -2019,
+    "recoveries": 415,
     "deaths": 15,
     "tests": 34127
   },
   "24/07/2020": {
     "cases": 1119,
-    "recoveries": 487,
+    "recoveries": 403,
     "deaths": 24,
     "tests": 22964
   },
   "23/07/2020": {
     "cases": 1112,
-    "recoveries": 199,
+    "recoveries": 597,
     "deaths": 25,
     "tests": 21419
   },
   "22/07/2020": {
     "cases": 1030,
-    "recoveries": 209,
+    "recoveries": 309,
     "deaths": 27,
     "tests": 24877
   },
   "21/07/2020": {
     "cases": 994,
-    "recoveries": 1707,
+    "recoveries": 307,
     "deaths": 36,
     "tests": 17204
   },
   "20/07/2020": {
     "cases": 681,
-    "recoveries": 130,
+    "recoveries": 330,
     "deaths": 12,
     "tests": 8570
   },
   "19/07/2020": {
     "cases": 767,
-    "recoveries": 177,
+    "recoveries": 277,
     "deaths": 17,
     "tests": 14889
   },
@@ -61,13 +61,13 @@ window.romaniaData = {
   },
   "15/07/2020": {
     "cases": 641,
-    "recoveries": 246,
+    "recoveries": 146,
     "deaths": 21,
     "tests": 18440
   },
   "14/07/2020": {
     "cases": 637,
-    "recoveries": 246,
+    "recoveries": 146,
     "deaths": 30,
     "tests": 14237
   },
@@ -79,13 +79,13 @@ window.romaniaData = {
   },
   "12/07/2020": {
     "cases": 456,
-    "recoveries": -226,
+    "recoveries": 226,
     "deaths": 13,
     "tests": 8633
   },
   "11/07/2020": {
     "cases": 698,
-    "recoveries": 801,
+    "recoveries": 401,
     "deaths": 24,
     "tests": 14610
   },
@@ -103,13 +103,13 @@ window.romaniaData = {
   },
   "08/07/2020": {
     "cases": 555,
-    "recoveries": 357,
+    "recoveries": 157,
     "deaths": 18,
     "tests": 13107
   },
   "07/07/2020": {
     "cases": 397,
-    "recoveries": 514,
+    "recoveries": 114,
     "deaths": 31,
     "tests": 11895
   },
@@ -151,7 +151,7 @@ window.romaniaData = {
   },
   "30/06/2020": {
     "cases": 388,
-    "recoveries": 1229,
+    "recoveries": 229,
     "deaths": 17,
     "tests": 10424
   },
