@@ -832,7 +832,7 @@ function drawCountryActiveCases(countryName) {
           radius: 1,
         },
       },
-      skipLabelFactor: isPortraitMobile ? 10 : 3,
+      skipLabelFactor: isPortraitMobile ? 10 : 2,
       maintainAspectRatio: false,
       scales: {
         yAxes: [
