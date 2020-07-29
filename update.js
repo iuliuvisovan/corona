@@ -113,8 +113,6 @@ function addTodayCases() {
     return;
   }
 
-  console.log('todayCases', todayCases, todayRecoveries, todayDeaths, todayTests);
-
   let romaniaDailyCasesString = fs.readFileSync('./data/romania.js', 'utf8');
 
   const romaniaDailyCases = JSON.parse(romaniaDailyCasesString.replace('window.romaniaData = ', ''));
