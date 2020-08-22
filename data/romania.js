@@ -1,4 +1,10 @@
 window.romaniaData = {
+  "22/08/2020": {
+    "cases": 1189,
+    "recoveries": 556,
+    "deaths": 37,
+    "tests": 22992
+  },
   "21/08/2020": {
     "cases": 1392,
     "recoveries": 327,
