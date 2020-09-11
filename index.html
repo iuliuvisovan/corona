@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="ro">
   <head>
-    <title>
-      COVID-19 | Cazuri zilnice, evoluție, situația pe județe.
-    </title>
+    <title>COVID-19 | Cazuri zilnice, evoluție, situația pe județe.</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,29 +23,25 @@
 
   <body>
     <div id="fb-root"></div>
-    <script
-      async
-      defer
-      crossorigin="anonymous"
-      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=306856700168414&autoLogAppEvents=1"
-    ></script>
-    <h2 style="margin-top: 5px;">Situația cazurilor de <b>COVID-19</b> în <b>România</b> și la nivel global</h2>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=306856700168414&autoLogAppEvents=1"></script>
+    <h2 style="margin-top: 5px">Situația cazurilor de <b>COVID-19</b> în <b>România</b> și la nivel global</h2>
     <div class="last-update-indicator">
       <div class="live-dot"></div>
-      <span id="lastUpdated" style="font-size: 14px; font-weight: 400;">21.07.2020</span>
-      
+      <span id="lastUpdated" style="font-size: 14px; font-weight: 400">21.07.2020</span>
     </div>
+
+    <span style="margin-bottom: 30px; margin-top: 20px; width: 700px; max-width: calc(100vw - 20px); text-align: center; color: #ff5722"
+      >* Datele privind pacienții declarați vindecați și pacienții asimptomatici externați la 10 zile după depistare nu sunt disponibile în acest moment, ca urmare a unor modificări tehnice survenite
+      la aplicația de centralizare a datelor. Aceste cifre vor fi comunicate imediat după ce vor deveni disponibile. <a href="https://stirioficiale.ro/informatii/buletin-de-presa-11-septembrie-2020-ora-13-00">https://stirioficiale.ro/informatii/buletin-de-presa-11-septembrie-2020-ora-13-00</a></a></span
+    >
 
     <h3 class="graph-title top-title" style="margin-top: 25px">Cazuri zilnice - <hide-mobile>teste/infectări/decese</hide-mobile> România</h3>
     <div class="slider-container">
       <input type="range" min="1" max="30" value="30" class="slider" id="zoomInput" />
-      <div style="width: 80px;">
-        <span style="margin-left: 8px;">
-          🔍
-        </span>
+      <div style="width: 80px">
+        <span style="margin-left: 8px"> 🔍 </span>
         <span id="zoomValue" class="hmm">30x</span>
       </div>
-      
     </div>
     <div class="chart-container">
       <canvas id="romaniaChart"></canvas>
@@ -55,10 +49,8 @@
     <h3 class="graph-title top-title">Cazuri totale / evoluție - România</h3>
     <div class="slider-container">
       <input type="range" min="1" max="10" value="10" class="slider" id="totalsZoomInput" />
-      <div style="width: 80px;">
-        <span style="margin-left: 8px;">
-          🔍
-        </span>
+      <div style="width: 80px">
+        <span style="margin-left: 8px"> 🔍 </span>
         <span id="totalsZoomValue" class="hmm">10x</span>
       </div>
     </div>
@@ -66,7 +58,6 @@
       <canvas id="romaniaTotals"></canvas>
     </div>
 
-    
     <h4>Alege un grafic:</h4>
     <div class="buttons-wrapper">
       <button selected title="Evoluția cazurilor totale pe o anumită țară" onclick="show('countryActiveCasesWrapper', this)">
@@ -99,17 +90,11 @@
       </button>
     </div>
 
-    <!-- <span style="margin-bottom: 30px; margin-top: 20px; width: 700px; max-width: calc(100vw - 20px); text-align: center; color: #FF5722">Momentan, situația pe alte țări nu se poate afișa din cauza indisponibilității datelor de la ECDC: </br><a target="_blank" href="https://opendata.ecdc.europa.eu/covid19/casedistribution/json">https://opendata.ecdc.europa.eu/covi...</a></span> -->
+    
 
     <div visible class="graph-wrapper" id="countryActiveCasesWrapper">
       <h3 class="graph-title">Cazuri active pe o anumită țară</h3>
-      <select
-        id="activeCasesCountryPicker"
-        style="margin-bottom: 30px; margin: 5px;"
-        onchange="drawComparedActiveCases(this)"
-        class="country-picker"
-        value="România"
-      ></select>
+      <select id="activeCasesCountryPicker" style="margin-bottom: 30px; margin: 5px" onchange="drawComparedActiveCases(this)" class="country-picker" value="România"></select>
       <div class="chart-container">
         <canvas id="countryActiveCases"></canvas>
       </div>
@@ -124,7 +109,7 @@
 
     <div class="graph-wrapper" id="otherCountryChartWrapper">
       <h3 class="graph-title">Cazuri zilnice pe o anumită țară</h3>
-      <select style="margin-bottom: 30px; margin: 5px;" onchange="drawComparedCountry(this)" class="country-picker"></select>
+      <select style="margin-bottom: 30px; margin: 5px" onchange="drawComparedCountry(this)" class="country-picker"></select>
       <div class="chart-container">
         <canvas id="otherCountryChart"></canvas>
       </div>
@@ -132,7 +117,7 @@
 
     <div class="graph-wrapper" id="otherCountryTotalsWrapper">
       <h3 class="graph-title">Cazuri totale / evoluție pe o anumită țară</h3>
-      <select style="margin-bottom: 30px; margin: 5px;" onchange="drawComparedCountryTotalCases(this)" class="country-picker" class="country-picker"></select>
+      <select style="margin-bottom: 30px; margin: 5px" onchange="drawComparedCountryTotalCases(this)" class="country-picker" class="country-picker"></select>
       <div class="chart-container">
         <canvas id="otherCountryTotals"></canvas>
       </div>
@@ -159,7 +144,7 @@
       </div>
     </div>
 
-    <h3 style="margin-bottom: 10px;">Situația <b>deceselor</b> în <b>România</b>:</h3>
+    <h3 style="margin-bottom: 10px">Situația <b>deceselor</b> în <b>România</b>:</h3>
     <!-- <div id="deathMap">
       <canvas></canvas>
     </div> -->
@@ -169,17 +154,17 @@
     <span class="total-deaths">Total decese: <b class="total-deaths-value"></b> </span>
     <div class="top-pies-wrapper" id="secondPiesWrapper">
       <div>
-        <h3 class="graph-title top-title" style="text-align: right; padding-right: 30px;">În ce categorii de <b>vârstă</b> se află?</h3>
-        <div class="pie-wrapper" style="margin-top: -25px;">
-          <div class="pie" style="width: 400px; padding-right: 20px; height: 80%;">
+        <h3 class="graph-title top-title" style="text-align: right; padding-right: 30px">În ce categorii de <b>vârstă</b> se află?</h3>
+        <div class="pie-wrapper" style="margin-top: -25px">
+          <div class="pie" style="width: 400px; padding-right: 20px; height: 80%">
             <canvas id="romaniaAgeDeaths"></canvas>
           </div>
         </div>
       </div>
       <div id="otherDiseases">
-        <h3 class="graph-title top-title" style="text-align: left; padding-left: 32px;">Ce <b>alte boli</b> au avut?</h3>
-        <div class="pie-wrapper" style="margin-top: -25px;">
-          <div id="conditionsPie" class="pie" style="width: 400px; padding-left: 20px; height: 80%;">
+        <h3 class="graph-title top-title" style="text-align: left; padding-left: 32px">Ce <b>alte boli</b> au avut?</h3>
+        <div class="pie-wrapper" style="margin-top: -25px">
+          <div id="conditionsPie" class="pie" style="width: 400px; padding-left: 20px; height: 80%">
             <canvas id="romaniaConditionDeaths"></canvas>
           </div>
         </div>
@@ -189,18 +174,15 @@
     <div class="explanatory-texts">
       <center>
         <h3><b>Ce este coronavirus</b>?</h3>
-        <b>Coronavirus</b>urile sunt o familie numeroasă de virusuri care pot provoca boli la animale sau oameni. La om provoacă infecţii respiratorii, de la
-        răceala comună la boli mai severe, cum ar fi Sindromul respirator din Orientul Mijlociu (MERS) şi Sindromul respirator acut sever (SARS). Cel mai recent
-        coronavirus descoperit se numește <b>SARS-CoV-2</b>.
+        <b>Coronavirus</b>urile sunt o familie numeroasă de virusuri care pot provoca boli la animale sau oameni. La om provoacă infecţii respiratorii, de la răceala comună la boli mai severe, cum ar
+        fi Sindromul respirator din Orientul Mijlociu (MERS) şi Sindromul respirator acut sever (SARS). Cel mai recent coronavirus descoperit se numește <b>SARS-CoV-2</b>.
 
-        <h3 style="margin-top: 40px;"><b>Ce este COVID-19</b>?</h3>
-        <b>COVID-19</b> este boala infecţioasă cauzată de <b>SARS-CoV-2</b>. Acest nou virus şi această boală nu au fost cunoscute înainte de apariţia focarului
-        în Wuhan, China, în decembrie 2019.
+        <h3 style="margin-top: 40px"><b>Ce este COVID-19</b>?</h3>
+        <b>COVID-19</b> este boala infecţioasă cauzată de <b>SARS-CoV-2</b>. Acest nou virus şi această boală nu au fost cunoscute înainte de apariţia focarului în Wuhan, China, în decembrie 2019.
 
-        <h3 style="margin-top: 40px;"><b>Cât de afectată este România</b>?</h3>
-        Primul caz de infecție cu <b>COVID-19</b> în România a fost confirmat pe 26 februarie, 2020. De atunci și până astăzi s-au inregistrat în total
-        <b class="total-cases-value"></b> de cazuri. <br />Primul deces s-a produs la data de 22 martie, fiind înregistrate în total
-        <b class="total-deaths-value"></b> de decese cauzate de infecție până astăzi.
+        <h3 style="margin-top: 40px"><b>Cât de afectată este România</b>?</h3>
+        Primul caz de infecție cu <b>COVID-19</b> în România a fost confirmat pe 26 februarie, 2020. De atunci și până astăzi s-au inregistrat în total <b class="total-cases-value"></b> de cazuri.
+        <br />Primul deces s-a produs la data de 22 martie, fiind înregistrate în total <b class="total-deaths-value"></b> de decese cauzate de infecție până astăzi.
       </center>
     </div>
 
@@ -213,13 +195,7 @@
     Te-a ajutat această pagină?
     <br />
     <br />
-    <div
-      onclick="ga('send', 'event', 'Click', 'share')"
-      class="fb-share-button"
-      data-href="https://www.iuliu.net/corona/"
-      data-layout="box_count"
-      data-size="large"
-    >
+    <div onclick="ga('send', 'event', 'Click', 'share')" class="fb-share-button" data-href="https://www.iuliu.net/corona/" data-layout="box_count" data-size="large">
       <a
         onclick="ga('send', 'event', 'Click', 'share', 'share')"
         target="_blank"
@@ -229,7 +205,7 @@
       >
     </div>
 
-    <i style="text-align: center; margin: 30px; word-break: break-all;">
+    <i style="text-align: center; margin: 30px; word-break: break-all">
       Surse:
       <br />
       <a
@@ -240,21 +216,13 @@
         >https://www.ecdc.europa.eu/en/publ...ldwide</a
       >
       <br />
-      <a target="_blank" onclick="ga('send', 'event', 'ClickSource', 'stirioficiale')" rel="noreferrer" href="http://stirioficiale.ro/"
-        >http://stirioficiale.ro/</a
-      >
+      <a target="_blank" onclick="ga('send', 'event', 'ClickSource', 'stirioficiale')" rel="noreferrer" href="http://stirioficiale.ro/">http://stirioficiale.ro/</a>
       <br />
-      <a
-        target="_blank"
-        onclick="ga('send', 'event', 'ClickSource', 'who')"
-        rel="noreferrer"
-        href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"
+      <a target="_blank" onclick="ga('send', 'event', 'ClickSource', 'who')" rel="noreferrer" href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"
         >https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public</a
       >
       <br /><br />
-      <span style="word-break: initial;">
-        Pagină + grafice create de Iuliu Vişovan. Contact: iuliuvisovan@gmail.com
-      </span>
+      <span style="word-break: initial"> Pagină + grafice create de Iuliu Vişovan. Contact: iuliuvisovan@gmail.com </span>
     </i>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
