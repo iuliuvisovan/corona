@@ -127,127 +127,127 @@ window.romaniaData = {
   },
   "16/09/2020": {
     "cases": 1713,
-    "recoveries": 1206,
+    "recoveries": 1806,
     "deaths": 49,
     "tests": 26520
   },
   "15/09/2020": {
     "cases": 1111,
-    "recoveries": 41800,
+    "recoveries": 2200,
     "deaths": 51,
     "tests": 21049
   },
   "14/09/2020": {
     "cases": 692,
-    "recoveries": 219,
+    "recoveries": 2219,
     "deaths": 22,
     "tests": 7331
   },
   "13/09/2020": {
     "cases": 1109,
-    "recoveries": 314,
+    "recoveries": 2314,
     "deaths": 36,
     "tests": 14784
   },
   "12/09/2020": {
     "cases": 1311,
-    "recoveries": 1151,
+    "recoveries": 3151,
     "deaths": 27,
     "tests": 24939
   },
   "11/09/2020": {
     "cases": 1391,
-    "recoveries": 550,
+    "recoveries": 2550,
     "deaths": 35,
     "tests": 26149
   },
   "10/09/2020": {
     "cases": 1380,
-    "recoveries": 8,
+    "recoveries": 2008,
     "deaths": 47,
     "tests": 25185
   },
   "09/09/2020": {
     "cases": 1271,
-    "recoveries": 164,
+    "recoveries": 2164,
     "deaths": 51,
     "tests": 24297
   },
   "08/09/2020": {
     "cases": 1136,
-    "recoveries": 384,
+    "recoveries": 2384,
     "deaths": 41,
     "tests": 20552
   },
   "07/09/2020": {
     "cases": 883,
-    "recoveries": 147,
+    "recoveries": 2147,
     "deaths": 33,
     "tests": 7247
   },
   "06/09/2020": {
     "cases": 1150,
-    "recoveries": 279,
+    "recoveries": 2279,
     "deaths": 43,
     "tests": 14871
   },
   "05/09/2020": {
     "cases": 1269,
-    "recoveries": 402,
+    "recoveries": 2402,
     "deaths": 38,
     "tests": 22380
   },
   "04/09/2020": {
     "cases": 1339,
-    "recoveries": 351,
+    "recoveries": 2351,
     "deaths": 47,
     "tests": 25177
   },
   "03/09/2020": {
     "cases": 1365,
-    "recoveries": 574,
+    "recoveries": 2574,
     "deaths": 44,
     "tests": 23975
   },
   "02/09/2020": {
     "cases": 1298,
-    "recoveries": 247,
+    "recoveries": 2247,
     "deaths": 40,
     "tests": 26816
   },
   "01/09/2020": {
     "cases": 1053,
-    "recoveries": 585,
+    "recoveries": 2585,
     "deaths": 60,
     "tests": 22326
   },
   "31/08/2020": {
     "cases": 755,
-    "recoveries": 204,
+    "recoveries": 2204,
     "deaths": 43,
     "tests": 7313
   },
   "30/08/2020": {
     "cases": 952,
-    "recoveries": 277,
+    "recoveries": 2277,
     "deaths": 39,
     "tests": 14670
   },
   "29/08/2020": {
     "cases": 1365,
-    "recoveries": 332,
+    "recoveries": 2332,
     "deaths": 32,
     "tests": 24043
   },
   "28/08/2020": {
     "cases": 1318,
-    "recoveries": 379,
+    "recoveries": 2379,
     "deaths": 48,
     "tests": 26500
   },
   "27/08/2020": {
     "cases": 1504,
-    "recoveries": 391,
+    "recoveries": 1391,
     "deaths": 38,
     "tests": 25052
   },
@@ -259,13 +259,13 @@ window.romaniaData = {
   },
   "25/08/2020": {
     "cases": 1060,
-    "recoveries": 299,
+    "recoveries": 1299,
     "deaths": 58,
     "tests": 20479
   },
   "24/08/2020": {
     "cases": 825,
-    "recoveries": 230,
+    "recoveries": 1230,
     "deaths": 37,
     "tests": 6491
   },
