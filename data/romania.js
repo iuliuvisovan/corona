@@ -14,7 +14,7 @@ window.romaniaData = {
   "25/10/2020": {
     "cases": 3855,
     "recoveries": 1809,
-    "deaths": -107,
+    "deaths": 73,
     "tests": 19346
   },
   "24/10/2020": {
@@ -26,7 +26,7 @@ window.romaniaData = {
   "23/10/2020": {
     "cases": 5028,
     "recoveries": 3340,
-    "deaths": 262,
+    "deaths": 82,
     "tests": 41238
   },
   "22/10/2020": {
