@@ -15,7 +15,7 @@ function longRun() {
   if (hasDoneUpdateForToday()) {
     console.log(timestamp + 'Update for today done. Nothing to check.');
   } else {
-    const isPastTwelve = +moment().format('HH') >= 11;
+    const isPastTwelve = +moment().format('HH') >= 12;
     console.log(timestamp + 'isPastTwelve', isPastTwelve);
 
     if (isPastTwelve) {
