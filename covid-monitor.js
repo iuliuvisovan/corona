@@ -3,7 +3,10 @@ const moment = require('moment');
 const { exec } = require('child_process');
 const { promisify } = require('util');
 const execAsync = promisify(exec);
-const timestamp = '[' + moment().format('DD/MM/YYYY HH:mm:ss') + '] ';
+
+function getTimestamp() {
+  return '[' + moment().format('DD/MM/YYYY HH:mm:ss') + '] ';
+}
 
 const tenMinutes = 10 * 60 * 1000;
 let shortRunInterval = 0;
@@ -13,10 +16,10 @@ setInterval(longRun, tenMinutes);
 
 function longRun() {
   if (hasDoneUpdateForToday()) {
-    console.log(timestamp + 'Update for today done. Nothing to check.');
+    console.log(getTimestamp() +  'Update for today done. Nothing to check.');
   } else {
     const isPastTwelve = +moment().format('HH') >= 12;
-    console.log(timestamp + 'isPastTwelve', isPastTwelve);
+    console.log(getTimestamp() +  'isPastTwelve', isPastTwelve);
 
     if (isPastTwelve) {
       const oneMinute = 60 * 1000;
@@ -29,10 +32,10 @@ function longRun() {
 
 async function shortRun() {
   const { stdout } = await execAsync('node update');
-  console.log(timestamp + 'node update: \n', stdout);
+  console.log(getTimestamp() +  'node update: \n', stdout);
 
   if (hasDoneUpdateForToday()) {
-    console.log(timestamp + 'Update done! Committing..');
+    console.log(getTimestamp() +  'Update done! Committing..');
 
     await execAsync('git add .');
     await execAsync('git commit -m "ro 1pm"');
@@ -40,7 +43,7 @@ async function shortRun() {
 
     clearTimeout(shortRunInterval);
 
-    console.log(timestamp + 'Commited & pushed succesfully! Going back to standby mode...');
+    console.log(getTimestamp() +  'Commited & pushed succesfully! Going back to standby mode...');
   }
 }
 

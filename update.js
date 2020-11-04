@@ -74,6 +74,8 @@ function bumpGlobalCasesVersion() {
   const indexHtmlPath = './index.html';
   let indexHtml = fs.readFileSync(indexHtmlPath, 'utf8');
 
+  console.log('indexHtml', indexHtml);
+
   const myRegexp = /data\/global-cases-and-deaths\.js\?v=([0-9]*)/;
   const [_, version] = myRegexp.exec(indexHtml);
 
@@ -160,7 +162,7 @@ async function crawlTodaysCases() {
   const pageHtml = await (await fetch(url)).text();
 
   if (pageHtml.includes('nu am găsit pagina')) {
-    console.log("Article not published yet.");
+    console.log('[' + moment().format('DD/MM/YYYY HH:mm:ss') + '] ' + 'Article not published yet.');
     return {};
   } else {
     const todayCases = +pageHtml.match(/au fost confirmate ([0-9+\.]+) de cazuri/)[1].replace(/\./g, '');
