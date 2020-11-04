@@ -152,8 +152,7 @@ async function addTodayCases() {
 async function crawlTodaysCases() {
   const months = ['ianuarie', 'februarie', 'martie', 'aprilie', 'mai', 'iunie', 'iulie', 'august', 'septembrie', 'octombrie', 'noiembrie', 'decembrie'];
 
-  const day = 3;
-  // const day = +moment().format('DD');
+  const day = +moment().format('DD');
   const month = months[+moment().format('MM') - 1];
   const year = +moment().format('YYYY');
   const url = `https://stirioficiale.ro/informatii/buletin-de-presa-${day}-${month}-${year}-ora-13-00`;

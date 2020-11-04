@@ -29,7 +29,7 @@ function longRun() {
 
 async function shortRun() {
   const { stdout } = await execAsync('node update');
-  console.log(timestamp + 'node update: ', stdout);
+  console.log(timestamp + 'node update: \n', stdout);
 
   if (hasDoneUpdateForToday()) {
     console.log(timestamp + 'Update done! Committing..');
