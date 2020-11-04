@@ -152,7 +152,8 @@ async function addTodayCases() {
 async function crawlTodaysCases() {
   const months = ['ianuarie', 'februarie', 'martie', 'aprilie', 'mai', 'iunie', 'iulie', 'august', 'septembrie', 'octombrie', 'noiembrie', 'decembrie'];
 
-  const day = +moment().format('DD');
+  const day = 3;
+  // const day = +moment().format('DD');
   const month = months[+moment().format('MM') - 1];
   const year = +moment().format('YYYY');
   const url = `https://stirioficiale.ro/informatii/buletin-de-presa-${day}-${month}-${year}-ora-13-00`;
@@ -160,20 +161,20 @@ async function crawlTodaysCases() {
   const pageHtml = await (await fetch(url)).text();
 
   if (pageHtml.includes('nu am găsit pagina')) {
-    console.log("It's not yet time.");
+    console.log("Article not published yet.");
     return {};
   } else {
     const todayCases = +pageHtml.match(/au fost confirmate ([0-9+\.]+) de cazuri/)[1].replace(/\./g, '');
-    console.log('todayCases', todayCases);
+    console.log('totalCases', todayCases);
 
     const todayRecoveries = +pageHtml.match(/([0-9+\.]+) de pacienți au fost declarați vindecați/)[1].replace(/\./g, '');
-    console.log('todayRecoveries', todayRecoveries);
+    console.log('totalRecoveries', todayRecoveries);
 
     const todayDeaths = +pageHtml.match(/P&acirc;nă astăzi, ([0-9+\.]+) de&nbsp; persoane diagnosticate cu infecție cu SARS &ndash; CoV &ndash; 2 au decedat./)[1].replace(/\./g, '');
-    console.log('todayDeaths', todayDeaths);
+    console.log('totalDeaths', todayDeaths);
 
     const todayTests = +pageHtml.match(/au fost prelucrate ([0-9+\.]+) &nbsp;teste/)[1].replace(/\./g, '');
-    console.log('todayTests', todayTests);
+    console.log('totalTests', todayTests);
 
     return { todayCases, todayRecoveries, todayDeaths, todayTests };
   }

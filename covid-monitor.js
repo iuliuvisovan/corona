@@ -6,22 +6,22 @@ const execAsync = promisify(exec);
 const timestamp = '[' + moment().format('DD/MM/YYYY HH:mm:ss') + '] ';
 
 const tenMinutes = 10 * 60 * 1000;
+let shortRunInterval = 0;
 
 longRun();
 setInterval(longRun, tenMinutes);
-
-let shortRunInterval;
 
 function longRun() {
   if (hasDoneUpdateForToday()) {
     console.log(timestamp + 'Update for today done. Nothing to check.');
   } else {
-    const isPastTwelve = +moment().format('HH') >= 12;
+    const isPastTwelve = +moment().format('HH') >= 11;
     console.log(timestamp + 'isPastTwelve', isPastTwelve);
 
     if (isPastTwelve) {
-      const oneMinute = 10 * 60 * 1000;
+      const oneMinute = 60 * 1000;
 
+      shortRun();
       shortRunInterval = setInterval(shortRun, oneMinute);
     }
   }
@@ -52,6 +52,6 @@ function hasDoneUpdateForToday() {
   const todayKey = moment().format('DD/MM/YYYY');
 
   if (romaniaDailyCases[todayKey]) {
-    return;
+    return true;
   }
 }
