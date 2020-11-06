@@ -171,10 +171,10 @@ async function crawlTodaysCases() {
     const todayRecoveries = +pageHtml.match(/([0-9+\.]+) de pacienți au fost declarați vindecați/)[1].replace(/\./g, '');
     console.log('totalRecoveries', todayRecoveries);
 
-    const todayDeaths = +pageHtml.match(/P&acirc;nă astăzi, ([0-9+\.]+) de&nbsp; persoane diagnosticate cu infecție cu SARS &ndash; CoV &ndash; 2 au decedat./)[1].replace(/\./g, '');
+    const todayDeaths = +pageHtml.match(/P&acirc;nă astăzi, ([0-9+\.]+) de persoane diagnosticate cu infecție cu SARS &ndash; CoV &ndash; 2 au decedat./)[1].replace(/\./g, '');
     console.log('totalDeaths', todayDeaths);
 
-    const todayTests = +pageHtml.match(/au fost prelucrate ([0-9+\.]+) teste/)[1].replace(/\./g, '');
+    const todayTests = +pageHtml.match(/au fost prelucrate ([0-9+\.]+) (de )?teste/)[1].replace(/\./g, '');
     console.log('totalTests', todayTests);
 
     return { todayCases, todayRecoveries, todayDeaths, todayTests };
