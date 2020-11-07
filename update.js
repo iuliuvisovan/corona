@@ -17,7 +17,10 @@ async function fetchActiveCases() {
 
   maybeAddMissingDays(activeCasesNormalized);
 
-  fs.writeFileSync('./data/global-cases-and-deaths.js', 'window.data = ' + JSON.stringify(activeCasesNormalized, null, 4));
+  fs.writeFileSync(
+    './data/global-cases-and-deaths.js',
+    'window.data = ' + JSON.stringify(activeCasesNormalized, null, 4)
+  );
 }
 
 function maybeAddMissingDays(activeCases) {
@@ -152,7 +155,20 @@ async function addTodayCases() {
 }
 
 async function crawlTodaysCases() {
-  const months = ['ianuarie', 'februarie', 'martie', 'aprilie', 'mai', 'iunie', 'iulie', 'august', 'septembrie', 'octombrie', 'noiembrie', 'decembrie'];
+  const months = [
+    'ianuarie',
+    'februarie',
+    'martie',
+    'aprilie',
+    'mai',
+    'iunie',
+    'iulie',
+    'august',
+    'septembrie',
+    'octombrie',
+    'noiembrie',
+    'decembrie',
+  ];
 
   const day = +moment().format('DD');
   const month = months[+moment().format('MM') - 1];
@@ -165,13 +181,26 @@ async function crawlTodaysCases() {
     console.log('[' + moment().format('DD/MM/YYYY HH:mm:ss') + '] ' + 'Article not published yet.');
     return {};
   } else {
+    fetchActiveCases();
+    bumpAppJsVersion();
+    bumpAppCssVersion();
+    bumpGlobalCasesVersion();
+    bumpRomaniaVersion();
+    bumpRomaniaDeathsVersion();
+
     const todayCases = +pageHtml.match(/au fost confirmate ([0-9+\.]+) de cazuri/)[1].replace(/\./g, '');
     console.log('totalCases', todayCases);
 
-    const todayRecoveries = +pageHtml.match(/([0-9+\.]+) de pacienți au fost declarați vindecați/)[1].replace(/\./g, '');
+    const todayRecoveries = +pageHtml
+      .match(/([0-9+\.]+) de pacienți au fost declarați vindecați/)[1]
+      .replace(/\./g, '');
     console.log('totalRecoveries', todayRecoveries);
 
-    const todayDeaths = +pageHtml.match(/P&acirc;nă astăzi, ([0-9+\.]+) de persoane diagnosticate cu infecție cu SARS &ndash; CoV &ndash; 2 au decedat./)[1].replace(/\./g, '');
+    const todayDeaths = +pageHtml
+      .match(
+        /P&acirc;nă astăzi, ([0-9+\.]+) de persoane diagnosticate cu infecție cu SARS &ndash; CoV &ndash; 2 au decedat./
+      )[1]
+      .replace(/\./g, '');
     console.log('totalDeaths', todayDeaths);
 
     const todayTests = +pageHtml.match(/au fost prelucrate ([0-9+\.]+) (de )?teste/)[1].replace(/\./g, '');
@@ -182,9 +211,3 @@ async function crawlTodaysCases() {
 }
 
 addTodayCases();
-fetchActiveCases();
-bumpAppJsVersion();
-bumpAppCssVersion();
-bumpGlobalCasesVersion();
-bumpRomaniaVersion();
-bumpRomaniaDeathsVersion();
