@@ -92,7 +92,9 @@ function bumpAppJsVersion() {
   let indexHtml = fs.readFileSync(indexHtmlPath, 'utf8');
 
   const myRegexp = /js\/app\.js\?v=([0-9]*)/;
-  const [_, version] = myRegexp.exec(indexHtml);
+  const result = myRegexp.exec(indexHtml);
+
+  const [_, version] = result;
 
   const replacedIndexHtml = indexHtml.replace(myRegexp, 'js/app.js?v=' + (+version + 1));
 
@@ -170,7 +172,8 @@ async function crawlTodaysCases() {
     'decembrie',
   ];
 
-  const day = +moment().format('DD');
+  // const day = +moment().format('DD');
+  const day = 7;
   const month = months[+moment().format('MM') - 1];
   const year = +moment().format('YYYY');
   const url = `https://stirioficiale.ro/informatii/buletin-de-presa-${day}-${month}-${year}-ora-13-00`;
@@ -192,13 +195,13 @@ async function crawlTodaysCases() {
     console.log('totalCases', todayCases);
 
     const todayRecoveries = +pageHtml
-      .match(/([0-9+\.]+) de pacienți au fost declarați vindecați/)[1]
+      .match(/([0-9+\.]+) (de )?pacienți au fost declarați vindecați/)[1]
       .replace(/\./g, '');
     console.log('totalRecoveries', todayRecoveries);
 
     const todayDeaths = +pageHtml
       .match(
-        /P&acirc;nă astăzi, ([0-9+\.]+) de persoane diagnosticate cu infecție cu SARS &ndash; CoV &ndash; 2 au decedat./
+        /P&acirc;nă astăzi, ([0-9+\.]+) (de )?persoane diagnosticate cu infecție cu SARS &ndash; CoV &ndash; 2 au decedat./
       )[1]
       .replace(/\./g, '');
     console.log('totalDeaths', todayDeaths);
