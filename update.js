@@ -172,8 +172,7 @@ async function crawlTodaysCases() {
     'decembrie',
   ];
 
-  // const day = +moment().format('DD');
-  const day = 7;
+  const day = +moment().format('DD');
   const month = months[+moment().format('MM') - 1];
   const year = +moment().format('YYYY');
   const url = `https://stirioficiale.ro/informatii/buletin-de-presa-${day}-${month}-${year}-ora-13-00`;
