@@ -41,7 +41,7 @@ async function shortRun() {
     await execAsync('git commit -m "ro 1pm"');
     await execAsync('git push');
 
-    clearTimeout(shortRunInterval);
+    clearInterval(shortRunInterval);
 
     console.log(getTimestamp() +  'Commited & pushed succesfully! Going back to standby mode...');
   }

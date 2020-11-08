@@ -77,8 +77,6 @@ function bumpGlobalCasesVersion() {
   const indexHtmlPath = './index.html';
   let indexHtml = fs.readFileSync(indexHtmlPath, 'utf8');
 
-  console.log('indexHtml', indexHtml);
-
   const myRegexp = /data\/global-cases-and-deaths\.js\?v=([0-9]*)/;
   const [_, version] = myRegexp.exec(indexHtml);
 
