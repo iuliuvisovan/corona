@@ -188,7 +188,7 @@ async function crawlTodaysCases() {
     bumpRomaniaVersion();
     bumpRomaniaDeathsVersion();
 
-    const todayCases = +pageHtml.match(/au fost confirmate ([0-9+\.]+) de cazuri/)[1].replace(/\./g, '');
+    const todayCases = +pageHtml.match(/au fost confirmate ([0-9+\.]+) (de )?cazuri/)[1].replace(/\./g, '');
     console.log('totalCases', todayCases);
 
     const todayRecoveries = +pageHtml
