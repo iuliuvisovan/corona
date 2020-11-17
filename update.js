@@ -203,7 +203,7 @@ async function crawlTodaysCases() {
       .replace(/\./g, '');
     console.log('totalDeaths', todayDeaths);
 
-    const todayTests = +pageHtml.match(/au fost prelucrate ([0-9+\.]+) (de )?teste/)[1].replace(/\./g, '');
+    const todayTests = +pageHtml.match(/au fost prelucrate ([0-9+\.]+)/)[1].replace(/\./g, '');
     console.log('totalTests', todayTests);
 
     return { todayCases, todayRecoveries, todayDeaths, todayTests };
