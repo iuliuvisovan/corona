@@ -62406,7 +62406,7 @@ window.data = [
     },
     {
         "countryName": "Romania",
-        "dateString": "17/12/2020",
+        "dateString": "18/12/2020",
         "deaths": 0,
         "recoveries": 0,
         "cases": 0
