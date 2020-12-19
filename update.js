@@ -176,6 +176,7 @@ async function crawlTodaysCases() {
   const url = `https://stirioficiale.ro/informatii/buletin-de-presa-${day}-${month}-${year}-ora-13-00`;
 
   const pageHtml = await (await fetch(url)).text();
+  
 
   if (pageHtml.includes('nu am găsit pagina')) {
     console.log('[' + moment().format('DD/MM/YYYY HH:mm:ss') + '] ' + 'Article not published yet.');
