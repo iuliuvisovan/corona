@@ -1,4 +1,34 @@
 window.romaniaData = {
+  "24/12/2020": {
+    "cases": 4310,
+    "recoveries": 7406,
+    "deaths": 146,
+    "tests": 32914
+  },
+  "23/12/2020": {
+    "cases": 5459,
+    "recoveries": 7444,
+    "deaths": 130,
+    "tests": 25840
+  },
+  "22/12/2020": {
+    "cases": 5009,
+    "recoveries": 7083,
+    "deaths": 155,
+    "tests": 23844
+  },
+  "21/12/2020": {
+    "cases": 2489,
+    "recoveries": 3119,
+    "deaths": 87,
+    "tests": 7185
+  },
+  "20/12/2020": {
+    "cases": 3350,
+    "recoveries": 5398,
+    "deaths": 98,
+    "tests": 12293
+  },
   "19/12/2020": {
     "cases": 5158,
     "recoveries": 8431,
