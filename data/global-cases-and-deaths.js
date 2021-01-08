@@ -67040,7 +67040,7 @@ window.data = [
     },
     {
         "countryName": "Romania",
-        "dateString": "06/01/2021",
+        "dateString": "08/01/2021",
         "deaths": 0,
         "recoveries": 0,
         "cases": 0
