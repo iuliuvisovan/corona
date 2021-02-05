@@ -1,21 +1,45 @@
 window.romaniaData = {
+  "05/02/2021": {
+    "cases": 2580,
+    "recoveries": 2597,
+    "deaths": 73,
+    "tests": 24527
+  },
+  "04/02/2021": {
+    "cases": 2668,
+    "recoveries": 2824,
+    "deaths": 75,
+    "tests": 25234
+  },
+  "03/02/2021": {
+    "cases": 2752,
+    "recoveries": 2798,
+    "deaths": 87,
+    "tests": 25550
+  },
+  "02/02/2021": {
+    "cases": 2676,
+    "recoveries": 2706,
+    "deaths": 7,
+    "tests": 16201
+  },
   "01/02/2021": {
     "cases": 1313,
     "recoveries": 1173,
-    "deaths": 72,
-    "tests": 22543
+    "deaths": 32,
+    "tests": 16543
   },
   "31/01/2021": {
     "cases": 1825,
     "recoveries": 3099,
     "deaths": 139,
-    "tests": 6344
+    "tests": 12344
   },
   "30/01/2021": {
     "cases": 2668,
     "recoveries": 2320,
     "deaths": 139,
-    "tests": 38344
+    "tests": 22344
   },
   "29/01/2021": {
     "cases": 2737,
