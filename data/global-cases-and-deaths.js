@@ -73032,6 +73032,13 @@ window.data = [
     },
     {
         "countryName": "Romania",
+        "dateString": "07/02/2021",
+        "deaths": 0,
+        "recoveries": 0,
+        "cases": 0
+    },
+    {
+        "countryName": "Romania",
         "dateString": "05/03/2020",
         "deaths": 0,
         "recoveries": 0,
