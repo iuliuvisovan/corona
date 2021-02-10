@@ -61,7 +61,7 @@ window.romaniaData = {
   },
   "31/01/2021": {
     "cases": 1825,
-    "recoveries": 3099,
+    "recoveries": 2062,
     "deaths": 139,
     "tests": 12344
   },
