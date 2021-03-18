@@ -170,7 +170,7 @@ async function crawlTodaysCases() {
     'decembrie',
   ];
 
-  const day = 13;
+  const day = 18;
   // const day = +moment().format('D');;
   const month = months[+moment().format('MM') - 1];
   const year = +moment().format('YYYY');
