@@ -17,10 +17,7 @@ async function fetchActiveCases() {
 
   maybeAddMissingDays(activeCasesNormalized);
 
-  fs.writeFileSync(
-    './data/global-cases-and-deaths.js',
-    'window.data = ' + JSON.stringify(activeCasesNormalized, null, 4)
-  );
+  fs.writeFileSync('./data/global-cases-and-deaths.js', 'window.data = ' + JSON.stringify(activeCasesNormalized, null, 4));
 }
 
 function maybeAddMissingDays(activeCases) {
@@ -112,7 +109,8 @@ function bumpAppCssVersion() {
 }
 
 async function addTodayCases() {
-  const { todayCases, todayRecoveries, todayDeaths, todayTests } = await crawlTodaysCases();
+  const targetDay = '12';
+  const { todayCases, todayRecoveries, todayDeaths, todayTests } = await crawlDayCases(targetDay);
 
   if (!todayCases) {
     return;
@@ -122,7 +120,7 @@ async function addTodayCases() {
 
   const romaniaDailyCases = JSON.parse(romaniaDailyCasesString.replace('window.romaniaData = ', ''));
 
-  const todayKey = moment().format('DD/MM/YYYY');
+  const todayKey = `${targetDay}/${+moment().format('MM')}/${+moment().format('YYYY')}`;
 
   const totalCasesSoFar = Object.keys(romaniaDailyCases)
     .map((x) => romaniaDailyCases[x].cases)
@@ -154,7 +152,7 @@ async function addTodayCases() {
   fs.writeFileSync('./data/romania.js', newRomaniaDailyCasesString);
 }
 
-async function crawlTodaysCases() {
+async function crawlDayCases(day = +moment().format('D')) {
   const months = [
     'ianuarie',
     'februarie',
@@ -170,8 +168,6 @@ async function crawlTodaysCases() {
     'decembrie',
   ];
 
-  // const day = 8;
-  const day = +moment().format('D');;
   const month = months[+moment().format('MM') - 1];
   const year = +moment().format('YYYY');
   const url = `https://stirioficiale.ro/informatii/buletin-de-presa-${day}-${month}-${year}-ora-13-00`;
@@ -192,15 +188,11 @@ async function crawlTodaysCases() {
     const todayCases = +pageHtml.match(/au fost confirmate ([0-9+\.]+) (de )?cazuri/)[1].replace(/\./g, '');
     console.log('totalCases', todayCases);
 
-    const todayRecoveries = +pageHtml
-      .match(/([0-9+\.]+) (de )?pacienți au fost declarați vindecați/)[1]
-      .replace(/\./g, '');
+    const todayRecoveries = +pageHtml.match(/([0-9+\.]+) (de )?pacienți au fost declarați vindecați/)[1].replace(/\./g, '');
     console.log('totalRecoveries', todayRecoveries);
 
     const todayDeaths = +pageHtml
-      .match(
-        /P&acirc;nă astăzi, ([0-9+\.]+) (de )?persoane diagnosticate cu infecție cu SARS &ndash; CoV &ndash; 2 au decedat./
-      )[1]
+      .match(/P&acirc;nă astăzi, ([0-9+\.]+) (de )?persoane diagnosticate cu infecție cu SARS &ndash; CoV &ndash; 2 au decedat./)[1]
       .replace(/\./g, '');
     console.log('totalDeaths', todayDeaths);
 
