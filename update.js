@@ -109,7 +109,9 @@ function bumpAppCssVersion() {
 }
 
 async function addTodayCases() {
-  const targetDay = '14';
+  const targetDay = '16';
+  // const targetDay = moment().format('DD');
+
   const { todayCases, todayRecoveries, todayDeaths, todayTests } = await crawlDayCases(targetDay);
 
   if (!todayCases) {
@@ -170,7 +172,7 @@ async function crawlDayCases(day = +moment().format('D')) {
 
   const month = months[+moment().format('MM') - 1];
   const year = +moment().format('YYYY');
-  const url = `https://stirioficiale.ro/informatii/buletin-de-presa-${day}-${month}-${year}-ora-13-00`;
+  const url = `http://stirioficiale.ro/informatii/buletin-de-presa-${day}-${month}-${year}-ora-13-00`;
 
   const pageHtml = await (await fetch(url)).text();
 
