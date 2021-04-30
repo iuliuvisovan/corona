@@ -109,7 +109,7 @@ function bumpAppCssVersion() {
 }
 
 async function addTodayCases() {
-  const targetDay = '29';
+  const targetDay = '30';
   // const targetDay = moment().format('DD');
 
   const { todayCases, todayRecoveries, todayDeaths, todayTests } = await crawlDayCases(targetDay);
