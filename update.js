@@ -109,7 +109,7 @@ function bumpAppCssVersion() {
 }
 
 async function addTodayCases() {
-  const targetDay = '30';
+  const targetDay = '1';
   // const targetDay = moment().format('DD');
 
   const { todayCases, todayRecoveries, todayDeaths, todayTests } = await crawlDayCases(targetDay);
@@ -177,7 +177,7 @@ async function crawlDayCases(day = +moment().format('D')) {
   const pageHtml = await (await fetch(url)).text();
 
   if (pageHtml.includes('nu am găsit pagina')) {
-    console.log('[' + moment().format('DD/MM/YYYY HH:mm:ss') + '] ' + 'Article not published yet.');
+    console.log('[' + moment().format('DD/MM/YYYY HH:mm:ss') + '] ' + 'Article not published yet. Page URL: ' + url);
     return {};
   } else {
     fetchActiveCases();
