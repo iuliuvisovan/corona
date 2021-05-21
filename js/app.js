@@ -1479,9 +1479,15 @@ async function fetchRomaniaData() {
 
   const response = await (await fetch(jsonUrl)).json();
 
-  window.romaniaData = Object.keys(response.historicalData)
-    .map((x) => ({ ...response.historicalData[x], dateString: moment(x, 'YYYY-MM-DD').format('DD/MM/YYYY') }))
-    .sort((a, b) => moment(a.dateString, 'DD/MM/YYYY') - moment(b.dateString, 'DD/MM/YYYY'));
+  console.log('response', response);
+
+  window.romaniaData = [
+    ...Object.keys(response.historicalData).map((x) => ({
+      ...response.historicalData[x],
+      dateString: moment(x, 'YYYY-MM-DD').format('DD/MM/YYYY'),
+    })),
+    { ...response.currentDayStats, dateString: moment(response.currentDayStats.parsedOnString, 'YYYY-MM-DD').format('DD/MM/YYYY') },
+  ].sort((a, b) => moment(a.dateString, 'DD/MM/YYYY') - moment(b.dateString, 'DD/MM/YYYY'));
 }
 
 function setCurrentDate() {
