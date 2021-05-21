@@ -47,7 +47,7 @@
     </div>
     <h3 class="graph-title top-title">Cazuri totale / evoluție - România</h3>
     <div class="slider-container">
-      <input type="range" min="1" max="10" value="10" class="slider" id="totalsZoomInput" />
+      <input type="range" min="1" max="10" value="1" class="slider" id="totalsZoomInput" />
       <div style="width: 80px">
         <span style="margin-left: 8px"> 🔍 </span>
         <span id="totalsZoomValue" class="hmm">10x</span>
@@ -58,7 +58,7 @@
     </div>
 
     <span style="margin-bottom: 30px; margin-top: 60px; width: 700px; max-width: calc(100vw - 20px); text-align: center; color: #F44336"
-    >* Începând cu 28 Decembrie 2020, datele despre alte țări în afară de România nu mai sunt disponibile, iar graficele nu mai prezintă date relevante. Mai multe informații: <a href="https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide">https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide</a></a></span
+    >* Începând cu 28 Decembrie 2020, datele despre alte țări în afară de România nu mai sunt disponibile. Mai multe informații: <a href="https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide">https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide</a></a></span
   >
 
 
@@ -94,7 +94,7 @@
       </button>
     </div>
     
-
+<!-- 
     <div visible class="graph-wrapper" id="countryActiveCasesWrapper">
       <h3 class="graph-title">Cazuri active pe o anumită țară</h3>
       <select id="activeCasesCountryPicker" style="margin-bottom: 30px; margin: 5px" onchange="drawComparedActiveCases(this)" class="country-picker" value="România"></select>
@@ -148,9 +148,9 @@
     </div>
 
     <h3 style="margin-bottom: 10px">Situația <b>deceselor</b> în <b>România</b>:</h3>
-    <!-- <div id="deathMap">
+    <div id="deathMap">
       <canvas></canvas>
-    </div> -->
+    </div>
     <div id="sexBar">
       <canvas></canvas>
     </div>
@@ -172,7 +172,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="explanatory-texts">
       <center>
@@ -233,12 +233,12 @@
     <script src="js/chartjs-plugin-labels.js"></script>
     <script src="js/chart-geo.min.js"></script>
 
-    <script src="data/global-cases-and-deaths.js?v=1604"></script>
-    <script src="data/romania.js?v=1725"></script>
-    <script src="data/romania-deaths.js?v=1660"></script>
-    <script src="data/romania-topo.js?v=122"></script>
-    <script src="data/us-topo.js?v=122"></script>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!-- <script src="data/global-cases-and-deaths.js?v=1604"></script> -->
+    <!-- <script src="data/romania.js?v=1725"></script> -->
+    <!-- <script src="data/romania-deaths.js?v=1660"></script> -->
+    <!-- <script src="data/romania-topo.js?v=122"></script> -->
+    <!-- <script src="data/us-topo.js?v=122"></script> -->
+    <!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
 
     <script src="js/app.js?v=1812"></script>
     <script>

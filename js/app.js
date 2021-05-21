@@ -40,97 +40,189 @@ async function init() {
 
 async function draw() {
   setupBarLabels();
-  populateLabelsSinceStartOfYear();
+  // populateLabelsSinceStartOfYear();
+  await fetchRomaniaData();
   drawCountryDailyBars('romaniaChart', 'Romania', '#ff9800', zoomStepsForDailyBars);
 
   setTimeout(async () => {
-    await init();
-    drawRomaniaEvolutionLine(zoomStepsForEvolutionLine);
-    setTimeout(() => {
-      drawCountryActiveCases('Romania'); // 29
-      show('countryActiveCasesWrapper', document.querySelector('button'), true);
+    // await init();
+    drawRomaniaEvolutionLine(1);
+    // setTimeout(() => {
+    //   drawCountryActiveCases('Romania'); // 29
+    //   show('countryActiveCasesWrapper', document.querySelector('button'), true);
 
-      setTimeout(() => {
-        drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
-        drawRomaniaSexBar();
-        drawRomaniaDiseasesPie();
-        drawRomaniaAgeCasesPie();
+    //   setTimeout(() => {
+    //     drawCountryDailyBars('otherCountryChart', 'Italy', '#ffeb3b'); //8
+    //     drawRomaniaSexBar();
+    //     drawRomaniaDiseasesPie();
+    //     drawRomaniaAgeCasesPie();
 
-        drawCountryEvolutionLine('otherCountryTotals', 'Italy', '#ffeb3b'); //30
-        drawGlobalActiveCases();
-        drawLastWeekTotalsBars(); //122
-        drawAllTimeTotalsBars(); //22
-        drawGlobalEvolutionLine(); //22
-        // drawRomaniaDeathMap();
-      }, 0);
-    }, 0);
+    //     drawCountryEvolutionLine('otherCountryTotals', 'Italy', '#ffeb3b'); //30
+    //     drawGlobalActiveCases();
+    //     drawLastWeekTotalsBars(); //122
+    //     drawAllTimeTotalsBars(); //22
+    //     drawGlobalEvolutionLine(); //22
+    //     // drawRomaniaDeathMap();
+    //   }, 0);
+    // }, 0);
   }, 1000);
 }
 
-function setCurrentDate() {
-  const currentDateSpan = document.getElementById('lastUpdated');
-  currentDateSpan.innerText = moment().format('DD.MM.YYYY');
-}
+async function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue) {
+  const ctx = document.getElementById(chartId).getContext('2d');
 
-var otherCountryChart = undefined;
-var otherCountryChartTotals = undefined;
-var countryActiveCases = undefined;
+  let countryData;
+
+  const lastXItems = (romaniaData.length / zoomStepsForDailyBars) * (zoomValue - 1);
+
+  countryData = romaniaData
+    .map((dataPoint, i, a) => {
+      const { numberInfected, numberDeceased, numberCured } = dataPoint;
+
+      return {
+        dateString: dataPoint.dateString,
+        cases: numberInfected - (a[i - 1]?.numberInfected || 0),
+        deaths: numberDeceased - (a[i - 1]?.numberDeceased || 0),
+        recoveries: numberCured - (a[i - 1]?.numberCured || 0),
+        tests: 0,
+      };
+    })
+    .sort((a, b) => moment(a.dateString, 'DD/MM/YYYY') - moment(b.dateString, 'DD/MM/YYYY'))
+    .slice(lastXItems);
+
+  const labels = countryData.map((x) => moment(x.dateString, 'DD/MM/YYYY').format(defaultDateFormat));
+  const values = countryData.map((x) => x.cases);
+  const deaths = countryData.map((x) => +x.deaths);
+  const tests = countryData.map((x) => Math.floor(+x.tests / 10));
+  const recoveries = countryData.map((x) => +x.recoveries);
+
+  const shouldHideLabels = zoomValue < 29;
+
+  const chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: labels,
+      datasets: [
+        countryName == 'Romania' && {
+          label: 'Teste',
+          data: tests,
+          backgroundColor: '#03A9F415',
+          borderColor: '#03A9F4',
+          borderWidth: 0,
+        },
+        {
+          label: 'Cazuri',
+          data: values,
+          backgroundColor: color + '33',
+          borderColor: color,
+          borderWidth: 1,
+        },
+        {
+          label: 'Vindecări',
+          data: recoveries,
+          backgroundColor: '#4CAF5044',
+          borderColor: '#4CAF50',
+          borderWidth: 1,
+        },
+        {
+          label: 'Decese',
+          data: deaths,
+          backgroundColor: '#E91E6344',
+          borderColor: '#E91E63',
+          borderWidth: 1,
+        },
+      ].filter((x) => x),
+    },
+    options: {
+      // animation: {
+      //   duration: 0,
+      // },
+      skipLabelFactor: shouldHideLabels ? 1000 : 0,
+      tooltips: {
+        callbacks: {
+          label: function (tooltipItem, data) {
+            var datasetLabel = data.datasets[tooltipItem.datasetIndex].label || 'Other';
+
+            if (datasetLabel == 'Teste') {
+              return 'Teste: ' + (tooltipItem.yLabel / 100).toFixed(1) + ' mii';
+            }
+            return datasetLabel + ': ' + tooltipItem.yLabel;
+          },
+        },
+      },
+      maintainAspectRatio: false,
+      scales: {
+        yAxes: [
+          {
+            ticks: {
+              display: !isPortraitMobile,
+              beginAtZero: true,
+              callback: formatThousandsAsK,
+              // min: -50,
+            },
+            gridLines: {
+              display: !isPortraitMobile,
+            },
+          },
+        ],
+        xAxes: [
+          {
+            ticks: {
+              beginAtZero: true,
+            },
+            categoryPercentage: shouldHideLabels ? 1.0 : undefined,
+            barPercentage: 1.0,
+            gridLines: {
+              display: !isPortraitMobile,
+            },
+          },
+        ],
+      },
+      layout: {
+        padding: {
+          right: 10,
+        },
+      },
+    },
+  });
+
+  if (countryName == 'Romania' && zoomValue) {
+    roChart = chart;
+  } else {
+    otherCountryChart = chart;
+  }
+}
 
 function drawRomaniaEvolutionLine(zoomValue) {
   const ctx = document.getElementById('romaniaTotals').getContext('2d');
-  const data = Object.keys(window.romaniaData).map((dateString) => ({
-    dateString,
-    countryName: 'Romania',
-    ...window.romaniaData[dateString],
-  })).sort((a, b) => moment(a.dateString, 'DD/MM/YYYY') - moment(b.dateString, 'DD/MM/YYYY'))
-
-  console.log('data from romania', data);
+  const data = window.romaniaData;
 
   const labels = data.map((x) => x.dateString);
 
   const localizedLabels = labels.map((x) => moment(x, 'DD/MM/YYYY').format(defaultDateFormat));
 
-  const summedCases = data
-    .map((x) => x.cases)
-    .map((x, i, a) => {
-      const totalSoFar = a.slice(0, i).reduce((a, b) => a + b, 0);
-      return totalSoFar + x;
-    });
+  const summedCases = data.map((x) => x.numberInfected);
 
-  const summedRecoveries = data
-    .map((x) => x.recoveries)
-    .map((x, i, a) => {
-      const totalSoFar = a.slice(0, i).reduce((a, b) => a + b, 0);
-      return totalSoFar + x;
-    });
+  const summedDeaths = data.map((x) => x.numberDeceased);
 
-  const summedDeaths = data
-    .map((x) => x.deaths)
-    .map((x, i, a) => {
-      const totalSoFar = a.slice(0, i).reduce((a, b) => a + b, 0);
-      return totalSoFar + x;
-    });
+  const summedRecoveries = data.map((x) => x.numberCured);
 
   const filterFunction = (x, i, a) => {
-    console.log('zoomValue', zoomValue);
-
     if (zoomValue != 1) {
       const lastXItems = (data.length / zoomStepsForEvolutionLine) * (zoomValue - 1);
-
-      console.log('lastXItems', lastXItems);
 
       return i > lastXItems;
     }
 
-    const totalMod = a.length % 4;
+    const totalMod = a.length % 8;
 
-    return i > 50 && (i + 1) % 4 == totalMod;
+    return i > 50 && (i + 1) % 8 == totalMod;
   };
 
   document.querySelectorAll('.total-deaths-value').forEach((x) => (x.innerText = summedDeaths[summedDeaths.length - 1]));
   document.querySelector('.total-cases-value').innerText = summedCases[summedCases.length - 1].toLocaleString();
 
-  const shouldHideLabels = zoomValue < 10;
+  const shouldHideLabels = zoomValue < 8;
 
   const chart = new Chart(ctx, {
     type: 'line',
@@ -169,7 +261,7 @@ function drawRomaniaEvolutionLine(zoomValue) {
           radius: isPortraitMobile ? 3 : 4,
         },
       },
-      skipLabelFactor: shouldHideLabels ? 1000 : isPortraitMobile ? 4 : 0,
+      skipLabelFactor: shouldHideLabels ? 1000 : isPortraitMobile ? 4 : 2,
       maintainAspectRatio: false,
       scales: {
         yAxes: [
@@ -210,20 +302,20 @@ function drawCountryEvolutionLine(chartId, countryName, color = '#ff9800', zoomV
     data
       .filter((y) => y.dateString == x && y.countryName == countryName)
       .map((x) => x.cases)
-      .reduce((a, b) => +a + +b, 0)
+      .reduce((a, b) => +a + +b, 0),
   );
 
   const deaths = dayStringsSinceStartOfYear.map((x) =>
     data
       .filter((y) => y.dateString == x && y.countryName == countryName)
       .map((x) => x.deaths)
-      .reduce((a, b) => +a + +b, 0)
+      .reduce((a, b) => +a + +b, 0),
   );
   const recoveries = dayStringsSinceStartOfYear.map((x) =>
     data
       .filter((y) => y.dateString == x && y.countryName == countryName)
       .map((x) => x.recoveries)
-      .reduce((a, b) => +a + +b, 0)
+      .reduce((a, b) => +a + +b, 0),
   );
 
   const summedDailyValues = values.map((x, i, a) => {
@@ -847,130 +939,6 @@ function drawRomaniaSexBar() {
   });
 }
 
-function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoomValue) {
-  const ctx = document.getElementById(chartId).getContext('2d');
-
-  let countryData =
-    countryName == 'Romania'
-      ? Object.keys(window.romaniaData)
-          .map((x) => ({ ...window.romaniaData[x], dateString: x }))
-          .sort((a, b) => moment(a.dateString, 'DD/MM/YYYY') - moment(b.dateString, 'DD/MM/YYYY'))
-      : window.data
-          .filter((x) => x.countryName == countryName)
-          .sort((a, b) => +moment(b.dateString, 'DD/MM/YYYY') - +moment(a.dateString, 'DD/MM/YYYY'))
-          .reverse();
-
-  if (countryName == 'Romania') {
-    const lastXItems = (countryData.length / zoomStepsForDailyBars) * (zoomValue - 1);
-
-    countryData = countryData.slice(lastXItems);
-  } else {
-    countryData = countryData.slice(countryData.length - (isPortraitMobile ? 15 : maxElementsInWidth * 1.5));
-  }
-
-  const labels = countryData.map((x) => moment(x.dateString, 'DD/MM/YYYY').format(defaultDateFormat));
-  const values = countryData.map((x) => x.cases);
-  const deaths = countryData.map((x) => +x.deaths);
-  const tests = countryData.map((x) => Math.floor(+x.tests / 10));
-  const recoveries = countryData.map((x) => +x.recoveries);
-
-  const hideLabels = zoomValue < (isPortraitMobile ? 25 : 15);
-
-  const chart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-      labels: labels,
-      datasets: [
-        countryName == 'Romania' && {
-          label: 'Teste',
-          data: tests,
-          backgroundColor: '#03A9F415',
-          borderColor: '#03A9F4',
-          borderWidth: 0,
-        },
-        {
-          label: 'Cazuri',
-          data: values,
-          backgroundColor: color + '33',
-          borderColor: color,
-          borderWidth: 1,
-        },
-        {
-          label: 'Vindecări',
-          data: recoveries,
-          backgroundColor: '#4CAF5044',
-          borderColor: '#4CAF50',
-          borderWidth: 1,
-        },
-        {
-          label: 'Decese',
-          data: deaths,
-          backgroundColor: '#E91E6344',
-          borderColor: '#E91E63',
-          borderWidth: 1,
-        },
-      ].filter((x) => x),
-    },
-    options: {
-      // animation: {
-      //   duration: 0,
-      // },
-      skipLabelFactor: hideLabels ? 1000 : 0,
-      tooltips: {
-        callbacks: {
-          label: function (tooltipItem, data) {
-            var datasetLabel = data.datasets[tooltipItem.datasetIndex].label || 'Other';
-
-            if (datasetLabel == 'Teste') {
-              return 'Teste: ' + (tooltipItem.yLabel / 100).toFixed(1) + ' mii';
-            }
-            return datasetLabel + ': ' + tooltipItem.yLabel;
-          },
-        },
-      },
-      maintainAspectRatio: false,
-      scales: {
-        yAxes: [
-          {
-            ticks: {
-              display: !isPortraitMobile,
-              beginAtZero: true,
-              callback: formatThousandsAsK,
-              // min: -50,
-            },
-            gridLines: {
-              display: !isPortraitMobile,
-            },
-          },
-        ],
-        xAxes: [
-          {
-            ticks: {
-              beginAtZero: true,
-            },
-            categoryPercentage: hideLabels ? 1.0 : undefined,
-            barPercentage: 1.0,
-            gridLines: {
-              display: !isPortraitMobile,
-            },
-          },
-        ],
-      },
-      layout: {
-        padding: {
-          right: 10,
-        },
-      },
-    },
-  });
-
-  if (countryName == 'Romania' && zoomValue) {
-    roChart = chart;
-  } else {
-    otherCountryChart = chart;
-  }
-}
-
 function drawAllTimeTotalsBars() {
   const ctx = document.getElementById('totalsChart').getContext('2d');
   const data = window.data;
@@ -1037,7 +1005,7 @@ function drawCountryActiveCases(countryName) {
     data
       .filter((y) => y.dateString == x && y.countryName == countryName)
       .map((x) => x.cases)
-      .reduce((a, b) => +a + +b, 0)
+      .reduce((a, b) => +a + +b, 0),
   );
   const summedInfections = infections.map((x, i, a) => {
     const totalSoFar = infections.slice(0, i).reduce((a, b) => a + b, 0);
@@ -1048,7 +1016,7 @@ function drawCountryActiveCases(countryName) {
     data
       .filter((y) => y.dateString == x && y.countryName == countryName)
       .map((x) => x.recoveries)
-      .reduce((a, b) => +a + +b, 0)
+      .reduce((a, b) => +a + +b, 0),
   );
   const summedRecoveries = recoveries.map((x, i, a) => {
     const totalSoFar = recoveries.slice(0, i).reduce((a, b) => a + b, 0);
@@ -1059,7 +1027,7 @@ function drawCountryActiveCases(countryName) {
     data
       .filter((y) => y.dateString == x && y.countryName == countryName)
       .map((x) => x.deaths)
-      .reduce((a, b) => +a + +b, 0)
+      .reduce((a, b) => +a + +b, 0),
   );
   const summedDeaths = deaths.map((x, i, a) => {
     const totalSoFar = deaths.slice(0, i).reduce((a, b) => a + b, 0);
@@ -1289,19 +1257,19 @@ function drawGlobalEvolutionLine() {
     data
       .filter((y) => y.dateString == x)
       .map((x) => x.cases)
-      .reduce((a, b) => +a + +b, 0)
+      .reduce((a, b) => +a + +b, 0),
   );
   const deaths = labels.map((x) =>
     data
       .filter((y) => y.dateString == x)
       .map((x) => x.deaths)
-      .reduce((a, b) => +a + +b, 0)
+      .reduce((a, b) => +a + +b, 0),
   );
   const recoveries = labels.map((x) =>
     data
       .filter((y) => y.dateString == x)
       .map((x) => x.recoveries)
-      .reduce((a, b) => +a + +b, 0)
+      .reduce((a, b) => +a + +b, 0),
   );
 
   const summedDailyValues = values.map((x, i, a) => {
@@ -1505,6 +1473,25 @@ function setPickerCountries(data) {
     picker.value = picker.id == 'activeCasesCountryPicker' ? 'Romania' : 'Italy';
   });
 }
+
+async function fetchRomaniaData() {
+  const jsonUrl = 'https://d35p9e4fm9h3wo.cloudfront.net/latestData.json';
+
+  const response = await (await fetch(jsonUrl)).json();
+
+  window.romaniaData = Object.keys(response.historicalData)
+    .map((x) => ({ ...response.historicalData[x], dateString: moment(x, 'YYYY-MM-DD').format('DD/MM/YYYY') }))
+    .sort((a, b) => moment(a.dateString, 'DD/MM/YYYY') - moment(b.dateString, 'DD/MM/YYYY'));
+}
+
+function setCurrentDate() {
+  const currentDateSpan = document.getElementById('lastUpdated');
+  currentDateSpan.innerText = moment().format('DD.MM.YYYY');
+}
+
+var otherCountryChart = undefined;
+var otherCountryChartTotals = undefined;
+var countryActiveCases = undefined;
 
 function setupBarLabels() {
   Chart.pluginService.register({
