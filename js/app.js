@@ -93,7 +93,6 @@ async function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoo
   const labels = countryData.map((x) => moment(x.dateString, 'DD/MM/YYYY').format(defaultDateFormat));
   const values = countryData.map((x) => x.cases);
   const deaths = countryData.map((x) => +x.deaths);
-  const tests = countryData.map((x) => Math.floor(+x.tests / 10));
   const recoveries = countryData.map((x) => +x.recoveries);
 
   const shouldHideLabels = zoomValue < 29;
@@ -103,13 +102,6 @@ async function drawCountryDailyBars(chartId, countryName, color = '#ff9800', zoo
     data: {
       labels: labels,
       datasets: [
-        countryName == 'Romania' && {
-          label: 'Teste',
-          data: tests,
-          backgroundColor: '#03A9F415',
-          borderColor: '#03A9F4',
-          borderWidth: 0,
-        },
         {
           label: 'Cazuri',
           data: values,
